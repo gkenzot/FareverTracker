@@ -1,0 +1,3291 @@
+{
+  "source": "https://metaforge.app/farever/database/gliders",
+  "importedAt": "2026-06-11T18:24:25.435Z",
+  "total": 51,
+  "propertyFields": [
+    {
+      "key": "subcategory",
+      "label": "subcategory"
+    },
+    {
+      "key": "family",
+      "label": "family"
+    },
+    {
+      "key": "type",
+      "label": "type"
+    },
+    {
+      "key": "rarity",
+      "label": "rarity"
+    },
+    {
+      "key": "colour",
+      "label": "colour"
+    }
+  ],
+  "gliders": [
+    {
+      "id": "Glider_FlyingFish_Acid",
+      "metaforgeId": 516,
+      "name": "Acidic Wingfish",
+      "slug": "acidic-wingfish",
+      "family": "Wingfish",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_FlyingFish_Acid__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_Acid__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_Acid__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/acidic-wingfish",
+      "properties": {
+        "subcategory": "Wingfish",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "Acid"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "sponge-blob",
+          "unit_name": "Sponge Blob",
+          "faction": "Golem",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_Brown02",
+      "metaforgeId": 483,
+      "name": "Almazean Owl",
+      "slug": "almazean-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Owl_Brown02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_Brown02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_Brown02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/almazean-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "Brown02"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Orange",
+      "metaforgeId": 494,
+      "name": "Antelimbian Dragoon",
+      "slug": "antelimbian-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Orange__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Orange",
+      "metaforgeId": 508,
+      "name": "Antelimbian Moth",
+      "slug": "antelimbian-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Orange__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_Orange",
+      "metaforgeId": 487,
+      "name": "Antelimbian Raccoon",
+      "slug": "antelimbian-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Raccoon_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_Orange__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_Orange",
+      "metaforgeId": 526,
+      "name": "Antelimbian Seedbird",
+      "slug": "antelimbian-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Sprout_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_Orange__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_FlyingFish_Orange",
+      "metaforgeId": 514,
+      "name": "Antelimbian Wingfish",
+      "slug": "antelimbian-wingfish",
+      "family": "Wingfish",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_FlyingFish_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_Orange__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-wingfish",
+      "properties": {
+        "subcategory": "Wingfish",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "nepsilon",
+          "unit_name": "Nepsilon",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_Grey",
+      "metaforgeId": 480,
+      "name": "Azuramean Owl",
+      "slug": "azuramean-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "In the rocky grasslands of Azuram, the owls grew so big they started abducting human travelers. Eventually, the travelers got used to it and started using these animals as a means of transport.",
+      "iconFilename": "Glider_Owl_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/azuramean-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Lava",
+      "metaforgeId": 497,
+      "name": "Ebral Dragoon",
+      "slug": "ebral-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Lava__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Lava__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Lava__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/ebral-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Lava"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "golcano",
+          "unit_name": "Golcano",
+          "faction": "Golem",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Red",
+      "metaforgeId": 523,
+      "name": "Egheretrian Featherbeak",
+      "slug": "egheretrian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Red__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Red"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_Red",
+      "metaforgeId": 530,
+      "name": "Egheretrian Seedbird",
+      "slug": "egheretrian-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Sprout_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_Red__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "Red"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Munster's Crossing",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_FlyingFish_Red",
+      "metaforgeId": 513,
+      "name": "Egheretrian Wingfish",
+      "slug": "egheretrian-wingfish",
+      "family": "Wingfish",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_FlyingFish_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_Red__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-wingfish",
+      "properties": {
+        "subcategory": "Wingfish",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "Red"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Triton Beach",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_BlueGreen",
+      "metaforgeId": 492,
+      "name": "Eksodean Dragoon",
+      "slug": "eksodean-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "High above Skover’s floating fields, the local creatures had to adjust fast to life in the sky. That’s how the glider-drakes came to be small, friendly dragon pets with soft wings and an easy glide. They flit between the hovering cliffs like playful paper kites, happy to follow anyone who offers a warm hand and a little adventure.",
+      "iconFilename": "Glider_Dragon_BlueGreen__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_BlueGreen__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_BlueGreen__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "BlueGreen"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Secret Orb Hunter",
+          "link": "achievements/secret-orb-hunter"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Secret Orb Hunter",
+          "description": "Complete all the Dungeon secret orb collection achievements in Skover Island.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Green",
+      "metaforgeId": 521,
+      "name": "Eksodean Featherbeak",
+      "slug": "eksodean-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Green__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Green"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Green",
+      "metaforgeId": 507,
+      "name": "Eksodean Moth",
+      "slug": "eksodean-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Green__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Green"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Secret Orb Hunter",
+          "link": "achievements/secret-orb-hunter"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Secret Orb Hunter",
+          "description": "Complete all the Dungeon secret orb collection achievements in Valley of Eternal Autumn.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_Green",
+      "metaforgeId": 528,
+      "name": "Eksodean Seedbird",
+      "slug": "eksodean-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Sprout_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_Green__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "Green"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Rice Seedling",
+          "link": "creatures/rice-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Black Rice Seedling",
+          "link": "creatures/black-rice-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Rice Seedling",
+          "link": "creatures/sparkling-rice-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Rice Seedling",
+          "link": "creatures/invoked-rice-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Onion Seedling",
+          "link": "creatures/onion-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Onion Seedling",
+          "link": "creatures/invoked-onion-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Controversial Onion Seedling",
+          "link": "creatures/controversial-onion-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Garlic Seedling",
+          "link": "creatures/garlic-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fragrant Garlic Seedling",
+          "link": "creatures/fragrant-garlic-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Turnip Seedling",
+          "link": "creatures/turnip-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lucrative Turnip Seedling",
+          "link": "creatures/lucrative-turnip-seedling"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Beet the Maul",
+          "link": "creatures/beet-the-maul"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Seed Barrett",
+          "link": "creatures/seed-barrett"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Seed Vicious",
+          "link": "creatures/seed-vicious"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Turnip Arker ",
+          "link": "creatures/turnip-arker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Garlic Hooper",
+          "link": "creatures/garlic-hooper"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Charles Cabbage",
+          "link": "creatures/charles-cabbage"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Jared Lettuce",
+          "link": "creatures/jared-lettuce"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "rice-seedling",
+          "unit_name": "Rice Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "black-rice-seedling",
+          "unit_name": "Black Rice Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-rice-seedling",
+          "unit_name": "Sparkling Rice Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-rice-seedling",
+          "unit_name": "Invoked Rice Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "onion-seedling",
+          "unit_name": "Onion Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-onion-seedling",
+          "unit_name": "Invoked Onion Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "controversial-onion-seedling",
+          "unit_name": "Controversial  Onion Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "controversial-onion-seedling",
+          "unit_name": "Controversial  Onion Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "garlic-seedling",
+          "unit_name": "Garlic Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fragrant-garlic-seedling",
+          "unit_name": "Fragrant Garlic Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fragrant-garlic-seedling",
+          "unit_name": "Fragrant Garlic Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "turnip-seedling",
+          "unit_name": "Turnip Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lucrative-turnip-seedling",
+          "unit_name": "Lucrative Turnip Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lucrative-turnip-seedling",
+          "unit_name": "Lucrative Turnip Seedling",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "beet-the-maul",
+          "unit_name": "Beet the Maul",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "seed-barrett",
+          "unit_name": "Seed Barrett",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "seed-vicious",
+          "unit_name": "Seed Vicious",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "turnip-arker",
+          "unit_name": "Turnip Arker ",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "garlic-hooper",
+          "unit_name": "Garlic Hooper",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "charles-cabbage",
+          "unit_name": "Charles Cabbage",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "jared-lettuce",
+          "unit_name": "Jared Lettuce",
+          "faction": "Sprouts",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_Brown",
+      "metaforgeId": 501,
+      "name": "Enripian Bat",
+      "slug": "enripian-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Bat_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_Brown__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Miner",
+          "link": "creatures/kobold-miner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Freelance Kobold Miner",
+          "link": "creatures/freelance-kobold-miner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Miner of Estrone",
+          "link": "creatures/kobold-miner-of-estrone"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Gorgon's Hollow Miner",
+          "link": "creatures/gorgons-hollow-miner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Miner",
+          "link": "creatures/sparkling-miner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Senior Kobold Miner",
+          "link": "creatures/senior-kobold-miner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Thief",
+          "link": "creatures/kobold-thief"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Trustworthy Kobold Thief",
+          "link": "creatures/trustworthy-kobold-thief"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Thief of Estrone",
+          "link": "creatures/kobold-thief-of-estrone"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Cleanhanded Kobold Thief",
+          "link": "creatures/cleanhanded-kobold-thief"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Overseer",
+          "link": "creatures/kobold-overseer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Unpredictable Kobold Overseer",
+          "link": "creatures/unpredictable-kobold-overseer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lunatic Kobold Overseer",
+          "link": "creatures/lunatic-kobold-overseer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Ratsar Lighter",
+          "link": "creatures/ratsar-lighter"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Gorgon's Hollow Overseer",
+          "link": "creatures/gorgons-hollow-overseer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Overseer",
+          "link": "creatures/invoked-overseer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Raider",
+          "link": "creatures/kobold-raider"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nervous Kobold Raider",
+          "link": "creatures/nervous-kobold-raider"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Docker",
+          "link": "creatures/kobold-docker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Steady Kobold Docker",
+          "link": "creatures/steady-kobold-docker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Docker",
+          "link": "creatures/sparkling-docker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Docker of Estrone",
+          "link": "creatures/kobold-docker-of-estrone"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Stationmaster",
+          "link": "creatures/stationmaster"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Docker",
+          "link": "creatures/invoked-docker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Reliable Kobold Docker",
+          "link": "creatures/reliable-kobold-docker"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Heraclette",
+          "link": "creatures/heraclette"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kobold Crusher",
+          "link": "creatures/kobold-crusher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Reblochonk",
+          "link": "creatures/reblochonk"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Munster Chuck",
+          "link": "creatures/munster-chuck"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from King Ratsar",
+          "link": "creatures/king-ratsar"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "kobold-miner",
+          "unit_name": "Kobold Miner",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 6,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "freelance-kobold-miner",
+          "unit_name": "Freelance Kobold Miner",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-miner-of-estrone",
+          "unit_name": "Kobold Miner of Estrone",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "gorgon-s-hollow-miner",
+          "unit_name": "Gorgon's Hollow Miner",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-miner",
+          "unit_name": "Sparkling Miner",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "senior-kobold-miner",
+          "unit_name": "Senior Kobold Miner",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-thief",
+          "unit_name": "Kobold Thief",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "trustworthy-kobold-thief",
+          "unit_name": "Trustworthy Kobold Thief",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-thief-of-estrone",
+          "unit_name": "Kobold Thief of Estrone",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "cleanhanded-kobold-thief",
+          "unit_name": "Cleanhanded Kobold Thief",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-overseer",
+          "unit_name": "Kobold Overseer",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "unpredictable-kobold-overseer",
+          "unit_name": "Unpredictable Kobold Overseer",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lunatic-kobold-overseer",
+          "unit_name": "Lunatic Kobold Overseer",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "ratsar-lighter",
+          "unit_name": "Ratsar Lighter",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "gorgon-s-hollow-overseer",
+          "unit_name": "Gorgon's Hollow Overseer",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-overseer",
+          "unit_name": "Invoked Overseer",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-raider",
+          "unit_name": "Kobold Raider",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 6,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nervous-kobold-raider",
+          "unit_name": "Nervous Kobold Raider",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-docker",
+          "unit_name": "Kobold Docker",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "steady-kobold-docker",
+          "unit_name": "Steady Kobold Docker",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-docker",
+          "unit_name": "Sparkling Docker",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-docker-of-estrone",
+          "unit_name": "Kobold Docker of Estrone",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "stationmaster",
+          "unit_name": "Stationmaster",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-docker",
+          "unit_name": "Invoked Docker",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "reliable-kobold-docker",
+          "unit_name": "Reliable Kobold Docker",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "heraclette",
+          "unit_name": "Heraclette",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kobold-crusher",
+          "unit_name": "Kobold Crusher",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "reblochonk",
+          "unit_name": "Reblochonk",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "munster-chuck",
+          "unit_name": "Munster Chuck",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "king-ratsar",
+          "unit_name": "King Ratsar",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Brown",
+      "metaforgeId": 518,
+      "name": "Enripian Featherbeak",
+      "slug": "enripian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "The two large feathers on the back of the Featherbeaks' wings help them stabilize their flight as they swoop down on their prey. They also play a role in courtship displays: the males with the most colorful feathers are the ones that attract the females.",
+      "iconFilename": "Glider_Falcon_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Brown__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_Brown",
+      "metaforgeId": 481,
+      "name": "Enripian Owl",
+      "slug": "enripian-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Owl_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_Brown__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_Brown02",
+      "metaforgeId": 489,
+      "name": "Enripian Raccoon",
+      "slug": "enripian-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Raccoon_Brown02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_Brown02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_Brown02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "Brown02"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_Burning",
+      "metaforgeId": 502,
+      "name": "Incandescent Bat",
+      "slug": "incandescent-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Bat_Burning__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_Burning__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_Burning__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/incandescent-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "Burning"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Fly!",
+          "description": "Collect 25 gliders.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_WhiteBlack",
+      "metaforgeId": 503,
+      "name": "Krisomalese Bat",
+      "slug": "krisomalese-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Bat_WhiteBlack__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_WhiteBlack__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_WhiteBlack__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "WhiteBlack"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "king-ratsar",
+          "unit_name": "King Ratsar",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_BlackWarm",
+      "metaforgeId": 485,
+      "name": "Krisomalese Owl",
+      "slug": "krisomalese-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Owl_BlackWarm__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_BlackWarm__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_BlackWarm__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "BlackWarm"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Collector of Skover Island",
+          "description": "Collect all the secret orbs in Skover Island.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_BlackBrown",
+      "metaforgeId": 491,
+      "name": "Krisomalese Raccoon",
+      "slug": "krisomalese-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Raccoon_BlackBrown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_BlackBrown__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_BlackBrown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "BlackBrown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Collector of Valley of Eternal Autumn",
+          "description": "Collect all the secret orbs in Valley of Eternal Autumn.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Blue",
+      "metaforgeId": 493,
+      "name": "Meropsian Dragoon",
+      "slug": "meropsian-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Blue__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Blue",
+      "metaforgeId": 520,
+      "name": "Meropsian Featherbeak",
+      "slug": "meropsian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Blue__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Blue",
+      "metaforgeId": 506,
+      "name": "Meropsian Moth",
+      "slug": "meropsian-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Blue__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Thornwall",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_FlyingFish_BlueGreen",
+      "metaforgeId": 512,
+      "name": "Meropsian Wingfish",
+      "slug": "meropsian-wingfish",
+      "family": "Wingfish",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Wingfish are truly strange creatures: nature has endowed them with wings for swimming and fins for flying, which, contrary to what one might think, makes them very poor at both.",
+      "iconFilename": "Glider_FlyingFish_BlueGreen__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_BlueGreen__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_BlueGreen__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-wingfish",
+      "properties": {
+        "subcategory": "Wingfish",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "BlueGreen"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Fighter",
+          "link": "creatures/nepsid-fighter"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Adept Nepsid Fighter",
+          "link": "creatures/adept-nepsid-fighter"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fighter of the Lost City",
+          "link": "creatures/fighter-of-the-lost-city"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Expert Nepsid Fighter",
+          "link": "creatures/expert-nepsid-fighter"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Runner",
+          "link": "creatures/nepsid-runner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Agile Nepsid Runner",
+          "link": "creatures/agile-nepsid-runner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Runner of the Lost City",
+          "link": "creatures/runner-of-the-lost-city"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Skuttle Goldengill",
+          "link": "creatures/skuttle-goldengill"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Scummy BlackGill",
+          "link": "creatures/scummy-blackgill"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Runner of New Atlaan",
+          "link": "creatures/runner-of-new-atlaan"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Acrobatic Nepsid Runner",
+          "link": "creatures/acrobatic-nepsid-runner"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Breakwater",
+          "link": "creatures/nepsid-breakwater"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Breakwater of New Atlaan",
+          "link": "creatures/breakwater-of-new-atlaan"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Confident Invoked Breakwater",
+          "link": "creatures/confident-invoked-breakwater"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Wavemonger",
+          "link": "creatures/nepsid-wavemonger"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Educated Nepsid Wavemonger",
+          "link": "creatures/educated-nepsid-wavemonger"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Wavemonger of the Lost City",
+          "link": "creatures/wavemonger-of-the-lost-city"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Wavemonger",
+          "link": "creatures/sparkling-wavemonger"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Wavemonger",
+          "link": "creatures/invoked-wavemonger"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Wavemonger of New Atlaan",
+          "link": "creatures/wavemonger-of-new-atlaan"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Erudite Nepsid Wavemonger",
+          "link": "creatures/erudite-nepsid-wavemonger"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Oracle",
+          "link": "creatures/invoked-oracle"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Oracle of New Atlaan",
+          "link": "creatures/oracle-of-new-atlaan"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Oracle",
+          "link": "creatures/nepsid-oracle"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Whale",
+          "link": "creatures/nepsid-whale"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Whale",
+          "link": "creatures/sparkling-whale"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsid Whale of the Lost City",
+          "link": "creatures/nepsid-whale-of-the-lost-city"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Slippery Invoked Whale",
+          "link": "creatures/slippery-invoked-whale"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Slick Nepsid Whale",
+          "link": "creatures/slick-nepsid-whale"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Gilliver",
+          "link": "creatures/gilliver"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nepsilon",
+          "link": "creatures/nepsilon"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "nepsid-fighter",
+          "unit_name": "Nepsid Fighter",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "adept-nepsid-fighter",
+          "unit_name": "Adept Nepsid Fighter",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fighter-of-the-lost-city",
+          "unit_name": "Fighter of the Lost City",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "expert-nepsid-fighter",
+          "unit_name": "Expert Nepsid Fighter",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-runner",
+          "unit_name": "Nepsid Runner",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "agile-nepsid-runner",
+          "unit_name": "Agile Nepsid Runner",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "runner-of-the-lost-city",
+          "unit_name": "Runner of the Lost City",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "skuttle-goldengill",
+          "unit_name": "Skuttle Goldengill",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "scummy-blackgill",
+          "unit_name": "Scummy BlackGill",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "runner-of-new-atlaan",
+          "unit_name": "Runner of New Atlaan",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "acrobatic-nepsid-runner",
+          "unit_name": "Acrobatic Nepsid Runner",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-breakwater",
+          "unit_name": "Nepsid Breakwater",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "breakwater-of-new-atlaan",
+          "unit_name": "Breakwater of New Atlaan",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "confident-invoked-breakwater",
+          "unit_name": "Confident Invoked Breakwater",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-wavemonger",
+          "unit_name": "Nepsid Wavemonger",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "educated-nepsid-wavemonger",
+          "unit_name": "Educated Nepsid Wavemonger",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "wavemonger-of-the-lost-city",
+          "unit_name": "Wavemonger of the Lost City",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-wavemonger",
+          "unit_name": "Sparkling Wavemonger",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-wavemonger",
+          "unit_name": "Invoked Wavemonger",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "wavemonger-of-new-atlaan",
+          "unit_name": "Wavemonger of New Atlaan",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "erudite-nepsid-wavemonger",
+          "unit_name": "Erudite Nepsid Wavemonger",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-oracle",
+          "unit_name": "Invoked Oracle",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "oracle-of-new-atlaan",
+          "unit_name": "Oracle of New Atlaan",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-oracle",
+          "unit_name": "Nepsid Oracle",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-whale",
+          "unit_name": "Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-whale",
+          "unit_name": "Sparkling Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsid-whale-of-the-lost-city",
+          "unit_name": "Nepsid Whale of the Lost City",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slippery-invoked-whale",
+          "unit_name": "Slippery Invoked Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "gilliver",
+          "unit_name": "Gilliver",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 23,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "slick-nepsid-whale",
+          "unit_name": "Slick Nepsid Whale",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nepsilon",
+          "unit_name": "Nepsilon",
+          "faction": "Manfish",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_BlackWhite",
+      "metaforgeId": 500,
+      "name": "Navelian Bat",
+      "slug": "navelian-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Bat_BlackWhite__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_BlackWhite__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_BlackWhite__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "BlackWhite"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "reblochonk",
+          "unit_name": "Reblochonk",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Black",
+      "metaforgeId": 519,
+      "name": "Navelian Featherbeak",
+      "slug": "navelian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_Black__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Black__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Black__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Black"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_WhitePink",
+      "metaforgeId": 529,
+      "name": "Navelian Seedbird",
+      "slug": "navelian-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Sprout_WhitePink__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_WhitePink__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_WhitePink__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "WhitePink"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Fly!",
+          "description": "Collect 10 gliders.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_Demon",
+      "metaforgeId": 504,
+      "name": "Niflelian Bat",
+      "slug": "niflelian-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Bat_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_Demon__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Demon",
+      "metaforgeId": 498,
+      "name": "Niflelian Dragoon",
+      "slug": "niflelian-dragoon",
+      "family": "Demons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Demon__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-dragoon",
+      "properties": {
+        "subcategory": "Demons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Demon",
+      "metaforgeId": 510,
+      "name": "Niflelian Moth",
+      "slug": "niflelian-moth",
+      "family": "Demons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Demon__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-moth",
+      "properties": {
+        "subcategory": "Demons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_FlyingFish_Demon",
+      "metaforgeId": 517,
+      "name": "Niflelian Wingfish",
+      "slug": "niflelian-wingfish",
+      "family": "Demons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_FlyingFish_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_Demon__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-wingfish",
+      "properties": {
+        "subcategory": "Demons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_White",
+      "metaforgeId": 524,
+      "name": "Obralian Featherbeak",
+      "slug": "obralian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_White__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_White__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_White__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/obralian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "White"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Pink",
+      "metaforgeId": 496,
+      "name": "Pink Dragoon",
+      "slug": "pink-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Pink__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Pink__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Pink__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/pink-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Pink"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Fly!",
+          "description": "Collect 50 gliders.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Pink",
+      "metaforgeId": 505,
+      "name": "Pink Moth",
+      "slug": "pink-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Moths are fascinating creatures capable of releasing powders with various effects: medicinal, hallucinogenic, soporific, poisonous... You should always avoid touching a moth with your fingers.",
+      "iconFilename": "Glider_Butterfly_Pink__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Pink__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Pink__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/pink-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Pink"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_PurpleGrey",
+      "metaforgeId": 484,
+      "name": "Ponogian Owl",
+      "slug": "ponogian-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Owl_PurpleGrey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_PurpleGrey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_PurpleGrey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/ponogian-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "PurpleGrey"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Dragon_Yellow",
+      "metaforgeId": 495,
+      "name": "Semeruian Dragoon",
+      "slug": "semeruian-dragoon",
+      "family": "Dragoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Dragon_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Dragon_Yellow__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Dragon_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-dragoon",
+      "properties": {
+        "subcategory": "Dragoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Dragon",
+        "colour": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Forgotten Chapel",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_Yellow",
+      "metaforgeId": 509,
+      "name": "Semeruian Moth",
+      "slug": "semeruian-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_Yellow__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "gatsbee",
+          "unit_name": "Gatsbee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_Brown01",
+      "metaforgeId": 488,
+      "name": "Semeruian Raccoon",
+      "slug": "semeruian-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Raccoon_Brown01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_Brown01__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_Brown01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "Brown01"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_Yellow",
+      "metaforgeId": 525,
+      "name": "Semeruian Seedbird",
+      "slug": "semeruian-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "When Seedbirds are hungry, it’s said that they nibble on the tips of their roots and eventually fall to the ground after eating their wings. There, they grow back the following season.",
+      "iconFilename": "Glider_Sprout_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_Yellow__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_Grey",
+      "metaforgeId": 486,
+      "name": "Skoverial Raccoon",
+      "slug": "skoverial-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "On the ethereal grounds that soared above Skover, many animal species had to quickly adapt to a newly aerial environment. In other words, raccoons can fly now.",
+      "iconFilename": "Glider_Raccoon_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/skoverial-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Bat_Grey",
+      "metaforgeId": 499,
+      "name": "Skoverian Bat",
+      "slug": "skoverian-bat",
+      "family": "Bats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "The bats of Siagarta have developed the unfortunate habit of drinking their master's blood while they sleep.",
+      "iconFilename": "Glider_Bat_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Bat_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Bat_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-bat",
+      "properties": {
+        "subcategory": "Bats",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Bat",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Falcon_Grey",
+      "metaforgeId": 522,
+      "name": "Skoverian Featherbeak",
+      "slug": "skoverian-featherbeak",
+      "family": "Featherbeaks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Falcon_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Falcon_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Falcon_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-featherbeak",
+      "properties": {
+        "subcategory": "Featherbeaks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Falcon",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Sprout_Brown",
+      "metaforgeId": 527,
+      "name": "Skoverian Seedbird",
+      "slug": "skoverian-seedbird",
+      "family": "Sprouts",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Sprout_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Sprout_Brown__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Sprout_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-seedbird",
+      "properties": {
+        "subcategory": "Sprouts",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Sprout",
+        "colour": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_FlyingFish_Green",
+      "metaforgeId": 515,
+      "name": "Skoverian Wingfish",
+      "slug": "skoverian-wingfish",
+      "family": "Wingfish",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_FlyingFish_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_FlyingFish_Green__gfx.webp",
+      "iconPath": "/images/gliders/Glider_FlyingFish_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-wingfish",
+      "properties": {
+        "subcategory": "Wingfish",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "FlyingFish",
+        "colour": "Green"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Butterfly_EA_Spark",
+      "metaforgeId": 511,
+      "name": "Sparkling Proto-moth",
+      "slug": "sparkling-proto-moth",
+      "family": "Moths",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Butterfly_EA_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Butterfly_EA_Spark__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Butterfly_EA_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/sparkling-proto-moth",
+      "properties": {
+        "subcategory": "Moths",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Butterfly",
+        "colour": "EA_Spark"
+      },
+      "sources": [
+        {
+          "kind": "ea_promotion",
+          "text": "Free in the in-game store during Early Access (Sparkling Proto-moth redemption)",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Owl_BlueGrey",
+      "metaforgeId": 482,
+      "name": "Zerzurian Owl",
+      "slug": "zerzurian-owl",
+      "family": "Owls",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Owl_BlueGrey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Owl_BlueGrey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Owl_BlueGrey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/zerzurian-owl",
+      "properties": {
+        "subcategory": "Owls",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Owl",
+        "colour": "BlueGrey"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Glider_Raccoon_BlueGrey",
+      "metaforgeId": 490,
+      "name": "Zerzurian Raccoon",
+      "slug": "zerzurian-raccoon",
+      "family": "Raccoons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Raccoon_BlueGrey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Raccoon_BlueGrey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Raccoon_BlueGrey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/zerzurian-raccoon",
+      "properties": {
+        "subcategory": "Raccoons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Raccoon",
+        "colour": "BlueGrey"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "source": "https://metaforge.app/farever/database/jewellery",
+  "importedAt": "2026-06-11T18:24:27.049Z",
+  "total": 38,
+  "propertyFields": [
+    {
+      "key": "subcategory",
+      "label": "subcategory"
+    },
+    {
+      "key": "type",
+      "label": "type"
+    },
+    {
+      "key": "classes",
+      "label": "classes"
+    },
+    {
+      "key": "rarity",
+      "label": "rarity"
+    },
+    {
+      "key": "level",
+      "label": "level"
+    }
+  ],
+  "jewellery": [
+    {
+      "id": "Necklace_Z1_Mp",
+      "metaforgeId": 461,
+      "name": "Amulet of Clarity",
+      "slug": "amulet-of-clarity",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Necklace_Z1_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-clarity",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Neck",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z1_Ap",
+      "metaforgeId": 460,
+      "name": "Amulet of Fracture",
+      "slug": "amulet-of-fracture",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Necklace_Z1_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-fracture",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Neck",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z1_Cri",
+      "metaforgeId": 458,
+      "name": "Amulet of Precision",
+      "slug": "amulet-of-precision",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Necklace_Z1_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-precision",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Neck",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z1_Vit",
+      "metaforgeId": 457,
+      "name": "Amulet of Vitality",
+      "slug": "amulet-of-vitality",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Necklace_Z1_Vit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1_Vit__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1_Vit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-vitality",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Vita"
+        ],
+        "type": "Neck",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z1_Fer",
+      "metaforgeId": 459,
+      "name": "Amulet of Zeal",
+      "slug": "amulet-of-zeal",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Necklace_Z1_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-zeal",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Neck",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z1RCraft_Mp",
+      "metaforgeId": 454,
+      "name": "Circle of Clarity",
+      "slug": "circle-of-clarity",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Finger_Z1RCraft_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z1RCraft_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z1RCraft_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-clarity",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Finger",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Beryl + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z1RCraft_Ap",
+      "metaforgeId": 453,
+      "name": "Circle of Fracture",
+      "slug": "circle-of-fracture",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Finger_Z1RCraft_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z1RCraft_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z1RCraft_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-fracture",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Finger",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Amber + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z1RCraft_Cri",
+      "metaforgeId": 451,
+      "name": "Circle of Precision",
+      "slug": "circle-of-precision",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Finger_Z1RCraft_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z1RCraft_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z1RCraft_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-precision",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Finger",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Amber + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z1RCraft_Fer",
+      "metaforgeId": 452,
+      "name": "Circle of Zeal",
+      "slug": "circle-of-zeal",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Finger_Z1RCraft_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z1RCraft_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z1RCraft_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-zeal",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Finger",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Beryl + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Trinket_Bee",
+      "metaforgeId": 478,
+      "name": "Eternal Flower Heart",
+      "slug": "eternal-flower-heart",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Trinket_Bee__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Bee__gfx.webp",
+      "iconPath": "/images/jewellery/Trinket_Bee__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/eternal-flower-heart",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "InfusedTusk",
+      "metaforgeId": 475,
+      "name": "Infused Tusk",
+      "slug": "infused-tusk",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "InfusedTusk__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/InfusedTusk__gfx.webp",
+      "iconPath": "/images/jewellery/InfusedTusk__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/infused-tusk",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — Chipped Tusk, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 125g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Trinket_Crimson",
+      "metaforgeId": 479,
+      "name": "Lost Relic Found",
+      "slug": "lost-relic-found",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Trinket_Crimson__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Crimson__gfx.webp",
+      "iconPath": "/images/jewellery/Trinket_Crimson__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/lost-relic-found",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z2_Mp",
+      "metaforgeId": 465,
+      "name": "Necklace of Clarity",
+      "slug": "necklace-of-clarity",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Necklace_Z2_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z2_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z2_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-clarity",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Neck",
+        "level": 15,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z2_Ap",
+      "metaforgeId": 464,
+      "name": "Necklace of Fracture",
+      "slug": "necklace-of-fracture",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Necklace_Z2_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z2_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z2_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-fracture",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Neck",
+        "level": 15,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z2_Cri",
+      "metaforgeId": 462,
+      "name": "Necklace of Precision",
+      "slug": "necklace-of-precision",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Necklace_Z2_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z2_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z2_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-precision",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Neck",
+        "level": 15,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z2_Fer",
+      "metaforgeId": 463,
+      "name": "Necklace of Zeal",
+      "slug": "necklace-of-zeal",
+      "family": "Neck",
+      "rarity": "Uncommon",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Necklace_Z2_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z2_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z2_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-zeal",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Neck",
+        "level": 15,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z2RCraft",
+      "metaforgeId": 467,
+      "name": "Pendant of Adaptability",
+      "slug": "pendant-of-adaptability",
+      "family": "Neck",
+      "rarity": "Rare",
+      "itemLevel": 20,
+      "description": "",
+      "iconFilename": "Necklace_Z2RCraft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z2RCraft__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z2RCraft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/pendant-of-adaptability",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Crit",
+          "Fervor",
+          "ArPen",
+          "MaPen"
+        ],
+        "type": "Neck",
+        "level": 20,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 5) — 4× Copper Setting, 5× Ramgold, Amber, Beryl, Ruby, Agate, Malachite + 150g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Necklace_Z1RCraft",
+      "metaforgeId": 466,
+      "name": "Pendant of Versatility",
+      "slug": "pendant-of-versatility",
+      "family": "Neck",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Necklace_Z1RCraft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Necklace_Z1RCraft__gfx.webp",
+      "iconPath": "/images/jewellery/Necklace_Z1RCraft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/pendant-of-versatility",
+      "properties": {
+        "subcategory": "Neck",
+        "classes": [
+          "Crit",
+          "Fervor",
+          "ArPen",
+          "MaPen"
+        ],
+        "type": "Neck",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 4× Copper Setting, 3× Glittering Stone, Simple Pearl + 100g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "PhilosopherStone",
+      "metaforgeId": 472,
+      "name": "Philosopher's Stone",
+      "slug": "philosophers-stone",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "PhilosopherStone__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/PhilosopherStone__gfx.webp",
+      "iconPath": "/images/jewellery/PhilosopherStone__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/philosophers-stone",
+      "properties": {
+        "subcategory": "Trinket",
+        "type": "Trinket",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 5× Tungstene Ore, Simple Pearl, Fragment of Kyre, Fragment of Mely, Fragment of Naya + 100g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Trinket_Manfish",
+      "metaforgeId": 476,
+      "name": "Poetrident",
+      "slug": "poetrident",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Trinket_Manfish__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Manfish__gfx.webp",
+      "iconPath": "/images/jewellery/Trinket_Manfish__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/poetrident",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "PrismaticPearl",
+      "metaforgeId": 474,
+      "name": "Prismatic Pearl",
+      "slug": "prismatic-pearl",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 20,
+      "description": "",
+      "iconFilename": "PrismaticPearl__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/PrismaticPearl__gfx.webp",
+      "iconPath": "/images/jewellery/PrismaticPearl__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/prismatic-pearl",
+      "properties": {
+        "subcategory": "Trinket",
+        "type": "Trinket",
+        "level": 20,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — Simple Pearl, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 150g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "PurifiedHeart",
+      "metaforgeId": 473,
+      "name": "Purified Heart",
+      "slug": "purified-heart",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "PurifiedHeart__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/PurifiedHeart__gfx.webp",
+      "iconPath": "/images/jewellery/PurifiedHeart__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/purified-heart",
+      "properties": {
+        "subcategory": "Trinket",
+        "type": "Trinket",
+        "level": 15,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 5× Ephemeral Heart, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 150g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Trinket_Kobold",
+      "metaforgeId": 477,
+      "name": "Raclette Pan",
+      "slug": "raclette-pan",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Trinket_Kobold__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Kobold__gfx.webp",
+      "iconPath": "/images/jewellery/Trinket_Kobold__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/raclette-pan",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Mp",
+      "metaforgeId": 446,
+      "name": "Ring of Clarity",
+      "slug": "ring-of-clarity",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-clarity",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Ap",
+      "metaforgeId": 445,
+      "name": "Ring of Fracture",
+      "slug": "ring-of-fracture",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-fracture",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Cri",
+      "metaforgeId": 443,
+      "name": "Ring of Precision",
+      "slug": "ring-of-precision",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-precision",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z1_Vit",
+      "metaforgeId": 442,
+      "name": "Ring of Vitality",
+      "slug": "ring-of-vitality",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "Finger_Z1_Vit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z1_Vit__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z1_Vit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-vitality",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Vita"
+        ],
+        "type": "Finger",
+        "level": 6,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Fer",
+      "metaforgeId": 444,
+      "name": "Ring of Zeal",
+      "slug": "ring-of-zeal",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-zeal",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2_Mp",
+      "metaforgeId": 450,
+      "name": "Ringlet of Clarity",
+      "slug": "ringlet-of-clarity",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Z2_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-clarity",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2_Ap",
+      "metaforgeId": 449,
+      "name": "Ringlet of Fracture",
+      "slug": "ringlet-of-fracture",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Z2_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-fracture",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2_Cri",
+      "metaforgeId": 447,
+      "name": "Ringlet of Precision",
+      "slug": "ringlet-of-precision",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 20,
+      "description": "",
+      "iconFilename": "Finger_Z2_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-precision",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Finger",
+        "level": 20,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2_Fer",
+      "metaforgeId": 448,
+      "name": "Ringlet of Zeal",
+      "slug": "ringlet-of-zeal",
+      "family": "Finger",
+      "rarity": "Uncommon",
+      "itemLevel": 10,
+      "description": "",
+      "iconFilename": "Finger_Z2_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-zeal",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Finger",
+        "level": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2RCraft_CriAP",
+      "metaforgeId": 455,
+      "name": "Signet of the Fighter",
+      "slug": "signet-of-the-fighter",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Finger_Z2RCraft_CriAP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2RCraft_CriAP__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2RCraft_CriAP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/signet-of-the-fighter",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Crit",
+          "ArPen"
+        ],
+        "type": "Finger",
+        "level": 15,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Agate + 125g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z2RCraft_FerMP",
+      "metaforgeId": 456,
+      "name": "Signet of the Wizard",
+      "slug": "signet-of-the-wizard",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 15,
+      "description": "",
+      "iconFilename": "Finger_Z2RCraft_FerMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z2RCraft_FerMP__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z2RCraft_FerMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/signet-of-the-wizard",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Fervor",
+          "MaPen"
+        ],
+        "type": "Finger",
+        "level": 15,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Ruby + 125g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StoneOfCunning",
+      "metaforgeId": 469,
+      "name": "Stone of Cunning",
+      "slug": "stone-of-cunning",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "StoneOfCunning__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StoneOfCunning__gfx.webp",
+      "iconPath": "/images/jewellery/StoneOfCunning__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-cunning",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Rogue"
+        ],
+        "type": "Trinket",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Mely, 15× Lavendula Petal + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StoneOfPower",
+      "metaforgeId": 468,
+      "name": "Stone of Power",
+      "slug": "stone-of-power",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "StoneOfPower__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StoneOfPower__gfx.webp",
+      "iconPath": "/images/jewellery/StoneOfPower__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-power",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Warrior"
+        ],
+        "type": "Trinket",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Kyre, 15× Madrigold Petal + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StoneOfRighteousness",
+      "metaforgeId": 471,
+      "name": "Stone of Rigtheousness",
+      "slug": "stone-of-rigtheousness",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "StoneOfRighteousness__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StoneOfRighteousness__gfx.webp",
+      "iconPath": "/images/jewellery/StoneOfRighteousness__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-rigtheousness",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Priest"
+        ],
+        "type": "Trinket",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Kyre, 10× Lavendula Petal + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StoneOfWisdom",
+      "metaforgeId": 470,
+      "name": "Stone of Wisdom",
+      "slug": "stone-of-wisdom",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": 6,
+      "description": "",
+      "iconFilename": "StoneOfWisdom__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StoneOfWisdom__gfx.webp",
+      "iconPath": "/images/jewellery/StoneOfWisdom__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-wisdom",
+      "properties": {
+        "subcategory": "Trinket",
+        "classes": [
+          "Mage"
+        ],
+        "type": "Trinket",
+        "level": 6,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Naya, 15× Madrigold Petal + 75g",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    }
+  ]
+}

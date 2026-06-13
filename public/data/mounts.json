@@ -1,0 +1,3705 @@
+{
+  "source": "https://metaforge.app/farever/database/mounts",
+  "importedAt": "2026-06-11T18:24:25.316Z",
+  "total": 52,
+  "propertyFields": [
+    {
+      "key": "subcategory",
+      "label": "subcategory"
+    },
+    {
+      "key": "type",
+      "label": "type"
+    },
+    {
+      "key": "rarity",
+      "label": "rarity"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "Mount_Boar_03",
+      "metaforgeId": 847,
+      "name": "Alandian Hog",
+      "slug": "alandian-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Boar_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/alandian-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Bestiary of Valley of Eternal Autumn",
+          "description": "Complete all codex entries in Valley of Eternal Autumn.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_DarkBlue",
+      "metaforgeId": 866,
+      "name": "Alandian Leggybug",
+      "slug": "alandian-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_DarkBlue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_DarkBlue__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_DarkBlue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/alandian-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_05",
+      "metaforgeId": 830,
+      "name": "Almazean Wolf",
+      "slug": "almazean-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Wolf_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/almazean-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Red",
+      "metaforgeId": 875,
+      "name": "Antelimbian Crab",
+      "slug": "antelimbian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Red__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/antelimbian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crab",
+          "link": "creatures/crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fiddler Crab",
+          "link": "creatures/fiddler-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Snapping Crab",
+          "link": "creatures/snapping-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Crab",
+          "link": "creatures/sparkling-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Solist Crab",
+          "link": "creatures/solist-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Krabby Jacob",
+          "link": "creatures/krabby-jacob"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crab of the Lost City",
+          "link": "creatures/crab-of-the-lost-city"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Snapping Invoked Crab",
+          "link": "creatures/snapping-invoked-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Virtuoso Invoked Crab",
+          "link": "creatures/virtuoso-invoked-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Abyssal Crab",
+          "link": "creatures/abyssal-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Ruins Crab",
+          "link": "creatures/ruins-crab"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Belzebubbles",
+          "link": "creatures/belzebubbles"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kraba the Sorceress",
+          "link": "creatures/kraba-the-sorceress"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fiddle Crabstro",
+          "link": "creatures/fiddle-crabstro"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Crustacean",
+          "link": "creatures/sparkling-crustacean"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Carcinos the Proud",
+          "link": "creatures/carcinos-the-proud"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crabgantua",
+          "link": "creatures/crabgantua"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "crab",
+          "unit_name": "Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 1,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fiddler-crab",
+          "unit_name": "Fiddler Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 3,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "snapping-crab",
+          "unit_name": "Snapping Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-crab",
+          "unit_name": "Sparkling Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "solist-crab",
+          "unit_name": "Solist Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "krabby-jacob",
+          "unit_name": "Krabby Jacob",
+          "faction": "Crab",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crab-of-the-lost-city",
+          "unit_name": "Crab of the Lost City",
+          "faction": "Crab",
+          "icon": null,
+          "level": 4,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "snapping-invoked-crab",
+          "unit_name": "Snapping Invoked Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "virtuoso-invoked-crab",
+          "unit_name": "Virtuoso Invoked Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "abyssal-crab",
+          "unit_name": "Abyssal Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "ruins-crab",
+          "unit_name": "Ruins Crab",
+          "faction": "Crab",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "belzebubbles",
+          "unit_name": "Belzebubbles",
+          "faction": "Crab",
+          "icon": null,
+          "level": 3,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kraba-the-sorceress",
+          "unit_name": "Kraba the Sorceress",
+          "faction": "Crab",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fiddle-crabstro",
+          "unit_name": "Fiddle Crabstro",
+          "faction": "Crab",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-crustacean",
+          "unit_name": "Sparkling Crustacean",
+          "faction": "Crab",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "carcinos-the-proud",
+          "unit_name": "Carcinos the Proud",
+          "faction": "Crab",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crabgantua",
+          "unit_name": "Crabgantua",
+          "faction": "Crab",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crab-of-the-lost-city",
+          "unit_name": "Crab of the Lost City",
+          "faction": "Crab",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_03",
+      "metaforgeId": 834,
+      "name": "Antelimbian Hound",
+      "slug": "antelimbian-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Hound_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/antelimbian-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Yellow",
+      "metaforgeId": 869,
+      "name": "Antelimbian Leggybug",
+      "slug": "antelimbian-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Yellow__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/antelimbian-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_05",
+      "metaforgeId": 861,
+      "name": "Atlanese Crocoboar",
+      "slug": "atlanese-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Croco_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/atlanese-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_03",
+      "metaforgeId": 859,
+      "name": "Beltirian Crocoboar",
+      "slug": "beltirian-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Croco_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/beltirian-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Red02",
+      "metaforgeId": 876,
+      "name": "Crimson Crab",
+      "slug": "crimson-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_Red02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Red02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Red02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/crimson-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_04",
+      "metaforgeId": 841,
+      "name": "Crimson Goat",
+      "slug": "crimson-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Goat_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/crimson-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Savior of Skover",
+          "link": "achievements/savior-of-skover"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Bestiary of Skover Island",
+          "description": "Complete all codex entries in Skover Island.",
+          "points": 5
+        },
+        {
+          "name": "Savior of Skover",
+          "description": "Complete all the Dungeons in Skover Island.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_03",
+      "metaforgeId": 853,
+      "name": "Crosselian Skunk",
+      "slug": "crosselian-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Skunk_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/crosselian-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Ride!",
+          "description": "Collect 25 mounts.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_01",
+      "metaforgeId": 838,
+      "name": "Ebralean Goat",
+      "slug": "ebralean-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Humans have tried taking advantage of the goats' spectacular climbing skills. Unfortunately, the poor animals found climbing much harder with humans on their backs.",
+      "iconFilename": "Mount_Goat_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ebralean-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_04",
+      "metaforgeId": 860,
+      "name": "Egheretrian Crocoboar",
+      "slug": "egheretrian-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Croco_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/egheretrian-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_01",
+      "metaforgeId": 857,
+      "name": "Eksodean Crocoboar",
+      "slug": "eksodean-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Crocoboars are an endemic species that used to cause many problems. The locals solved this by selling these aggressive creatures as pets across Siagarta.",
+      "iconFilename": "Mount_Croco_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/eksodean-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Green",
+      "metaforgeId": 864,
+      "name": "Eksodean Leggybug",
+      "slug": "eksodean-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Green__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/eksodean-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Rootbee Cave",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_01",
+      "metaforgeId": 826,
+      "name": "Enripian Wolf",
+      "slug": "enripian-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Wolves were trained to sniff out treasures hidden under the debris. Sadly, this one lost the sense of smell after a violent encounter with a skunk.",
+      "iconFilename": "Mount_Wolf_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/enripian-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_01",
+      "metaforgeId": 832,
+      "name": "Fountrailian Hound",
+      "slug": "fountrailian-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "In the Crimson city of Ramburg, hounds are prized as a status symbol. A deep red robe indicates that the hound's master is a bloodthirsty monster, even by the Crimsons' standards.",
+      "iconFilename": "Mount_Hound_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/fountrailian-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hunter Shepherd",
+          "link": "creatures/hunter-shepherd"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Soldier",
+          "link": "creatures/crimson-soldier"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Devout Crimson Soldier",
+          "link": "creatures/devout-crimson-soldier"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fervent Crimson Soldier",
+          "link": "creatures/fervent-crimson-soldier"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Obsessive Crimson Soldier",
+          "link": "creatures/obsessive-crimson-soldier"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Archer",
+          "link": "creatures/crimson-archer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Observant Crimson Archer",
+          "link": "creatures/observant-crimson-archer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sighted Crimson Archer",
+          "link": "creatures/sighted-crimson-archer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Eagle-eyed Crimson Archer",
+          "link": "creatures/eagle-eyed-crimson-archer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Farmhand",
+          "link": "creatures/crimson-farmhand"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Celeryman Pumpkintaro",
+          "link": "creatures/celeryman-pumpkintaro"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Bucolic Crimson Farmhand",
+          "link": "creatures/bucolic-crimson-farmhand"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Agamemnon",
+          "link": "creatures/crimson-captain-agamemnon"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Ram Page",
+          "link": "creatures/ram-page"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Captain Ramshackle",
+          "link": "creatures/captain-ramshackle"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Captain Wolfram",
+          "link": "creatures/captain-wolfram"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Miranda",
+          "link": "creatures/crimson-captain-miranda"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Sensabille",
+          "link": "creatures/crimson-captain-sensabille"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Clover",
+          "link": "creatures/crimson-captain-clover"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Carmine",
+          "link": "creatures/crimson-captain-carmine"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Hector",
+          "link": "creatures/crimson-captain-hector"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Captain Ben",
+          "link": "creatures/crimson-captain-ben"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Preacher",
+          "link": "creatures/crimson-preacher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Trained Crimson Preacher",
+          "link": "creatures/trained-crimson-preacher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Shrewd Crimson Geomancer",
+          "link": "creatures/shrewd-crimson-geomancer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crimson Beekeeper",
+          "link": "creatures/crimson-beekeeper"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Beekept Crimson",
+          "link": "creatures/beekept-crimson"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from High Inquisitor Chakram",
+          "link": "creatures/high-inquisitor-chakram"
+        },
+        {
+          "kind": "chest",
+          "text": "Found in World Chest in Alkatram",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "hunter-shepherd",
+          "unit_name": "Hunter Shepherd",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 100,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-soldier",
+          "unit_name": "Crimson Soldier",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "devout-crimson-soldier",
+          "unit_name": "Devout Crimson Soldier",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fervent-crimson-soldier",
+          "unit_name": "Fervent Crimson Soldier",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "obsessive-crimson-soldier",
+          "unit_name": "Obsessive Crimson Soldier",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 22,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-archer",
+          "unit_name": "Crimson Archer",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "observant-crimson-archer",
+          "unit_name": "Observant Crimson Archer",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sighted-crimson-archer",
+          "unit_name": "Sighted Crimson Archer",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "eagle-eyed-crimson-archer",
+          "unit_name": "Eagle-eyed Crimson Archer",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 23,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-farmhand",
+          "unit_name": "Crimson Farmhand",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "celeryman-pumpkintaro",
+          "unit_name": "Celeryman Pumpkintaro",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "bucolic-crimson-farmhand",
+          "unit_name": "Bucolic Crimson Farmhand",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-agamemnon",
+          "unit_name": "Crimson Captain Agamemnon",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "ram-page",
+          "unit_name": "Ram Page",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "captain-ramshackle",
+          "unit_name": "Captain Ramshackle",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "captain-wolfram",
+          "unit_name": "Captain Wolfram",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-miranda",
+          "unit_name": "Crimson Captain Miranda",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-sensabille",
+          "unit_name": "Crimson Captain Sensabille",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-clover",
+          "unit_name": "Crimson Captain Clover",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-carmine",
+          "unit_name": "Crimson Captain Carmine",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 16,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-hector",
+          "unit_name": "Crimson Captain Hector",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 22,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-captain-ben",
+          "unit_name": "Crimson Captain Ben",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 20,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-preacher",
+          "unit_name": "Crimson Preacher",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "trained-crimson-preacher",
+          "unit_name": "Trained Crimson Preacher",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "shrewd-crimson-geomancer",
+          "unit_name": "Shrewd Crimson Geomancer",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crimson-beekeeper",
+          "unit_name": "Crimson Beekeeper",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "beekept-crimson",
+          "unit_name": "Beekept Crimson",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 15,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "high-inquisitor-chakram",
+          "unit_name": "High Inquisitor Chakram",
+          "faction": "Crimson",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Boar_04",
+      "metaforgeId": 848,
+      "name": "Irukalean Hog",
+      "slug": "irukalean-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Boar_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/irukalean-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Boar_02",
+      "metaforgeId": 846,
+      "name": "Jodarian Hog",
+      "slug": "jodarian-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Boar_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/jodarian-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_02",
+      "metaforgeId": 839,
+      "name": "Kondalese Goat",
+      "slug": "kondalese-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Goat_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/kondalese-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_03",
+      "metaforgeId": 828,
+      "name": "Krisomalese Wolf",
+      "slug": "krisomalese-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Wolf_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/krisomalese-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Ride!",
+          "description": "Collect 50 mounts.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_05",
+      "metaforgeId": 836,
+      "name": "Lemian Hound",
+      "slug": "lemian-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Hound_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/lemian-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Boar_01",
+      "metaforgeId": 845,
+      "name": "Meridional Hog",
+      "slug": "meridional-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "The most efficient way to travel is not to run fast, but to avoid running into foes. In that regard, the intimidating stare of the hog is more useful than the buttontail's sprint.",
+      "iconFilename": "Mount_Boar_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/meridional-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Boar",
+          "link": "creatures/boar"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Reclusive Boar",
+          "link": "creatures/reclusive-boar"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hermitic Boar",
+          "link": "creatures/hermitic-boar"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Boar",
+          "link": "creatures/sparkling-boar"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Niels Boar",
+          "link": "creatures/niels-boar"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Boar Burnham",
+          "link": "creatures/boar-burnham"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Venerer's Hog",
+          "link": "creatures/venerers-hog"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Crocoboar",
+          "link": "creatures/crocoboar"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "boar",
+          "unit_name": "Boar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "reclusive-boar",
+          "unit_name": "Reclusive Boar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hermitic-boar",
+          "unit_name": "Hermitic Boar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 17,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-boar",
+          "unit_name": "Sparkling Boar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 14,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "niels-boar",
+          "unit_name": "Niels Boar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 6,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "boar-burnham",
+          "unit_name": "Boar Burnham",
+          "faction": "Boar",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "venerer-s-hog",
+          "unit_name": "Venerer's Hog",
+          "faction": "Boar",
+          "icon": null,
+          "level": 20,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crocoboar",
+          "unit_name": "Crocoboar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 2,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "crocoboar",
+          "unit_name": "Crocoboar",
+          "faction": "Boar",
+          "icon": null,
+          "level": 2,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Blue",
+      "metaforgeId": 871,
+      "name": "Meropsian Crab",
+      "slug": "meropsian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Legend has it that the first crab used as a mount was won by a fisherman during a charades match against a Nepsid. The word to guess was \"crab\". The match lasted two days.",
+      "iconFilename": "Mount_Crab_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Blue__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/meropsian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "crabgantua",
+          "unit_name": "Crabgantua",
+          "faction": "Crab",
+          "icon": null,
+          "level": 8,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_04",
+      "metaforgeId": 829,
+      "name": "Navelian Wolf",
+      "slug": "navelian-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Wolf_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/navelian-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Orange Highland",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_2",
+          "zone": "Orange Highland",
+          "pos": {
+            "x": 1218.4272,
+            "y": 221.6111,
+            "z": 18.5254
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Red",
+      "metaforgeId": 863,
+      "name": "Nescentine Leggybug",
+      "slug": "nescentine-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Originally bred by farmers to rid their crops of midges, leggybugs eventually grew big enough to be employed as draught animals, and later as recreational vehicles.",
+      "iconFilename": "Mount_Ladybug_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Red__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/nescentine-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "lady-bee",
+          "unit_name": "Lady Bee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_02",
+      "metaforgeId": 827,
+      "name": "Nescentine Wolf",
+      "slug": "nescentine-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Wolf_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/nescentine-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Snow Leopard",
+          "link": "creatures/snow-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Cave Leopard",
+          "link": "creatures/cave-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Cliff Leopard",
+          "link": "creatures/cliff-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Rock Leopard",
+          "link": "creatures/rock-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Volcano Leopard",
+          "link": "creatures/volcano-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hill Leopard",
+          "link": "creatures/hill-leopard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Wolf",
+          "link": "creatures/wolf"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Alpha Wolf",
+          "link": "creatures/alpha-wolf"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Fangandog",
+          "link": "creatures/fangandog"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Carmine Hound",
+          "link": "creatures/carmine-hound"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Bloodred Hound",
+          "link": "creatures/bloodred-hound"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Dogma",
+          "link": "creatures/dogma"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Coyote",
+          "link": "creatures/coyote"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Starving Coyote",
+          "link": "creatures/starving-coyote"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Coyote",
+          "link": "creatures/sparkling-coyote"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "snow-leopard",
+          "unit_name": "Snow Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "cave-leopard",
+          "unit_name": "Cave Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "cliff-leopard",
+          "unit_name": "Cliff Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "rock-leopard",
+          "unit_name": "Rock Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "volcano-leopard",
+          "unit_name": "Volcano Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hill-leopard",
+          "unit_name": "Hill Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hill-leopard",
+          "unit_name": "Hill Leopard",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 5,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "wolf",
+          "unit_name": "Wolf",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "alpha-wolf",
+          "unit_name": "Alpha Wolf",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "fangandog",
+          "unit_name": "Fangandog",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "carmine-hound",
+          "unit_name": "Carmine Hound",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "bloodred-hound",
+          "unit_name": "Bloodred Hound",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 23,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "dogma",
+          "unit_name": "Dogma",
+          "faction": "Wolf",
+          "icon": null,
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Demonic",
+      "metaforgeId": 873,
+      "name": "Niflelian Crab",
+      "slug": "niflelian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_Demonic__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Demonic__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Demonic__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_06",
+      "metaforgeId": 862,
+      "name": "Niflelian Crocoboar",
+      "slug": "niflelian-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Croco_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_06",
+      "metaforgeId": 843,
+      "name": "Niflelian Goat",
+      "slug": "niflelian-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Goat_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Boar_06",
+      "metaforgeId": 850,
+      "name": "Niflelian Hog",
+      "slug": "niflelian-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Boar_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_06",
+      "metaforgeId": 837,
+      "name": "Niflelian Hound",
+      "slug": "niflelian-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Hound_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: City Cleaner",
+          "link": "achievements/city-cleaner"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "City Cleaner",
+          "description": "Complete all the Dungeons in Ramburg.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Demonic",
+      "metaforgeId": 870,
+      "name": "Niflelian Leggybug",
+      "slug": "niflelian-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Demonic__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Demonic__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Demonic__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_06",
+      "metaforgeId": 856,
+      "name": "Niflelian Skunk",
+      "slug": "niflelian-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Skunk_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/niflelian-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_03",
+      "metaforgeId": 840,
+      "name": "Opaline Goat",
+      "slug": "opaline-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Goat_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/opaline-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Purple",
+      "metaforgeId": 874,
+      "name": "Ponogian Crab",
+      "slug": "ponogian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Purple__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ponogian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Purple",
+      "metaforgeId": 868,
+      "name": "Ponogian Leggybug",
+      "slug": "ponogian-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Purple__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ponogian-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "queen-honeyzabeth",
+          "unit_name": "Queen Honeyzabeth",
+          "faction": "Bee",
+          "icon": null,
+          "level": 20,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_05",
+      "metaforgeId": 855,
+      "name": "Ponogian Skunk",
+      "slug": "ponogian-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Skunk_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ponogian-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Valley of the Eternal Dungeons",
+          "link": "achievements/valley-of-the-eternal-dungeons"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Valley of the Eternal Dungeons",
+          "description": "Complete all the Dungeons in Valley of Eternal Autumn.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_01",
+      "metaforgeId": 851,
+      "name": "Primevallean Skunk",
+      "slug": "primevallean-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Skunks were formerly seen as a nuisance. That was before tamers found out the smell problem could be fixed by feeding them only flowers.",
+      "iconFilename": "Mount_Skunk_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/primevallean-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Skunk",
+          "link": "creatures/skunk"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Unpopular Skunk",
+          "link": "creatures/unpopular-skunk"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Skunk",
+          "link": "creatures/sparkling-skunk"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Skunk",
+          "link": "creatures/invoked-skunk"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Unpopular Invoked Skunk",
+          "link": "creatures/unpopular-invoked-skunk"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "skunk",
+          "unit_name": "Skunk",
+          "faction": "Skunk",
+          "icon": null,
+          "level": 6,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "unpopular-skunk",
+          "unit_name": "Unpopular Skunk",
+          "faction": "Skunk",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-skunk",
+          "unit_name": "Sparkling Skunk",
+          "faction": "Skunk",
+          "icon": null,
+          "level": 6,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-skunk",
+          "unit_name": "Invoked Skunk",
+          "faction": "Skunk",
+          "icon": null,
+          "level": 7,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "unpopular-invoked-skunk",
+          "unit_name": "Unpopular Invoked Skunk",
+          "faction": "Skunk",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_04",
+      "metaforgeId": 835,
+      "name": "Ramburgian Hound",
+      "slug": "ramburgian-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Hound_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ramburgian-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Empire State of Faith",
+          "link": "achievements/empire-state-of-faith"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Empire State of Faith",
+          "description": "Complete all the exploration achievements in Ramburg.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_04",
+      "metaforgeId": 854,
+      "name": "Rinuhrian Skunk",
+      "slug": "rinuhrian-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Skunk_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/rinuhrian-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "munster-chuck",
+          "unit_name": "Munster Chuck",
+          "faction": "Kobold",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Croco_02",
+      "metaforgeId": 858,
+      "name": "Ruleanese Crocoboar",
+      "slug": "ruleanese-crocoboar",
+      "family": "Crocos",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Croco_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Croco_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Croco_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ruleanese-crocoboar",
+      "properties": {
+        "subcategory": "Crocos",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_Yellow",
+      "metaforgeId": 877,
+      "name": "Semeruian Crab",
+      "slug": "semeruian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_Yellow__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/semeruian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in Vault Chest in Florin Hill",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 1,
+          "drop_percent": "100.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Orange",
+      "metaforgeId": 867,
+      "name": "Sforian Leggybug",
+      "slug": "sforian-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Orange__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/sforian-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Wolf_06",
+      "metaforgeId": 831,
+      "name": "Sforian Wolf",
+      "slug": "sforian-wolf",
+      "family": "Wolves",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Wolf_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Wolf_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Wolf_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/sforian-wolf",
+      "properties": {
+        "subcategory": "Wolves",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Valley of the Eternal Exploration",
+          "link": "achievements/valley-of-the-eternal-exploration"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Valley of the Eternal Exploration",
+          "description": "Complete all the exploration achievements in Valley of Eternal Autumn.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Hound_02",
+      "metaforgeId": 833,
+      "name": "Skoverial Hound",
+      "slug": "skoverial-hound",
+      "family": "Hounds",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Hound_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Hound_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Hound_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/skoverial-hound",
+      "properties": {
+        "subcategory": "Hounds",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "SparkHorse_01",
+      "metaforgeId": 844,
+      "name": "Sparkling Horsean",
+      "slug": "sparkling-horsean",
+      "family": "Horses",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "There are very few Horseans left alive in Siagarta. You’d have a better chance of finding a one-legged spider in the wild than a Sparkling Horsean.",
+      "iconFilename": "SparkHorse_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SparkHorse_01__gfx.webp",
+      "iconPath": "/images/mounts/SparkHorse_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/sparkling-horsean",
+      "properties": {
+        "subcategory": "Horses",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "ea_promotion",
+          "text": "Free in the in-game store during Early Access (Sparkling Horsean redemption)",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Skunk_02",
+      "metaforgeId": 852,
+      "name": "Sperian Skunk",
+      "slug": "sperian-skunk",
+      "family": "Skunks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Skunk_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Skunk_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Skunk_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/sperian-skunk",
+      "properties": {
+        "subcategory": "Skunks",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: A Great Diskovery",
+          "link": "achievements/a-great-diskovery"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "A Great Diskovery",
+          "description": "Complete all the exploration achievements in Skover Island.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Boar_05",
+      "metaforgeId": 849,
+      "name": "Veilantine Hog",
+      "slug": "veilantine-hog",
+      "family": "Boars",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Boar_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Boar_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Boar_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/veilantine-hog",
+      "properties": {
+        "subcategory": "Boars",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Let's Ride!",
+          "description": "Collect 10 mounts.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Goat_05",
+      "metaforgeId": 842,
+      "name": "Zerzurean Goat",
+      "slug": "zerzurean-goat",
+      "family": "Goats",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Goat_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Goat_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Goat_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/zerzurean-goat",
+      "properties": {
+        "subcategory": "Goats",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Ladybug_Blue",
+      "metaforgeId": 865,
+      "name": "Zerzurean Leggybug",
+      "slug": "zerzurean-leggybug",
+      "family": "Ladybugs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Ladybug_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Ladybug_Blue__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Ladybug_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/zerzurean-leggybug",
+      "properties": {
+        "subcategory": "Ladybugs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Apix Harvester",
+          "link": "creatures/apix-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Bibulous Apix Harvester",
+          "link": "creatures/bibulous-apix-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Tipsy Apix Harvester",
+          "link": "creatures/tipsy-apix-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hivetree Harvester",
+          "link": "creatures/hivetree-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Harvester",
+          "link": "creatures/sparkling-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Beelial",
+          "link": "creatures/beelial"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Bibulous Invoked Harvester",
+          "link": "creatures/bibulous-invoked-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Intoxicated Apix Harvester",
+          "link": "creatures/intoxicated-apix-harvester"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Blackbird Harpy",
+          "link": "creatures/blackbird-harpy"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Apix Watcher",
+          "link": "creatures/apix-watcher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hivetree Watcher",
+          "link": "creatures/hivetree-watcher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Honey Mucha",
+          "link": "creatures/honey-mucha"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Overzealous Apix Watcher",
+          "link": "creatures/overzealous-apix-watcher"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Apix Builder",
+          "link": "creatures/apix-builder"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Sparkling Builder",
+          "link": "creatures/sparkling-builder"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Hivetree Builder",
+          "link": "creatures/hivetree-builder"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Overworked Apix Builder",
+          "link": "creatures/overworked-apix-builder"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Overworked Invoked Builder",
+          "link": "creatures/overworked-invoked-builder"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Apix Royal Guard",
+          "link": "creatures/apix-royal-guard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Royal Guard of the Hivetree",
+          "link": "creatures/royal-guard-of-the-hivetree"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Honey Zucca",
+          "link": "creatures/honey-zucca"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Royal Guard",
+          "link": "creatures/invoked-royal-guard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Overqualified Apix Royal Guard",
+          "link": "creatures/overqualified-apix-royal-guard"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Bartlebee",
+          "link": "creatures/bartlebee"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Left Wing",
+          "link": "creatures/left-wing"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Right Wing",
+          "link": "creatures/right-wing"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Apix Defender",
+          "link": "creatures/apix-defender"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Overprotective Apix Defender",
+          "link": "creatures/overprotective-apix-defender"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Defender",
+          "link": "creatures/invoked-defender"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Notorious Bee",
+          "link": "creatures/notorious-bee"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Blackbird Volture",
+          "link": "creatures/blackbird-volture"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Gatsbee",
+          "link": "creatures/gatsbee"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lady Bee",
+          "link": "creatures/lady-bee"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Chamber Guardian",
+          "link": "creatures/chamber-guardian"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Egglektra",
+          "link": "creatures/egglektra"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Queen Honeyzabeth",
+          "link": "creatures/queen-honeyzabeth"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Champion's Chrysalid",
+          "link": "creatures/champions-chrysalid"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Prince Beelliams",
+          "link": "creatures/prince-beelliams"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Prince Beeter",
+          "link": "creatures/prince-beeter"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Princess Beeatrice",
+          "link": "creatures/princess-beeatrice"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Feeder Bee",
+          "link": "creatures/feeder-bee"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Honey Cannon",
+          "link": "creatures/honey-cannon"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Cannon Plant",
+          "link": "creatures/cannon-plant"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": null,
+          "unit_name": null,
+          "faction": null,
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "apix-harvester",
+          "unit_name": "Apix Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 3,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "bibulous-apix-harvester",
+          "unit_name": "Bibulous Apix Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "tipsy-apix-harvester",
+          "unit_name": "Tipsy Apix Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hivetree-harvester",
+          "unit_name": "Hivetree Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-harvester",
+          "unit_name": "Sparkling Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 3,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-harvester",
+          "unit_name": "Sparkling Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "beelial",
+          "unit_name": "Beelial",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "bibulous-invoked-harvester",
+          "unit_name": "Bibulous Invoked Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "intoxicated-apix-harvester",
+          "unit_name": "Intoxicated Apix Harvester",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "blackbird-harpy",
+          "unit_name": "Blackbird Harpy",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "blackbird-harpy",
+          "unit_name": "Blackbird Harpy",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "blackbird-harpy",
+          "unit_name": "Blackbird Harpy",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "blackbird-harpy",
+          "unit_name": "Blackbird Harpy",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "apix-watcher",
+          "unit_name": "Apix Watcher",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hivetree-watcher",
+          "unit_name": "Hivetree Watcher",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "honey-mucha",
+          "unit_name": "Honey Mucha",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "overzealous-apix-watcher",
+          "unit_name": "Overzealous Apix Watcher",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "apix-builder",
+          "unit_name": "Apix Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-builder",
+          "unit_name": "Sparkling Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "hivetree-builder",
+          "unit_name": "Hivetree Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "sparkling-builder",
+          "unit_name": "Sparkling Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "overworked-apix-builder",
+          "unit_name": "Overworked Apix Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "overworked-invoked-builder",
+          "unit_name": "Overworked Invoked Builder",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "apix-royal-guard",
+          "unit_name": "Apix Royal Guard",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "royal-guard-of-the-hivetree",
+          "unit_name": "Royal Guard of the Hivetree",
+          "faction": "Bee",
+          "icon": null,
+          "level": 11,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "honey-zucca",
+          "unit_name": "Honey Zucca",
+          "faction": "Bee",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-royal-guard",
+          "unit_name": "Invoked Royal Guard",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "overqualified-apix-royal-guard",
+          "unit_name": "Overqualified Apix Royal Guard",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "bartlebee",
+          "unit_name": "Bartlebee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "left-wing",
+          "unit_name": "Left Wing",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "right-wing",
+          "unit_name": "Right Wing",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "apix-defender",
+          "unit_name": "Apix Defender",
+          "faction": "Bee",
+          "icon": null,
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "overprotective-apix-defender",
+          "unit_name": "Overprotective Apix Defender",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-defender",
+          "unit_name": "Invoked Defender",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-defender",
+          "unit_name": "Invoked Defender",
+          "faction": "Bee",
+          "icon": null,
+          "level": 18,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "notorious-bee",
+          "unit_name": "Notorious Bee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 20,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "gatsbee",
+          "unit_name": "Gatsbee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 12,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lady-bee",
+          "unit_name": "Lady Bee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "chamber-guardian",
+          "unit_name": "Chamber Guardian",
+          "faction": "Bee",
+          "icon": null,
+          "level": 13,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "queen-honeyzabeth",
+          "unit_name": "Queen Honeyzabeth",
+          "faction": "Bee",
+          "icon": null,
+          "level": 20,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "champion-s-chrysalid",
+          "unit_name": "Champion's Chrysalid",
+          "faction": "Bee",
+          "icon": null,
+          "level": 9,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "prince-beelliams",
+          "unit_name": "Prince Beelliams",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "prince-beeter",
+          "unit_name": "Prince Beeter",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "princess-beeatrice",
+          "unit_name": "Princess Beeatrice",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "feeder-bee",
+          "unit_name": "Feeder Bee",
+          "faction": "Bee",
+          "icon": null,
+          "level": 19,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "honey-cannon",
+          "unit_name": "Honey Cannon",
+          "faction": "Bee",
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "honey-cannon",
+          "unit_name": "Honey Cannon",
+          "faction": "Bee",
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "cannon-plant",
+          "unit_name": "Cannon Plant",
+          "faction": "Bee",
+          "icon": null,
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    },
+    {
+      "id": "Mount_Crab_BlueGrey",
+      "metaforgeId": 872,
+      "name": "Zerzurian Crab",
+      "slug": "zerzurian-crab",
+      "family": "Crabs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Crab_BlueGrey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Crab_BlueGrey__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Crab_BlueGrey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/zerzurian-crab",
+      "properties": {
+        "subcategory": "Crabs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "upcoming",
+          "text": "Looks like upcoming content — no information available yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2
+    }
+  ]
+}

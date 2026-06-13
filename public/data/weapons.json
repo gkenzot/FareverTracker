@@ -1,0 +1,1272 @@
+{
+  "source": "https://metaforge.app/farever/database/weapons",
+  "importedAt": "2026-06-11T19:40:25.600Z",
+  "total": 32,
+  "propertyFields": [
+    {
+      "key": "subcategory",
+      "label": "Subcategory"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "classes",
+      "label": "Classes"
+    },
+    {
+      "key": "rarity",
+      "label": "Rarity"
+    },
+    {
+      "key": "level",
+      "label": "Level"
+    },
+    {
+      "key": "ilevel",
+      "label": "Item Level"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "Mace_Benediction",
+      "metaforgeId": 6,
+      "name": "Amon Ram, the Creator",
+      "slug": "amon-ram-the-creator",
+      "family": "Mace",
+      "rarity": "Rare",
+      "itemLevel": 20,
+      "description": "Amon, ram-headed god of creation, appeared to Lady Skover in a vision. No one really believed her story at the time, but it did make the Rams appear more legitimate.",
+      "iconFilename": "Mace_Benediction__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mace_Benediction__gfx.webp",
+      "iconPath": "/images/weapons/Mace_Benediction__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/amon-ram-the-creator",
+      "properties": {
+        "subcategory": "Mace",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "Mace",
+        "level": 20,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Munster Chuck",
+          "link": "creatures/munster-chuck"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Book_Start",
+      "metaforgeId": 32,
+      "name": "Apprentice's Grimoire",
+      "slug": "apprentices-grimoire",
+      "family": "Book",
+      "rarity": "Uncommon",
+      "itemLevel": 1,
+      "description": "At one point, this was an Expert's Grimoire, but all the advanced pages are damaged beyond recognition.",
+      "iconFilename": "Book_Start__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Book_Start__gfx.webp",
+      "iconPath": "/images/weapons/Book_Start__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/apprentices-grimoire",
+      "properties": {
+        "subcategory": "Book",
+        "classes": [
+          "Mage"
+        ],
+        "type": "Book",
+        "level": 1,
+        "ilevel": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "starter",
+          "text": "Default starter equipment given at character creation",
+          "link": null
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sword_Swarm",
+      "metaforgeId": 9,
+      "name": "Beefury, Blessed Blade of the Farseeker",
+      "slug": "beefury-blessed-blade-of-the-farseeker",
+      "family": "Sword",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "There is a metaphor at play here: you can see through the blade, but the blade can cut through you. This is the kind of poetry the Apix clan enjoys.",
+      "iconFilename": "Sword_Swarm__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sword_Swarm__gfx.webp",
+      "iconPath": "/images/weapons/Sword_Swarm__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/beefury-blessed-blade-of-the-farseeker",
+      "properties": {
+        "subcategory": "Sword",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "Sword",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Lady Bee",
+          "link": "creatures/lady-bee"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Book_WaterOrbs",
+      "metaforgeId": 33,
+      "name": "Book of Mi'Mizan",
+      "slug": "book-of-mimizan",
+      "family": "Book",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "Mizan is known for travelling around Merops to learn Naya magic from the Nepsids. No one knows what he did there, but they're no longer taking apprentices.",
+      "iconFilename": "Book_WaterOrbs__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Book_WaterOrbs__gfx.webp",
+      "iconPath": "/images/weapons/Book_WaterOrbs__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/book-of-mimizan",
+      "properties": {
+        "subcategory": "Book",
+        "classes": [
+          "Mage",
+          "Priest"
+        ],
+        "type": "Book",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Sponge Blob",
+          "link": "creatures/sponge-blob"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Axe_Boomerang",
+      "metaforgeId": 5,
+      "name": "Cheese Moon",
+      "slug": "cheese-moon",
+      "family": "Axe",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "Forged in the depths of Irukal, this axe was designed by a people who had never seen a moon in their life, and it shows.",
+      "iconFilename": "Axe_Boomerang__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Axe_Boomerang__gfx.webp",
+      "iconPath": "/images/weapons/Axe_Boomerang__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/cheese-moon",
+      "properties": {
+        "subcategory": "Axe",
+        "classes": [
+          "Warrior",
+          "Rogue"
+        ],
+        "type": "Axe",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Reblochonk",
+          "link": "creatures/reblochonk"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Fists_WaterUppecut",
+      "metaforgeId": 20,
+      "name": "Clawdius",
+      "slug": "clawdius",
+      "family": "Fists",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "At the end of a warrior's arms, these claws look like the gluttonous mouths of two giant snakes.",
+      "iconFilename": "Fists_WaterUppecut__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_WaterUppecut__gfx.webp",
+      "iconPath": "/images/weapons/Fists_WaterUppecut__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/clawdius",
+      "properties": {
+        "subcategory": "Fists",
+        "classes": [
+          "Rogue",
+          "Mage"
+        ],
+        "type": "Fists",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Crabgantua",
+          "link": "creatures/crabgantua"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Shield_OrbitWater",
+      "metaforgeId": 13,
+      "name": "Crabgantua's Kneecap",
+      "slug": "crabgantuas-kneecap",
+      "family": "Shield",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "A creature with three pairs of legs should have more than one kneecap. Crabgantua only had one, but its size and hardness is admirable.",
+      "iconFilename": "Shield_OrbitWater__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_OrbitWater__gfx.webp",
+      "iconPath": "/images/weapons/Shield_OrbitWater__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/crabgantuas-kneecap",
+      "properties": {
+        "subcategory": "Shield",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "Shield",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Crabgantua",
+          "link": "creatures/crabgantua"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Bow_Craft",
+      "metaforgeId": 30,
+      "name": "Credence",
+      "slug": "credence",
+      "family": "Bow",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "A bow is an object of faith and each arrow is a mystery. Will it hit its target? Will its target hit back? Is there still time for a second shot?",
+      "iconFilename": "Bow_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_Craft__gfx.webp",
+      "iconPath": "/images/weapons/Bow_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/credence",
+      "properties": {
+        "subcategory": "Bow",
+        "classes": [
+          "Rogue"
+        ],
+        "type": "Bow",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Shield_Craft",
+      "metaforgeId": 11,
+      "name": "Dominion",
+      "slug": "dominion",
+      "family": "Shield",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "The best defence is sometimes believed to be attack. Whoever said that has never been hit in the face with a steel shield.",
+      "iconFilename": "Shield_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Craft__gfx.webp",
+      "iconPath": "/images/weapons/Shield_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/dominion",
+      "properties": {
+        "subcategory": "Shield",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "Shield",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Scepter_Flamie",
+      "metaforgeId": 37,
+      "name": "Flame of Argol",
+      "slug": "flame-of-argol",
+      "family": "Scepter",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "Burning since before the war of the Four Hundred, this candle is widely regarded as the living soul of the legendary Argol Konda.",
+      "iconFilename": "Scepter_Flamie__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Flamie__gfx.webp",
+      "iconPath": "/images/weapons/Scepter_Flamie__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/flame-of-argol",
+      "properties": {
+        "subcategory": "Scepter",
+        "classes": [
+          "Priest"
+        ],
+        "type": "Scepter",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Reblochonk",
+          "link": "creatures/reblochonk"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Halos_Totem",
+      "metaforgeId": 34,
+      "name": "Ghost Clams of the Low Tide",
+      "slug": "ghost-clams-of-the-low-tide",
+      "family": "Halos",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "Before Lord Rulean stole this artifact from the Nepsids, they thought it was responsible for the tides. Luckily, the theft proved that it was in fact useless.",
+      "iconFilename": "Halos_Totem__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Totem__gfx.webp",
+      "iconPath": "/images/weapons/Halos_Totem__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/ghost-clams-of-the-low-tide",
+      "properties": {
+        "subcategory": "Halos",
+        "classes": [
+          "Mage",
+          "Priest"
+        ],
+        "type": "Halos",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Nepsilon",
+          "link": "creatures/nepsilon"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sword_Craft",
+      "metaforgeId": 8,
+      "name": "Glory",
+      "slug": "glory",
+      "family": "Sword",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "To conquer without risk is to triumph without glory. Thankfully, going to battle with that sword makes such a situation very unlikely.",
+      "iconFilename": "Sword_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sword_Craft__gfx.webp",
+      "iconPath": "/images/weapons/Sword_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/glory",
+      "properties": {
+        "subcategory": "Sword",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "Sword",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Spear_Eruption",
+      "metaforgeId": 27,
+      "name": "Gorgon Ratsay’s Toothpick",
+      "slug": "gorgon-ratsays-toothpick",
+      "family": "Spear",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "Although the legendary Ratsay used his spear to hunt, cook and eat, this tool was mostly remembered as the first toothpick in Kobold history.",
+      "iconFilename": "Spear_Eruption__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Eruption__gfx.webp",
+      "iconPath": "/images/weapons/Spear_Eruption__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/gorgon-ratsays-toothpick",
+      "properties": {
+        "subcategory": "Spear",
+        "classes": [
+          "Rogue",
+          "Priest"
+        ],
+        "type": "Spear",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Golcano",
+          "link": "creatures/golcano"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Bow_BigGame",
+      "metaforgeId": 31,
+      "name": "Horns of the Wind",
+      "slug": "horns-of-the-wind",
+      "family": "Bow",
+      "rarity": "Rare",
+      "itemLevel": 14,
+      "description": "This weapon is a testimony to the Rams' lack of imagination. If something can hurt them, they always picture it wearing a pair of horns.",
+      "iconFilename": "Bow_BigGame__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_BigGame__gfx.webp",
+      "iconPath": "/images/weapons/Bow_BigGame__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/horns-of-the-wind",
+      "properties": {
+        "subcategory": "Bow",
+        "classes": [
+          "Rogue",
+          "Mage"
+        ],
+        "type": "Bow",
+        "level": 14,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Sponge Blob",
+          "link": "creatures/sponge-blob"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Thrown_Seeds",
+      "metaforgeId": 38,
+      "name": "Ipheion, Star Blossom",
+      "slug": "ipheion-star-blossom",
+      "family": "Thrown",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "Starflowers are pretty common, but few of them are shooting stars. And even fewer can cut an armor in half.",
+      "iconFilename": "Thrown_Seeds__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Thrown_Seeds__gfx.webp",
+      "iconPath": "/images/weapons/Thrown_Seeds__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/ipheion-star-blossom",
+      "properties": {
+        "subcategory": "Thrown",
+        "classes": [
+          "Rogue",
+          "Mage"
+        ],
+        "type": "Thrown",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Lady Bee",
+          "link": "creatures/lady-bee"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DA_Water",
+      "metaforgeId": 16,
+      "name": "Iron Fins of the Leviathan",
+      "slug": "iron-fins-of-the-leviathan",
+      "family": "DualAxes",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "Having fins of iron is not necessarily an advantage. In fact, it made the Leviathan slow enough for the fishermen to harvest its precious fins.",
+      "iconFilename": "DA_Water__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DA_Water__gfx.webp",
+      "iconPath": "/images/weapons/DA_Water__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/iron-fins-of-the-leviathan",
+      "properties": {
+        "subcategory": "DualAxes",
+        "classes": [
+          "Warrior",
+          "Rogue"
+        ],
+        "type": "DualAxes",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Nepsilon",
+          "link": "creatures/nepsilon"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "GA_Craft",
+      "metaforgeId": 23,
+      "name": "Judgement",
+      "slug": "judgement",
+      "family": "GreatAxe",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "The institutions of justice are rather uncomplicated in Siagarta. This single axe, for instance, cumulates legislative, judiciary and executive power.",
+      "iconFilename": "GA_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Craft__gfx.webp",
+      "iconPath": "/images/weapons/GA_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/judgement",
+      "properties": {
+        "subcategory": "GreatAxe",
+        "classes": [
+          "Warrior"
+        ],
+        "type": "GreatAxe",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from King Ratsar",
+          "link": "creatures/king-ratsar"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Spear_Goo",
+      "metaforgeId": 26,
+      "name": "Lady Bee’s Ceremonial Stinger",
+      "slug": "lady-bees-ceremonial-stinger",
+      "family": "Spear",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "In the past, Apix princesses ennobled royal guards using their own stingers, but a series of incidents convinced them to use that spear instead.",
+      "iconFilename": "Spear_Goo__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Goo__gfx.webp",
+      "iconPath": "/images/weapons/Spear_Goo__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/lady-bees-ceremonial-stinger",
+      "properties": {
+        "subcategory": "Spear",
+        "classes": [
+          "Warrior",
+          "Mage"
+        ],
+        "type": "Spear",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Gatsbee",
+          "link": "creatures/gatsbee"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Net_Basic",
+      "metaforgeId": 40,
+      "name": "Large Butterfly Net",
+      "slug": "large-butterfly-net",
+      "family": "CaptureNet",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "This net can be used to try catching world companions.",
+      "iconFilename": "Net_Basic__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Net_Basic__gfx.webp",
+      "iconPath": "/images/weapons/Net_Basic__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/large-butterfly-net",
+      "properties": {
+        "subcategory": "CaptureNet",
+        "type": "CaptureNet",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Sold by Wandering Merchant in Tyrna",
+          "link": null
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by Wandering Merchant in Navelin",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Wandering Merchant",
+          "npc_id": "WanderingMerchant_Npc_Azuram",
+          "zone": "Tyrna",
+          "zone_id": "Z2_Azuram_Hub",
+          "pos": {
+            "x": 2654.45,
+            "y": 170.79,
+            "z": 172.62
+          },
+          "cost": "",
+          "costs": []
+        },
+        {
+          "npc_name": "Wandering Merchant",
+          "npc_id": "WanderingMerchant_NPC_Primevalley_1",
+          "zone": "Navelin",
+          "zone_id": "Z1_Primevalley_Hub",
+          "pos": {
+            "x": -621.25,
+            "y": 2861.22,
+            "z": 52.5
+          },
+          "cost": "",
+          "costs": []
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sword_Start",
+      "metaforgeId": 7,
+      "name": "Light Practice Sword",
+      "slug": "light-practice-sword",
+      "family": "Sword",
+      "rarity": "Uncommon",
+      "itemLevel": 1,
+      "description": "If you've been given this sword, someone thinks you can't be trusted with a real one.",
+      "iconFilename": "Sword_Start__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sword_Start__gfx.webp",
+      "iconPath": "/images/weapons/Sword_Start__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/light-practice-sword",
+      "properties": {
+        "subcategory": "Sword",
+        "classes": [
+          "Warrior"
+        ],
+        "type": "Sword",
+        "level": 1,
+        "ilevel": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "starter",
+          "text": "Default starter equipment given at character creation",
+          "link": null
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Shield_Firebreath",
+      "metaforgeId": 12,
+      "name": "Magma Mia",
+      "slug": "magma-mia",
+      "family": "Shield",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "According to legend, this is an overcooked slice of pizza from the Primeval Age. Some scholars pretend it is just cheese. Either way, no one ever managed to eat it.",
+      "iconFilename": "Shield_Firebreath__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Firebreath__gfx.webp",
+      "iconPath": "/images/weapons/Shield_Firebreath__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/magma-mia",
+      "properties": {
+        "subcategory": "Shield",
+        "classes": [
+          "Warrior",
+          "Mage"
+        ],
+        "type": "Shield",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Golcano",
+          "link": "creatures/golcano"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "GS_Z1Mines_Fig",
+      "metaforgeId": 22,
+      "name": "Martyr of Enripit",
+      "slug": "martyr-of-enripit",
+      "family": "GreatSword",
+      "rarity": "Rare",
+      "itemLevel": 20,
+      "description": "Enripit, once known as the Nightlord who almost stopped the Guardians War, is no longer even able to stop the Kobolds from stealing his sword.",
+      "iconFilename": "GS_Z1Mines_Fig__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GS_Z1Mines_Fig__gfx.webp",
+      "iconPath": "/images/weapons/GS_Z1Mines_Fig__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/martyr-of-enripit",
+      "properties": {
+        "subcategory": "GreatSword",
+        "classes": [
+          "Warrior"
+        ],
+        "type": "GreatSword",
+        "level": 20,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "GM_MassGrab",
+      "metaforgeId": 25,
+      "name": "Pocket Hive",
+      "slug": "pocket-hive",
+      "family": "GreatMace",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "It's unclear why these specific bees never evolved like their humanoid sisters, but owning one of these tiny hives has become a status symbol for Apix royalty.",
+      "iconFilename": "GM_MassGrab__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GM_MassGrab__gfx.webp",
+      "iconPath": "/images/weapons/GM_MassGrab__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/pocket-hive",
+      "properties": {
+        "subcategory": "GreatMace",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "GreatMace",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Queen Honeyzabeth",
+          "link": "creatures/queen-honeyzabeth"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Staff_Craft",
+      "metaforgeId": 28,
+      "name": "Radiance",
+      "slug": "radiance",
+      "family": "Staff",
+      "rarity": "Rare",
+      "itemLevel": 4,
+      "description": "Like a sunbeam hitting the dewy blossoms of the morning, this long wooden beam descends vigorously upon the skulls and noses of the unworthy.",
+      "iconFilename": "Staff_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_Craft__gfx.webp",
+      "iconPath": "/images/weapons/Staff_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/radiance",
+      "properties": {
+        "subcategory": "Staff",
+        "classes": [
+          "Mage"
+        ],
+        "type": "Staff",
+        "level": 4,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
+          "kind": "shop",
+          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Valley of Eternal Autumn merchant",
+          "zone": "Valley of Eternal Autumn",
+          "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Fists_LightMonk",
+      "metaforgeId": 21,
+      "name": "Ramulus & Ramus",
+      "slug": "ramulus-ramus",
+      "family": "Fists",
+      "rarity": "Rare",
+      "itemLevel": 14,
+      "description": "The purpose of ram horns is to be struck against other horns. For this reason, rams are often represented as twins, so they can strike each other's horns and find purpose in the process.",
+      "iconFilename": "Fists_LightMonk__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_LightMonk__gfx.webp",
+      "iconPath": "/images/weapons/Fists_LightMonk__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/ramulus-ramus",
+      "properties": {
+        "subcategory": "Fists",
+        "classes": [
+          "Rogue",
+          "Priest"
+        ],
+        "type": "Fists",
+        "level": 14,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Scepter_Start",
+      "metaforgeId": 36,
+      "name": "Rehearsal Scepter",
+      "slug": "rehearsal-scepter",
+      "family": "Scepter",
+      "rarity": "Uncommon",
+      "itemLevel": 1,
+      "description": "This false scepter is materially identical to a real one. But material reality is of little importance when it comes to rituals.",
+      "iconFilename": "Scepter_Start__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Start__gfx.webp",
+      "iconPath": "/images/weapons/Scepter_Start__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/rehearsal-scepter",
+      "properties": {
+        "subcategory": "Scepter",
+        "classes": [
+          "Priest"
+        ],
+        "type": "Scepter",
+        "level": 1,
+        "ilevel": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "starter",
+          "text": "Default starter equipment given at character creation",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Shield_Start",
+      "metaforgeId": 10,
+      "name": "Rough Shield",
+      "slug": "rough-shield",
+      "family": "Shield",
+      "rarity": "Uncommon",
+      "itemLevel": 1,
+      "description": "This shield is so rudimentary it usually ends up doing more harm than it prevents.",
+      "iconFilename": "Shield_Start__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Start__gfx.webp",
+      "iconPath": "/images/weapons/Shield_Start__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/rough-shield",
+      "properties": {
+        "subcategory": "Shield",
+        "classes": [
+          "Warrior"
+        ],
+        "type": "Shield",
+        "level": 1,
+        "ilevel": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "starter",
+          "text": "Default starter equipment given at character creation",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Daggers_Start",
+      "metaforgeId": 17,
+      "name": "Rusty Knives",
+      "slug": "rusty-knives",
+      "family": "Daggers",
+      "rarity": "Uncommon",
+      "itemLevel": 1,
+      "description": "These training knives were confiscated from their previous bearer for obvious reasons.",
+      "iconFilename": "Daggers_Start__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Start__gfx.webp",
+      "iconPath": "/images/weapons/Daggers_Start__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/rusty-knives",
+      "properties": {
+        "subcategory": "Daggers",
+        "classes": [
+          "Rogue"
+        ],
+        "type": "Daggers",
+        "level": 1,
+        "ilevel": 10,
+        "rarity": "Uncommon"
+      },
+      "sources": [
+        {
+          "kind": "starter",
+          "text": "Default starter equipment given at character creation",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Crescent_FlowerSpiral",
+      "metaforgeId": 39,
+      "name": "Thornlace",
+      "slug": "thornlace",
+      "family": "Crescent",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "A masterpiece of Apix craft, Thornlace is also an expression of the clan's philosophy: beauty is a warning, always laced with danger.",
+      "iconFilename": "Crescent_FlowerSpiral__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Crescent_FlowerSpiral__gfx.webp",
+      "iconPath": "/images/weapons/Crescent_FlowerSpiral__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/thornlace",
+      "properties": {
+        "subcategory": "Crescent",
+        "classes": [
+          "Rogue",
+          "Priest"
+        ],
+        "type": "Crescent",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Gatsbee",
+          "link": "creatures/gatsbee"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Daggers_DuplicatePoison",
+      "metaforgeId": 18,
+      "name": "Twin Fangs of Ratsar",
+      "slug": "twin-fangs-of-ratsar",
+      "family": "Daggers",
+      "rarity": "Rare",
+      "itemLevel": 8,
+      "description": "Like most rodents, Ratsar doesn't have fangs, so he had to steal these. Someday, another toothless creature will probably take them from him too.",
+      "iconFilename": "Daggers_DuplicatePoison__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_DuplicatePoison__gfx.webp",
+      "iconPath": "/images/weapons/Daggers_DuplicatePoison__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/twin-fangs-of-ratsar",
+      "properties": {
+        "subcategory": "Daggers",
+        "classes": [
+          "Rogue"
+        ],
+        "type": "Daggers",
+        "level": 8,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from King Ratsar",
+          "link": "creatures/king-ratsar"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DM_Multispin",
+      "metaforgeId": 15,
+      "name": "Twin Pillars of Justice",
+      "slug": "twin-pillars-of-justice",
+      "family": "DualMaces",
+      "rarity": "Rare",
+      "itemLevel": 14,
+      "description": "These weapons have little to do with justice and they certainly aren't pillars, but the Crimson Rams have a taste for metaphors.",
+      "iconFilename": "DM_Multispin__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DM_Multispin__gfx.webp",
+      "iconPath": "/images/weapons/DM_Multispin__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/twin-pillars-of-justice",
+      "properties": {
+        "subcategory": "DualMaces",
+        "classes": [
+          "Warrior",
+          "Rogue"
+        ],
+        "type": "DualMaces",
+        "level": 14,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Munster Chuck",
+          "link": "creatures/munster-chuck"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DS_Z1RBee_AssWiz",
+      "metaforgeId": 14,
+      "name": "Wingsabers",
+      "slug": "wingsabers",
+      "family": "DualSwords",
+      "rarity": "Rare",
+      "itemLevel": 10,
+      "description": "The sudden evolution of the bees' appearance triggered a sort of identity crisis, after which they started making all their stuff look like wings.",
+      "iconFilename": "DS_Z1RBee_AssWiz__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DS_Z1RBee_AssWiz__gfx.webp",
+      "iconPath": "/images/weapons/DS_Z1RBee_AssWiz__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/wingsabers",
+      "properties": {
+        "subcategory": "DualSwords",
+        "classes": [
+          "Warrior",
+          "Mage"
+        ],
+        "type": "DualSwords",
+        "level": 10,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Queen Honeyzabeth",
+          "link": "creatures/queen-honeyzabeth"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    }
+  ]
+}

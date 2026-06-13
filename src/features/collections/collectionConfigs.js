@@ -1,0 +1,119 @@
+export const collectionConfigs = {
+  mounts: {
+    key: "mounts",
+    scope: "account",
+    title: "Mounts",
+    tabLabel: "Mounts",
+    subtitle: "Mount catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/mounts.json",
+    collectionKey: "mounts",
+    storageKey: "farever-check:collected-mounts",
+    loadingLabel: "mounts",
+    showSpeed: true
+  },
+  gliders: {
+    key: "gliders",
+    scope: "account",
+    title: "Gliders",
+    tabLabel: "Gliders",
+    subtitle: "Glider catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/gliders.json",
+    collectionKey: "gliders",
+    storageKey: "farever-check:collected-gliders",
+    loadingLabel: "gliders",
+    showSpeed: false
+  },
+  companions: {
+    key: "companions",
+    scope: "account",
+    title: "Companions",
+    tabLabel: "Companions",
+    subtitle: "Companion catalog imported from MetaForge Critters.",
+    dataPath: "data/companions.json",
+    collectionKey: "companions",
+    storageKey: "farever-check:collected-companions",
+    excludedPropertyKeys: ["subcategory", "type", "level", "ilevel"],
+    loadingLabel: "companions",
+    showSpeed: false,
+    supportsMissing: false
+  },
+  appearance: {
+    key: "appearance",
+    scope: "account",
+    title: "Appearance",
+    tabLabel: "Appearance",
+    subtitle: "Transmog and outfit appearances imported from MetaForge armor, tracked by visual appearance.",
+    dataPath: "data/armor.json",
+    collectionKey: "armor",
+    storageKey: "farever-check:collected-appearance",
+    dedupeBy: "iconFilename",
+    excludedPropertyKeys: ["classes", "level", "ilevel"],
+    loadingLabel: "appearances",
+    showSpeed: false
+  },
+  weapons: {
+    key: "weapons",
+    scope: "character",
+    title: "Weapons",
+    tabLabel: "Weapons",
+    subtitle: "Weapon catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/weapons.json",
+    collectionKey: "weapons",
+    storageKey: "farever-check:collected-weapons",
+    restrictByCharacterClass: true,
+    loadingLabel: "weapons",
+    showSpeed: false,
+    showItemLevel: true
+  },
+  armor: {
+    key: "armor",
+    scope: "character",
+    title: "Armor",
+    tabLabel: "Armor",
+    subtitle: "Armor catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/armor.json",
+    collectionKey: "armor",
+    storageKey: "farever-check:collected-armor",
+    restrictByCharacterClass: true,
+    loadingLabel: "armor",
+    showSpeed: false,
+    showItemLevel: true
+  },
+  jewellery: {
+    key: "jewellery",
+    scope: "character",
+    title: "Jewellery",
+    tabLabel: "Jewellery",
+    subtitle: "Jewellery catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/jewellery.json",
+    collectionKey: "jewellery",
+    storageKey: "farever-check:collected-jewellery",
+    excludedPropertyKeys: ["classes", "subcategory"],
+    loadingLabel: "jewellery",
+    showSpeed: false,
+    showItemLevel: true
+  },
+  recipes: {
+    key: "recipes",
+    scope: "character",
+    title: "Recipes",
+    tabLabel: "Recipes",
+    subtitle: "Recipe catalog imported from MetaForge with local collection tracking.",
+    dataPath: "data/recipes.json",
+    collectionKey: "recipes",
+    storageKey: "farever-check:collected-recipes",
+    loadingLabel: "recipes",
+    showSpeed: false
+  }
+};
+
+export const collectionOrder = [
+  "mounts",
+  "gliders",
+  "companions",
+  "appearance",
+  "weapons",
+  "armor",
+  "jewellery",
+  "recipes"
+];

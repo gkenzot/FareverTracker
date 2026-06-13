@@ -1,0 +1,1921 @@
+{
+  "source": "https://metaforge.app/farever/database/creatures",
+  "importedAt": "2026-06-11T18:27:58.265Z",
+  "total": 61,
+  "propertyFields": [
+    {
+      "key": "species",
+      "label": "Species"
+    },
+    {
+      "key": "variant",
+      "label": "Variant"
+    },
+    {
+      "key": "subcategory",
+      "label": "Subcategory"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "level",
+      "label": "Level"
+    }
+  ],
+  "companions": [
+    {
+      "id": "StinkBug_Blue",
+      "metaforgeId": 380,
+      "name": "Aqua Aromabug",
+      "slug": "aqua-aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StinkBug_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_Blue__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/aqua-aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Blue",
+      "metaforgeId": 348,
+      "name": "Aqua Grassflopper",
+      "slug": "aqua-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Blue__gfx.webp",
+      "iconPath": "/images/companions/Frog_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/aqua-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Blue",
+      "metaforgeId": 365,
+      "name": "Aqua Tortrock",
+      "slug": "aqua-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Blue__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/aqua-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StinkBug_Green",
+      "metaforgeId": 378,
+      "name": "Aromabug",
+      "slug": "aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Contrary to what their appearance might suggest, Aromabugs give off a delicious aroma when they die.",
+      "iconFilename": "StinkBug_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_Green__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Green",
+      "metaforgeId": 343,
+      "name": "Autumnal Leafcutter",
+      "slug": "autumnal-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Green__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/autumnal-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Black",
+      "metaforgeId": 334,
+      "name": "Black Woolybell",
+      "slug": "black-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Black__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Black__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Black__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/black-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Black"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Blue",
+      "metaforgeId": 357,
+      "name": "Blue Leggybug",
+      "slug": "blue-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Blue__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/blue-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_Blue",
+      "metaforgeId": 372,
+      "name": "Blue Saladmander",
+      "slug": "blue-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_Blue__gfx.webp",
+      "iconPath": "/images/companions/Lizard_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/blue-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Brown",
+      "metaforgeId": 325,
+      "name": "Brown Buttontail",
+      "slug": "brown-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Brown__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/brown-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Brown",
+      "metaforgeId": 350,
+      "name": "Brown Grassflopper",
+      "slug": "brown-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Brown__gfx.webp",
+      "iconPath": "/images/companions/Frog_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/brown-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Brown",
+      "metaforgeId": 340,
+      "name": "Brown Leafcutter",
+      "slug": "brown-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Brown__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/brown-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Brown",
+      "metaforgeId": 335,
+      "name": "Brown Woolybell",
+      "slug": "brown-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Brown__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/brown-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Yellow",
+      "metaforgeId": 324,
+      "name": "Buttontail",
+      "slug": "buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "The flowery tail of this hare seems to blossom when they reach adulthood. Its function remains somewhat unclear.",
+      "iconFilename": "Rabbit_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Yellow__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_BluePurple",
+      "metaforgeId": 349,
+      "name": "Cloudy Grassflopper",
+      "slug": "cloudy-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_BluePurple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_BluePurple__gfx.webp",
+      "iconPath": "/images/companions/Frog_BluePurple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/cloudy-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Blue Purple"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_BlueOrange",
+      "metaforgeId": 376,
+      "name": "Clown Saladmander",
+      "slug": "clown-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_BlueOrange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_BlueOrange__gfx.webp",
+      "iconPath": "/images/companions/Lizard_BlueOrange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/clown-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Blue Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StinkBug_RedOrange",
+      "metaforgeId": 381,
+      "name": "Crimson Aromabug",
+      "slug": "crimson-aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StinkBug_RedOrange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_RedOrange__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_RedOrange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/crimson-aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Red Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_RedOrange",
+      "metaforgeId": 374,
+      "name": "Crimson Saladmander",
+      "slug": "crimson-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_RedOrange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_RedOrange__gfx.webp",
+      "iconPath": "/images/companions/Lizard_RedOrange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/crimson-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Red Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Demon",
+      "metaforgeId": 342,
+      "name": "Demonic Leafcutter",
+      "slug": "demonic-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Demon__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/demonic-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Brown02",
+      "metaforgeId": 336,
+      "name": "Fields Woolybell",
+      "slug": "fields-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Brown02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Brown02__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Brown02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/fields-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Brown 02"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Green",
+      "metaforgeId": 358,
+      "name": "Grass Leggybug",
+      "slug": "grass-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Green__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/grass-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_BlueGreen",
+      "metaforgeId": 347,
+      "name": "Grassflopper",
+      "slug": "grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Masters of camouflage, these frogs are largely ignored by carnivorous predators, but have made themselves a target for unsuspecting ruminants.",
+      "iconFilename": "Frog_BlueGreen__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_BlueGreen__gfx.webp",
+      "iconPath": "/images/companions/Frog_BlueGreen__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Blue Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Blue",
+      "metaforgeId": 341,
+      "name": "Green Leafcutter",
+      "slug": "green-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Blue__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/green-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Green",
+      "metaforgeId": 364,
+      "name": "Green Tortrock",
+      "slug": "green-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Green__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/green-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Grey",
+      "metaforgeId": 344,
+      "name": "Grey Leafcutter",
+      "slug": "grey-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Grey__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/grey-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Grey",
+      "metaforgeId": 327,
+      "name": "Misty Buttontail",
+      "slug": "misty-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Grey__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/misty-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StinkBug_Demon",
+      "metaforgeId": 382,
+      "name": "Night Aromabug",
+      "slug": "night-aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StinkBug_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_Demon__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Demon",
+      "metaforgeId": 330,
+      "name": "Night Buttontail",
+      "slug": "night-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Demon__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Demon",
+      "metaforgeId": 354,
+      "name": "Night Grassflopper",
+      "slug": "night-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Demon__gfx.webp",
+      "iconPath": "/images/companions/Frog_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Demon",
+      "metaforgeId": 361,
+      "name": "Night Leggybug",
+      "slug": "night-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Demon__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_Demon",
+      "metaforgeId": 375,
+      "name": "Night Saladmander",
+      "slug": "night-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_Demon__gfx.webp",
+      "iconPath": "/images/companions/Lizard_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Demon",
+      "metaforgeId": 370,
+      "name": "Night Tortrock",
+      "slug": "night-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Demon__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Demon",
+      "metaforgeId": 337,
+      "name": "Night Woolybell",
+      "slug": "night-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Demon__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/night-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_RedOrange",
+      "metaforgeId": 353,
+      "name": "Orange Grassflopper",
+      "slug": "orange-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_RedOrange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_RedOrange__gfx.webp",
+      "iconPath": "/images/companions/Frog_RedOrange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/orange-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Red Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Pink",
+      "metaforgeId": 329,
+      "name": "Pink Buttontail",
+      "slug": "pink-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Pink__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Pink__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Pink__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/pink-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Pink"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Pink",
+      "metaforgeId": 366,
+      "name": "Pink Tortrock",
+      "slug": "pink-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Pink__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Pink__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Pink__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/pink-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Pink"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StinkBug_Purple",
+      "metaforgeId": 379,
+      "name": "Purple Aromabug",
+      "slug": "purple-aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StinkBug_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_Purple__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/purple-aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Purple"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Purple",
+      "metaforgeId": 359,
+      "name": "Purple Leggybug",
+      "slug": "purple-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Purple__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/purple-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Purple"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Black02",
+      "metaforgeId": 338,
+      "name": "Radiated Woolybell",
+      "slug": "radiated-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Black02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Black02__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Black02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/radiated-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Black 02"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Red",
+      "metaforgeId": 345,
+      "name": "Red Leafcutter",
+      "slug": "red-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Red__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/red-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Red"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Red",
+      "metaforgeId": 356,
+      "name": "Red Leggybug",
+      "slug": "red-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Leggybugs' legs keep growing throughout their lives.",
+      "iconFilename": "Ladybug_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Red__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/red-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Red"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Red",
+      "metaforgeId": 367,
+      "name": "Red Tortrock",
+      "slug": "red-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Red__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/red-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Red"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_Green",
+      "metaforgeId": 371,
+      "name": "Saladmander",
+      "slug": "saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Saladmanders are born in the hearts of lettuce, and unfortunately, the farmer's vegetable garden is often their first meal.",
+      "iconFilename": "Lizard_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_Green__gfx.webp",
+      "iconPath": "/images/companions/Lizard_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "StinkBug_Spark",
+      "metaforgeId": 383,
+      "name": "Sparkling Aromabug",
+      "slug": "sparkling-aromabug",
+      "family": "StinkBug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StinkBug_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StinkBug_Spark__gfx.webp",
+      "iconPath": "/images/companions/StinkBug_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-aromabug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "StinkBug",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Spark",
+      "metaforgeId": 331,
+      "name": "Sparkling Buttontail",
+      "slug": "sparkling-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Spark__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Spark",
+      "metaforgeId": 355,
+      "name": "Sparkling Grassflopper",
+      "slug": "sparkling-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Spark__gfx.webp",
+      "iconPath": "/images/companions/Frog_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Squirrel_Spark",
+      "metaforgeId": 346,
+      "name": "Sparkling Leafcutter",
+      "slug": "sparkling-leafcutter",
+      "family": "Squirrel",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Squirrel_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Squirrel_Spark__gfx.webp",
+      "iconPath": "/images/companions/Squirrel_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-leafcutter",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Squirrel",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Spark",
+      "metaforgeId": 362,
+      "name": "Sparkling Leggybug",
+      "slug": "sparkling-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Spark__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_Spark",
+      "metaforgeId": 377,
+      "name": "Sparkling Saladmander",
+      "slug": "sparkling-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_Spark__gfx.webp",
+      "iconPath": "/images/companions/Lizard_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Spark",
+      "metaforgeId": 369,
+      "name": "Sparkling Tortrock",
+      "slug": "sparkling-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Spark__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Spark",
+      "metaforgeId": 339,
+      "name": "Sparkling Woolybell",
+      "slug": "sparkling-woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Sheep_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Spark__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_EarlyAccess_Spark",
+      "metaforgeId": 332,
+      "name": "Sparktail",
+      "slug": "sparktail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_EarlyAccess_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_EarlyAccess_Spark__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_EarlyAccess_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparktail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Early Access Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Green",
+      "metaforgeId": 351,
+      "name": "Swamp Grassflopper",
+      "slug": "swamp-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Green__gfx.webp",
+      "iconPath": "/images/companions/Frog_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/swamp-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Grey",
+      "metaforgeId": 363,
+      "name": "Tortrock",
+      "slug": "tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Tortrocks usually have three stones on their shells. It is said that finding one with four stones brings good luck.",
+      "iconFilename": "Turtle_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Grey__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Green",
+      "metaforgeId": 326,
+      "name": "Woods Buttontail",
+      "slug": "woods-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Green__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Green__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Green__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/woods-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Green"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Sheep_Beige",
+      "metaforgeId": 333,
+      "name": "Woolybell",
+      "slug": "woolybell",
+      "family": "Sheep",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "The Woolybell's bell grows as they do. It is said that a herd of adult Woolybells makes more noise than a mountain storm.",
+      "iconFilename": "Sheep_Beige__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Sheep_Beige__gfx.webp",
+      "iconPath": "/images/companions/Sheep_Beige__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/woolybell",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Sheep",
+        "variant": "Beige"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Rabbit_Yellow02",
+      "metaforgeId": 328,
+      "name": "Yellow Buttontail",
+      "slug": "yellow-buttontail",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Rabbit_Yellow02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Yellow02__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Yellow02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellow-buttontail",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Rabbit",
+        "variant": "Yellow 02"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Frog_Yellow",
+      "metaforgeId": 352,
+      "name": "Yellow Grassflopper",
+      "slug": "yellow-grassflopper",
+      "family": "Frog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Frog_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Frog_Yellow__gfx.webp",
+      "iconPath": "/images/companions/Frog_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellow-grassflopper",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Frog",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Ladybug_Yellow",
+      "metaforgeId": 360,
+      "name": "Yellow Leggybug",
+      "slug": "yellow-leggybug",
+      "family": "Ladybug",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Ladybug_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Ladybug_Yellow__gfx.webp",
+      "iconPath": "/images/companions/Ladybug_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellow-leggybug",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Ladybug",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "YellowRabbits",
+      "metaforgeId": 11,
+      "name": "Yellow Rabbit",
+      "slug": "yellowrabbits",
+      "family": "Rabbit",
+      "rarity": "—",
+      "itemLevel": 100,
+      "description": "",
+      "iconFilename": "Rabbit_Yellow02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Rabbit_Yellow02__gfx.webp",
+      "iconPath": "/images/companions/Rabbit_Yellow02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellowrabbits",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "level": 100,
+        "species": "Rabbit",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Lizard_Yellow",
+      "metaforgeId": 373,
+      "name": "Yellow Saladmander",
+      "slug": "yellow-saladmander",
+      "family": "Lizard",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Lizard_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Lizard_Yellow__gfx.webp",
+      "iconPath": "/images/companions/Lizard_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellow-saladmander",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Lizard",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Turtle_Yellow",
+      "metaforgeId": 368,
+      "name": "Yellow Tortrock",
+      "slug": "yellow-tortrock",
+      "family": "Turtle",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Turtle_Yellow__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Turtle_Yellow__gfx.webp",
+      "iconPath": "/images/companions/Turtle_Yellow__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/yellow-tortrock",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Turtle",
+        "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    }
+  ]
+}
