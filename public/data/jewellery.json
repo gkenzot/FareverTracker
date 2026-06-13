@@ -1,27 +1,27 @@
 {
   "source": "https://metaforge.app/farever/database/jewellery",
-  "importedAt": "2026-06-11T18:24:27.049Z",
+  "importedAt": "2026-06-13T00:07:25.015Z",
   "total": 38,
   "propertyFields": [
     {
       "key": "subcategory",
-      "label": "subcategory"
+      "label": "Subcategory"
     },
     {
       "key": "type",
-      "label": "type"
+      "label": "Type"
     },
     {
       "key": "classes",
-      "label": "classes"
+      "label": "Classes"
     },
     {
       "key": "rarity",
-      "label": "rarity"
+      "label": "Rarity"
     },
     {
       "key": "level",
-      "label": "level"
+      "label": "Level"
     }
   ],
   "jewellery": [

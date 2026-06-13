@@ -1,27 +1,27 @@
 {
   "source": "https://metaforge.app/farever/database/gliders",
-  "importedAt": "2026-06-11T18:24:25.435Z",
+  "importedAt": "2026-06-13T00:07:23.057Z",
   "total": 51,
   "propertyFields": [
     {
       "key": "subcategory",
-      "label": "subcategory"
+      "label": "Subcategory"
     },
     {
       "key": "family",
-      "label": "family"
+      "label": "Family"
     },
     {
       "key": "type",
-      "label": "type"
+      "label": "Type"
     },
     {
       "key": "rarity",
-      "label": "rarity"
+      "label": "Rarity"
     },
     {
       "key": "colour",
-      "label": "colour"
+      "label": "Colour"
     }
   ],
   "gliders": [

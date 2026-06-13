@@ -1,23 +1,23 @@
 {
   "source": "https://metaforge.app/farever/database/recipes",
-  "importedAt": "2026-06-11T18:24:27.391Z",
+  "importedAt": "2026-06-13T00:07:25.713Z",
   "total": 161,
   "propertyFields": [
     {
       "key": "subcategory",
-      "label": "subcategory"
+      "label": "Subcategory"
     },
     {
       "key": "type",
-      "label": "type"
+      "label": "Type"
     },
     {
       "key": "pickup_rarity",
-      "label": "pickup_rarity"
+      "label": "Pickup Rarity"
     },
     {
       "key": "produces_name",
-      "label": "produces_name"
+      "label": "Produces"
     }
   ],
   "recipes": [

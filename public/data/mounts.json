@@ -1,19 +1,19 @@
 {
   "source": "https://metaforge.app/farever/database/mounts",
-  "importedAt": "2026-06-11T18:24:25.316Z",
+  "importedAt": "2026-06-13T00:07:22.930Z",
   "total": 52,
   "propertyFields": [
     {
       "key": "subcategory",
-      "label": "subcategory"
+      "label": "Subcategory"
     },
     {
       "key": "type",
-      "label": "type"
+      "label": "Type"
     },
     {
       "key": "rarity",
-      "label": "rarity"
+      "label": "Rarity"
     }
   ],
   "mounts": [
