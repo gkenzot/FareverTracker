@@ -17,8 +17,9 @@ import { filterValues, getVisiblePropertyFields } from "./collectionFields";
 import { filterItems, sortItems } from "./collectionFilters";
 import { createMissingItems } from "./collectionModes";
 
-function getHiddenColumnsStorageKey(collectionKey) {
-  return `farever-check:hidden-columns-${collectionKey}`;
+function getHiddenColumnsStorageKey(collectionKey, missingMode) {
+  const mode = missingMode ? "missing" : "collection";
+  return `farever-check:hidden-columns-${mode}-${collectionKey}`;
 }
 
 function getColumnOrderStorageKey(collectionKey, missingMode) {
@@ -26,8 +27,11 @@ function getColumnOrderStorageKey(collectionKey, missingMode) {
   return `farever-check:column-order-${mode}-${collectionKey}`;
 }
 
-function readHiddenColumnKeys(collectionKey) {
-  const value = readJsonStorage(getHiddenColumnsStorageKey(collectionKey), DEFAULT_HIDDEN_COLUMN_KEYS[collectionKey] ?? []);
+function readHiddenColumnKeys(collectionKey, missingMode) {
+  const value = readJsonStorage(
+    getHiddenColumnsStorageKey(collectionKey, missingMode),
+    DEFAULT_HIDDEN_COLUMN_KEYS[collectionKey] ?? []
+  );
   return Array.isArray(value) ? value : [];
 }
 
@@ -69,7 +73,8 @@ function getDefaultViewState({ activeCharacter, collectionKey, missingMode }) {
 
 function getViewStateStorageKey({ activeCharacter, collectionKey, missingMode }) {
   const mode = missingMode ? "missing" : activeCharacter?.id ?? "account";
-  return `farever-check:view-state-${mode}-${collectionKey}`;
+  const version = missingMode ? "v2-" : "";
+  return `farever-check:view-state-${version}${mode}-${collectionKey}`;
 }
 
 function normalizeColumnFilters(value) {
@@ -185,7 +190,8 @@ export function CollectionPage({
   const columnOrderStorageKey = getColumnOrderStorageKey(config.key, missingMode);
   const columnOrderKeys = columnOrderByCollection[columnOrderStorageKey] ?? readColumnOrderKeys(config.key, missingMode);
   const orderedColumns = useMemo(() => normalizeColumnOrder(columns, columnOrderKeys), [columns, columnOrderKeys]);
-  const hiddenColumnKeys = hiddenColumnsByCollection[config.key] ?? readHiddenColumnKeys(config.key);
+  const hiddenColumnsStorageKey = getHiddenColumnsStorageKey(config.key, missingMode);
+  const hiddenColumnKeys = hiddenColumnsByCollection[hiddenColumnsStorageKey] ?? readHiddenColumnKeys(config.key, missingMode);
   const normalizedHiddenColumnKeys = useMemo(() => {
     const columnKeys = new Set(orderedColumns.map((column) => column.key));
     const validHiddenKeys = hiddenColumnKeys.filter((key) => columnKeys.has(key));
@@ -269,10 +275,10 @@ export function CollectionPage({
   }
 
   function persistHiddenColumnKeys(nextHiddenKeys) {
-    writeJsonStorage(getHiddenColumnsStorageKey(config.key), nextHiddenKeys);
+    writeJsonStorage(hiddenColumnsStorageKey, nextHiddenKeys);
     setHiddenColumnsByCollection((current) => ({
       ...current,
-      [config.key]: nextHiddenKeys
+      [hiddenColumnsStorageKey]: nextHiddenKeys
     }));
   }
 

@@ -97,11 +97,8 @@ function HeaderMenu({
               ) : null}
               {canShowFilters ? (
                 <>
-                  <button type="button" onClick={() => onFilterChange(column.key, filterOptions)}>
-                    All
-                  </button>
                   <button type="button" onClick={() => onFilterChange(column.key, [])}>
-                    None
+                    All
                   </button>
                   <div className="column-filter-options">
                     {filterOptions.map((option) => (
