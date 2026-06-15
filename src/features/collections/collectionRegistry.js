@@ -1,4 +1,9 @@
 const MISSING_PAGE_PREFIX = "missing:";
+export const ALL_MISSING_PAGE_KEY = "missing";
+
+export function isAllMissingPage(pageKey) {
+  return pageKey === ALL_MISSING_PAGE_KEY;
+}
 
 export function isMissingCollectionPage(pageKey) {
   return pageKey.startsWith(MISSING_PAGE_PREFIX);

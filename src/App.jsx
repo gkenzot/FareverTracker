@@ -1,14 +1,17 @@
 import { useEffect, useState } from "react";
 import { CharacterManagerPage } from "./features/characters/CharacterManagerPage";
+import { AllMissingPage } from "./features/collections/AllMissingPage";
 import { CollectionPage } from "./features/collections/CollectionPage";
 import { collectionConfigs, collectionOrder } from "./features/collections/collectionConfigs";
 import {
+  ALL_MISSING_PAGE_KEY,
   getAccountCollectionKeys,
   getCharacterCollectionKeys,
   getCollectionKeyFromPage,
   getCollectionPageTitle,
   getMissingCollectionKeys,
   getMissingPageKey,
+  isAllMissingPage as isAllMissingPageKey,
   isMissingCollectionPage
 } from "./features/collections/collectionRegistry";
 import { DashboardSettingsPage } from "./features/dashboard/DashboardSettingsPage";
@@ -62,10 +65,13 @@ export default function App() {
   const isCharacterManagerPage = activePage === "characters";
   const isDashboardSettingsPage = activePage === "dashboard-settings";
   const isHomePage = activePage === "home";
+  const isAllMissingPage = isAllMissingPageKey(activePage);
   const isMissingPage = isMissingCollectionPage(activePage);
   const activeCollectionKey = getCollectionKeyFromPage(activePage);
   const activeConfig =
-    isCharacterManagerPage || isDashboardSettingsPage || isHomePage ? null : collectionConfigs[activeCollectionKey];
+    isCharacterManagerPage || isDashboardSettingsPage || isHomePage || isAllMissingPage
+      ? null
+      : collectionConfigs[activeCollectionKey];
   const accountCollectionKeys = getAccountCollectionKeys(collectionConfigs, collectionOrder);
   const characterCollectionKeys = getCharacterCollectionKeys(collectionConfigs, collectionOrder);
   const missingCollectionKeys = getMissingCollectionKeys(collectionConfigs, collectionOrder);
@@ -252,7 +258,13 @@ export default function App() {
         )}
       </div>
       <div className="side-section">
-        <span className="side-section-title">Missing</span>
+        <button
+          className={`side-section-title-button ${isAllMissingPage ? "active" : ""}`}
+          type="button"
+          onClick={() => setActivePage(ALL_MISSING_PAGE_KEY)}
+        >
+          Missing
+        </button>
         {missingCollectionKeys.map((key) => {
           const config = collectionConfigs[key];
           const missingPageKey = getMissingPageKey(key);
@@ -327,6 +339,24 @@ export default function App() {
         onOpenCollection={openCollectionPage}
         showImportPrompt={!hasSavedAppState}
         onOpenImport={() => setActivePage("characters")}
+      />
+    );
+  }
+
+  if (isAllMissingPage) {
+    return (
+      <AllMissingPage
+        configs={collectionConfigs}
+        collectionKeys={missingCollectionKeys}
+        dashboardStats={dashboardStats}
+        navigation={navigation}
+        characters={characters}
+        dashboardSettings={dashboardSettings}
+        hiddenCharacterMenus={hiddenCharacterMenus}
+        onOpenHome={openHomePage}
+        onOpenDashboardSettings={() => setActivePage("dashboard-settings")}
+        isDashboardSettingsPage={isDashboardSettingsPage}
+        onToggleCharacterMenu={toggleCharacterMenu}
       />
     );
   }

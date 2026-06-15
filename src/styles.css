@@ -221,6 +221,26 @@ a:hover {
   text-transform: uppercase;
 }
 
+.side-nav .side-section-title-button {
+  width: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #667089;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.side-nav .side-section-title-button:hover,
+.side-nav .side-section-title-button.active {
+  border-color: transparent;
+  background: transparent;
+  color: #eef2ff;
+}
+
 .side-section-header button {
   display: grid;
   width: 24px;

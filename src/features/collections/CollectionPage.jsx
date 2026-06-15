@@ -366,7 +366,13 @@ export function CollectionPage({
           columns={visibleColumns}
           items={visibleItems}
           getRowKey={(item) => item.id}
-          getRowClassName={(item) => (!missingMode && collected.has(item.id) ? "is-collected" : "")}
+          getRowClassName={(item) => {
+            if (missingMode) {
+              return (item.missingCount ?? 0) === 0 ? "is-collected" : "";
+            }
+
+            return collected.has(item.id) ? "is-collected" : "";
+          }}
           sortConfig={sortConfig}
           onSort={updateSort}
           columnFilters={effectiveColumnFilters}
