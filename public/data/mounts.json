@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/mounts",
-  "importedAt": "2026-06-13T00:07:22.930Z",
+  "importedAt": "2026-06-21T13:55:02.741Z",
   "total": 52,
   "propertyFields": [
     {
@@ -37,8 +37,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Bestiary of Valley of Eternal Autumn.",
           "link": null
         }
       ],
@@ -51,7 +51,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Ladybug_DarkBlue",
@@ -74,14 +75,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Wolf_05",
@@ -125,7 +127,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Crab_Red",
@@ -434,7 +437,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Hound_03",
@@ -457,14 +461,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Ladybug_Yellow",
@@ -487,14 +492,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Croco_05",
@@ -517,14 +523,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Croco_03",
@@ -547,14 +554,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Crab_Red02",
@@ -577,14 +585,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Goat_04",
@@ -625,7 +634,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Skunk_03",
@@ -647,8 +657,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Ride!.",
           "link": null
         }
       ],
@@ -661,7 +671,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Goat_01",
@@ -705,7 +716,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Croco_04",
@@ -728,14 +740,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Croco_01",
@@ -758,14 +771,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Ladybug_Green",
@@ -807,7 +821,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Wolf_01",
@@ -851,7 +866,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Hound_01",
@@ -1330,7 +1346,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Boar_04",
@@ -1353,14 +1370,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Boar_02",
@@ -1383,14 +1401,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Goat_02",
@@ -1434,7 +1453,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Wolf_03",
@@ -1456,8 +1476,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Ride!.",
           "link": null
         }
       ],
@@ -1470,7 +1490,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Hound_05",
@@ -1493,14 +1514,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Boar_01",
@@ -1665,7 +1687,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Crab_Blue",
@@ -1687,8 +1710,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Crabgantua.",
           "link": null
         }
       ],
@@ -1707,7 +1730,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Wolf_04",
@@ -1751,7 +1775,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Ladybug_Red",
@@ -1773,8 +1798,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Lady Bee.",
           "link": null
         }
       ],
@@ -1793,7 +1818,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Wolf_02",
@@ -2037,7 +2063,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Crab_Demonic",
@@ -2060,14 +2087,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Croco_06",
@@ -2090,14 +2118,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Goat_06",
@@ -2120,14 +2149,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Boar_06",
@@ -2150,14 +2180,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Hound_06",
@@ -2193,7 +2224,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Ladybug_Demonic",
@@ -2216,14 +2248,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Skunk_06",
@@ -2246,14 +2279,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Goat_03",
@@ -2297,7 +2331,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Crab_Purple",
@@ -2320,14 +2355,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Ladybug_Purple",
@@ -2349,8 +2385,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Queen Honeyzabeth.",
           "link": null
         }
       ],
@@ -2369,7 +2405,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Skunk_05",
@@ -2405,7 +2442,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Skunk_01",
@@ -2511,7 +2549,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Hound_04",
@@ -2547,7 +2586,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Skunk_04",
@@ -2569,8 +2609,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Munster Chuck.",
           "link": null
         }
       ],
@@ -2589,7 +2629,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Croco_02",
@@ -2612,14 +2653,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Crab_Yellow",
@@ -2661,7 +2703,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Ladybug_Orange",
@@ -2684,14 +2727,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Wolf_06",
@@ -2727,7 +2771,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Hound_02",
@@ -2750,14 +2795,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "SparkHorse_01",
@@ -2787,7 +2833,8 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Skunk_02",
@@ -2823,7 +2870,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Boar_05",
@@ -2845,8 +2893,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Ride!.",
           "link": null
         }
       ],
@@ -2859,7 +2907,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Goat_05",
@@ -2882,14 +2931,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     },
     {
       "id": "Mount_Ladybug_Blue",
@@ -3669,7 +3719,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Crab_BlueGrey",
@@ -3692,14 +3743,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": 2
+      "moveSpeedMultiplier": 2,
+      "inGame": false
     }
   ]
 }

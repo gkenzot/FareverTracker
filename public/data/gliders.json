@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/gliders",
-  "importedAt": "2026-06-13T00:07:23.057Z",
+  "importedAt": "2026-06-21T13:55:02.820Z",
   "total": 51,
   "propertyFields": [
     {
@@ -47,8 +47,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Sponge Blob.",
           "link": null
         }
       ],
@@ -67,7 +67,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Owl_Brown02",
@@ -113,7 +114,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_Orange",
@@ -138,14 +140,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_Orange",
@@ -170,14 +173,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Raccoon_Orange",
@@ -201,15 +205,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "kind": "other",
+          "text": "Priest starter glider (granted at character creation).",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Sprout_Orange",
@@ -233,15 +238,16 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "chest",
+          "text": "Found in a chest at Crops Top.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_FlyingFish_Orange",
@@ -265,8 +271,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Nepsilon.",
           "link": null
         }
       ],
@@ -285,7 +291,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Owl_Grey",
@@ -309,15 +316,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "kind": "other",
+          "text": "Rogue starter glider (granted at character creation).",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_Lava",
@@ -341,8 +349,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Golcano.",
           "link": null
         }
       ],
@@ -361,7 +369,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Falcon_Red",
@@ -386,14 +395,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Sprout_Red",
@@ -437,7 +447,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_FlyingFish_Red",
@@ -481,7 +492,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_BlueGreen",
@@ -519,7 +531,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Falcon_Green",
@@ -544,14 +557,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_Green",
@@ -589,7 +603,8 @@
           "points": 10
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Sprout_Green",
@@ -938,7 +953,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_Brown",
@@ -1446,7 +1462,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Falcon_Brown",
@@ -1471,14 +1488,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Owl_Brown",
@@ -1502,15 +1520,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "kind": "other",
+          "text": "Warrior starter glider (granted at character creation).",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Raccoon_Brown02",
@@ -1556,7 +1575,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_Burning",
@@ -1580,8 +1600,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Fly!.",
           "link": null
         }
       ],
@@ -1594,7 +1614,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_WhiteBlack",
@@ -1618,8 +1639,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from King Ratsar.",
           "link": null
         }
       ],
@@ -1638,7 +1659,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Owl_BlackWarm",
@@ -1662,8 +1684,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Collector of Skover Island.",
           "link": null
         }
       ],
@@ -1676,7 +1698,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Raccoon_BlackBrown",
@@ -1700,8 +1723,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Collector of Valley of Eternal Autumn.",
           "link": null
         }
       ],
@@ -1714,7 +1737,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_Blue",
@@ -1739,14 +1763,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Falcon_Blue",
@@ -1771,14 +1796,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_Blue",
@@ -1822,7 +1848,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_FlyingFish_BlueGreen",
@@ -2445,7 +2472,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_BlackWhite",
@@ -2469,8 +2497,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Reblochonk.",
           "link": null
         }
       ],
@@ -2489,7 +2517,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Falcon_Black",
@@ -2514,14 +2543,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Sprout_WhitePink",
@@ -2545,8 +2575,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Fly!.",
           "link": null
         }
       ],
@@ -2559,7 +2589,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_Demon",
@@ -2584,14 +2615,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Dragon_Demon",
@@ -2616,14 +2648,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_Demon",
@@ -2648,14 +2681,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_FlyingFish_Demon",
@@ -2680,14 +2714,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Falcon_White",
@@ -2712,14 +2747,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Dragon_Pink",
@@ -2743,8 +2779,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "upcoming",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
@@ -2757,7 +2793,8 @@
           "points": 5
         }
       ],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_Pink",
@@ -2782,14 +2819,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Owl_PurpleGrey",
@@ -2835,7 +2873,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_Yellow",
@@ -2879,7 +2918,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Butterfly_Yellow",
@@ -2903,8 +2943,8 @@
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Gatsbee.",
           "link": null
         }
       ],
@@ -2923,7 +2963,8 @@
       ],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Raccoon_Brown01",
@@ -2969,7 +3010,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Sprout_Yellow",
@@ -2994,14 +3036,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Raccoon_Grey",
@@ -3025,15 +3068,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "kind": "other",
+          "text": "Mage starter glider (granted at character creation).",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Bat_Grey",
@@ -3058,14 +3102,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Falcon_Grey",
@@ -3090,14 +3135,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Sprout_Brown",
@@ -3122,14 +3168,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_FlyingFish_Green",
@@ -3154,14 +3201,15 @@
       "sources": [
         {
           "kind": "upcoming",
-          "text": "Looks like upcoming content — no information available yet.",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Glider_Butterfly_EA_Spark",
@@ -3193,7 +3241,8 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Owl_BlueGrey",
@@ -3239,7 +3288,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     },
     {
       "id": "Glider_Raccoon_BlueGrey",
@@ -3285,7 +3335,8 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": true
     }
   ]
 }

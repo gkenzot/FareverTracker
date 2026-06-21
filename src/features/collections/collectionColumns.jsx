@@ -1,4 +1,5 @@
 import { sourceLabels } from "../../shared/constants/sourceLabels";
+import { OWNED_WEAPON_RARITIES } from "../../shared/constants/weaponStatus";
 import { assetPath } from "../../shared/utils/assets";
 import { getPrimarySource, sourceText } from "../../shared/utils/collection";
 
@@ -43,13 +44,23 @@ function formatCharacterNames(names) {
   return Array.isArray(names) && names.length > 0 ? names.join(", ") : "-";
 }
 
+function rarityClassName(value) {
+  return String(value ?? "—")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-");
+}
+
 export function createCollectionColumns({
   collected,
   onToggleCollected,
   statusMode = "collected",
   propertyFields = [],
   showItemLevel = false,
-  showSpeed = true
+  showSpeed = true,
+  showAvailability = false,
+  showWeaponStatus = false,
+  getWeaponStatus = () => "",
+  onWeaponStatusChange = () => {}
 }) {
   const statusColumn =
     statusMode === "missing"
@@ -79,7 +90,7 @@ export function createCollectionColumns({
 
             return (
               <label className="check-cell" title={isCollected ? "Collected" : "Mark as collected"}>
-                <input type="checkbox" checked={isCollected} onChange={() => onToggleCollected(item.id)} />
+                <input type="checkbox" checked={isCollected} onChange={() => onToggleCollected(item)} />
               </label>
             );
           }
@@ -147,7 +158,59 @@ export function createCollectionColumns({
     }))
   );
 
+  if (showWeaponStatus) {
+    columns.push({
+      key: "weaponStatus",
+      label: "Myrarity",
+      sortable: true,
+      filterable: true,
+      widthClassName: "my-rarity-col",
+      getFilterValue: (item) => getWeaponStatus(item.id) || "—",
+      getSortValue: (item) => getWeaponStatus(item.id) || "",
+      render: (item) => {
+        const currentStatus = getWeaponStatus(item.id);
+        const selectClass = `my-rarity-select rarity rarity-${rarityClassName(currentStatus || "—")}`;
+
+        return (
+          <select
+            className={selectClass}
+            value={currentStatus}
+            onChange={(event) => onWeaponStatusChange(item.id, event.target.value)}
+            aria-label={`Myrarity for ${item.name}`}
+            title="Best rarity you own for this weapon"
+          >
+            <option value="" className="rarity rarity--">
+              —
+            </option>
+            {OWNED_WEAPON_RARITIES.map((rarity) => (
+              <option key={rarity} value={rarity} className={`rarity rarity-${rarityClassName(rarity)}`}>
+                {rarity}
+              </option>
+            ))}
+          </select>
+        );
+      }
+    });
+  }
+
   columns.push(
+    ...(showAvailability
+      ? [
+          {
+            key: "inGame",
+            label: "In game",
+            sortable: true,
+            filterable: true,
+            widthClassName: "status-col",
+            getFilterValue: (item) => (item.inGame === false ? "Not in game" : "In game"),
+            getSortValue: (item) => (item.inGame === false ? 0 : 1),
+            render: (item) => {
+              const label = item.inGame === false ? "Not in game" : "In game";
+              return <span title={label}>{label}</span>;
+            }
+          }
+        ]
+      : []),
     {
       key: "source",
       label: "Source",

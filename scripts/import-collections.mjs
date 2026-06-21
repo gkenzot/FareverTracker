@@ -143,6 +143,79 @@ const VALLEY_LEVEL_20_SHOP_WEAPONS = new Set([
   "Training Buckler",
   "Initiate's Scepter"
 ]);
+const UNAVAILABLE_NOTE = "Not available in the current version.";
+const MOUNT_GLIDER_UNAVAILABLE = new Set([
+  "Alandian Leggybug",
+  "Antelimbian Dragoon",
+  "Antelimbian Hound",
+  "Antelimbian Leggybug",
+  "Antelimbian Moth",
+  "Atlanese Crocoboar",
+  "Beltirian Crocoboar",
+  "Crimson Crab",
+  "Egheretrian Crocoboar",
+  "Egheretrian Featherbeak",
+  "Eksodean Crocoboar",
+  "Eksodean Featherbeak",
+  "Enripian Featherbeak",
+  "Irukalean Hog",
+  "Jodarian Hog",
+  "Lemian Hound",
+  "Meropsian Dragoon",
+  "Meropsian Featherbeak",
+  "Navelian Featherbeak",
+  "Niflelian Bat",
+  "Niflelian Crab",
+  "Niflelian Crocoboar",
+  "Niflelian Dragoon",
+  "Niflelian Goat",
+  "Niflelian Hog",
+  "Niflelian Leggybug",
+  "Niflelian Moth",
+  "Niflelian Skunk",
+  "Niflelian Wingfish",
+  "Obralian Featherbeak",
+  "Pink Dragoon",
+  "Pink Moth",
+  "Ponogian Crab",
+  "Ruleanese Crocoboar",
+  "Semeruian Seedbird",
+  "Sforian Leggybug",
+  "Skoverial Hound",
+  "Skoverian Bat",
+  "Skoverian Featherbeak",
+  "Skoverian Seedbird",
+  "Skoverian Wingfish",
+  "Zerzurean Goat",
+  "Zerzurian Crab"
+]);
+const MOUNT_GLIDER_SOURCE_OVERRIDES = {
+  "Antelimbian Raccoon": {
+    kind: "other",
+    text: "Priest starter glider (granted at character creation).",
+    link: null
+  },
+  "Antelimbian Seedbird": {
+    kind: "chest",
+    text: "Found in a chest at Crops Top.",
+    link: null
+  },
+  "Azuramean Owl": {
+    kind: "other",
+    text: "Rogue starter glider (granted at character creation).",
+    link: null
+  },
+  "Enripian Owl": {
+    kind: "other",
+    text: "Warrior starter glider (granted at character creation).",
+    link: null
+  },
+  "Skoverial Raccoon": {
+    kind: "other",
+    text: "Mage starter glider (granted at character creation).",
+    link: null
+  }
+};
 
 const COLLECTIONS = [
   {
@@ -324,6 +397,128 @@ function isUnknownSource(source) {
   return source.kind === "unknown" && source.text === "Source not mapped yet.";
 }
 
+function isGenericUpcoming(source) {
+  return (
+    source.kind === "upcoming" &&
+    (source.text.includes("upcoming content") || source.text.includes("no information available"))
+  );
+}
+
+function hasReliableSource(sources) {
+  return sources.some((source) => !isUnknownSource(source) && !isGenericUpcoming(source));
+}
+
+function formatDropSource(drops) {
+  const validDrops = (drops ?? []).filter((drop) => drop.unit_name);
+
+  if (validDrops.length === 0) {
+    return null;
+  }
+
+  const [firstDrop] = validDrops;
+  const percent = firstDrop.drop_percent ?? `${(firstDrop.drop_probability * 100).toFixed(4).replace(/\.?0+$/, "")}%`;
+
+  if (validDrops.length === 1) {
+    return {
+      kind: "drop",
+      text: `${percent} chance to drop from ${firstDrop.unit_name}.`,
+      link: null
+    };
+  }
+
+  const names = validDrops.map((drop) => drop.unit_name).join(", ");
+  return {
+    kind: "drop",
+    text: `${percent} chance to drop from ${names}.`,
+    link: null
+  };
+}
+
+function formatAchievementSource(achievements) {
+  if (!achievements?.length) {
+    return null;
+  }
+
+  const names = achievements.map((achievement) => achievement.name);
+
+  if (names.length === 1) {
+    return {
+      kind: "achievement",
+      text: `Reward from achievement: ${names[0]}.`,
+      link: null
+    };
+  }
+
+  return {
+    kind: "achievement",
+    text: `Reward from achievements: ${names.join(" / ")}.`,
+    link: null
+  };
+}
+
+function formatShopSource(shops) {
+  if (!shops?.length) {
+    return null;
+  }
+
+  const shop = shops[0];
+  const npc = shop.npc_name ?? "vendor";
+  const zone = shop.zone ? ` in ${shop.zone}` : "";
+
+  return {
+    kind: "shop",
+    text: `Sold by ${npc}${zone}.`,
+    link: null
+  };
+}
+
+function deriveMountGliderSources(item) {
+  return [formatDropSource(item.droppedBy), formatAchievementSource(item.achievements), formatShopSource(item.shops)].filter(
+    Boolean
+  );
+}
+
+function resolveMountGliderSources(item) {
+  const override = MOUNT_GLIDER_SOURCE_OVERRIDES[item.name];
+
+  if (override) {
+    return [override];
+  }
+
+  if (MOUNT_GLIDER_UNAVAILABLE.has(item.name)) {
+    return [{ kind: "upcoming", text: UNAVAILABLE_NOTE, link: null }];
+  }
+
+  if (hasReliableSource(item.sources)) {
+    return item.sources.map((source) =>
+      isGenericUpcoming(source) ? { kind: "upcoming", text: UNAVAILABLE_NOTE, link: null } : source
+    );
+  }
+
+  const derived = deriveMountGliderSources(item);
+
+  if (derived.length > 0) {
+    return derived;
+  }
+
+  if (item.sources.some((source) => source.kind === "upcoming")) {
+    return [{ kind: "upcoming", text: UNAVAILABLE_NOTE, link: null }];
+  }
+
+  return item.sources;
+}
+
+function enrichMountGliderItem(item) {
+  const sources = resolveMountGliderSources(item);
+
+  return {
+    ...item,
+    sources,
+    inGame: sources[0]?.kind !== "upcoming"
+  };
+}
+
+
 function withoutUnknownSources(sources) {
   return sources.filter((source) => !isUnknownSource(source));
 }
@@ -417,6 +612,10 @@ function enrichItem(item, collection) {
         ]
       };
     }
+  }
+
+  if (collection.key === "mounts" || collection.key === "gliders") {
+    return enrichMountGliderItem(item);
   }
 
   return item;

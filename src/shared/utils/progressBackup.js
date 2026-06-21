@@ -3,10 +3,13 @@ import { getCharacterStorageKey } from "../constants/storageKeys";
 import {
   dispatchProgressChange,
   normalizeStoredIds,
+  readJsonStorage,
   removeStorageKey,
   readStoredIds,
+  writeJsonStorage,
   writeStoredIds
 } from "./storage";
+import { readWeaponStatusRecord } from "../constants/weaponStatus";
 
 export const PROGRESS_BACKUP_TYPE = "farever-check-full-progress";
 export const PROGRESS_BACKUP_FILENAME = "FareverTracker.json";
@@ -106,6 +109,31 @@ function buildCharacterCollectionsById(configs, order, characters) {
   return characterCollectionsById;
 }
 
+function buildCharacterWeaponStatusById(configs, order, characters) {
+  const characterWeaponStatusById = {};
+
+  for (const character of characters) {
+    if (!character.id) {
+      continue;
+    }
+
+    for (const key of order) {
+      const config = configs[key];
+
+      if (!config.weaponStatusStorageKey) {
+        continue;
+      }
+
+      characterWeaponStatusById[character.id] ??= {};
+      characterWeaponStatusById[character.id][key] = readWeaponStatusRecord(
+        readJsonStorage(getCharacterStorageKey(config.weaponStatusStorageKey, character.id), {})
+      );
+    }
+  }
+
+  return characterWeaponStatusById;
+}
+
 export function createProgressBackup({ configs, order, characters, dashboardSettings }) {
   const accountCollections = {};
 
@@ -119,12 +147,13 @@ export function createProgressBackup({ configs, order, characters, dashboardSett
 
   return {
     type: PROGRESS_BACKUP_TYPE,
-    version: 3,
+    version: 4,
     exportedAt: new Date().toISOString(),
     dashboardSettings,
     characters,
     accountCollections,
     characterCollectionsById: buildCharacterCollectionsById(configs, order, characters),
+    characterWeaponStatusById: buildCharacterWeaponStatusById(configs, order, characters),
     // Kept for older backups/importers. v3 import uses characterCollectionsById.
     characterCollections: buildLegacyCharacterCollections(configs, order, characters)
   };
@@ -149,6 +178,10 @@ export function clearCharacterProgress({ configs, order, characterId }) {
 
     if (config.scope === "character") {
       removeStorageKey(getCharacterStorageKey(config.storageKey, characterId));
+
+      if (config.weaponStatusStorageKey) {
+        removeStorageKey(getCharacterStorageKey(config.weaponStatusStorageKey, characterId));
+      }
     }
   }
 
@@ -171,6 +204,7 @@ export function importProgressBackup({
   const accountCollections = payload.accountCollections ?? {};
   const legacyCharacterCollections = payload.characterCollections ?? {};
   const characterCollectionsById = payload.characterCollectionsById ?? {};
+  const characterWeaponStatusById = payload.characterWeaponStatusById ?? {};
   const importedDashboardSettings = normalizeImportedSettings(payload.dashboardSettings);
   const hasDashboardSettings = Object.hasOwn(payload, "dashboardSettings");
   const importedCharacters = normalizeImportedCharacters(payload.characters);
@@ -197,6 +231,13 @@ export function importProgressBackup({
 
       if (progress !== undefined) {
         writeStoredIds(getCharacterStorageKey(config.storageKey, character.id), normalizeStoredIds(progress));
+      }
+
+      if (config.weaponStatusStorageKey && characterWeaponStatusById[character.id]?.[key]) {
+        writeJsonStorage(
+          getCharacterStorageKey(config.weaponStatusStorageKey, character.id),
+          readWeaponStatusRecord(characterWeaponStatusById[character.id][key])
+        );
       }
     }
   }

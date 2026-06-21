@@ -1410,8 +1410,40 @@ button.home-dashboard-card:hover {
   color: #c084fc;
 }
 
+.rarity-legendary {
+  color: #fbbf24;
+}
+
 .rarity-- {
   color: #667089;
+}
+
+.my-rarity-col {
+  width: 132px;
+  min-width: 132px;
+}
+
+.my-rarity-select {
+  width: 100%;
+  max-width: 124px;
+  padding: 0.2rem 0.35rem;
+  border: 1px solid #2d3348;
+  border-radius: 6px;
+  background: #151925;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.my-rarity-select:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 1px;
+}
+
+.my-rarity-select option {
+  font-weight: 800;
+  background: #151925;
 }
 
 .source-column {

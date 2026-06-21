@@ -71,6 +71,17 @@ export const DEFAULT_COLUMN_ORDER_KEYS = {
     "property:rarity",
     "source",
     "howToGet"
+  ],
+  "collection:weapons": [
+    "collected",
+    "name",
+    "itemLevel",
+    "property:subcategory",
+    "property:type",
+    "property:rarity",
+    "weaponStatus",
+    "source",
+    "howToGet"
   ]
 };
 

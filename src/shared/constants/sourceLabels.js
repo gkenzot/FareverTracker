@@ -5,6 +5,7 @@ export const sourceLabels = {
   achievement: "Achievement",
   chest: "Chest",
   ea_promotion: "Promotion",
-  upcoming: "Upcoming",
+  other: "Starter / Other",
+  upcoming: "Not in game",
   unknown: "No source"
 };

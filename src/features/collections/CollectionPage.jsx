@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useCallback } from "react";
 import { CollectionTable } from "../../components/CollectionTable";
 import { DatabaseToolbar } from "../../components/DatabaseToolbar";
 import { PageShell } from "../../components/PageShell";
 import { useCollectionData } from "../../shared/hooks/useCollectionData";
 import { useLocalSet } from "../../shared/hooks/useLocalSet";
+import { useWeaponStatus } from "../../shared/hooks/useWeaponStatus";
 import {
   DEFAULT_COLUMN_ORDER_KEYS,
   DEFAULT_HIDDEN_COLUMN_KEYS,
@@ -12,6 +13,8 @@ import {
 import { prepareCollectionItems } from "../../shared/utils/characterClass";
 import { getPrepareOptions } from "../../shared/utils/collectionSettings";
 import { PROGRESS_CHANGE_EVENT, readJsonStorage, writeJsonStorage } from "../../shared/utils/storage";
+import { getCharacterStorageKey } from "../../shared/constants/storageKeys";
+import { catalogRarityToWeaponStatus } from "../../shared/constants/weaponStatus";
 import { createCollectionColumns } from "./collectionColumns";
 import { filterValues, getVisiblePropertyFields } from "./collectionFields";
 import { filterItems, sortItems } from "./collectionFilters";
@@ -131,6 +134,11 @@ export function CollectionPage({
 }) {
   const { items, meta, loading, error } = useCollectionData(config.dataPath, config.collectionKey);
   const [collected, toggleCollected] = useLocalSet(progressStorageKey ?? config.storageKey);
+  const weaponStatusStorageKey =
+    config.showWeaponStatus && config.weaponStatusStorageKey && activeCharacter?.id && !missingMode
+      ? getCharacterStorageKey(config.weaponStatusStorageKey, activeCharacter.id)
+      : null;
+  const [, getWeaponStatus, setWeaponStatus] = useWeaponStatus(weaponStatusStorageKey);
   const viewStateStorageKey = getViewStateStorageKey({
     activeCharacter,
     collectionKey: config.key,
@@ -175,17 +183,48 @@ export function CollectionPage({
     return getVisiblePropertyFields(config, meta?.propertyFields ?? []);
   }, [config, meta?.propertyFields]);
 
+  const handleToggleCollected = useCallback(
+    (item) => {
+      const isCollected = collected.has(item.id);
+      toggleCollected(item.id);
+
+      if (!isCollected && weaponStatusStorageKey) {
+        const defaultRarity = catalogRarityToWeaponStatus(item);
+
+        if (defaultRarity) {
+          setWeaponStatus(item.id, defaultRarity);
+        }
+      }
+    },
+    [collected, setWeaponStatus, toggleCollected, weaponStatusStorageKey]
+  );
+
   const columns = useMemo(
     () =>
       createCollectionColumns({
         collected,
-        onToggleCollected: toggleCollected,
+        onToggleCollected: handleToggleCollected,
         statusMode: missingMode ? "missing" : "collected",
         propertyFields,
         showItemLevel: config.showItemLevel,
-        showSpeed: config.showSpeed ?? true
+        showSpeed: config.showSpeed ?? true,
+        showAvailability: config.showAvailability ?? false,
+        showWeaponStatus: Boolean(weaponStatusStorageKey),
+        getWeaponStatus,
+        onWeaponStatusChange: setWeaponStatus
       }),
-    [collected, config.showItemLevel, config.showSpeed, missingMode, propertyFields, toggleCollected]
+    [
+      collected,
+      config.showAvailability,
+      config.showItemLevel,
+      config.showSpeed,
+      getWeaponStatus,
+      missingMode,
+      propertyFields,
+      setWeaponStatus,
+      handleToggleCollected,
+      weaponStatusStorageKey
+    ]
   );
   const columnOrderStorageKey = getColumnOrderStorageKey(config.key, missingMode);
   const columnOrderKeys = columnOrderByCollection[columnOrderStorageKey] ?? readColumnOrderKeys(config.key, missingMode);

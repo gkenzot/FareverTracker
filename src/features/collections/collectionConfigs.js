@@ -9,7 +9,8 @@ export const collectionConfigs = {
     collectionKey: "mounts",
     storageKey: "farever-check:collected-mounts",
     loadingLabel: "mounts",
-    showSpeed: true
+    showSpeed: true,
+    showAvailability: true
   },
   gliders: {
     key: "gliders",
@@ -21,7 +22,8 @@ export const collectionConfigs = {
     collectionKey: "gliders",
     storageKey: "farever-check:collected-gliders",
     loadingLabel: "gliders",
-    showSpeed: false
+    showSpeed: false,
+    showAvailability: true
   },
   companions: {
     key: "companions",
@@ -60,10 +62,12 @@ export const collectionConfigs = {
     dataPath: "data/weapons.json",
     collectionKey: "weapons",
     storageKey: "farever-check:collected-weapons",
+    weaponStatusStorageKey: "farever-check:weapon-status",
     restrictByCharacterClass: true,
     loadingLabel: "weapons",
     showSpeed: false,
-    showItemLevel: true
+    showItemLevel: true,
+    showWeaponStatus: true
   },
   armor: {
     key: "armor",

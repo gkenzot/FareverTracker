@@ -1,4 +1,4 @@
-import { getCharacterStorageKey } from "../../shared/hooks/useCharacters";
+import { getCharacterStorageKey } from "../../shared/constants/storageKeys";
 import { prepareCollectionItems } from "../../shared/utils/characterClass";
 import { getPrepareOptions } from "../../shared/utils/collectionSettings";
 import { readStoredIdSet } from "../../shared/utils/storage";
