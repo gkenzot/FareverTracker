@@ -100,6 +100,7 @@ const PROPERTY_FIELD_LABELS = {
 };
 const COMPANION_SPECIES_PREFIXES = [
   "YellowRabbits",
+  "DemonDog",
   "StinkBug",
   "Ladybug",
   "Squirrel",
@@ -107,7 +108,8 @@ const COMPANION_SPECIES_PREFIXES = [
   "Sheep",
   "Turtle",
   "Lizard",
-  "Frog"
+  "Frog",
+  "Goat"
 ];
 
 const DUNGEON_ARMOR_SOURCES = {
@@ -175,7 +177,6 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Niflelian Skunk",
   "Niflelian Wingfish",
   "Obralian Featherbeak",
-  "Pink Dragoon",
   "Pink Moth",
   "Ponogian Crab",
   "Ruleanese Crocoboar",
@@ -375,15 +376,75 @@ async function fetchPage(collection, page) {
   return findPageData(payload, collection);
 }
 
+const RECIPE_LEARN_SOURCE_PRIORITY = ["shop", "world_drop", "drop", "auto_learn", "chest", "achievement"];
+const RECIPE_WORLD_DROP_TEXT =
+  "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).";
+
+function normalizeRecipeSource(source) {
+  const kind = source.kind ?? "unknown";
+  const text = source.text ?? "";
+
+  if (kind === "world_drop") {
+    return {
+      kind: "drop",
+      text: text.includes("randomized pool") ? RECIPE_WORLD_DROP_TEXT : text,
+      link: source.link ?? null
+    };
+  }
+
+  if (kind === "auto_learn") {
+    return {
+      kind: "auto_learn",
+      text: text.replace(/^Automatically known/, "Unlocked by default"),
+      link: source.link ?? null
+    };
+  }
+
+  if (kind === "shop") {
+    return {
+      kind: "shop",
+      text: text
+        .replace(/^Recipe learned from Recipe:\s*[^,]+,\s*/i, "")
+        .replace(/^purchased from/i, "Purchased from"),
+      link: source.link ?? null
+    };
+  }
+
+  return {
+    kind,
+    text,
+    link: source.link ?? null
+  };
+}
+
+function summarizeRecipeSources(item) {
+  const sources = (item.obtained_from ?? []).map(normalizeRecipeSource);
+  const learnSources = sources
+    .filter((source) => RECIPE_LEARN_SOURCE_PRIORITY.includes(source.kind))
+    .sort(
+      (sourceA, sourceB) =>
+        RECIPE_LEARN_SOURCE_PRIORITY.indexOf(sourceA.kind) - RECIPE_LEARN_SOURCE_PRIORITY.indexOf(sourceB.kind)
+    );
+  const otherSources = sources.filter((source) => !RECIPE_LEARN_SOURCE_PRIORITY.includes(source.kind));
+
+  if (learnSources.length > 0) {
+    return [...learnSources, ...otherSources];
+  }
+
+  return sources.length > 0 ? sources : [{ kind: "unknown", text: "Source not mapped yet.", link: null }];
+}
+
 function summarizeSource(item) {
   const sources = item.obtained_from ?? [];
 
   if (sources.length > 0) {
-    return sources.map((source) => ({
-      kind: source.kind ?? "unknown",
-      text: source.text ?? "",
-      link: source.link ?? null
-    }));
+    return prioritizeKnownSources(
+      sources.map((source) => ({
+        kind: source.kind ?? "unknown",
+        text: source.text ?? "",
+        link: source.link ?? null
+      }))
+    );
   }
 
   if (item.availability_note) {
@@ -391,6 +452,12 @@ function summarizeSource(item) {
   }
 
   return [{ kind: "unknown", text: "Source not mapped yet.", link: null }];
+}
+
+function prioritizeKnownSources(sources) {
+  const isWeakSource = (source) => source.kind === "unknown" || source.kind === "upcoming";
+
+  return [...sources.filter((source) => !isWeakSource(source)), ...sources.filter(isWeakSource)];
 }
 
 function isUnknownSource(source) {
@@ -485,10 +552,6 @@ function resolveMountGliderSources(item) {
     return [override];
   }
 
-  if (MOUNT_GLIDER_UNAVAILABLE.has(item.name)) {
-    return [{ kind: "upcoming", text: UNAVAILABLE_NOTE, link: null }];
-  }
-
   if (hasReliableSource(item.sources)) {
     return item.sources.map((source) =>
       isGenericUpcoming(source) ? { kind: "upcoming", text: UNAVAILABLE_NOTE, link: null } : source
@@ -499,6 +562,10 @@ function resolveMountGliderSources(item) {
 
   if (derived.length > 0) {
     return derived;
+  }
+
+  if (MOUNT_GLIDER_UNAVAILABLE.has(item.name)) {
+    return [{ kind: "upcoming", text: UNAVAILABLE_NOTE, link: null }];
   }
 
   if (item.sources.some((source) => source.kind === "upcoming")) {
@@ -702,8 +769,31 @@ function jewellerySlotLabel(item) {
   return item.subcategory ?? item.type ?? "Other";
 }
 
+const CLASS_LABEL_ALIASES = {
+  Fighter: "Warrior",
+  Assassin: "Rogue",
+  Wizard: "Mage",
+  Cleric: "Priest"
+};
+
+function normalizeClassLabels(classes) {
+  if (Array.isArray(classes)) {
+    return [...new Set(classes.map((value) => CLASS_LABEL_ALIASES[value] ?? value))];
+  }
+
+  if (typeof classes === "string") {
+    return CLASS_LABEL_ALIASES[classes] ?? classes;
+  }
+
+  return classes;
+}
+
 function normalizeProperties(item, collection) {
   const properties = sourceProperties(item);
+
+  if (properties.classes !== undefined) {
+    properties.classes = normalizeClassLabels(properties.classes);
+  }
 
   if (collection.key === "jewellery") {
     const slot = jewellerySlotLabel(item);
@@ -766,7 +856,7 @@ function normalizeItem(item, collection) {
     iconPath: iconFilename ? `/images/${collection.imageDir}/${iconFilename}` : null,
     pageUrl: `${META_FORGE_DATABASE_URL}/${collection.sourceCategory}/${item.slug}`,
     properties: normalizeProperties(item, collection),
-    sources: summarizeSource(item),
+    sources: collection.key === "recipes" ? summarizeRecipeSources(item) : summarizeSource(item),
     droppedBy: item.dropped_by ?? [],
     shops: item.shop_sources ?? [],
     achievements: item.reward_for_achievements ?? [],

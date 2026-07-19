@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/gliders",
-  "importedAt": "2026-06-21T13:55:02.820Z",
-  "total": 51,
+  "importedAt": "2026-07-19T19:03:31.465Z",
+  "total": 68,
   "propertyFields": [
     {
       "key": "subcategory",
@@ -318,6 +318,140 @@
         {
           "kind": "other",
           "text": "Rogue starter glider (granted at character creation).",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Crimson02",
+      "metaforgeId": 532,
+      "name": "City Forces Paramglider",
+      "slug": "city-forces-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/city-forces-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson02"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Crimson03",
+      "metaforgeId": 533,
+      "name": "Cloud Forces Paramglider",
+      "slug": "cloud-forces-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson03__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/cloud-forces-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson03"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Collector of Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Collector of Ramburg",
+          "description": "Collect all the secret orbs in Ramburg.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Crimson06",
+      "metaforgeId": 536,
+      "name": "Crimson Forces Paramglider",
+      "slug": "crimson-forces-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson06__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/crimson-forces-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson06"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Crimson05",
+      "metaforgeId": 535,
+      "name": "Crusaders Paramglider",
+      "slug": "crusaders-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson05__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/crusaders-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson05"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
           "link": null
         }
       ],
@@ -957,6 +1091,45 @@
       "inGame": true
     },
     {
+      "id": "Glider_Demon_Red01",
+      "metaforgeId": 541,
+      "name": "Enraged Oculurk",
+      "slug": "enraged-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Red01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Red01__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Red01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/enraged-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Red01"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Dream Team",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Dream Team",
+          "description": "Close 10 gates in a Rift.",
+          "points": 5
+        }
+      ],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
       "id": "Glider_Bat_Brown",
       "metaforgeId": 501,
       "name": "Enripian Bat",
@@ -1579,6 +1752,123 @@
       "inGame": true
     },
     {
+      "id": "Glider_Demon_Blue",
+      "metaforgeId": 537,
+      "name": "Furious Oculurk",
+      "slug": "furious-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Blue__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/furious-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 7500 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Zoey, Demon Huntress",
+          "npc_slug": "zoey-demon-huntress",
+          "cost": "7500 Demonic Souls"
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Pigeon_Purple",
+      "metaforgeId": 547,
+      "name": "Gourmet",
+      "slug": "gourmet",
+      "family": "Pigeons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Pigeon_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Pigeon_Purple__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Pigeon_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/gourmet",
+      "properties": {
+        "subcategory": "Pigeons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Pigeon",
+        "colour": "Purple"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found while exploring Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Demon_Purple",
+      "metaforgeId": 540,
+      "name": "Hateful Oculurk",
+      "slug": "hateful-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Purple__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/hateful-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Purple"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Nightqueen Shaarlize Te'ror",
+          "link": "creatures/nightqueen-shaarlize-teror"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "nightqueen-shaarlize-teror",
+          "unit_name": "Nightqueen Shaarlize Te'ror",
+          "faction": "Demon",
+          "icon": "DemonSuperElite_Fairy_TrueClone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
       "id": "Glider_Bat_Burning",
       "metaforgeId": 502,
       "name": "Incandescent Bat",
@@ -1614,6 +1904,72 @@
           "points": 5
         }
       ],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Demon_Grey",
+      "metaforgeId": 539,
+      "name": "Irascible Oculurk",
+      "slug": "irascible-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/irascible-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Ramburg Vault Chest",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Demon_Blue02",
+      "metaforgeId": 538,
+      "name": "Irritable Oculurk",
+      "slug": "irritable-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Blue02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Blue02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Blue02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/irritable-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Blue02"
+      },
+      "sources": [
+        {
+          "kind": "world_event",
+          "text": "Reward from the Nightling Rifts",
+          "link": "map/siagarta"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
       "moveSpeedMultiplier": null,
       "inGame": true
     },
@@ -1737,6 +2093,78 @@
           "points": 5
         }
       ],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Pigeon_Grey02",
+      "metaforgeId": 544,
+      "name": "Loyal",
+      "slug": "loyal",
+      "family": "Pigeons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Pigeon_Grey02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Pigeon_Grey02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Pigeon_Grey02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/loyal",
+      "properties": {
+        "subcategory": "Pigeons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Pigeon",
+        "colour": "Grey02"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found while exploring Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Demon_Red02",
+      "metaforgeId": 542,
+      "name": "Mad Oculurk",
+      "slug": "mad-oculurk",
+      "family": "Oculurks",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Demon_Red02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Demon_Red02__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Demon_Red02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/mad-oculurk",
+      "properties": {
+        "subcategory": "Oculurks",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Oculurk",
+        "colour": "Red02"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 7500 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Zoey, Demon Huntress",
+          "npc_slug": "zoey-demon-huntress",
+          "cost": "7500 Demonic Souls"
+        }
+      ],
+      "achievements": [],
       "moveSpeedMultiplier": null,
       "inGame": true
     },
@@ -2725,6 +3153,38 @@
       "inGame": false
     },
     {
+      "id": "Glider_Crimson04",
+      "metaforgeId": 534,
+      "name": "Night Forces Paramglider",
+      "slug": "night-forces-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson04__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/night-forces-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson04"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
       "id": "Glider_Falcon_White",
       "metaforgeId": 524,
       "name": "Obralian Featherbeak",
@@ -2758,6 +3218,50 @@
       "inGame": false
     },
     {
+      "id": "Glider_Crimson01",
+      "metaforgeId": 531,
+      "name": "Original Paramglider",
+      "slug": "original-paramglider",
+      "family": "Paramgliders",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Crimson01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Crimson01__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Crimson01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/original-paramglider",
+      "properties": {
+        "subcategory": "Paramgliders",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Crimson01"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1.0000% chance to drop from Robin Hoof.",
+          "link": null
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "RobinHoof",
+          "unit_name": "Robin Hoof",
+          "faction": "Crimson",
+          "icon": "RobinHoof__gfx.png",
+          "level": 23,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1.0000%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
       "id": "Glider_Dragon_Pink",
       "metaforgeId": 496,
       "name": "Pink Dragoon",
@@ -2779,8 +3283,8 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
+          "kind": "achievement",
+          "text": "Reward from achievement: Let's Fly!.",
           "link": null
         }
       ],
@@ -2794,7 +3298,7 @@
         }
       ],
       "moveSpeedMultiplier": null,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Glider_Butterfly_Pink",
@@ -2872,6 +3376,39 @@
           "buy_currency": null
         }
       ],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Pigeon_Blue",
+      "metaforgeId": 546,
+      "name": "Rigtheous",
+      "slug": "rigtheous",
+      "family": "Pigeons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Pigeon_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Pigeon_Blue__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Pigeon_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/rigtheous",
+      "properties": {
+        "subcategory": "Pigeons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Pigeon",
+        "colour": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found while exploring Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null,
       "inGame": true
@@ -3235,6 +3772,72 @@
         {
           "kind": "ea_promotion",
           "text": "Free in the in-game store during Early Access (Sparkling Proto-moth redemption)",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Pigeon_Beige",
+      "metaforgeId": 545,
+      "name": "Swift",
+      "slug": "swift",
+      "family": "Pigeons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Pigeon_Beige__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Pigeon_Beige__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Pigeon_Beige__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/swift",
+      "properties": {
+        "subcategory": "Pigeons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Pigeon",
+        "colour": "Beige"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found while exploring Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null,
+      "inGame": true
+    },
+    {
+      "id": "Glider_Pigeon_Grey",
+      "metaforgeId": 543,
+      "name": "Valiant",
+      "slug": "valiant",
+      "family": "Pigeons",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Glider_Pigeon_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Glider_Pigeon_Grey__gfx.webp",
+      "iconPath": "/images/gliders/Glider_Pigeon_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/gliders/valiant",
+      "properties": {
+        "subcategory": "Pigeons",
+        "type": "GearGlider",
+        "rarity": "Epic",
+        "family": "Pigeon",
+        "colour": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found while exploring Ramburg",
           "link": null
         }
       ],

@@ -17,10 +17,7 @@ export const DEFAULT_DASHBOARD_SETTINGS = {
   },
   companions: {
     excludedSourceKinds: [],
-    excludedPropertyValues: {
-      variant: ["Demon"],
-      species: ["Rabbit"]
-    }
+    excludedPropertyValues: {}
   },
   armor: {
     excludedPropertyValues: {
@@ -29,9 +26,8 @@ export const DEFAULT_DASHBOARD_SETTINGS = {
     }
   },
   recipes: {
-    excludedPropertyValues: {
-      pickup_rarity: ["-"]
-    }
+    excludedPropertyValues: {},
+    excludedSourceKinds: ["auto_learn"]
   },
   mounts: {
     excludedPropertyValues: {}
@@ -45,7 +41,7 @@ export const DEFAULT_HIDDEN_COLUMN_KEYS = {
   companions: [],
   mounts: ["property:rarity", "property:type"],
   armor: ["property:type"],
-  recipes: ["property:type", "source"],
+  recipes: ["property:type"],
   weapons: ["itemLevel", "property:classes", "property:subcategory"]
 };
 

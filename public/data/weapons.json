@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/weapons",
-  "importedAt": "2026-06-13T00:07:24.204Z",
-  "total": 32,
+  "importedAt": "2026-07-19T18:57:53.679Z",
+  "total": 37,
   "propertyFields": [
     {
       "key": "subcategory",
@@ -50,6 +50,7 @@
         ],
         "type": "Mace",
         "level": 20,
+        "ilevel": 210,
         "rarity": "Rare"
       },
       "sources": [
@@ -102,6 +103,22 @@
       "droppedBy": [],
       "shops": [
         {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 1000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
           "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
@@ -131,6 +148,7 @@
         ],
         "type": "Sword",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -166,6 +184,7 @@
         ],
         "type": "Book",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -173,6 +192,42 @@
           "kind": "drop",
           "text": "1% chance to drop from Sponge Blob",
           "link": "creatures/sponge-blob"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Staff_Censer",
+      "metaforgeId": null,
+      "name": "Censer of Wool Hollow",
+      "slug": "censer-of-wool-hollow",
+      "family": "Staff",
+      "rarity": "Rare",
+      "itemLevel": 14,
+      "description": "",
+      "iconFilename": "Staff_Censer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_Censer__gfx.webp",
+      "iconPath": "/images/weapons/Staff_Censer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/censer-of-wool-hollow",
+      "properties": {
+        "subcategory": "Staff",
+        "classes": [
+          "Mage",
+          "Priest"
+        ],
+        "type": "Staff",
+        "level": 14,
+        "ilevel": 150,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "instance",
+          "text": "Claimed in the Crimson Barracks / High Inquisitor Chakram instances",
+          "link": null
         }
       ],
       "droppedBy": [],
@@ -201,6 +256,7 @@
         ],
         "type": "Axe",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
@@ -236,6 +292,7 @@
         ],
         "type": "Fists",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -271,6 +328,7 @@
         ],
         "type": "Shield",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -305,9 +363,15 @@
         ],
         "type": "Bow",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
         {
           "kind": "container",
           "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
@@ -321,6 +385,22 @@
       ],
       "droppedBy": [],
       "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
         {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
@@ -351,9 +431,15 @@
         ],
         "type": "Shield",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
         {
           "kind": "container",
           "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
@@ -367,6 +453,22 @@
       ],
       "droppedBy": [],
       "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
         {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
@@ -396,6 +498,7 @@
         ],
         "type": "Scepter",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
@@ -403,6 +506,11 @@
           "kind": "drop",
           "text": "1% chance to drop from Reblochonk",
           "link": "creatures/reblochonk"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
         },
         {
           "kind": "container",
@@ -436,6 +544,7 @@
         ],
         "type": "Halos",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
@@ -443,6 +552,11 @@
           "kind": "drop",
           "text": "1% chance to drop from Nepsilon",
           "link": "creatures/nepsilon"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
         },
         {
           "kind": "container",
@@ -476,9 +590,15 @@
         ],
         "type": "Sword",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
         {
           "kind": "container",
           "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
@@ -492,6 +612,22 @@
       ],
       "droppedBy": [],
       "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
         {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
@@ -522,6 +658,7 @@
         ],
         "type": "Spear",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -557,6 +694,7 @@
         ],
         "type": "Bow",
         "level": 14,
+        "ilevel": 150,
         "rarity": "Rare"
       },
       "sources": [
@@ -592,6 +730,7 @@
         ],
         "type": "Thrown",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -627,6 +766,7 @@
         ],
         "type": "DualAxes",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
@@ -634,6 +774,11 @@
           "kind": "drop",
           "text": "1% chance to drop from Nepsilon",
           "link": "creatures/nepsilon"
+        },
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
         },
         {
           "kind": "container",
@@ -666,6 +811,7 @@
         ],
         "type": "GreatAxe",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
@@ -680,6 +826,11 @@
           "link": "items/mysterious-cache"
         },
         {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
+        {
           "kind": "shop",
           "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
           "link": null
@@ -687,6 +838,22 @@
       ],
       "droppedBy": [],
       "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
         {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
@@ -717,6 +884,7 @@
         ],
         "type": "Spear",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -765,30 +933,22 @@
       "droppedBy": [],
       "shops": [
         {
-          "npc_name": "Wandering Merchant",
           "npc_id": "WanderingMerchant_Npc_Azuram",
+          "npc_name": "Wandering Merchant",
           "zone": "Tyrna",
-          "zone_id": "Z2_Azuram_Hub",
-          "pos": {
-            "x": 2654.45,
-            "y": 170.79,
-            "z": 172.62
-          },
-          "cost": "",
-          "costs": []
+          "cost": "Gold"
         },
         {
-          "npc_name": "Wandering Merchant",
           "npc_id": "WanderingMerchant_NPC_Primevalley_1",
+          "npc_name": "Wandering Merchant",
           "zone": "Navelin",
-          "zone_id": "Z1_Primevalley_Hub",
-          "pos": {
-            "x": -621.25,
-            "y": 2861.22,
-            "z": 52.5
-          },
-          "cost": "",
-          "costs": []
+          "cost": "Gold"
+        },
+        {
+          "npc_id": "WanderingMerchant_Npc_Crimson",
+          "npc_name": "Wandering Merchant",
+          "zone": "Lower Ramburg",
+          "cost": "Gold"
         }
       ],
       "achievements": [],
@@ -832,6 +992,22 @@
       "droppedBy": [],
       "shops": [
         {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 1000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
           "note": "Rare Level 20 weapon added in the 29/05/2026 patch notes."
@@ -861,6 +1037,7 @@
         ],
         "type": "Shield",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -876,17 +1053,17 @@
       "moveSpeedMultiplier": null
     },
     {
-      "id": "GS_Z1Mines_Fig",
-      "metaforgeId": 22,
+      "id": "GS_Nova",
+      "metaforgeId": null,
       "name": "Martyr of Enripit",
       "slug": "martyr-of-enripit",
       "family": "GreatSword",
       "rarity": "Rare",
       "itemLevel": 20,
-      "description": "Enripit, once known as the Nightlord who almost stopped the Guardians War, is no longer even able to stop the Kobolds from stealing his sword.",
-      "iconFilename": "GS_Z1Mines_Fig__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GS_Z1Mines_Fig__gfx.webp",
-      "iconPath": "/images/weapons/GS_Z1Mines_Fig__gfx.webp",
+      "description": "",
+      "iconFilename": "GS_Nova__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GS_Nova__gfx.webp",
+      "iconPath": "/images/weapons/GS_Nova__gfx.webp",
       "pageUrl": "https://metaforge.app/farever/database/weapons/martyr-of-enripit",
       "properties": {
         "subcategory": "GreatSword",
@@ -895,9 +1072,92 @@
         ],
         "type": "GreatSword",
         "level": 20,
+        "ilevel": 210,
         "rarity": "Rare"
       },
       "sources": [
+        {
+          "kind": "instance",
+          "text": "Claimed in the Crimson Barracks / High Inquisitor Chakram instances",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Halos_Demon",
+      "metaforgeId": null,
+      "name": "Mirrors of the Nightgoddesses",
+      "slug": "mirrors-of-the-nightgoddesses",
+      "family": "Halos",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Halos_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Demon__gfx.webp",
+      "iconPath": "/images/weapons/Halos_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/mirrors-of-the-nightgoddesses",
+      "properties": {
+        "subcategory": "Halos",
+        "classes": [
+          "Mage",
+          "Priest"
+        ],
+        "type": "Halos",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "link": "npcs/mira-demon-huntress"
+        },
+        {
+          "kind": "unknown",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Daggers_Demondash",
+      "metaforgeId": null,
+      "name": "Nibsham's Liberators",
+      "slug": "nibshams-liberators",
+      "family": "Daggers",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Daggers_Demondash__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Demondash__gfx.webp",
+      "iconPath": "/images/weapons/Daggers_Demondash__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/nibshams-liberators",
+      "properties": {
+        "subcategory": "Daggers",
+        "classes": [
+          "Rogue",
+          "Mage"
+        ],
+        "type": "Daggers",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "link": "npcs/mira-demon-huntress"
+        },
         {
           "kind": "unknown",
           "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
@@ -930,6 +1190,7 @@
         ],
         "type": "GreatMace",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -964,9 +1225,15 @@
         ],
         "type": "Staff",
         "level": 4,
+        "ilevel": 50,
         "rarity": "Rare"
       },
       "sources": [
+        {
+          "kind": "container",
+          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "link": "items/mysterious-cache"
+        },
         {
           "kind": "container",
           "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
@@ -980,6 +1247,22 @@
       ],
       "droppedBy": [],
       "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        },
         {
           "npc_name": "Valley of Eternal Autumn merchant",
           "zone": "Valley of Eternal Autumn",
@@ -1010,6 +1293,7 @@
         ],
         "type": "Fists",
         "level": 14,
+        "ilevel": 150,
         "rarity": "Rare"
       },
       "sources": [
@@ -1055,7 +1339,24 @@
         }
       ],
       "droppedBy": [],
-      "shops": [],
+      "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 1000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        }
+      ],
       "achievements": [],
       "moveSpeedMultiplier": null
     },
@@ -1090,7 +1391,24 @@
         }
       ],
       "droppedBy": [],
-      "shops": [],
+      "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 1000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        }
+      ],
       "achievements": [],
       "moveSpeedMultiplier": null
     },
@@ -1125,6 +1443,58 @@
         }
       ],
       "droppedBy": [],
+      "shops": [
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Tyrna",
+          "level": 20,
+          "rarity": "Rare",
+          "cost": 1000,
+          "currency": "Gold"
+        },
+        {
+          "vendor": "Guild Merchant",
+          "zone": "Lower Ramburg",
+          "level": 25,
+          "rarity": "Rare",
+          "cost": 2000,
+          "currency": "Gold"
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Staff_SummonDemon",
+      "metaforgeId": null,
+      "name": "Silhouette of Almaz",
+      "slug": "silhouette-of-almaz",
+      "family": "Staff",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Staff_SummonDemon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_SummonDemon__gfx.webp",
+      "iconPath": "/images/weapons/Staff_SummonDemon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/silhouette-of-almaz",
+      "properties": {
+        "subcategory": "Staff",
+        "classes": [
+          "Mage"
+        ],
+        "type": "Staff",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "link": "npcs/mira-demon-huntress"
+        }
+      ],
+      "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null
@@ -1150,6 +1520,7 @@
         ],
         "type": "Crescent",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -1184,6 +1555,7 @@
         ],
         "type": "Daggers",
         "level": 8,
+        "ilevel": 90,
         "rarity": "Rare"
       },
       "sources": [
@@ -1219,6 +1591,7 @@
         ],
         "type": "DualMaces",
         "level": 14,
+        "ilevel": 150,
         "rarity": "Rare"
       },
       "sources": [
@@ -1254,6 +1627,7 @@
         ],
         "type": "DualSwords",
         "level": 10,
+        "ilevel": 110,
         "rarity": "Rare"
       },
       "sources": [
@@ -1261,6 +1635,47 @@
           "kind": "drop",
           "text": "1% chance to drop from Queen Honeyzabeth",
           "link": "creatures/queen-honeyzabeth"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "GA_Demon",
+      "metaforgeId": null,
+      "name": "Worldsplitter",
+      "slug": "worldsplitter",
+      "family": "GreatAxe",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "GA_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Demon__gfx.webp",
+      "iconPath": "/images/weapons/GA_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/weapons/worldsplitter",
+      "properties": {
+        "subcategory": "GreatAxe",
+        "classes": [
+          "Warrior",
+          "Priest"
+        ],
+        "type": "GreatAxe",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "link": "npcs/mira-demon-huntress"
+        },
+        {
+          "kind": "unknown",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "link": null
         }
       ],
       "droppedBy": [],

@@ -1,17 +1,46 @@
 import { getPrimarySource } from "./collection";
 
+/** MetaForge sometimes labels vocations with in-game names (Fighter) instead of UI names (Warrior). */
+const CLASS_ALIASES = {
+  warrior: ["warrior", "fighter"],
+  rogue: ["rogue", "assassin"],
+  mage: ["mage", "wizard"],
+  priest: ["priest", "cleric"]
+};
+
+function normalizeClassLabel(value) {
+  const normalized = String(value ?? "").trim().toLowerCase();
+
+  for (const [canonical, aliases] of Object.entries(CLASS_ALIASES)) {
+    if (aliases.includes(normalized)) {
+      return canonical;
+    }
+  }
+
+  return normalized;
+}
+
+function itemClassLabels(item) {
+  const classes = item.properties?.classes;
+
+  if (Array.isArray(classes)) {
+    return classes.map(normalizeClassLabel);
+  }
+
+  if (classes === undefined || classes === null || classes === "") {
+    return [];
+  }
+
+  return [normalizeClassLabel(classes)];
+}
+
 export function itemMatchesCharacterClass(item, className) {
   if (!className) {
     return true;
   }
 
-  const classes = item.properties?.classes;
-
-  if (Array.isArray(classes)) {
-    return classes.includes(className);
-  }
-
-  return String(classes ?? "") === className;
+  const target = normalizeClassLabel(className);
+  return itemClassLabels(item).includes(target);
 }
 
 export function filterItemsByCharacterClass(items, className) {

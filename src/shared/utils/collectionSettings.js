@@ -54,10 +54,84 @@ function mergeDashboardSettings(defaultSettings, storedSettings) {
   return mergedSettings;
 }
 
+/** Older builds hid recipes without pickup rarity, which also hid newly imported recipes. */
+function migrateRecipePickupRarityExclusion(settings) {
+  const recipes = settings?.recipes;
+  const excludedPickupRarities = recipes?.excludedPropertyValues?.pickup_rarity;
+
+  if (!Array.isArray(excludedPickupRarities) || !excludedPickupRarities.includes("-")) {
+    return settings;
+  }
+
+  const nextPickupRarities = excludedPickupRarities.filter((value) => value !== "-");
+  const nextExcludedPropertyValues = { ...(recipes.excludedPropertyValues ?? {}) };
+
+  if (nextPickupRarities.length > 0) {
+    nextExcludedPropertyValues.pickup_rarity = nextPickupRarities;
+  } else {
+    delete nextExcludedPropertyValues.pickup_rarity;
+  }
+
+  return {
+    ...settings,
+    recipes: {
+      ...recipes,
+      excludedPropertyValues: nextExcludedPropertyValues
+    }
+  };
+}
+
+/** Older builds hid Demon variants and all Rabbits, which also hid newly added companions. */
+function migrateCompanionExclusions(settings) {
+  const companions = settings?.companions;
+  const excludedPropertyValues = companions?.excludedPropertyValues;
+
+  if (!excludedPropertyValues) {
+    return settings;
+  }
+
+  const nextExcludedPropertyValues = { ...excludedPropertyValues };
+  let changed = false;
+
+  if (Array.isArray(nextExcludedPropertyValues.variant) && nextExcludedPropertyValues.variant.includes("Demon")) {
+    const nextVariants = nextExcludedPropertyValues.variant.filter((value) => value !== "Demon");
+    if (nextVariants.length > 0) {
+      nextExcludedPropertyValues.variant = nextVariants;
+    } else {
+      delete nextExcludedPropertyValues.variant;
+    }
+    changed = true;
+  }
+
+  if (Array.isArray(nextExcludedPropertyValues.species) && nextExcludedPropertyValues.species.includes("Rabbit")) {
+    const nextSpecies = nextExcludedPropertyValues.species.filter((value) => value !== "Rabbit");
+    if (nextSpecies.length > 0) {
+      nextExcludedPropertyValues.species = nextSpecies;
+    } else {
+      delete nextExcludedPropertyValues.species;
+    }
+    changed = true;
+  }
+
+  if (!changed) {
+    return settings;
+  }
+
+  return {
+    ...settings,
+    companions: {
+      ...companions,
+      excludedPropertyValues: nextExcludedPropertyValues
+    }
+  };
+}
+
 export function readDashboardSettings() {
   const value = readJsonStorage(DASHBOARD_SETTINGS_STORAGE_KEY, {});
   const storedSettings = isPlainObject(value) ? value : {};
-  return mergeDashboardSettings(DEFAULT_DASHBOARD_SETTINGS, storedSettings);
+  return migrateCompanionExclusions(
+    migrateRecipePickupRarityExclusion(mergeDashboardSettings(DEFAULT_DASHBOARD_SETTINGS, storedSettings))
+  );
 }
 
 export function getCollectionSettings(settings, collectionKey) {

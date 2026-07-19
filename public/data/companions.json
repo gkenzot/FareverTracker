@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/creatures",
-  "importedAt": "2026-06-13T00:07:23.573Z",
-  "total": 61,
+  "importedAt": "2026-07-19T19:02:58.724Z",
+  "total": 74,
   "propertyFields": [
     {
       "key": "species",
@@ -181,6 +181,68 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "DemonDog_Orange",
+      "metaforgeId": 443,
+      "name": "Black Demodoggo",
+      "slug": "black-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DemonDog_Orange__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Orange__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Orange__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/black-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Orange"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Goat_Black",
+      "metaforgeId": 489,
+      "name": "Black Raminiature",
+      "slug": "black-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Black__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Black__gfx.webp",
+      "iconPath": "/images/companions/Goat_Black__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/black-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
+        "variant": "Black"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Sheep_Black",
       "metaforgeId": 334,
       "name": "Black Woolybell",
@@ -198,6 +260,37 @@
         "type": "Critter",
         "species": "Sheep",
         "variant": "Black"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DemonDog_Blue02",
+      "metaforgeId": 442,
+      "name": "Blue Demodoggo",
+      "slug": "blue-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DemonDog_Blue02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Blue02__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Blue02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/blue-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Blue 02"
       },
       "sources": [
         {
@@ -367,6 +460,37 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Goat_Brown",
+      "metaforgeId": 490,
+      "name": "Brown Raminiature",
+      "slug": "brown-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Brown__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Brown__gfx.webp",
+      "iconPath": "/images/companions/Goat_Brown__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/brown-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
+        "variant": "Brown"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Sheep_Brown",
       "metaforgeId": 335,
       "name": "Brown Woolybell",
@@ -415,6 +539,68 @@
         "type": "Critter",
         "species": "Rabbit",
         "variant": "Yellow"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DemonDog_Beige",
+      "metaforgeId": 440,
+      "name": "Camel Demodoggo",
+      "slug": "camel-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DemonDog_Beige__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Beige__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Beige__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/camel-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Beige"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Goat_Beige01",
+      "metaforgeId": 487,
+      "name": "Camel Raminiature",
+      "slug": "camel-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Many people think that Raminiatures eventually turn into Warrams as they grow up. But these two species are cousins, and Raminiatures remain tiny their entire lives. They bring joy to many families.",
+      "iconFilename": "Goat_Beige01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Beige01__gfx.webp",
+      "iconPath": "/images/companions/Goat_Beige01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/camel-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
+        "variant": "Beige 01"
       },
       "sources": [
         {
@@ -553,6 +739,37 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "DemonDog_Blue",
+      "metaforgeId": 441,
+      "name": "Dark Demodoggo",
+      "slug": "dark-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DemonDog_Blue__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Blue__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Blue__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/dark-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Blue"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Squirrel_Demon",
       "metaforgeId": 342,
       "name": "Demonic Leafcutter",
@@ -569,6 +786,37 @@
         "subcategory": "Critter",
         "type": "Critter",
         "species": "Squirrel",
+        "variant": "Demon"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Goat_Demon",
+      "metaforgeId": 491,
+      "name": "Demonic Raminiature",
+      "slug": "demonic-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Demon__gfx.webp",
+      "iconPath": "/images/companions/Goat_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/demonic-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
         "variant": "Demon"
       },
       "sources": [
@@ -755,6 +1003,37 @@
         "subcategory": "Critter",
         "type": "Critter",
         "species": "Squirrel",
+        "variant": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Goat_Grey",
+      "metaforgeId": 492,
+      "name": "Grey Raminiature",
+      "slug": "grey-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Grey__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Grey__gfx.webp",
+      "iconPath": "/images/companions/Goat_Grey__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/grey-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
         "variant": "Grey"
       },
       "sources": [
@@ -1142,6 +1421,37 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "DemonDog_Purple",
+      "metaforgeId": 444,
+      "name": "Purple Demodoggo",
+      "slug": "purple-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DemonDog_Purple__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Purple__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Purple__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/purple-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Purple"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Ladybug_Purple",
       "metaforgeId": 359,
       "name": "Purple Leggybug",
@@ -1190,6 +1500,37 @@
         "type": "Critter",
         "species": "Sheep",
         "variant": "Black 02"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DemonDog_Red",
+      "metaforgeId": 445,
+      "name": "Red Demodoggo",
+      "slug": "red-demodoggo",
+      "family": "DemonDog",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "Despite their cute and playful appearance, Demodoggos are known for devouring the corpses of those who venture into Niflel. The Nightlings train them using bones as sticks.",
+      "iconFilename": "DemonDog_Red__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonDog_Red__gfx.webp",
+      "iconPath": "/images/companions/DemonDog_Red__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/red-demodoggo",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "DemonDog",
+        "variant": "Red"
       },
       "sources": [
         {
@@ -1483,6 +1824,37 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Goat_Spark",
+      "metaforgeId": 493,
+      "name": "Sparkling Raminiature",
+      "slug": "sparkling-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Spark__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Spark__gfx.webp",
+      "iconPath": "/images/companions/Goat_Spark__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/sparkling-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
+        "variant": "Spark"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Lizard_Spark",
       "metaforgeId": 377,
       "name": "Sparkling Saladmander",
@@ -1655,6 +2027,37 @@
         "type": "Critter",
         "species": "Turtle",
         "variant": "Grey"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Goat_Beige02",
+      "metaforgeId": 488,
+      "name": "White Raminiature",
+      "slug": "white-raminiature",
+      "family": "Goat",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Goat_Beige02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Goat_Beige02__gfx.webp",
+      "iconPath": "/images/companions/Goat_Beige02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/creatures/white-raminiature",
+      "properties": {
+        "subcategory": "Critter",
+        "type": "Critter",
+        "species": "Goat",
+        "variant": "Beige 02"
       },
       "sources": [
         {

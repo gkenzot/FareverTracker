@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/recipes",
-  "importedAt": "2026-06-13T00:07:25.713Z",
-  "total": 161,
+  "importedAt": "2026-07-19T18:11:38.949Z",
+  "total": 190,
   "propertyFields": [
     {
       "key": "subcategory",
@@ -42,13 +42,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
           "link": null
         }
       ],
@@ -1223,13 +1223,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
           "link": null
         }
       ],
@@ -2403,13 +2403,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Diaphanous Wings, 5× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 3.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Diaphanous Wings, 5× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
           "link": null
         }
       ],
@@ -2438,13 +2438,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 2) — 12× Bolt of Linen Cloth, 20× Sticky Fin, 2× Fragment of Naya; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 2.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 2) — 12× Bolt of Linen Cloth, 20× Sticky Fin, 2× Fragment of Naya; 100 Craft points",
           "link": null
         }
       ],
@@ -2474,13 +2474,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Royal Jelly, 1× Mixed Herbs; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 4) — 6× Royal Jelly, 1× Mixed Herbs; 30 Craft points",
           "link": null
         }
       ],
@@ -3654,13 +3654,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 12× Copper Ingot, 3× Soft Fur, 20× Diaphanous Wings, 2× Fragment of Mely; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 2.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 2) — 12× Copper Ingot, 3× Soft Fur, 20× Diaphanous Wings, 2× Fragment of Mely; 100 Craft points",
           "link": null
         }
       ],
@@ -3689,13 +3689,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 3× Stale Bread, 3× Fat, 1× Hunter's Sauce; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 4.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 4) — 3× Stale Bread, 3× Fat, 1× Hunter's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -3724,13 +3724,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 2) — 12× Tanned Light Leather, 2× Soft Fur, 10× Small Fang, 2× Fragment of Kyre; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 2.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 2) — 12× Tanned Light Leather, 2× Soft Fur, 10× Small Fang, 2× Fragment of Kyre; 100 Craft points",
           "link": null
         }
       ],
@@ -3759,13 +3759,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Linen Cloth, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 1) — 3× Linen Cloth, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -3794,13 +3794,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 3× Bright Fragments; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 3× Bright Fragments; no craft cost",
           "link": null
         }
       ],
@@ -3829,13 +3829,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Purified Bright Powder, 5× Bright Fragments, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 1× Purified Bright Powder, 5× Bright Fragments, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -3864,13 +3864,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 20× Bright Void Particles, 10× Ephemeral Heart; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 20× Bright Void Particles, 10× Ephemeral Heart; no craft cost",
           "link": null
         }
       ],
@@ -3899,13 +3899,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 5× Tin Ore, 1× Copper Ingot, 1× Spark Sample; no craft cost (yields 2)",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 3.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 3) — 5× Tin Ore, 1× Copper Ingot, 1× Spark Sample; no craft cost (yields 2)",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Head_RDemon_Fig_Craft",
+      "metaforgeId": 10177,
+      "name": "Recipe: Brutality Faceshield",
+      "slug": "recipe-head-rdemon-fig-craft",
+      "family": "Blacksmith",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Head_RDemon_Fig_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Head_RDemon_Fig_Craft__gfx.webp",
+      "iconPath": "/images/recipes/Head_RDemon_Fig_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-head-rdemon-fig-craft",
+      "properties": {
+        "subcategory": "Blacksmith",
+        "type": "Recipe",
+        "produces_name": "Brutality Faceshield"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 3.",
+          "text": "Unlocked by default when you reach Blacksmith level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 6) — 18× Bronze Ingot, 16× Demonic Horn, 2× Fragment of Nuon; 200 Craft points",
           "link": null
         }
       ],
@@ -3934,13 +3969,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 10× Copper Ingot, 20× Small Fang, 1× Fragment of Kyre; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 1.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 1) — 10× Copper Ingot, 20× Small Fang, 1× Fragment of Kyre; 75 Craft points",
           "link": null
         }
       ],
@@ -3969,13 +4004,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 8× Copper Ingot, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 1.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 1) — 8× Copper Ingot, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
           "link": null
         }
       ],
@@ -4004,13 +4039,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
           "link": null
         }
       ],
@@ -4039,13 +4074,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
           "link": null
         }
       ],
@@ -4074,13 +4109,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
           "link": null
         }
       ],
@@ -4109,13 +4144,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
           "link": null
         }
       ],
@@ -4144,13 +4179,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 5) — 15× Tanned Light Leather, 4× Soft Fur, 4× Ramgold; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 5) — 15× Tanned Light Leather, 4× Soft Fur, 4× Ramgold; 150 Craft points",
           "link": null
         }
       ],
@@ -4179,13 +4214,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Copper Ore, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 1.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 1) — 5× Copper Ore, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -4214,13 +4249,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -4249,13 +4284,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore; no craft cost",
           "link": null
         }
       ],
@@ -4284,13 +4319,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 5× Bolt of Linen Cloth, 5× Tanned Light Leather, 3× Soft Fur; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 3.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 3) — 5× Bolt of Linen Cloth, 5× Tanned Light Leather, 3× Soft Fur; no craft cost",
           "link": null
         }
       ],
@@ -4319,13 +4354,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 6× Fleshy Claw, 1× Fisherman's Sauce; 15 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 1.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 1) — 6× Fleshy Claw, 1× Fisherman's Sauce; 15 Craft points",
           "link": null
         }
       ],
@@ -4354,13 +4389,153 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 2.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "BrutalityCursedCutEye",
+      "metaforgeId": 10161,
+      "name": "Recipe: Cursed Eye of Brutality",
+      "slug": "recipe-brutalitycursedcuteye",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "BrutalityCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/BrutalityCursedCutEye__gfx.webp",
+      "iconPath": "/images/recipes/BrutalityCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-brutalitycursedcuteye",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Cursed Eye of Brutality"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "DominationCursedCutEye",
+      "metaforgeId": 10169,
+      "name": "Recipe: Cursed Eye of Domination",
+      "slug": "recipe-dominationcursedcuteye",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DominationCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DominationCursedCutEye__gfx.webp",
+      "iconPath": "/images/recipes/DominationCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-dominationcursedcuteye",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Cursed Eye of Domination"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "FanatismCursedCutEye",
+      "metaforgeId": 10170,
+      "name": "Recipe: Cursed Eye of Fanatism",
+      "slug": "recipe-fanatismcursedcuteye",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FanatismCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FanatismCursedCutEye__gfx.webp",
+      "iconPath": "/images/recipes/FanatismCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-fanatismcursedcuteye",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Cursed Eye of Fanatism"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "ViceCursedCutEye",
+      "metaforgeId": 10189,
+      "name": "Recipe: Cursed Eye of Vice",
+      "slug": "recipe-vicecursedcuteye",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ViceCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ViceCursedCutEye__gfx.webp",
+      "iconPath": "/images/recipes/ViceCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-vicecursedcuteye",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Cursed Eye of Vice"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
           "link": null
         }
       ],
@@ -4389,13 +4564,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Agate, 3× Cracked Cut Stone; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 4.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Agate, 3× Cracked Cut Stone; no craft cost",
           "link": null
         }
       ],
@@ -4424,13 +4599,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Amber, 3× Cracked Cut Stone; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 2.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Amber, 3× Cracked Cut Stone; no craft cost",
           "link": null
         }
       ],
@@ -4459,13 +4634,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Beryl, 3× Cracked Cut Stone; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 2.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Beryl, 3× Cracked Cut Stone; no craft cost",
           "link": null
         }
       ],
@@ -4494,13 +4669,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 1× Malachite, 3× Cracked Cut Stone; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 3.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 1× Malachite, 3× Cracked Cut Stone; no craft cost",
           "link": null
         }
       ],
@@ -4529,13 +4704,83 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Ruby, 3× Cracked Cut Stone; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 4.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Ruby, 3× Cracked Cut Stone; no craft cost",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Shoulders_RDemon_Ass_Craft",
+      "metaforgeId": 10187,
+      "name": "Recipe: Demon Hunter's Mantle",
+      "slug": "recipe-shoulders-rdemon-ass-craft",
+      "family": "Outfitter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Shoulders_RDemon_Ass_Craft__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Shoulders_RDemon_Ass_Craft__gfx.webp",
+      "iconPath": "/images/recipes/Shoulders_RDemon_Ass_Craft__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-shoulders-rdemon-ass-craft",
+      "properties": {
+        "subcategory": "Outfitter",
+        "type": "Recipe",
+        "produces_name": "Demon Hunter's Mantle"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 4.",
+          "text": "Unlocked by default when you reach Outfitter level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 6) — 18× Tanned Light Leather, 4× Soft Fur, 10× Veiled Wing, 2× Fragment of Nuon; 200 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Cook_Demon_4",
+      "metaforgeId": 10166,
+      "name": "Recipe: Demonic Stew",
+      "slug": "recipe-cook-demon-4",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_4__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_4__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_4__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-4",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Demonic Stew"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 3× Demonic Horn, 3× Tail Slice, 1× Hunter's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -4565,13 +4810,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -5746,13 +5991,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -6927,13 +7172,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 2× Light Leather Strap, 2× Copper Ore, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 2× Light Leather Strap, 2× Copper Ore, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -8108,13 +8353,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 2× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 2× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -9288,13 +9533,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Glossy Chitin, 2× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Glossy Chitin, 2× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -9323,13 +9568,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Ephemeral Heart, 2× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Ephemeral Heart, 2× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -9358,13 +9603,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Sharp Scale, 2× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Sharp Scale, 2× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -9394,13 +9639,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 3× Cracked Stone, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 3× Cracked Stone, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -10574,13 +10819,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Diaphanous Wings, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Diaphanous Wings, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -10609,13 +10854,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Eyestalk, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Eyestalk, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -10644,13 +10889,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Sticky Fin, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Sticky Fin, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -10679,13 +10924,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Small Fang, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Small Fang, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -10714,13 +10959,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 3× Small Fang, 2× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 3× Small Fang, 2× Strange Spores; no craft cost",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Cook_Demon_0",
+      "metaforgeId": 10162,
+      "name": "Recipe: Eye Salad",
+      "slug": "recipe-cook-demon-0",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_0__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_0__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_0__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-0",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Eye Salad"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "text": "Unlocked by default when you reach Cook level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 1× Fiendish Eye, 1× Mixed Herbs; 30 Craft points",
           "link": null
         }
       ],
@@ -10750,13 +11030,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Sharp Scale, 3× Sticky Fin, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Sharp Scale, 3× Sticky Fin, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -11930,13 +12210,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Fleshy Claw, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 1.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Fleshy Claw, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -11966,13 +12246,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Honey, 1× Mixed Herbs; 15 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 6× Honey, 1× Mixed Herbs; 15 Craft points",
           "link": null
         }
       ],
@@ -13146,13 +13426,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 1× Fresh Flower Powder, 1× Zealotus Petal, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — 1× Fresh Flower Powder, 1× Zealotus Petal, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -13181,13 +13461,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 2× Madrigold Petal, 2× Lavendula Petal, 2× Ancient Thyme Petal, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — 2× Madrigold Petal, 2× Lavendula Petal, 2× Ancient Thyme Petal, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -13217,13 +13497,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
           "link": null
         }
       ],
@@ -14398,13 +14678,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
           "link": null
         }
       ],
@@ -15578,13 +15858,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 1× Bronze Ingot, 3× Glittering Stone, 1× Tungstene Ingot; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 4.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 1× Bronze Ingot, 3× Glittering Stone, 1× Tungstene Ingot; no craft cost",
           "link": null
         }
       ],
@@ -15613,13 +15893,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 8× Bolt of Linen Cloth, 15× Small Fang, 1× Fragment of Kyre; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 1) — 8× Bolt of Linen Cloth, 15× Small Fang, 1× Fragment of Kyre; 75 Craft points",
           "link": null
         }
       ],
@@ -15649,13 +15929,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -16830,13 +17110,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -18011,13 +18291,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Small Mackerel, 1× Fisherman's Sauce; 15 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 6× Small Mackerel, 1× Fisherman's Sauce; 15 Craft points",
           "link": null
         }
       ],
@@ -19172,6 +19452,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Cook_Demon_3",
+      "metaforgeId": 10165,
+      "name": "Recipe: Grilled Tail Skewers",
+      "slug": "recipe-cook-demon-3",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_3__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_3__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_3__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-3",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Grilled Tail Skewers"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 6× Tail Slice, 1× Mixed Herbs; 30 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Cook_2",
       "metaforgeId": 10116,
       "name": "Recipe: Grilled Wolf Chops",
@@ -19192,13 +19507,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Wolf Meat, 1× Hunter's Sauce; 15 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 6× Wolf Meat, 1× Hunter's Sauce; 15 Craft points",
           "link": null
         }
       ],
@@ -20372,13 +20687,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 15× Copper Ingot, 20× Sticky Fin, 1× Fragment of Naya, 1× Simple Pearl; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 2.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 2) — 15× Copper Ingot, 20× Sticky Fin, 1× Fragment of Naya, 1× Simple Pearl; 100 Craft points",
           "link": null
         }
       ],
@@ -20407,13 +20722,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 12× Linen Cloth, 3× Soft Fur, 10× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 3.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 3) — 12× Linen Cloth, 3× Soft Fur, 10× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
           "link": null
         }
       ],
@@ -20443,13 +20758,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -21624,13 +21939,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -22785,6 +23100,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Cook_Demon_1",
+      "metaforgeId": 10163,
+      "name": "Recipe: Horn in Sauce",
+      "slug": "recipe-cook-demon-1",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_1__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_1__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_1__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-1",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Horn in Sauce"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 6× Demonic Horn, 1× Hunter's Sauce; 30 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Feet_RKobold_FigCle_Craft",
       "metaforgeId": 10004,
       "name": "Recipe: Hot Cheesewalkers",
@@ -22804,13 +23154,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Small Fang, 5× Piece of Perforated Metal, 2× Fragment of Kyre; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 3.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Small Fang, 5× Piece of Perforated Metal, 2× Fragment of Kyre; 125 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Cook_Demon_6",
+      "metaforgeId": 10168,
+      "name": "Recipe: Hot Wings",
+      "slug": "recipe-cook-demon-6",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_6__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_6__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_6__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-6",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Hot Wings"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 3× Veiled Wing, 1× Mixed Herbs; 30 Craft points",
           "link": null
         }
       ],
@@ -22839,13 +23224,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Small Fang, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 1.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Small Fang, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -22874,13 +23259,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 1× Chipped Tusk, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — 1× Chipped Tusk, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 125 Craft points",
           "link": null
         }
       ],
@@ -22910,13 +23295,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Mely, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Mely, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -24090,13 +24475,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Bolt of Linen Cloth, 3× Tanned Light Leather; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 1) — 3× Bolt of Linen Cloth, 3× Tanned Light Leather; no craft cost",
           "link": null
         }
       ],
@@ -24126,13 +24511,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 3× Lavendula Petal, 6× Sticky Fin, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 3× Lavendula Petal, 6× Sticky Fin, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -25306,13 +25691,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 5× Coal; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 3.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 5× Coal; 50 Craft points",
           "link": null
         }
       ],
@@ -25342,13 +25727,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
           "link": null
         }
       ],
@@ -26523,13 +26908,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
           "link": null
         }
       ],
@@ -27703,13 +28088,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
           "link": null
         }
       ],
@@ -27739,13 +28124,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Glossy Chitin; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Glossy Chitin; 50 Craft points",
           "link": null
         }
       ],
@@ -28920,13 +29305,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 1× Ramgold; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 1× Ramgold; 50 Craft points",
           "link": null
         }
       ],
@@ -30101,13 +30486,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
           "link": null
         }
       ],
@@ -31281,13 +31666,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Pyrh; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Pyrh; 100 Craft points",
           "link": null
         }
       ],
@@ -31317,13 +31702,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Sharp Scale; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Sharp Scale; 50 Craft points",
           "link": null
         }
       ],
@@ -32478,6 +32863,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "FormulaWeaponLifestealing",
+      "metaforgeId": 10175,
+      "name": "Recipe: Magic Formula: Lifestealing",
+      "slug": "recipe-formulaweaponlifestealing",
+      "family": "Enchanter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaWeaponLifestealing__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponLifestealing__gfx.webp",
+      "iconPath": "/images/recipes/FormulaWeaponLifestealing__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweaponlifestealing",
+      "properties": {
+        "subcategory": "Enchanter",
+        "type": "Recipe",
+        "produces_name": "Magic Formula: Lifestealing"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 6) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 10× Fiendish Eye; 100 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "FormulaFeetMagicPen_Z2",
       "metaforgeId": 10151,
       "name": "Recipe: Magic Formula: Magic Penetration",
@@ -32498,13 +32918,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
           "link": null
         }
       ],
@@ -33678,13 +34098,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 3× Glittering Stone; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 3× Glittering Stone; 30 Craft points",
           "link": null
         }
       ],
@@ -33714,13 +34134,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
           "link": null
         }
       ],
@@ -34895,13 +35315,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
           "link": null
         }
       ],
@@ -36076,13 +36496,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Diaphanous Wings; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Diaphanous Wings; 30 Craft points",
           "link": null
         }
       ],
@@ -37257,13 +37677,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Eyestalk; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Eyestalk; 30 Craft points",
           "link": null
         }
       ],
@@ -38438,13 +38858,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Naya; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Naya; 30 Craft points",
           "link": null
         }
       ],
@@ -39619,13 +40039,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Sticky Fin; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Sticky Fin; 30 Craft points",
           "link": null
         }
       ],
@@ -40800,13 +41220,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Bright Residues, 1× Fragment of Naya; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Bright Residues, 1× Fragment of Naya; 30 Craft points",
           "link": null
         }
       ],
@@ -41981,13 +42401,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Small Fang; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Small Fang; 30 Craft points",
           "link": null
         }
       ],
@@ -43161,13 +43581,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Fresh Blood; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 2.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Fresh Blood; 30 Craft points",
           "link": null
         }
       ],
@@ -43196,13 +43616,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Mely; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Mely; 100 Craft points",
           "link": null
         }
       ],
@@ -43232,13 +43652,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Piece of Perforated Metal; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Piece of Perforated Metal; 50 Craft points",
           "link": null
         }
       ],
@@ -44412,13 +44832,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Fresh Blood; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 4.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Fresh Blood; 50 Craft points",
           "link": null
         }
       ],
@@ -44447,13 +44867,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 5.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Head_RDemon_Craft_WizCle",
+      "metaforgeId": 10176,
+      "name": "Recipe: Mask of the Unbidden Imp",
+      "slug": "recipe-head-rdemon-craft-wizcle",
+      "family": "Outfitter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Head_RDemon_Craft_WizCle__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Head_RDemon_Craft_WizCle__gfx.webp",
+      "iconPath": "/images/recipes/Head_RDemon_Craft_WizCle__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-head-rdemon-craft-wizcle",
+      "properties": {
+        "subcategory": "Outfitter",
+        "type": "Recipe",
+        "produces_name": "Mask of the Unbidden Imp"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 5.",
+          "text": "Unlocked by default when you reach Outfitter level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 6) — 18× Linen Cloth, 4× Soft Fur, 16× Tail Slice, 2× Fragment of Nuon; 200 Craft points",
           "link": null
         }
       ],
@@ -44482,13 +44937,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Kobold Swiss, 1× Mixed Herbs; 15 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 2.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 6× Kobold Swiss, 1× Mixed Herbs; 15 Craft points",
           "link": null
         }
       ],
@@ -44517,13 +44972,83 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Simple Cauldron, 1× Elixir of Strength, 1× Elixir of Dexterity, 1× Elixir of Intelligence, 1× Elixir of Faith, 1× Fresh Essence; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 5.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 5) — 1× Simple Cauldron, 1× Elixir of Strength, 1× Elixir of Dexterity, 1× Elixir of Intelligence, 1× Elixir of Faith, 1× Fresh Essence; 50 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "MinorDexterityPotion",
+      "metaforgeId": 10178,
+      "name": "Recipe: Minor Dexterity Potion",
+      "slug": "recipe-minordexteritypotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MinorDexterityPotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MinorDexterityPotion__gfx.webp",
+      "iconPath": "/images/recipes/MinorDexterityPotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minordexteritypotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Minor Dexterity Potion"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 5.",
+          "text": "Unlocked by default when you reach Alchemist level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "MinorFaithPotion",
+      "metaforgeId": 10179,
+      "name": "Recipe: Minor Faith Potion",
+      "slug": "recipe-minorfaithpotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MinorFaithPotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MinorFaithPotion__gfx.webp",
+      "iconPath": "/images/recipes/MinorFaithPotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorfaithpotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Minor Faith Potion"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
           "link": null
         }
       ],
@@ -44552,13 +45077,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 1× Madrigold Petal, 1× Lavendula Petal, 3× Fresh Blood, 1× Strange Spores; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 1× Madrigold Petal, 1× Lavendula Petal, 3× Fresh Blood, 1× Strange Spores; no craft cost",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "MinorIntelligencePotion",
+      "metaforgeId": 10180,
+      "name": "Recipe: Minor Intelligence Potion",
+      "slug": "recipe-minorintelligencepotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MinorIntelligencePotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MinorIntelligencePotion__gfx.webp",
+      "iconPath": "/images/recipes/MinorIntelligencePotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorintelligencepotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Minor Intelligence Potion"
+      },
+      "sources": [
+        {
           "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "text": "Unlocked by default when you reach Alchemist level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
           "link": null
         }
       ],
@@ -44588,13 +45148,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 1× Madrigold Petal, 2× Glittering Stone, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 1× Madrigold Petal, 2× Glittering Stone, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -45749,6 +46309,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "MinorStrengthPotion",
+      "metaforgeId": 10181,
+      "name": "Recipe: Minor Strength Potion",
+      "slug": "recipe-minorstrengthpotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MinorStrengthPotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MinorStrengthPotion__gfx.webp",
+      "iconPath": "/images/recipes/MinorStrengthPotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorstrengthpotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Minor Strength Potion"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "MinorVelocityPotion",
       "metaforgeId": 10072,
       "name": "Recipe: Minor Velocity Potion",
@@ -45769,13 +46364,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Aoyl, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Aoyl, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -46949,13 +47544,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 3× Madrigold Petal, 3× Lavendula Petal, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 2.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 3× Madrigold Petal, 3× Lavendula Petal, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -46984,13 +47579,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 2× Madrigold Petal, 2× Lavendula Petal, 1× Mixed Herbs; 15 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 2.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 2× Madrigold Petal, 2× Lavendula Petal, 1× Mixed Herbs; 15 Craft points",
           "link": null
         }
       ],
@@ -47019,13 +47614,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 3× Glossy Chitin, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — 3× Glossy Chitin, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -47054,13 +47649,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -47089,13 +47684,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Fresh Blood, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 3× Fresh Blood, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -47124,13 +47719,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Sticky Fin, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 3× Sticky Fin, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -47159,13 +47754,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 3× Coal, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 3) — 3× Coal, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -47195,13 +47790,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -48376,13 +48971,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -49556,13 +50151,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 5) — 4× Copper Setting, 5× Ramgold, 1× Amber, 1× Beryl, 1× Ruby, 1× Agate, 1× Malachite; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 5.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 5) — 4× Copper Setting, 5× Ramgold, 1× Amber, 1× Beryl, 1× Ruby, 1× Agate, 1× Malachite; 150 Craft points",
           "link": null
         }
       ],
@@ -49591,13 +50186,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 4× Copper Setting, 3× Glittering Stone, 1× Simple Pearl; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 4× Copper Setting, 3× Glittering Stone, 1× Simple Pearl; 100 Craft points",
           "link": null
         }
       ],
@@ -49626,13 +50221,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 5× Tungstene Ore, 1× Simple Pearl, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Naya; 100 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 2.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 2) — 5× Tungstene Ore, 1× Simple Pearl, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Naya; 100 Craft points",
           "link": null
         }
       ],
@@ -49662,13 +50257,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Pike, 1× Fisherman's Sauce; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 4) — 6× Pike, 1× Fisherman's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -50842,13 +51437,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 5) — 1× Silver Tray, 1× Smoked Coyote, 1× Skover Root Soup, 1× Beggar's Garbure, 1× Pumpkin Pie, 2× Hunter's Sauce, 2× Fisherman's Sauce; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 5.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 5) — 1× Silver Tray, 1× Smoked Coyote, 1× Skover Root Soup, 1× Beggar's Garbure, 1× Pumpkin Pie, 2× Hunter's Sauce, 2× Fisherman's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -50877,13 +51472,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Fragment of Pyrh, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Aoyl, 1× Fragment of Naya, 5× Ramgold; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 3.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 5) — 1× Fragment of Pyrh, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Aoyl, 1× Fragment of Naya, 5× Ramgold; no craft cost",
           "link": null
         }
       ],
@@ -50912,13 +51507,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Simple Pearl, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 1× Simple Pearl, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
           "link": null
         }
       ],
@@ -50947,13 +51542,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 3× Wheat, 3× Pumpkin, 1× Mixed Herbs; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 3.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 3) — 3× Wheat, 3× Pumpkin, 1× Mixed Herbs; 30 Craft points",
           "link": null
         }
       ],
@@ -50982,13 +51577,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 5× Bright Residues, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 5× Bright Residues, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -51017,13 +51612,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 5× Ephemeral Heart, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 4.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 4) — 5× Ephemeral Heart, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
           "link": null
         }
       ],
@@ -51053,13 +51648,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Ramburg Bleu, 1× Hunter's Sauce; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 4) — 6× Ramburg Bleu, 1× Hunter's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -52233,13 +52828,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 4.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -52268,13 +52863,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 4.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -52304,13 +52899,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
           "link": null
         }
       ],
@@ -53485,13 +54080,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
           "link": null
         }
       ],
@@ -54665,13 +55260,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 5) — 12× Bronze Ingot, 5× Ramgold; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 5.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 5) — 12× Bronze Ingot, 5× Ramgold; 150 Craft points",
           "link": null
         }
       ],
@@ -54701,13 +55296,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -55882,13 +56477,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -57043,6 +57638,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "SacrificePotion",
+      "metaforgeId": 10182,
+      "name": "Recipe: Sacrifice Potion",
+      "slug": "recipe-sacrificepotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SacrificePotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SacrificePotion__gfx.webp",
+      "iconPath": "/images/recipes/SacrificePotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sacrificepotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Sacrifice Potion"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 5× Demonic Horn, 1× Strange Spores",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "Chest_RCrimson_WizCle_Craft",
       "metaforgeId": 10028,
       "name": "Recipe: Sacrificial Vestments",
@@ -57062,13 +57692,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 5) — 20× Linen Cloth, 6× Soft Fur, 8× Ramgold; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 5.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 5) — 20× Linen Cloth, 6× Soft Fur, 8× Ramgold; 150 Craft points",
           "link": null
         }
       ],
@@ -57098,13 +57728,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
           "link": null
         }
       ],
@@ -58279,13 +58909,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
           "link": null
         }
       ],
@@ -59459,13 +60089,153 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 5) — 18× Bronze Ingot, 8× Ramgold; 150 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 5.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 5.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 5) — 18× Bronze Ingot, 8× Ramgold; 150 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "ScrollOfCorruptedDexterity",
+      "metaforgeId": 10183,
+      "name": "Recipe: Scroll Of Corrupted Dexterity",
+      "slug": "recipe-scrollofcorrupteddexterity",
+      "family": "Enchanter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ScrollOfCorruptedDexterity__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ScrollOfCorruptedDexterity__gfx.webp",
+      "iconPath": "/images/recipes/ScrollOfCorruptedDexterity__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorrupteddexterity",
+      "properties": {
+        "subcategory": "Enchanter",
+        "type": "Recipe",
+        "produces_name": "Scroll Of Corrupted Dexterity"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 1× Veiled Wing",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "ScrollOfCorruptedFaith",
+      "metaforgeId": 10184,
+      "name": "Recipe: Scroll Of Corrupted Faith",
+      "slug": "recipe-scrollofcorruptedfaith",
+      "family": "Enchanter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ScrollOfCorruptedFaith__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ScrollOfCorruptedFaith__gfx.webp",
+      "iconPath": "/images/recipes/ScrollOfCorruptedFaith__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedfaith",
+      "properties": {
+        "subcategory": "Enchanter",
+        "type": "Recipe",
+        "produces_name": "Scroll Of Corrupted Faith"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 3× Demonic Horn",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "ScrollOfCorruptedIntellect",
+      "metaforgeId": 10185,
+      "name": "Recipe: Scroll Of Corrupted Intellect",
+      "slug": "recipe-scrollofcorruptedintellect",
+      "family": "Enchanter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ScrollOfCorruptedIntellect__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ScrollOfCorruptedIntellect__gfx.webp",
+      "iconPath": "/images/recipes/ScrollOfCorruptedIntellect__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedintellect",
+      "properties": {
+        "subcategory": "Enchanter",
+        "type": "Recipe",
+        "produces_name": "Scroll Of Corrupted Intellect"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 1× Veiled Wing",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "ScrollOfCorruptedStrength",
+      "metaforgeId": 10186,
+      "name": "Recipe: Scroll Of Corrupted Strength",
+      "slug": "recipe-scrollofcorruptedstrength",
+      "family": "Enchanter",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ScrollOfCorruptedStrength__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ScrollOfCorruptedStrength__gfx.webp",
+      "iconPath": "/images/recipes/ScrollOfCorruptedStrength__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedstrength",
+      "properties": {
+        "subcategory": "Enchanter",
+        "type": "Recipe",
+        "produces_name": "Scroll Of Corrupted Strength"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 3× Demonic Horn",
           "link": null
         }
       ],
@@ -59494,13 +60264,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Diaphanous Wings; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Diaphanous Wings; no craft cost",
           "link": null
         }
       ],
@@ -59529,13 +60299,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Eyestalk; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Eyestalk; no craft cost",
           "link": null
         }
       ],
@@ -59564,13 +60334,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Sticky Fin; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Sticky Fin; no craft cost",
           "link": null
         }
       ],
@@ -59599,13 +60369,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Small Fang; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Small Fang; no craft cost",
           "link": null
         }
       ],
@@ -59634,13 +60404,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Fresh Blood; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Enchanter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Enchanter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Fresh Blood; no craft cost",
           "link": null
         }
       ],
@@ -59670,13 +60440,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Crab Egg, 1× Fisherman's Sauce; 30 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 4) — 6× Crab Egg, 1× Fisherman's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -60831,6 +61601,146 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Finger_Z3RCraft_Mp",
+      "metaforgeId": 10174,
+      "name": "Recipe: Set Eye of Clarity",
+      "slug": "recipe-finger-z3rcraft-mp",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Mp__gfx.webp",
+      "iconPath": "/images/recipes/Finger_Z3RCraft_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-mp",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Set Eye of Clarity"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweller level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Ap",
+      "metaforgeId": 10171,
+      "name": "Recipe: Set Eye of Fracture",
+      "slug": "recipe-finger-z3rcraft-ap",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Ap__gfx.webp",
+      "iconPath": "/images/recipes/Finger_Z3RCraft_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-ap",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Set Eye of Fracture"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweller level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Cri",
+      "metaforgeId": 10172,
+      "name": "Recipe: Set Eye of Precision",
+      "slug": "recipe-finger-z3rcraft-cri",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Cri__gfx.webp",
+      "iconPath": "/images/recipes/Finger_Z3RCraft_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-cri",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Set Eye of Precision"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweller level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Fer",
+      "metaforgeId": 10173,
+      "name": "Recipe: Set Eye of Zeal",
+      "slug": "recipe-finger-z3rcraft-fer",
+      "family": "Jeweller",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Fer__gfx.webp",
+      "iconPath": "/images/recipes/Finger_Z3RCraft_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-fer",
+      "properties": {
+        "subcategory": "Jeweller",
+        "type": "Recipe",
+        "produces_name": "Set Eye of Zeal"
+      },
+      "sources": [
+        {
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweller level 6.",
+          "link": null
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "ShieldPotion_Z2",
       "metaforgeId": 10075,
       "name": "Recipe: Shield Potion",
@@ -60851,13 +61761,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 1× Strange Spores; no craft cost",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 1× Strange Spores; no craft cost",
           "link": null
         }
       ],
@@ -62031,13 +62941,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Agate; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 3.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Agate; 125 Craft points",
           "link": null
         }
       ],
@@ -62066,13 +62976,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Ruby; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 3.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Ruby; 125 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Cook_Demon_2",
+      "metaforgeId": 10164,
+      "name": "Recipe: Skinless Iodized Wings",
+      "slug": "recipe-cook-demon-2",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_2__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-2",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Skinless Iodized Wings"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 3× Veiled Wing, 1× Fisherman's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -62101,13 +63046,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 6× Sweet Root, 1× Mixed Herbs; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 3.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 3) — 6× Sweet Root, 1× Mixed Herbs; 30 Craft points",
           "link": null
         }
       ],
@@ -62136,13 +63081,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 6× Skunk Meat, 1× Hunter's Sauce; 15 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 1.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 1) — 6× Skunk Meat, 1× Hunter's Sauce; 15 Craft points",
           "link": null
         }
       ],
@@ -62171,13 +63116,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 6× Coyote Meat, 1× Hunter's Sauce; 30 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Cook level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Cook level 3.",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 3) — 6× Coyote Meat, 1× Hunter's Sauce; 30 Craft points",
           "link": null
         }
       ],
@@ -62206,13 +63151,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 2× Soft Fur, 1× Tanned Light Leather, 1× Bolt of Linen Cloth; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 4.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 4) — 2× Soft Fur, 1× Tanned Light Leather, 1× Bolt of Linen Cloth; no craft cost",
           "link": null
         }
       ],
@@ -62241,13 +63186,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 15× Tanned Light Leather, 12× Glossy Chitin, 5× Soft Fur, 2× Fragment of Mely; 125 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 3.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 3) — 15× Tanned Light Leather, 12× Glossy Chitin, 5× Soft Fur, 2× Fragment of Mely; 125 Craft points",
           "link": null
         }
       ],
@@ -62276,13 +63221,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Mely, 15× Lavendula Petal; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Mely, 15× Lavendula Petal; 75 Craft points",
           "link": null
         }
       ],
@@ -62311,13 +63256,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 15× Madrigold Petal; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 15× Madrigold Petal; 75 Craft points",
           "link": null
         }
       ],
@@ -62346,13 +63291,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 10× Lavendula Petal; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 10× Lavendula Petal; 75 Craft points",
           "link": null
         }
       ],
@@ -62381,13 +63326,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Naya, 15× Madrigold Petal; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Alchemist level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Alchemist level 1.",
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Naya, 15× Madrigold Petal; 75 Craft points",
           "link": null
         }
       ],
@@ -62416,13 +63361,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 4.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 4.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
           "link": null
         }
       ],
@@ -62451,13 +63396,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 2.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
           "link": null
         }
       ],
@@ -62487,13 +63432,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
           "link": null
         }
       ],
@@ -63668,13 +64613,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
           "link": null
         }
       ],
@@ -64829,6 +65774,41 @@
       "moveSpeedMultiplier": null
     },
     {
+      "id": "Cook_Demon_5",
+      "metaforgeId": 10167,
+      "name": "Recipe: Surf and Murk",
+      "slug": "recipe-cook-demon-5",
+      "family": "Cook",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Cook_Demon_5__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Cook_Demon_5__gfx.webp",
+      "iconPath": "/images/recipes/Cook_Demon_5__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-5",
+      "properties": {
+        "subcategory": "Cook",
+        "type": "Recipe",
+        "produces_name": "Surf and Murk"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 6) — 3× Demonic Horn, 3× Tail Slice, 1× Fisherman's Sauce; 30 Craft points",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
       "id": "SurgingCutAgate",
       "metaforgeId": 10104,
       "name": "Recipe: Surging Cut Agate",
@@ -64849,13 +65829,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
           "link": null
         }
       ],
@@ -66030,13 +67010,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
           "link": null
         }
       ],
@@ -67210,13 +68190,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Light Leather Strap, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 1) — 3× Light Leather Strap, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -67246,13 +68226,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
           "link": null
         }
       ],
@@ -68427,13 +69407,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
           "link": null
         }
       ],
@@ -69607,13 +70587,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 8× Tanned Light Leather, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Outfitter level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Outfitter level 1.",
+          "kind": "craft",
+          "text": "Crafted by Outfitter (Level 1) — 8× Tanned Light Leather, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
           "link": null
         }
       ],
@@ -69642,13 +70622,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 10× Tin Ore, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 3.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 3.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 3) — 10× Tin Ore, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -69677,13 +70657,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 5× Tungstene Ore, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 2.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 2.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 2) — 5× Tungstene Ore, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -69712,13 +70692,48 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Tungstene Ore, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Jeweler level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Jeweler level 1.",
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 1) — 10× Tungstene Ore, 1× Spark Sample; no craft cost",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "VesselPotion",
+      "metaforgeId": 10188,
+      "name": "Recipe: Vessel Potion",
+      "slug": "recipe-vesselpotion",
+      "family": "Alchemist",
+      "rarity": "—",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "VesselPotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/VesselPotion__gfx.webp",
+      "iconPath": "/images/recipes/VesselPotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-vesselpotion",
+      "properties": {
+        "subcategory": "Alchemist",
+        "type": "Recipe",
+        "produces_name": "Vessel Potion"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        },
+        {
+          "kind": "craft",
+          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 5× Veiled Wing, 1× Strange Spores",
           "link": null
         }
       ],
@@ -69747,13 +70762,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 1.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -69782,13 +70797,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
+          "kind": "auto_learn",
+          "text": "Unlocked by default when you reach Blacksmith level 1.",
           "link": null
         },
         {
-          "kind": "auto_learn",
-          "text": "Automatically known when you reach Blacksmith level 1.",
+          "kind": "craft",
+          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
           "link": null
         }
       ],
@@ -69818,13 +70833,13 @@
       },
       "sources": [
         {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Boar Meat, 1× Hunter's Sauce; 15 Craft points",
+          "kind": "drop",
+          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
           "link": null
         },
         {
-          "kind": "world_drop",
-          "text": "Recipe scrolls are awarded from a randomized pool of all unlockable recipes (filtered by your active profession). Specific sources:\n  - Recipe Chests: 100% drop (17 locations across Siagarta).\n  - World Crates: 20% per crate (lootTable: WorldCrate, 76 world placements).\n  - Humanoid enemies: 1% per kill (114 unit types in Siagarta).",
+          "kind": "craft",
+          "text": "Crafted by Cook (Level 2) — 6× Boar Meat, 1× Hunter's Sauce; 15 Craft points",
           "link": null
         }
       ],

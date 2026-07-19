@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/mounts",
-  "importedAt": "2026-06-21T13:55:02.741Z",
-  "total": 52,
+  "importedAt": "2026-07-19T19:02:58.324Z",
+  "total": 64,
   "propertyFields": [
     {
       "key": "subcategory",
@@ -17,6 +17,49 @@
     }
   ],
   "mounts": [
+    {
+      "id": "Mount_Aries_05",
+      "metaforgeId": 888,
+      "name": "Aegis",
+      "slug": "aegis",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Aegis is Chakram’s faithful steed. When Chakram turned his back on humans and pledged his allegiance to the demons, his companion could not bring himself to abandon him and now bears the scars of that betrayal.",
+      "iconFilename": "Mount_Aries_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/aegis",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from High Inquisitor Chakram",
+          "link": "creatures/high-inquisitor-chakram"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "high-inquisitor-chakram",
+          "unit_name": "High Inquisitor Chakram",
+          "faction": "Crimson",
+          "icon": "PhrixesP1__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
     {
       "id": "Mount_Boar_03",
       "metaforgeId": 847,
@@ -825,6 +868,43 @@
       "inGame": true
     },
     {
+      "id": "Mount_Demon_05",
+      "metaforgeId": 882,
+      "name": "Enraged Nightdog",
+      "slug": "enraged-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_05__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_05__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_05__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/enraged-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 10000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Zoey, Demon Huntress",
+          "npc_slug": "zoey-demon-huntress",
+          "cost": "10000 Demonic Souls"
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
       "id": "Mount_Wolf_01",
       "metaforgeId": 826,
       "name": "Enripian Wolf",
@@ -1350,6 +1430,581 @@
       "inGame": true
     },
     {
+      "id": "Mount_Demon_01",
+      "metaforgeId": 878,
+      "name": "Furious Nightdog",
+      "slug": "furious-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/furious-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "shop",
+          "text": "Purchased from Zoey, Demon Huntress for 10000 Demonic Souls",
+          "link": "npcs/zoey-demon-huntress"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Zoey, Demon Huntress",
+          "npc_slug": "zoey-demon-huntress",
+          "cost": "10000 Demonic Souls"
+        }
+      ],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
+      "id": "Mount_Demon_06",
+      "metaforgeId": 883,
+      "name": "Hateful Nightdog",
+      "slug": "hateful-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/hateful-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "1% chance to drop from Nightking Maat Demon",
+          "link": "creatures/nightking-maat-demon"
+        },
+        {
+          "kind": "world_event",
+          "text": "Reward from the Nightling Rifts",
+          "link": "map/siagarta"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "nightking-maat-demon",
+          "unit_name": "Nightking Maat Demon",
+          "faction": "Demon",
+          "icon": "DemonSuperElite__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.01,
+          "drop_percent": "1%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
+      "id": "Mount_Demon_04",
+      "metaforgeId": 881,
+      "name": "Irascible Nightdog",
+      "slug": "irascible-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/irascible-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "world_event",
+          "text": "Reward from the Nightling Rifts",
+          "link": "map/siagarta"
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
+      "id": "Mount_Demon_02",
+      "metaforgeId": 879,
+      "name": "Irritable Nightdog",
+      "slug": "irritable-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/irritable-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Terror",
+          "link": "creatures/nightling-terror"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Slayer",
+          "link": "creatures/nightling-slayer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Nightling Slayer",
+          "link": "creatures/invoked-nightling-slayer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Ruinbringer",
+          "link": "creatures/nightling-ruinbringer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightlord Asmoderator",
+          "link": "creatures/nightlord-asmoderator"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightlord Naamahs'tea",
+          "link": "creatures/nightlord-naamahstea"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Blade",
+          "link": "creatures/nightling-blade"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Warbringer",
+          "link": "creatures/nightling-warbringer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightlord Diabloot",
+          "link": "creatures/nightlord-diabloot"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Luciferrari",
+          "link": "creatures/luciferrari"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Kristian Belial",
+          "link": "creatures/kristian-belial"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Baphometal",
+          "link": "creatures/baphometal"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Mortalkombaal",
+          "link": "creatures/mortalkombaal"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightqueen Shaarlize Te'ror",
+          "link": "creatures/nightqueen-shaarlize-teror"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Shaarlize's Guardian",
+          "link": "creatures/shaarlizes-guardian"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightspawn",
+          "link": "creatures/nightspawn"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Invoked Nightspawn",
+          "link": "creatures/invoked-nightspawn"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Summoned Nightspawn",
+          "link": "creatures/summoned-nightspawn"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Draculag, aspiring Nightgod",
+          "link": "creatures/draculag-aspiring-nightgod"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Belzebeat",
+          "link": "creatures/belzebeat"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Asmodeaf",
+          "link": "creatures/asmodeaf"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Subjugator",
+          "link": "creatures/nightling-subjugator"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lady Zaster",
+          "link": "creatures/lady-zaster"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lady Borgild",
+          "link": "creatures/lady-borgild"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Nightling Deathbringer",
+          "link": "creatures/nightling-deathbringer"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Ariana Grandemon",
+          "link": "creatures/ariana-grandemon"
+        },
+        {
+          "kind": "drop",
+          "text": "0.1% chance to drop from Lilithium",
+          "link": "creatures/lilithium"
+        }
+      ],
+      "droppedBy": [
+        {
+          "unit_id": "nightling-terror",
+          "unit_name": "Nightling Terror",
+          "faction": null,
+          "icon": "Summon_Imp__gfx.png",
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-slayer",
+          "unit_name": "Nightling Slayer",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Claws__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-nightling-slayer",
+          "unit_name": "Invoked Nightling Slayer",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Claws_FS__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-ruinbringer",
+          "unit_name": "Nightling Ruinbringer",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Claws_Big__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightlord-asmoderator",
+          "unit_name": "Nightlord Asmoderator",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Claws_E__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightlord-naamahstea",
+          "unit_name": "Nightlord Naamahs'tea",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Claws_E_1__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-blade",
+          "unit_name": "Nightling Blade",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Spear__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-warbringer",
+          "unit_name": "Nightling Warbringer",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Spear_Big__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightlord-diabloot",
+          "unit_name": "Nightlord Diabloot",
+          "faction": "Demon",
+          "icon": "Demon_Z3W_Spear_E__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "luciferrari",
+          "unit_name": "Luciferrari",
+          "faction": "Demon",
+          "icon": "Demon_Z1_Spear_Soulstone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "kristian-belial",
+          "unit_name": "Kristian Belial",
+          "faction": "Demon",
+          "icon": "Demon_Z2_Spear_Soulstone_Leg__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "baphometal",
+          "unit_name": "Baphometal",
+          "faction": "Demon",
+          "icon": "Demon_Z1_Claws_Soulstone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "mortalkombaal",
+          "unit_name": "Mortalkombaal",
+          "faction": "Demon",
+          "icon": "Demon_Z2_Claws_Soulstone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightqueen-shaarlize-teror",
+          "unit_name": "Nightqueen Shaarlize Te'ror",
+          "faction": "Demon",
+          "icon": "DemonSuperElite_Fairy_TrueClone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "shaarlizes-guardian",
+          "unit_name": "Shaarlize's Guardian",
+          "faction": "Demon",
+          "icon": "DemonSuperElite_Fairy_Guardian__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightspawn",
+          "unit_name": "Nightspawn",
+          "faction": "Demon",
+          "icon": "ImpDemon_Z3W__gfx.png",
+          "level": 10,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "invoked-nightspawn",
+          "unit_name": "Invoked Nightspawn",
+          "faction": "Demon",
+          "icon": "ImpDemon_Z3W_FS__gfx.png",
+          "level": 22,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "summoned-nightspawn",
+          "unit_name": "Summoned Nightspawn",
+          "faction": "Demon",
+          "icon": "ImpDemon_Summoned__gfx.png",
+          "level": null,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "draculag-aspiring-nightgod",
+          "unit_name": "Draculag, aspiring Nightgod",
+          "faction": "Demon",
+          "icon": "ImpDemon_Elite_Red__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "belzebeat",
+          "unit_name": "Belzebeat",
+          "faction": "Demon",
+          "icon": "ImpDemon_Z1_Soulstone__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "asmodeaf",
+          "unit_name": "Asmodeaf",
+          "faction": "Demon",
+          "icon": "ImpDemon_Z2_Soulstone__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-subjugator",
+          "unit_name": "Nightling Subjugator",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z3W_Caster__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lady-zaster",
+          "unit_name": "Lady Zaster",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z3W_Caster_E__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lady-borgild",
+          "unit_name": "Lady Borgild",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z3W_Caster_E1__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "nightling-deathbringer",
+          "unit_name": "Nightling Deathbringer",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z3W_Caster_Big__gfx.png",
+          "level": 24,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "ariana-grandemon",
+          "unit_name": "Ariana Grandemon",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z1_Soulstone_Leg__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        },
+        {
+          "unit_id": "lilithium",
+          "unit_name": "Lilithium",
+          "faction": "Demon",
+          "icon": "FaerieDemon_Z2_Soulstone__gfx.png",
+          "level": 25,
+          "is_hardcore": false,
+          "drop_probability": 0.001,
+          "drop_percent": "0.1%",
+          "source_kind": "unit"
+        }
+      ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
       "id": "Mount_Boar_04",
       "metaforgeId": 848,
       "name": "Irukalean Hog",
@@ -1457,6 +2112,37 @@
       "inGame": true
     },
     {
+      "id": "Mount_Aries_04",
+      "metaforgeId": 887,
+      "name": "Kondalese Warram",
+      "slug": "kondalese-warram",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Aries_04__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_04__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_04__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/kondalese-warram",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
       "id": "Mount_Wolf_03",
       "metaforgeId": 828,
       "name": "Krisomalese Wolf",
@@ -1523,6 +2209,43 @@
       "achievements": [],
       "moveSpeedMultiplier": 2,
       "inGame": false
+    },
+    {
+      "id": "Mount_Demon_03",
+      "metaforgeId": 880,
+      "name": "Mad Nightdog",
+      "slug": "mad-nightdog",
+      "family": "Nightdogs",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Demon_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Demon_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Demon_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/mad-nightdog",
+      "properties": {
+        "subcategory": "Nightdogs",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Empire State of Faith",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Empire State of Faith",
+          "description": "Complete all the exploration achievements in Ramburg.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
     },
     {
       "id": "Mount_Boar_01",
@@ -1816,6 +2539,37 @@
           "source_kind": "unit"
         }
       ],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
+      "id": "Mount_Aries_06",
+      "metaforgeId": 889,
+      "name": "Nescentine Warram",
+      "slug": "nescentine-warram",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Aries_06__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_06__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_06__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/nescentine-warram",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "unknown",
+          "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": 2,
@@ -2446,6 +3200,37 @@
       "inGame": true
     },
     {
+      "id": "Mount_Aries_03",
+      "metaforgeId": 886,
+      "name": "Ponogian Warram",
+      "slug": "ponogian-warram",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Aries_03__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_03__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_03__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/ponogian-warram",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "chest",
+          "text": "Found in a Ramburg Vault Chest",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
       "id": "Mount_Skunk_01",
       "metaforgeId": 851,
       "name": "Primevallean Skunk",
@@ -2553,6 +3338,43 @@
       "inGame": true
     },
     {
+      "id": "Mount_Aries_02",
+      "metaforgeId": 885,
+      "name": "Primevallean Warram",
+      "slug": "primevallean-warram",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Aries_02__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_02__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_02__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/primevallean-warram",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: City Cleaner",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "City Cleaner",
+          "description": "Complete all the Dungeons in CrimsonIsland_Region.",
+          "points": 10
+        }
+      ],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
       "id": "Mount_Hound_04",
       "metaforgeId": 835,
       "name": "Ramburgian Hound",
@@ -2629,6 +3451,43 @@
       ],
       "shops": [],
       "achievements": [],
+      "moveSpeedMultiplier": 2,
+      "inGame": true
+    },
+    {
+      "id": "Mount_Aries_01",
+      "metaforgeId": 884,
+      "name": "Rinuhrian Warram",
+      "slug": "rinuhrian-warram",
+      "family": "Warrams",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "Mount_Aries_01__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Mount_Aries_01__gfx.webp",
+      "iconPath": "/images/mounts/Mount_Aries_01__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/mounts/rinuhrian-warram",
+      "properties": {
+        "subcategory": "Warrams",
+        "type": "Mount",
+        "rarity": "Epic"
+      },
+      "sources": [
+        {
+          "kind": "achievement",
+          "text": "Reward from achievement: Bestiary of Ramburg",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [
+        {
+          "name": "Bestiary of Ramburg",
+          "description": "Complete all codex entries in Ramburg.",
+          "points": 5
+        }
+      ],
       "moveSpeedMultiplier": 2,
       "inGame": true
     },

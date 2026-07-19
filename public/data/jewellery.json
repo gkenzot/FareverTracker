@@ -1,7 +1,7 @@
 {
   "source": "https://metaforge.app/farever/database/jewellery",
-  "importedAt": "2026-06-13T00:07:25.015Z",
-  "total": 38,
+  "importedAt": "2026-07-19T14:30:22.810Z",
+  "total": 43,
   "propertyFields": [
     {
       "key": "subcategory",
@@ -22,6 +22,10 @@
     {
       "key": "level",
       "label": "Level"
+    },
+    {
+      "key": "ilevel",
+      "label": "Item Level"
     }
   ],
   "jewellery": [
@@ -357,6 +361,36 @@
           "kind": "unknown",
           "text": "Source not mapped yet.",
           "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Trinket_Demon",
+      "metaforgeId": 484,
+      "name": "Finger of Sukuna'Maatata",
+      "slug": "finger-of-sukunamaatata",
+      "family": "Trinket",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "All your damage have a chance to curse the target, dealing 20% Strength Raw damage over 6s.\n\nIf the target dies while cursed, you get healed for 5% Strength healing.",
+      "iconFilename": "Trinket_Demon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Demon__gfx.webp",
+      "iconPath": "/images/jewellery/Trinket_Demon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/finger-of-sukunamaatata",
+      "properties": {
+        "subcategory": "Trinket",
+        "type": "Trinket",
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "world_event",
+          "text": "Reward from the Nightling Rifts",
+          "link": "map/siagarta"
         }
       ],
       "droppedBy": [],
@@ -1097,6 +1131,166 @@
         {
           "kind": "unknown",
           "text": "Source not mapped yet.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Mp",
+      "metaforgeId": 483,
+      "name": "Set Eye of Clarity",
+      "slug": "set-eye-of-clarity",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Mp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Mp__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z3RCraft_Mp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-clarity",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "MaPen"
+        ],
+        "type": "Finger",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        },
+        {
+          "kind": "auto_learn",
+          "text": "Recipe automatically known at Jeweller level 6.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Ap",
+      "metaforgeId": 480,
+      "name": "Set Eye of Fracture",
+      "slug": "set-eye-of-fracture",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Ap__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Ap__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z3RCraft_Ap__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-fracture",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "ArPen"
+        ],
+        "type": "Finger",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        },
+        {
+          "kind": "auto_learn",
+          "text": "Recipe automatically known at Jeweller level 6.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Cri",
+      "metaforgeId": 481,
+      "name": "Set Eye of Precision",
+      "slug": "set-eye-of-precision",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Cri__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Cri__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z3RCraft_Cri__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-precision",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Crit"
+        ],
+        "type": "Finger",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        },
+        {
+          "kind": "auto_learn",
+          "text": "Recipe automatically known at Jeweller level 6.",
+          "link": null
+        }
+      ],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "moveSpeedMultiplier": null
+    },
+    {
+      "id": "Finger_Z3RCraft_Fer",
+      "metaforgeId": 482,
+      "name": "Set Eye of Zeal",
+      "slug": "set-eye-of-zeal",
+      "family": "Finger",
+      "rarity": "Rare",
+      "itemLevel": 25,
+      "description": "",
+      "iconFilename": "Finger_Z3RCraft_Fer__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/Finger_Z3RCraft_Fer__gfx.webp",
+      "iconPath": "/images/jewellery/Finger_Z3RCraft_Fer__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-zeal",
+      "properties": {
+        "subcategory": "Finger",
+        "classes": [
+          "Fervor"
+        ],
+        "type": "Finger",
+        "level": 25,
+        "ilevel": 260,
+        "rarity": "Rare"
+      },
+      "sources": [
+        {
+          "kind": "craft",
+          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "link": null
+        },
+        {
+          "kind": "auto_learn",
+          "text": "Recipe automatically known at Jeweller level 6.",
           "link": null
         }
       ],
