@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/weapons",
-  "importedAt": "2026-07-19T18:57:53.679Z",
+  "importedAt": "2026-07-22T11:26:32.708Z",
   "total": 37,
   "propertyFields": [
     {
@@ -44,19 +44,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/amon-ram-the-creator",
       "properties": {
         "subcategory": "Mace",
+        "rarity": "Rare",
+        "level": 20,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "Mace",
-        "level": 20,
-        "ilevel": 210,
-        "rarity": "Rare"
+        "ilevel": 210
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Munster Chuck",
+          "text": "Dungeon Cheese Station",
           "link": "creatures/munster-chuck"
         }
       ],
@@ -80,23 +80,23 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/apprentices-grimoire",
       "properties": {
         "subcategory": "Book",
+        "rarity": "Uncommon",
+        "level": 1,
         "classes": [
           "Mage"
         ],
         "type": "Book",
-        "level": 1,
-        "ilevel": 10,
-        "rarity": "Uncommon"
+        "ilevel": 10
       },
       "sources": [
         {
           "kind": "starter",
-          "text": "Default starter equipment given at character creation",
+          "text": "Starter",
           "link": null
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -142,19 +142,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/beefury-blessed-blade-of-the-farseeker",
       "properties": {
         "subcategory": "Sword",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "Sword",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Lady Bee",
+          "text": "Dungeon Lady Bee's Palace",
           "link": "creatures/lady-bee"
         }
       ],
@@ -178,19 +178,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/book-of-mimizan",
       "properties": {
         "subcategory": "Book",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Mage",
           "Priest"
         ],
         "type": "Book",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Sponge Blob",
+          "text": "Dungeon Lost City of Mayda",
           "link": "creatures/sponge-blob"
         }
       ],
@@ -214,19 +214,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/censer-of-wool-hollow",
       "properties": {
         "subcategory": "Staff",
+        "rarity": "Rare",
+        "level": 14,
         "classes": [
           "Mage",
           "Priest"
         ],
         "type": "Staff",
-        "level": 14,
-        "ilevel": 150,
-        "rarity": "Rare"
+        "ilevel": 150
       },
       "sources": [
         {
-          "kind": "instance",
-          "text": "Claimed in the Crimson Barracks / High Inquisitor Chakram instances",
+          "kind": "drop",
+          "text": "Dungeon Crimson Barracks / Chakram's Chapel",
           "link": null
         }
       ],
@@ -250,19 +250,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/cheese-moon",
       "properties": {
         "subcategory": "Axe",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Warrior",
           "Rogue"
         ],
         "type": "Axe",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Reblochonk",
+          "text": "Dungeon Cheese Station",
           "link": "creatures/reblochonk"
         }
       ],
@@ -286,19 +286,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/clawdius",
       "properties": {
         "subcategory": "Fists",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Rogue",
           "Mage"
         ],
         "type": "Fists",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Crabgantua",
+          "text": "Dungeon Crabgantua's Gorge",
           "link": "creatures/crabgantua"
         }
       ],
@@ -322,19 +322,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/crabgantuas-kneecap",
       "properties": {
         "subcategory": "Shield",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "Shield",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Crabgantua",
+          "text": "Dungeon Crabgantua's Gorge",
           "link": "creatures/crabgantua"
         }
       ],
@@ -358,28 +358,23 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/credence",
       "properties": {
         "subcategory": "Bow",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Rogue"
         ],
         "type": "Bow",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -425,29 +420,24 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/dominion",
       "properties": {
         "subcategory": "Shield",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "Shield",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -493,28 +483,23 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/flame-of-argol",
       "properties": {
         "subcategory": "Scepter",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Priest"
         ],
         "type": "Scepter",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Reblochonk",
+          "text": "Dungeon Cheese Station",
           "link": "creatures/reblochonk"
         },
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         }
       ],
@@ -538,29 +523,24 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/ghost-clams-of-the-low-tide",
       "properties": {
         "subcategory": "Halos",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Mage",
           "Priest"
         ],
         "type": "Halos",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Nepsilon",
+          "text": "Dungeon Abyss of New Atlaan",
           "link": "creatures/nepsilon"
         },
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         }
       ],
@@ -584,29 +564,24 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/glory",
       "properties": {
         "subcategory": "Sword",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "Sword",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -652,19 +627,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/gorgon-ratsays-toothpick",
       "properties": {
         "subcategory": "Spear",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Rogue",
           "Priest"
         ],
         "type": "Spear",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Golcano",
+          "text": "Dungeon Ruins of Gorgon's Hollow",
           "link": "creatures/golcano"
         }
       ],
@@ -688,19 +663,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/horns-of-the-wind",
       "properties": {
         "subcategory": "Bow",
+        "rarity": "Rare",
+        "level": 14,
         "classes": [
           "Rogue",
           "Mage"
         ],
         "type": "Bow",
-        "level": 14,
-        "ilevel": 150,
-        "rarity": "Rare"
+        "ilevel": 150
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Sponge Blob",
+          "text": "Dungeon Lost City of Mayda",
           "link": "creatures/sponge-blob"
         }
       ],
@@ -724,19 +699,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/ipheion-star-blossom",
       "properties": {
         "subcategory": "Thrown",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Rogue",
           "Mage"
         ],
         "type": "Thrown",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Lady Bee",
+          "text": "Dungeon Lady Bee's Palace",
           "link": "creatures/lady-bee"
         }
       ],
@@ -760,29 +735,24 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/iron-fins-of-the-leviathan",
       "properties": {
         "subcategory": "DualAxes",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Warrior",
           "Rogue"
         ],
         "type": "DualAxes",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Nepsilon",
+          "text": "Dungeon Abyss of New Atlaan",
           "link": "creatures/nepsilon"
         },
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         }
       ],
@@ -806,33 +776,28 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/judgement",
       "properties": {
         "subcategory": "GreatAxe",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Warrior"
         ],
         "type": "GreatAxe",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from King Ratsar",
+          "text": "Dungeon Ratsar's Lair",
           "link": "creatures/king-ratsar"
         },
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -878,19 +843,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/lady-bees-ceremonial-stinger",
       "properties": {
         "subcategory": "Spear",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Warrior",
           "Mage"
         ],
         "type": "Spear",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Gatsbee",
+          "text": "Dungeon Lady Bee's Palace",
           "link": "creatures/gatsbee"
         }
       ],
@@ -914,9 +879,9 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/large-butterfly-net",
       "properties": {
         "subcategory": "CaptureNet",
-        "type": "CaptureNet",
+        "rarity": "Rare",
         "level": 4,
-        "rarity": "Rare"
+        "type": "CaptureNet"
       },
       "sources": [
         {
@@ -969,23 +934,23 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/light-practice-sword",
       "properties": {
         "subcategory": "Sword",
+        "rarity": "Uncommon",
+        "level": 1,
         "classes": [
           "Warrior"
         ],
         "type": "Sword",
-        "level": 1,
-        "ilevel": 10,
-        "rarity": "Uncommon"
+        "ilevel": 10
       },
       "sources": [
         {
           "kind": "starter",
-          "text": "Default starter equipment given at character creation",
+          "text": "Starter",
           "link": null
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -1031,19 +996,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/magma-mia",
       "properties": {
         "subcategory": "Shield",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Warrior",
           "Mage"
         ],
         "type": "Shield",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Golcano",
+          "text": "Dungeon Ruins of Gorgon's Hollow",
           "link": "creatures/golcano"
         }
       ],
@@ -1067,18 +1032,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/martyr-of-enripit",
       "properties": {
         "subcategory": "GreatSword",
+        "rarity": "Rare",
+        "level": 20,
         "classes": [
           "Warrior"
         ],
         "type": "GreatSword",
-        "level": 20,
-        "ilevel": 210,
-        "rarity": "Rare"
+        "ilevel": 210
       },
       "sources": [
         {
-          "kind": "instance",
-          "text": "Claimed in the Crimson Barracks / High Inquisitor Chakram instances",
+          "kind": "drop",
+          "text": "Dungeon Crimson Barracks / Chakram's Chapel",
           "link": null
         }
       ],
@@ -1102,19 +1067,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/mirrors-of-the-nightgoddesses",
       "properties": {
         "subcategory": "Halos",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Mage",
           "Priest"
         ],
         "type": "Halos",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "text": "Chaotic Weapon Cache",
           "link": "npcs/mira-demon-huntress"
         },
         {
@@ -1143,19 +1108,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/nibshams-liberators",
       "properties": {
         "subcategory": "Daggers",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Rogue",
           "Mage"
         ],
         "type": "Daggers",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "text": "Chaotic Weapon Cache",
           "link": "npcs/mira-demon-huntress"
         },
         {
@@ -1184,19 +1149,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/pocket-hive",
       "properties": {
         "subcategory": "GreatMace",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "GreatMace",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Queen Honeyzabeth",
+          "text": "Dungeon Honeyzabeth's Hivetrunk",
           "link": "creatures/queen-honeyzabeth"
         }
       ],
@@ -1220,28 +1185,23 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/radiance",
       "properties": {
         "subcategory": "Staff",
+        "rarity": "Rare",
+        "level": 4,
         "classes": [
           "Mage"
         ],
         "type": "Staff",
-        "level": 4,
-        "ilevel": 50,
-        "rarity": "Rare"
+        "ilevel": 50
       },
       "sources": [
         {
           "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
-          "link": "items/mysterious-cache"
-        },
-        {
-          "kind": "container",
-          "text": "Can also be obtained from opening a Mysterious Cache (Z1_WeaponBundle) — chosen affinity-matched weapon pool",
+          "text": "Mysterious Cache",
           "link": "items/mysterious-cache"
         },
         {
           "kind": "shop",
-          "text": "Sold by the Valley of Eternal Autumn merchant as a Rare Level 20 weapon.",
+          "text": "Valley merchant",
           "link": null
         }
       ],
@@ -1287,14 +1247,14 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/ramulus-ramus",
       "properties": {
         "subcategory": "Fists",
+        "rarity": "Rare",
+        "level": 14,
         "classes": [
           "Rogue",
           "Priest"
         ],
         "type": "Fists",
-        "level": 14,
-        "ilevel": 150,
-        "rarity": "Rare"
+        "ilevel": 150
       },
       "sources": [
         {
@@ -1323,18 +1283,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rehearsal-scepter",
       "properties": {
         "subcategory": "Scepter",
+        "rarity": "Uncommon",
+        "level": 1,
         "classes": [
           "Priest"
         ],
         "type": "Scepter",
-        "level": 1,
-        "ilevel": 10,
-        "rarity": "Uncommon"
+        "ilevel": 10
       },
       "sources": [
         {
           "kind": "starter",
-          "text": "Default starter equipment given at character creation",
+          "text": "Starter",
           "link": null
         }
       ],
@@ -1375,18 +1335,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rough-shield",
       "properties": {
         "subcategory": "Shield",
+        "rarity": "Uncommon",
+        "level": 1,
         "classes": [
           "Warrior"
         ],
         "type": "Shield",
-        "level": 1,
-        "ilevel": 10,
-        "rarity": "Uncommon"
+        "ilevel": 10
       },
       "sources": [
         {
           "kind": "starter",
-          "text": "Default starter equipment given at character creation",
+          "text": "Starter",
           "link": null
         }
       ],
@@ -1427,18 +1387,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rusty-knives",
       "properties": {
         "subcategory": "Daggers",
+        "rarity": "Uncommon",
+        "level": 1,
         "classes": [
           "Rogue"
         ],
         "type": "Daggers",
-        "level": 1,
-        "ilevel": 10,
-        "rarity": "Uncommon"
+        "ilevel": 10
       },
       "sources": [
         {
           "kind": "starter",
-          "text": "Default starter equipment given at character creation",
+          "text": "Starter",
           "link": null
         }
       ],
@@ -1479,18 +1439,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/silhouette-of-almaz",
       "properties": {
         "subcategory": "Staff",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Mage"
         ],
         "type": "Staff",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "text": "Chaotic Weapon Cache",
           "link": "npcs/mira-demon-huntress"
         }
       ],
@@ -1514,19 +1474,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/thornlace",
       "properties": {
         "subcategory": "Crescent",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Rogue",
           "Priest"
         ],
         "type": "Crescent",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Gatsbee",
+          "text": "Dungeon Lady Bee's Palace",
           "link": "creatures/gatsbee"
         }
       ],
@@ -1550,18 +1510,18 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/twin-fangs-of-ratsar",
       "properties": {
         "subcategory": "Daggers",
+        "rarity": "Rare",
+        "level": 8,
         "classes": [
           "Rogue"
         ],
         "type": "Daggers",
-        "level": 8,
-        "ilevel": 90,
-        "rarity": "Rare"
+        "ilevel": 90
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from King Ratsar",
+          "text": "Dungeon Ratsar's Lair",
           "link": "creatures/king-ratsar"
         }
       ],
@@ -1585,19 +1545,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/twin-pillars-of-justice",
       "properties": {
         "subcategory": "DualMaces",
+        "rarity": "Rare",
+        "level": 14,
         "classes": [
           "Warrior",
           "Rogue"
         ],
         "type": "DualMaces",
-        "level": 14,
-        "ilevel": 150,
-        "rarity": "Rare"
+        "ilevel": 150
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Munster Chuck",
+          "text": "Dungeon Cheese Station",
           "link": "creatures/munster-chuck"
         }
       ],
@@ -1621,19 +1581,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/wingsabers",
       "properties": {
         "subcategory": "DualSwords",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Warrior",
           "Mage"
         ],
         "type": "DualSwords",
-        "level": 10,
-        "ilevel": 110,
-        "rarity": "Rare"
+        "ilevel": 110
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Queen Honeyzabeth",
+          "text": "Dungeon Honeyzabeth's Hivetrunk",
           "link": "creatures/queen-honeyzabeth"
         }
       ],
@@ -1657,19 +1617,19 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/worldsplitter",
       "properties": {
         "subcategory": "GreatAxe",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Warrior",
           "Priest"
         ],
         "type": "GreatAxe",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Chaotic Weapon Cache (purchased from Mira, Demon Huntress for 10 Nightblood)",
+          "text": "Chaotic Weapon Cache",
           "link": "npcs/mira-demon-huntress"
         },
         {

@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/recipes",
-  "importedAt": "2026-07-19T18:11:38.949Z",
+  "importedAt": "2026-07-22T11:26:35.350Z",
   "total": 190,
   "propertyFields": [
     {
@@ -36,19 +36,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-attunedcutberyl",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Attuned Cut Beryl",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1217,19 +1212,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-attunedcutruby",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Attuned Cut Ruby",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -2398,18 +2388,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-waist-rbee-figwiz",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Aura of the Honeycomb"
+        "produces_name": "Aura of the Honeycomb",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Diaphanous Wings, 5× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -2433,18 +2418,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-waist-rmanfish-wiz-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Barnacle Waistwrap"
+        "produces_name": "Barnacle Waistwrap",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 2) — 12× Bolt of Linen Cloth, 20× Sticky Fin, 2× Fragment of Naya; 100 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -2468,19 +2448,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-13",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Beehive Lozenge",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Royal Jelly, 1× Mixed Herbs; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -3649,18 +3624,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-back-rbee-figwiz-craft",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Beekeeper's Scarf"
+        "produces_name": "Beekeeper's Scarf",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 12× Copper Ingot, 3× Soft Fur, 20× Diaphanous Wings, 2× Fragment of Mely; 100 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -3684,18 +3654,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-11",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Beggar's Garbure"
+        "produces_name": "Beggar's Garbure",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 3× Stale Bread, 3× Fat, 1× Hunter's Sauce; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -3719,18 +3684,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-waist-rkobold-asscle-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Belt of the Great Fermentation"
+        "produces_name": "Belt of the Great Fermentation",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 2) — 12× Tanned Light Leather, 2× Soft Fur, 10× Small Fang, 2× Fragment of Kyre; 100 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -3754,18 +3714,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-linenbolt",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Bolt of Linen Cloth"
+        "produces_name": "Bolt of Linen Cloth",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Linen Cloth, 1× Spark Sample; no craft cost",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -3789,18 +3744,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-enchantpaper-z1",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Bright Enchanted Paper"
+        "produces_name": "Bright Enchanted Paper",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 3× Bright Fragments; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -3824,18 +3774,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-enchantconcentrate-z1",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Bright Spark Concentrate"
+        "produces_name": "Bright Spark Concentrate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Purified Bright Powder, 5× Bright Fragments, 1× Spark Sample; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -3859,18 +3804,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-brightvoidorb",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Bright Void Orb"
+        "produces_name": "Bright Void Orb",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 20× Bright Void Particles, 10× Ephemeral Heart; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -3894,18 +3834,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-bronzeingot",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Bronze Ingot"
+        "produces_name": "Bronze Ingot",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 5× Tin Ore, 1× Copper Ingot, 1× Spark Sample; no craft cost (yields 2)",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -3929,18 +3864,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-head-rdemon-fig-craft",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Brutality Faceshield"
+        "produces_name": "Brutality Faceshield",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 6) — 18× Bronze Ingot, 16× Demonic Horn, 2× Fragment of Nuon; 200 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -3964,18 +3894,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-chest-rkobold-figass",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Cantal Goya's Breastplate"
+        "produces_name": "Cantal Goya's Breastplate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 10× Copper Ingot, 20× Small Fang, 1× Fragment of Kyre; 75 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -3999,18 +3924,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-waist-rmanfish-fig",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Caryapsid's Coccyx"
+        "produces_name": "Caryapsid's Coccyx",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 8× Copper Ingot, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -4034,18 +3954,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z1rcraft-mp",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Circle of Clarity"
+        "produces_name": "Circle of Clarity",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4069,18 +3984,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z1rcraft-ap",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Circle of Fracture"
+        "produces_name": "Circle of Fracture",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4104,18 +4014,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z1rcraft-cri",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Circle of Precision"
+        "produces_name": "Circle of Precision",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Amber; 75 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4139,18 +4044,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z1rcraft-fer",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Circle of Zeal"
+        "produces_name": "Circle of Zeal",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, 1× Glittering Stone, 3× Beryl; 75 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4174,18 +4074,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-back-rcrimson-asscle-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Cloak of Rising Twilight"
+        "produces_name": "Cloak of Rising Twilight",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 5) — 15× Tanned Light Leather, 4× Soft Fur, 4× Ramgold; 150 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -4209,18 +4104,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-copperingot",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Copper Ingot"
+        "produces_name": "Copper Ingot",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Copper Ore, 1× Spark Sample; no craft cost",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -4244,18 +4134,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-copperprospecting",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Copper Prospecting"
+        "produces_name": "Copper Prospecting",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore, 1× Spark Sample; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4279,18 +4164,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-coppersetting",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Copper Setting"
+        "produces_name": "Copper Setting",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Copper Ore; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4314,18 +4194,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-bag-z2",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Cotton Bag"
+        "produces_name": "Cotton Bag",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 5× Bolt of Linen Cloth, 5× Tanned Light Leather, 3× Soft Fur; no craft cost",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -4349,18 +4224,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-3",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Crab Goulash"
+        "produces_name": "Crab Goulash",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 6× Fleshy Claw, 1× Fisherman's Sauce; 15 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -4384,18 +4254,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutstone",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cracked Cut Stone"
+        "produces_name": "Cracked Cut Stone",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4419,19 +4284,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-brutalitycursedcuteye",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cursed Eye of Brutality"
+        "produces_name": "Cursed Eye of Brutality",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -4454,19 +4314,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-dominationcursedcuteye",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cursed Eye of Domination"
+        "produces_name": "Cursed Eye of Domination",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -4489,19 +4344,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-fanatismcursedcuteye",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cursed Eye of Fanatism"
+        "produces_name": "Cursed Eye of Fanatism",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -4524,19 +4374,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-vicecursedcuteye",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cursed Eye of Vice"
+        "produces_name": "Cursed Eye of Vice",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 3× Fiendish Eye, 1× Fragment of Nuon; 50 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -4559,18 +4404,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutagate",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cut Agate"
+        "produces_name": "Cut Agate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Agate, 3× Cracked Cut Stone; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4594,18 +4434,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutamber",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cut Amber"
+        "produces_name": "Cut Amber",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Amber, 3× Cracked Cut Stone; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4629,18 +4464,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutberyl",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cut Beryl"
+        "produces_name": "Cut Beryl",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Beryl, 3× Cracked Cut Stone; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4664,18 +4494,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutmalachite",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cut Malachite"
+        "produces_name": "Cut Malachite",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 1× Malachite, 3× Cracked Cut Stone; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4699,18 +4524,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cutruby",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Cut Ruby"
+        "produces_name": "Cut Ruby",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Ruby, 3× Cracked Cut Stone; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -4734,18 +4554,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-shoulders-rdemon-ass-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Demon Hunter's Mantle"
+        "produces_name": "Demon Hunter's Mantle",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 6) — 18× Tanned Light Leather, 4× Soft Fur, 10× Veiled Wing, 2× Fragment of Nuon; 200 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -4769,19 +4584,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-4",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Demonic Stew"
+        "produces_name": "Demonic Stew",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 3× Demonic Horn, 3× Tail Slice, 1× Hunter's Sauce; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -4804,19 +4614,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-divinedcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Divine Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -5985,19 +5790,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-divinedembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Divine Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -7166,19 +6966,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofabundance",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Elixir of Abundance",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 2× Light Leather Strap, 2× Copper Ore, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -8347,19 +8142,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofarmor-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Elixir of Armor",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 2× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -9528,18 +9318,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofdexterity-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Dexterity"
+        "produces_name": "Elixir of Dexterity",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Glossy Chitin, 2× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -9563,18 +9348,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixiroffaith-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Faith"
+        "produces_name": "Elixir of Faith",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Ephemeral Heart, 2× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -9598,18 +9378,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofintelligence-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Intelligence"
+        "produces_name": "Elixir of Intelligence",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 2× Sharp Scale, 2× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -9633,19 +9408,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofminorarmor",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Elixir of Minor Armor",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 2× Madrigold Petal, 2× Lavendula Petal, 3× Cracked Stone, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -10814,18 +10584,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofminordexterity",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Minor Dexterity"
+        "produces_name": "Elixir of Minor Dexterity",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Diaphanous Wings, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -10849,18 +10614,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofminorfaith",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Minor Faith"
+        "produces_name": "Elixir of Minor Faith",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Eyestalk, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -10884,18 +10644,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofminorintelligence",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Minor Intelligence"
+        "produces_name": "Elixir of Minor Intelligence",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Lavendula Petal, 3× Sticky Fin, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -10919,18 +10674,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofminorstrength",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Minor Strength"
+        "produces_name": "Elixir of Minor Strength",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 3× Madrigold Petal, 3× Small Fang, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -10954,18 +10704,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-elixirofstrength-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Elixir of Strength"
+        "produces_name": "Elixir of Strength",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 3× Small Fang, 2× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -10989,18 +10734,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-0",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Eye Salad"
+        "produces_name": "Eye Salad",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 1× Fiendish Eye, 1× Mixed Herbs; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -11024,19 +10764,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-fastswimpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Fast Swim Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Sharp Scale, 3× Sticky Fin, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -12205,18 +11940,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-fishermansauce",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Fisherman's Sauce"
+        "produces_name": "Fisherman's Sauce",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Fleshy Claw, 1× Spark Sample; no craft cost",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -12240,19 +11970,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-7",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Flavored Candies",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Honey, 1× Mixed Herbs; 15 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -13421,18 +13146,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-alchemistessence-z1",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Fresh Essence"
+        "produces_name": "Fresh Essence",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 1× Fresh Flower Powder, 1× Zealotus Petal, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -13456,18 +13176,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-freshflowerpowder",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Fresh Flower Powder"
+        "produces_name": "Fresh Flower Powder",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 2× Madrigold Petal, 2× Lavendula Petal, 2× Ancient Thyme Petal, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -13491,19 +13206,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-gildedcutberyl",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Gilded Cut Beryl",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -14672,19 +14382,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-gildedcutruby",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Gilded Cut Ruby",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -15853,18 +15558,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-alloy-z1",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Glittering Alloy"
+        "produces_name": "Glittering Alloy",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 1× Bronze Ingot, 3× Glittering Stone, 1× Tungstene Ingot; no craft cost",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -15888,18 +15588,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-hands-rkobold-cle-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Gloves of the Cheesomancer"
+        "produces_name": "Gloves of the Cheesomancer",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 8× Bolt of Linen Cloth, 15× Small Fang, 1× Fragment of Kyre; 75 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -15923,19 +15618,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-gracefulcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Graceful Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -17104,19 +16794,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-gracefulembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Graceful Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -18285,19 +17970,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-5",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Grilled Mackerel",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Small Mackerel, 1× Fisherman's Sauce; 15 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -19466,19 +19146,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-3",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Grilled Tail Skewers"
+        "produces_name": "Grilled Tail Skewers",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 6× Tail Slice, 1× Mixed Herbs; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -19501,19 +19176,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-2",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Grilled Wolf Chops",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Wolf Meat, 1× Hunter's Sauce; 15 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -20682,18 +20352,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-hands-rmanfish-figass-craft",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Handguards of the Deep Sea"
+        "produces_name": "Handguards of the Deep Sea",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 15× Copper Ingot, 20× Sticky Fin, 1× Fragment of Naya, 1× Simple Pearl; 100 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -20717,18 +20382,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-feet-rbee-wizcle-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Hiveriders"
+        "produces_name": "Hiveriders",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 12× Linen Cloth, 3× Soft Fur, 10× Glossy Chitin, 2× Fragment of Mely; 125 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -20752,19 +20412,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-honedcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Honed Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -21933,19 +21588,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-honedembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Honed Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -23114,19 +22764,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-1",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Horn in Sauce"
+        "produces_name": "Horn in Sauce",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 6× Demonic Horn, 1× Hunter's Sauce; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -23149,18 +22794,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-feet-rkobold-figcle-craft",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Hot Cheesewalkers"
+        "produces_name": "Hot Cheesewalkers",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 3) — 8× Bronze Ingot, 15× Small Fang, 5× Piece of Perforated Metal, 2× Fragment of Kyre; 125 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -23184,19 +22824,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-6",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Hot Wings"
+        "produces_name": "Hot Wings",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 3× Veiled Wing, 1× Mixed Herbs; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -23219,18 +22854,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-huntersauce",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Hunter's Sauce"
+        "produces_name": "Hunter's Sauce",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 5× Fresh Blood, 1× Small Fang, 1× Spark Sample; no craft cost",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -23254,18 +22884,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-infusedtusk",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Infused Tusk"
+        "produces_name": "Infused Tusk",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 1× Chipped Tusk, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 125 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -23289,19 +22914,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-invisibilitypotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Invisibility Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Mely, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -24470,18 +24090,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-linenbag",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Linen Bag"
+        "produces_name": "Linen Bag",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Bolt of Linen Cloth, 3× Tanned Light Leather; no craft cost",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -24505,19 +24120,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-longbreathpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Long Breath Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 3× Lavendula Petal, 6× Sticky Fin, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -25686,18 +25296,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetarmor-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Armor"
+        "produces_name": "Magic Formula: Armor",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 5× Coal; 50 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -25721,19 +25326,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetarmorpen-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Armor Penetration",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -26902,19 +26502,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetcritical-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Critical Chance",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Kyre; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -28083,18 +27678,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweapondevote",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Devote"
+        "produces_name": "Magic Formula: Devote",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -28118,19 +27708,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsdexterity-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Dexterity",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Glossy Chitin; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -29299,19 +28884,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsfaith-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Faith",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 1× Ramgold; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -30480,19 +30060,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetfervor-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Fervor",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -31661,18 +31236,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweaponflamingweapon",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Flaming Weapon"
+        "produces_name": "Magic Formula: Flaming Weapon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Pyrh; 100 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -31696,19 +31266,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsintelligence-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Intelligence",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Sharp Scale; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -32877,18 +32442,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweaponlifestealing",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Lifestealing"
+        "produces_name": "Magic Formula: Lifestealing",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 6) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 10× Fiendish Eye; 100 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -32912,19 +32472,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetmagicpen-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Magic Penetration",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 3) — 1× Bright Enchanted Paper, 8× Purified Bright Powder, 5× Bright Void Particles, 2× Fragment of Naya; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -34093,18 +33648,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetminorarmor",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Minor Armor"
+        "produces_name": "Magic Formula: Minor Armor",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 3× Glittering Stone; 30 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -34128,19 +33678,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetminorarmorpen",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Armor Penetration",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -35309,19 +34854,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetminorcritical",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Critical Chance",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Kyre; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -36490,19 +36030,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsminordexterity",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Dexterity",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Diaphanous Wings; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -37671,19 +37206,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsminorfaith",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Faith",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Eyestalk; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -38852,19 +38382,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetminorfervor",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Fervor",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Purified Bright Powder, 1× Fragment of Naya; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -40033,19 +39558,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsminorintelligence",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Intelligence",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Sticky Fin; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -41214,19 +40734,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulafeetminormagicpen",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Magic Penetration",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Bright Enchanted Paper, 4× Bright Residues, 1× Fragment of Naya; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -42395,19 +41910,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsminorstrength",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Minor Strength",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Small Fang; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -43576,18 +43086,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsminorvitality",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Minor Vitality"
+        "produces_name": "Magic Formula: Minor Vitality",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 2) — 1× Bright Enchanted Paper, 6× Purified Bright Powder, 5× Fresh Blood; 30 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -43611,18 +43116,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweaponsparkharvesting",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Spark Harvesting"
+        "produces_name": "Magic Formula: Spark Harvesting",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 3× Fragment of Mely; 100 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -43646,19 +43146,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsstrength-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
         "produces_name": "Magic Formula: Strength",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Piece of Perforated Metal; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -44827,18 +44322,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulahandsvitality-z2",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Vitality"
+        "produces_name": "Magic Formula: Vitality",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 4) — 1× Bright Enchanted Paper, 10× Purified Bright Powder, 8× Bright Void Particles, 5× Fresh Blood; 50 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -44862,18 +44352,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-formulaweaponzealot",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Magic Formula: Zealot"
+        "produces_name": "Magic Formula: Zealot",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 5) — 1× Bright Enchanted Paper, 10× Bright Spark Concentrate, 1× Bright Void Orb, 5× Ramgold; 100 Craft points",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -44897,18 +44382,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-head-rdemon-craft-wizcle",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Mask of the Unbidden Imp"
+        "produces_name": "Mask of the Unbidden Imp",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 6) — 18× Linen Cloth, 4× Soft Fur, 16× Tail Slice, 2× Fragment of Nuon; 200 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -44932,18 +44412,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-4",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Melted Herbed Cheese"
+        "produces_name": "Melted Herbed Cheese",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Kobold Swiss, 1× Mixed Herbs; 15 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -44967,18 +44442,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-smallalchemistcauldron",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Alchemist Cauldron"
+        "produces_name": "Minor Alchemist Cauldron",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Simple Cauldron, 1× Elixir of Strength, 1× Elixir of Dexterity, 1× Elixir of Intelligence, 1× Elixir of Faith, 1× Fresh Essence; 50 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -45002,18 +44472,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minordexteritypotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Dexterity Potion"
+        "produces_name": "Minor Dexterity Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -45037,18 +44502,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorfaithpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Faith Potion"
+        "produces_name": "Minor Faith Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -45072,18 +44532,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorhealingpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Healing Potion"
+        "produces_name": "Minor Healing Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Vial, 1× Madrigold Petal, 1× Lavendula Petal, 3× Fresh Blood, 1× Strange Spores; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -45107,18 +44562,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorintelligencepotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Intelligence Potion"
+        "produces_name": "Minor Intelligence Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -45142,19 +44592,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorshieldpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Minor Shield Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 1× Vial, 1× Madrigold Petal, 2× Glittering Stone, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -46323,18 +45768,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorstrengthpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Minor Strength Potion"
+        "produces_name": "Minor Strength Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Nuon, 1× Strange Spores; 25 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -46358,19 +45798,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-minorvelocitypotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Minor Velocity Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Aoyl, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -47539,18 +46974,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-skoverdriedherbs",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Mixed Herbs"
+        "produces_name": "Mixed Herbs",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 3× Madrigold Petal, 3× Lavendula Petal, 1× Spark Sample; no craft cost",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -47574,18 +47004,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-8",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Mixed Salad"
+        "produces_name": "Mixed Salad",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 2× Madrigold Petal, 2× Lavendula Petal, 1× Mixed Herbs; 15 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -47609,18 +47034,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-moteofair",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Mote of Aoyl"
+        "produces_name": "Mote of Aoyl",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 3× Glossy Chitin, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -47644,18 +47064,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-moteofearth",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Mote of Kyre"
+        "produces_name": "Mote of Kyre",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Cracked Stone, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -47679,18 +47094,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-moteofnature",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Mote of Mely"
+        "produces_name": "Mote of Mely",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Fresh Blood, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -47714,18 +47124,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-moteofwater",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Mote of Naya"
+        "produces_name": "Mote of Naya",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 3× Sticky Fin, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -47749,18 +47154,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-moteoffire",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Mote of Pyrh"
+        "produces_name": "Mote of Pyrh",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — 3× Coal, 1× Spark Sample; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -47784,19 +47184,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-mysticcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Mystic Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -48965,19 +48360,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-mysticembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Mystic Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -50146,18 +49536,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-necklace-z2rcraft",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Pendant of Adaptability"
+        "produces_name": "Pendant of Adaptability",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 5) — 4× Copper Setting, 5× Ramgold, 1× Amber, 1× Beryl, 1× Ruby, 1× Agate, 1× Malachite; 150 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -50181,18 +49566,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-necklace-z1rcraft",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Pendant of Versatility"
+        "produces_name": "Pendant of Versatility",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 4× Copper Setting, 3× Glittering Stone, 1× Simple Pearl; 100 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -50216,18 +49596,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-philosopherstone",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Philosopher's Stone"
+        "produces_name": "Philosopher's Stone",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 5× Tungstene Ore, 1× Simple Pearl, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Naya; 100 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -50251,19 +49626,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-15",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Pike Cooked in Foil",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Pike, 1× Fisherman's Sauce; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -51432,18 +50802,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-feast",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Plainswalker Feast"
+        "produces_name": "Plainswalker Feast",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 5) — 1× Silver Tray, 1× Smoked Coyote, 1× Skover Root Soup, 1× Beggar's Garbure, 1× Pumpkin Pie, 2× Hunter's Sauce, 2× Fisherman's Sauce; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -51467,18 +50832,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-prismaticfragment",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Prismatic Fragment"
+        "produces_name": "Prismatic Fragment",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Fragment of Pyrh, 1× Fragment of Kyre, 1× Fragment of Mely, 1× Fragment of Aoyl, 1× Fragment of Naya, 5× Ramgold; no craft cost",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -51502,18 +50862,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-prismaticpearl",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Prismatic Pearl"
+        "produces_name": "Prismatic Pearl",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 1× Simple Pearl, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -51537,18 +50892,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-12",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Pumpkin Pie"
+        "produces_name": "Pumpkin Pie",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 3× Wheat, 3× Pumpkin, 1× Mixed Herbs; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -51572,18 +50922,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-enchantpowder-z1",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Purified Bright Powder"
+        "produces_name": "Purified Bright Powder",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 5× Bright Residues, 1× Spark Sample; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -51607,18 +50952,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-purifiedheart",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Purified Heart"
+        "produces_name": "Purified Heart",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 5× Ephemeral Heart, 5× Fresh Essence, 5× Ramgold, 1× Prismatic Fragment; 150 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -51642,19 +50982,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-14",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Ramburg Fondue",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Ramburg Bleu, 1× Hunter's Sauce; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -52823,18 +52158,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-reinforcedcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Reinforced Bronze Plate"
+        "produces_name": "Reinforced Bronze Plate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -52858,18 +52188,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-reinforcedembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Reinforced Soft Embroidery"
+        "produces_name": "Reinforced Soft Embroidery",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -52893,19 +52218,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-resonantcutagate",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Resonant Cut Agate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -54074,19 +53394,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-resonantcutamber",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Resonant Cut Amber",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -55255,18 +54570,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-feet-rcrimson-figcle",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Rival Sabatons of Ironhorn"
+        "produces_name": "Rival Sabatons of Ironhorn",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 5) — 12× Bronze Ingot, 5× Ramgold; 150 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -55290,19 +54600,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-runedcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Runed Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -56471,19 +55776,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-runedembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Runed Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -57652,19 +56952,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sacrificepotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Sacrifice Potion"
+        "produces_name": "Sacrifice Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 5× Demonic Horn, 1× Strange Spores",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -57687,18 +56982,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-chest-rcrimson-wizcle-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Sacrificial Vestments"
+        "produces_name": "Sacrificial Vestments",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 5) — 20× Linen Cloth, 6× Soft Fur, 8× Ramgold; 150 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -57722,19 +57012,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sanctifiedcopperplate",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
         "produces_name": "Sanctified Bronze Plate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 4) — 3× Glittering Alloy; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -58903,19 +58188,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sanctifiedembroidery",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
         "produces_name": "Sanctified Soft Embroidery",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 3× Soft Weave; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -60084,18 +59364,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-chest-rcrimson-fig-craft",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Scarlet Breastplate"
+        "produces_name": "Scarlet Breastplate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 5.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 5) — 18× Bronze Ingot, 8× Ramgold; 150 Craft points",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -60119,19 +59394,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorrupteddexterity",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Corrupted Dexterity"
+        "produces_name": "Scroll Of Corrupted Dexterity",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 1× Veiled Wing",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -60154,19 +59424,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedfaith",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Corrupted Faith"
+        "produces_name": "Scroll Of Corrupted Faith",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 3× Demonic Horn",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -60189,19 +59454,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedintellect",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Corrupted Intellect"
+        "produces_name": "Scroll Of Corrupted Intellect",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 1× Veiled Wing",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -60224,19 +59484,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofcorruptedstrength",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Corrupted Strength"
+        "produces_name": "Scroll Of Corrupted Strength",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 6) — 1× Blank Page, 2× Purified Bright Powder, 3× Demonic Horn",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -60259,18 +59514,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofdexterity",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Dexterity I"
+        "produces_name": "Scroll Of Dexterity I",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Diaphanous Wings; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -60294,18 +59544,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrolloffaith",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Faith I"
+        "produces_name": "Scroll Of Faith I",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Eyestalk; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -60329,18 +59574,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofintelligence",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Intelligence I"
+        "produces_name": "Scroll Of Intelligence I",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Sticky Fin; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -60364,18 +59604,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofstrength",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Strength I"
+        "produces_name": "Scroll Of Strength I",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Small Fang; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -60399,18 +59634,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-scrollofvitality",
       "properties": {
         "subcategory": "Enchanter",
-        "type": "Recipe",
-        "produces_name": "Scroll Of Vitality I"
+        "produces_name": "Scroll Of Vitality I",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Enchanter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Enchanter (Level 1) — 1× Blank Page, 2× Purified Bright Powder, 3× Fresh Blood; no craft cost",
+          "text": "Default · Enchanter",
           "link": null
         }
       ],
@@ -60434,19 +59664,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-16",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Sea Omelette",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 4) — 6× Crab Egg, 1× Fisherman's Sauce; 30 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -61615,18 +60840,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-mp",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Set Eye of Clarity"
+        "produces_name": "Set Eye of Clarity",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweller level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "text": "Default · Jeweller",
           "link": null
         }
       ],
@@ -61650,18 +60870,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-ap",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Set Eye of Fracture"
+        "produces_name": "Set Eye of Fracture",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweller level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "text": "Default · Jeweller",
           "link": null
         }
       ],
@@ -61685,18 +60900,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-cri",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Set Eye of Precision"
+        "produces_name": "Set Eye of Precision",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweller level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "text": "Default · Jeweller",
           "link": null
         }
       ],
@@ -61720,18 +60930,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z3rcraft-fer",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Set Eye of Zeal"
+        "produces_name": "Set Eye of Zeal",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweller level 6.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
+          "text": "Default · Jeweller",
           "link": null
         }
       ],
@@ -61755,19 +60960,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-shieldpotion-z2",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
         "produces_name": "Shield Potion",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 5) — 1× Vial, 1× Fresh Flower Powder, 1× Fragment of Kyre, 1× Strange Spores; no craft cost",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -62936,18 +62136,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z2rcraft-criap",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Signet of the Fighter"
+        "produces_name": "Signet of the Fighter",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Agate; 125 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -62971,18 +62166,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-finger-z2rcraft-fermp",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Signet of the Wizard"
+        "produces_name": "Signet of the Wizard",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Ruby; 125 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -63006,19 +62196,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-2",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Skinless Iodized Wings"
+        "produces_name": "Skinless Iodized Wings",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 3× Veiled Wing, 1× Fisherman's Sauce; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -63041,18 +62226,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-10",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Skover Root Soup"
+        "produces_name": "Skover Root Soup",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 6× Sweet Root, 1× Mixed Herbs; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -63076,18 +62256,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-6",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Skunk Stew"
+        "produces_name": "Skunk Stew",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 1) — 6× Skunk Meat, 1× Hunter's Sauce; 15 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -63111,18 +62286,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-9",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Smoked Coyote"
+        "produces_name": "Smoked Coyote",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Cook level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 3) — 6× Coyote Meat, 1× Hunter's Sauce; 30 Craft points",
+          "text": "Default · Cook",
           "link": null
         }
       ],
@@ -63146,18 +62316,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-hideboundweave",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Soft Weave"
+        "produces_name": "Soft Weave",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 4) — 2× Soft Fur, 1× Tanned Light Leather, 1× Bolt of Linen Cloth; no craft cost",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -63181,18 +62346,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-chest-rbee-asswiz-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Splendid Wingsvest"
+        "produces_name": "Splendid Wingsvest",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 3) — 15× Tanned Light Leather, 12× Glossy Chitin, 5× Soft Fur, 2× Fragment of Mely; 125 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -63216,18 +62376,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-stoneofcunning",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Stone of Cunning"
+        "produces_name": "Stone of Cunning",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Mely, 15× Lavendula Petal; 75 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -63251,18 +62406,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-stoneofpower",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Stone of Power"
+        "produces_name": "Stone of Power",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 15× Madrigold Petal; 75 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -63286,18 +62436,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-stoneofrighteousness",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Stone of Rigtheousness"
+        "produces_name": "Stone of Rigtheousness",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Kyre, 10× Lavendula Petal; 75 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -63321,18 +62466,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-stoneofwisdom",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Stone of Wisdom"
+        "produces_name": "Stone of Wisdom",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Alchemist level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — 1× Glittering Stone, 2× Fragment of Naya, 15× Madrigold Petal; 75 Craft points",
+          "text": "Default · Alchemist",
           "link": null
         }
       ],
@@ -63356,18 +62496,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-strongcutagate",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Strong Cut Agate"
+        "produces_name": "Strong Cut Agate",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 4.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -63391,18 +62526,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-strongcutamber",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Strong Cut Amber"
+        "produces_name": "Strong Cut Amber",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "text": "Default",
           "link": null
         }
       ],
@@ -63426,19 +62556,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sunderedcutagate",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Sundered Cut Agate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -64607,19 +63732,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-sunderedcutamber",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Sundered Cut Amber",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -65788,19 +64908,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-demon-5",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
-        "produces_name": "Surf and Murk"
+        "produces_name": "Surf and Murk",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 6) — 3× Demonic Horn, 3× Tail Slice, 1× Fisherman's Sauce; 30 Craft points",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -65823,19 +64938,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-surgingcutagate",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Surging Cut Agate",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Agate; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -67004,19 +66114,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-surgingcutamber",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Surging Cut Amber",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Amber; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -68185,18 +67290,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-tannedleather",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Tanned Light Leather"
+        "produces_name": "Tanned Light Leather",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 3× Light Leather Strap, 1× Spark Sample; no craft cost",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -68220,19 +67320,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-temperedcutberyl",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Tempered Cut Beryl",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 2) — 1× Cut Beryl; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -69401,19 +68496,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-temperedcutruby",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
         "produces_name": "Tempered Cut Ruby",
-        "pickup_rarity": "Uncommon"
+        "pickup_rarity": "Uncommon",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 4) — 1× Cut Ruby; 50 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -70582,18 +69672,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-feet-rmanfish-asswiz-craft",
       "properties": {
         "subcategory": "Outfitter",
-        "type": "Recipe",
-        "produces_name": "Tidewalkers"
+        "produces_name": "Tidewalkers",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Outfitter level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Outfitter (Level 1) — 8× Tanned Light Leather, 15× Sticky Fin, 1× Fragment of Naya; 75 Craft points",
+          "text": "Default · Outfitter",
           "link": null
         }
       ],
@@ -70617,18 +69702,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-tinprospecting",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Tin Prospecting"
+        "produces_name": "Tin Prospecting",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 3.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 10× Tin Ore, 1× Spark Sample; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -70652,18 +69732,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-tungsteneingot",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Tungstene Ingot"
+        "produces_name": "Tungstene Ingot",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 2.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 2) — 5× Tungstene Ore, 1× Spark Sample; no craft cost",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -70687,18 +69762,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-tungsteneprospecting",
       "properties": {
         "subcategory": "Jeweller",
-        "type": "Recipe",
-        "produces_name": "Tungstene Prospecting"
+        "produces_name": "Tungstene Prospecting",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Jeweler level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 10× Tungstene Ore, 1× Spark Sample; no craft cost",
+          "text": "Default",
           "link": null
         }
       ],
@@ -70722,19 +69792,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-vesselpotion",
       "properties": {
         "subcategory": "Alchemist",
-        "type": "Recipe",
-        "produces_name": "Vessel Potion"
+        "produces_name": "Vessel Potion",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 1000 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Alchemist (Level 6) — 1× Vial, 1× Fresh Flower Powder, 5× Veiled Wing, 1× Strange Spores",
-          "link": null
         }
       ],
       "droppedBy": [],
@@ -70757,18 +69822,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-weightstone",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Weightstone"
+        "produces_name": "Weightstone",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -70792,18 +69852,13 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-whetstone",
       "properties": {
         "subcategory": "Blacksmith",
-        "type": "Recipe",
-        "produces_name": "Whetstone"
+        "produces_name": "Whetstone",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "auto_learn",
-          "text": "Unlocked by default when you reach Blacksmith level 1.",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Blacksmith (Level 1) — 5× Cracked Stone, 1× Glittering Stone, 1× Spark Sample; no craft cost",
+          "text": "Default · Blacksmith",
           "link": null
         }
       ],
@@ -70827,19 +69882,14 @@
       "pageUrl": "https://metaforge.app/farever/database/recipes/recipe-cook-1",
       "properties": {
         "subcategory": "Cook",
-        "type": "Recipe",
         "produces_name": "Wild Boar Stew",
-        "pickup_rarity": "Common"
+        "pickup_rarity": "Common",
+        "type": "Recipe"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).",
-          "link": null
-        },
-        {
-          "kind": "craft",
-          "text": "Crafted by Cook (Level 2) — 6× Boar Meat, 1× Hunter's Sauce; 15 Craft points",
+          "text": "Drop",
           "link": null
         }
       ],

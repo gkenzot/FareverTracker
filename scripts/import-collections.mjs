@@ -130,8 +130,34 @@ const DUNGEON_ARMOR_SOURCES = {
     "Honeyzabeth's Hivetrunk"
   ]
 };
-const CRIMSON_ARMOR_NOTE =
-  "Crimson faction armor; dungeon loot is not catalogued yet in FareverDB or the community loot page.";
+const ARMOR_FACTION_LABELS = {
+  RManfish: "Manfish",
+  RKobold: "Kobold",
+  RBee: "Bee",
+  RDemon: "Demon",
+  RCrimson: "Crimson"
+};
+const WEAPON_BOSS_DUNGEONS = {
+  "Munster Chuck": "Cheese Station",
+  Reblochonk: "Cheese Station",
+  "King Ratsar": "Ratsar's Lair",
+  Golcano: "Ruins of Gorgon's Hollow",
+  "Lady Bee": "Lady Bee's Palace",
+  Gatsbee: "Lady Bee's Palace",
+  "Queen Honeyzabeth": "Honeyzabeth's Hivetrunk",
+  Crabgantua: "Crabgantua's Gorge",
+  Nepsilon: "Abyss of New Atlaan",
+  "Sponge Blob": "Lost City of Mayda",
+  "High Inquisitor Chakram": "Chakram's Chapel",
+  "Robin Hoof": "Crimson Barracks"
+};
+const JEWELLERY_SOURCE_OVERRIDES = {
+  Poetrident: { kind: "drop", text: "Dungeon Manfish", link: null },
+  "Raclette Pan": { kind: "drop", text: "Dungeon Kobold", link: null },
+  "Eternal Flower Heart": { kind: "drop", text: "Dungeon Bee", link: null },
+  "Lost Relic Found": { kind: "drop", text: "Dungeon Crimson", link: null }
+};
+const CRIMSON_ARMOR_NOTE = "Dungeon Crimson";
 const VALLEY_LEVEL_20_SHOP_WEAPONS = new Set([
   "Radiance",
   "Judgement",
@@ -376,6 +402,128 @@ async function fetchPage(collection, page) {
   return findPageData(payload, collection);
 }
 
+function findEntryData(payload) {
+  for (const node of payload.nodes ?? []) {
+    const decoded = decodeNodeData(node);
+    if (decoded?.entry) {
+      return decoded.entry;
+    }
+  }
+
+  return null;
+}
+
+async function fetchItemDetail(collection, slug) {
+  const url = `${META_FORGE_DATABASE_URL}/${collection.sourceCategory}/${slug}/__data.json`;
+  const response = await fetch(url, {
+    headers: {
+      accept: "application/json"
+    }
+  });
+
+  if (!response.ok) {
+    console.warn(`Could not fetch detail for ${collection.key}/${slug}: ${response.status}`);
+    return null;
+  }
+
+  const payload = await response.json();
+  return findEntryData(payload);
+}
+
+function listItemNeedsDetail(item) {
+  return !(
+    item.obtained_from?.length ||
+    item.dropped_by?.length ||
+    item.shop_sources?.length ||
+    item.reward_for_achievements?.length ||
+    item.mount_info ||
+    item.glider_info ||
+    item.produces ||
+    item.produces_name ||
+    item.pickup_rarity
+  );
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      results[currentIndex] = await mapper(items[currentIndex], currentIndex);
+    }
+  }
+
+  const workerCount = Math.max(1, Math.min(concurrency, items.length));
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return results;
+}
+
+const DETAIL_MERGE_KEYS = [
+  "obtained_from",
+  "dropped_by",
+  "shop_sources",
+  "reward_for_achievements",
+  "chest_sources",
+  "availability_note",
+  "description",
+  "flavor_desc",
+  "mount_info",
+  "glider_info",
+  "produces",
+  "produces_name",
+  "pickup_rarity",
+  "type",
+  "subcategory",
+  "classes",
+  "rarity",
+  "level",
+  "ilevel",
+  "slot",
+  "icon_filename"
+];
+
+async function enrichRawItemsWithDetails(items, collection) {
+  const missingItems = items.filter(listItemNeedsDetail);
+
+  if (missingItems.length === 0) {
+    return items;
+  }
+
+  console.log(`Fetching ${missingItems.length} ${collection.key} detail pages for source data...`);
+
+  const detailsBySlug = new Map();
+  let completed = 0;
+
+  await mapWithConcurrency(missingItems, 10, async (item) => {
+    const entry = await fetchItemDetail(collection, item.slug);
+    if (entry) {
+      detailsBySlug.set(item.slug, entry);
+    }
+    completed += 1;
+    if (completed % 50 === 0 || completed === missingItems.length) {
+      console.log(`  ${collection.key} details: ${completed}/${missingItems.length}`);
+    }
+  });
+
+  return items.map((item) => {
+    const detail = detailsBySlug.get(item.slug);
+    if (!detail) {
+      return item;
+    }
+
+    const merged = { ...item };
+    for (const key of DETAIL_MERGE_KEYS) {
+      if (detail[key] !== undefined && detail[key] !== null && detail[key] !== "") {
+        merged[key] = detail[key];
+      }
+    }
+    return merged;
+  });
+}
+
 const RECIPE_LEARN_SOURCE_PRIORITY = ["shop", "world_drop", "drop", "auto_learn", "chest", "achievement"];
 const RECIPE_WORLD_DROP_TEXT =
   "Recipe scroll drop from recipe chests, world crates, and humanoid enemies (profession-filtered pool).";
@@ -601,10 +749,11 @@ function armorDungeonSource(item) {
 
   for (const [factionKey, dungeons] of Object.entries(DUNGEON_ARMOR_SOURCES)) {
     if (itemIdHasFaction(item, factionKey)) {
+      const factionLabel = ARMOR_FACTION_LABELS[factionKey] ?? factionKey.replace(/^R/, "");
       return {
         source: {
           kind: "drop",
-          text: `Dungeon armor drop from ${dungeons.join(", ")}.`,
+          text: `Dungeon ${factionLabel}`,
           link: null
         },
         dungeonSources: dungeons.map((dungeon) => ({
@@ -619,7 +768,7 @@ function armorDungeonSource(item) {
   if (itemIdHasFaction(item, "RCrimson")) {
     return {
       source: {
-        kind: "unknown",
+        kind: "drop",
         text: CRIMSON_ARMOR_NOTE,
         link: null
       },
@@ -649,14 +798,166 @@ function withExtraSource(item, source) {
   return exists ? sources : [...sources, source];
 }
 
+function simplifyCraftText(text) {
+  const match = String(text).match(/Crafted by\s+([A-Za-z]+)/i);
+  return match ? `Craft by ${match[1]}` : text;
+}
+
+function simplifyWeaponDropText(text) {
+  const match = String(text).match(/drop from\s+(.+?)\.?$/i);
+
+  if (!match) {
+    return text;
+  }
+
+  const boss = match[1].trim().replace(/\.$/, "");
+  const dungeon = WEAPON_BOSS_DUNGEONS[boss];
+  return dungeon ? `Dungeon ${dungeon}` : `Dungeon ${boss}`;
+}
+
+function simplifySourceText(source, collectionKey) {
+  const kind = source.kind ?? "unknown";
+  const text = source.text ?? "";
+  const link = source.link ?? null;
+
+  if (/Chaotic Gear Cache/i.test(text)) {
+    return { kind, text: "Chaotic Gear Cache", link };
+  }
+
+  if (/Chaotic Weapon Cache/i.test(text)) {
+    return { kind, text: "Chaotic Weapon Cache", link };
+  }
+
+  if (/Mysterious Cache/i.test(text)) {
+    return { kind, text: "Mysterious Cache", link };
+  }
+
+  if (kind === "craft" || /^Crafted by\s+/i.test(text)) {
+    return { kind: kind === "craft" ? "craft" : kind, text: simplifyCraftText(text), link };
+  }
+
+  if (kind === "starter" || /starter equipment/i.test(text)) {
+    return { kind: "starter", text: "Starter", link };
+  }
+
+  if (kind === "instance") {
+    if (/Crimson Barracks/i.test(text) && /Chakram/i.test(text)) {
+      return { kind: "drop", text: "Dungeon Crimson Barracks / Chakram's Chapel", link };
+    }
+
+    if (/Crimson Barracks/i.test(text)) {
+      return { kind: "drop", text: "Dungeon Crimson Barracks", link };
+    }
+
+    if (/Chakram/i.test(text)) {
+      return { kind: "drop", text: "Dungeon Chakram's Chapel", link };
+    }
+  }
+
+  if (kind === "drop" && collectionKey === "weapons") {
+    return { kind, text: simplifyWeaponDropText(text), link };
+  }
+
+  if (kind === "drop" && collectionKey === "armor" && /Dungeon armor drop from/i.test(text)) {
+    for (const [factionKey, dungeons] of Object.entries(DUNGEON_ARMOR_SOURCES)) {
+      if (dungeons.some((dungeon) => text.includes(dungeon))) {
+        return { kind, text: `Dungeon ${ARMOR_FACTION_LABELS[factionKey]}`, link };
+      }
+    }
+  }
+
+  if (collectionKey === "armor" && /Crimson faction armor/i.test(text)) {
+    return { kind: "drop", text: "Dungeon Crimson", link };
+  }
+
+  if (kind === "shop" && /Valley of Eternal Autumn merchant/i.test(text)) {
+    return { kind, text: "Valley merchant", link };
+  }
+
+  if (kind === "auto_learn") {
+    const profession = text.match(/(Blacksmith|Outfitter|Cook|Jeweller|Alchemist|Enchanter)/i)?.[1];
+    return { kind, text: profession ? `Default · ${profession}` : "Default", link };
+  }
+
+  if (kind === "world_event" && /Nightling Rifts/i.test(text)) {
+    return { kind, text: "Nightling Rifts", link };
+  }
+
+  if (kind === "drop" && collectionKey === "recipes" && /recipe scroll drop|recipe drop/i.test(text)) {
+    return { kind, text: "Drop", link };
+  }
+
+  if (kind === "shop" && /Zoey,\s*Demon Huntress|Shop · Zoey/i.test(text)) {
+    return { kind, text: "Shop Zoey", link };
+  }
+
+  if ((kind === "unknown" || text === "Source not mapped yet.") && collectionKey === "jewellery") {
+    return { kind: "drop", text: "Drop", link };
+  }
+
+  return { kind, text, link };
+}
+
+function dedupeSources(sources) {
+  const seen = new Set();
+
+  return sources.filter((source) => {
+    const key = `${source.kind}::${source.text}`;
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
+function simplifyItemSources(item, collection) {
+  let sources = (item.sources ?? []).map((source) => simplifySourceText(source, collection.key));
+
+  // Recipes: only keep how you learn them (drop / shop / default), not the craft recipe text.
+  if (collection.key === "recipes") {
+    const learnSources = sources.filter((source) => source.kind !== "craft");
+    sources = learnSources.length > 0 ? learnSources : sources;
+  }
+
+  // Armor/weapons/jewellery: keep a single primary obtain method for How to get.
+  if (collection.key === "armor" || collection.key === "weapons" || collection.key === "jewellery") {
+    sources = sources.filter((source) => source.kind !== "auto_learn");
+  }
+
+  if (sources.length === 0 && collection.key === "jewellery") {
+    sources = [{ kind: "drop", text: "Drop", link: null }];
+  }
+
+  return {
+    ...item,
+    sources: dedupeSources(sources)
+  };
+}
+
 function enrichItem(item, collection) {
+  if (collection.key === "jewellery") {
+    const override = JEWELLERY_SOURCE_OVERRIDES[item.name];
+
+    if (override) {
+      return {
+        ...item,
+        sources: [override]
+      };
+    }
+  }
+
   if (collection.key === "armor") {
     const dungeonSource = armorDungeonSource(item);
 
     if (dungeonSource) {
+      const existingSources = withoutUnknownSources(item.sources).filter(
+        (source) => source.kind !== dungeonSource.source.kind || source.text !== dungeonSource.source.text
+      );
+
       return {
         ...item,
-        sources: withExtraSource(item, dungeonSource.source),
+        sources: [dungeonSource.source, ...existingSources],
         dungeonSources: dungeonSource.dungeonSources
       };
     }
@@ -924,12 +1225,12 @@ async function importCollection(collection) {
     pages.push(await fetchPage(collection, page));
   }
 
-  const rawItems = pages
-    .flatMap((page) => page.items ?? [])
-    .filter(collection.itemFilter);
+  const listedItems = pages.flatMap((page) => page.items ?? []).filter(collection.itemFilter);
+  const rawItems = await enrichRawItemsWithDetails(listedItems, collection);
   const items = rawItems
     .map((item) => normalizeItem(item, collection))
     .map((item) => enrichItem(item, collection))
+    .map((item) => simplifyItemSources(item, collection))
     .sort((a, b) => a.name.localeCompare(b.name));
   const propertyFields = buildPropertyFields(items, (item) => item.properties);
 

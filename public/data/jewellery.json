@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/jewellery",
-  "importedAt": "2026-07-19T14:30:22.810Z",
+  "importedAt": "2026-07-22T11:42:20.145Z",
   "total": 43,
   "propertyFields": [
     {
@@ -44,17 +44,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-clarity",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "MaPen"
         ],
-        "type": "Neck",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -78,17 +78,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-fracture",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "ArPen"
         ],
-        "type": "Neck",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -112,17 +112,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-precision",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "Crit"
         ],
-        "type": "Neck",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -146,17 +146,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-vitality",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "Vita"
         ],
-        "type": "Neck",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -180,17 +180,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/amulet-of-zeal",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "Fervor"
         ],
-        "type": "Neck",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -214,17 +214,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-clarity",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "MaPen"
         ],
-        "type": "Finger",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Beryl + 75g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -248,17 +248,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-fracture",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "ArPen"
         ],
-        "type": "Finger",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Amber + 75g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -282,17 +282,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-precision",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Crit"
         ],
-        "type": "Finger",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Amber + 75g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -316,17 +316,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/circle-of-zeal",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Fervor"
         ],
-        "type": "Finger",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 2× Copper Setting, Glittering Stone, 3× Beryl + 75g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -350,16 +350,16 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/eternal-flower-heart",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
         "classes": [
           "MaPen"
         ],
-        "type": "Trinket",
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Dungeon Bee",
           "link": null
         }
       ],
@@ -383,13 +383,13 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/finger-of-sukunamaatata",
       "properties": {
         "subcategory": "Trinket",
-        "type": "Trinket",
-        "rarity": "Rare"
+        "rarity": "Rare",
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "world_event",
-          "text": "Reward from the Nightling Rifts",
+          "text": "Nightling Rifts",
           "link": "map/siagarta"
         }
       ],
@@ -413,16 +413,16 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/infused-tusk",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
         "classes": [
           "Fervor"
         ],
-        "type": "Trinket",
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 3) — Chipped Tusk, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 125g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -446,16 +446,16 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/lost-relic-found",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
         "classes": [
           "Crit"
         ],
-        "type": "Trinket",
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Dungeon Crimson",
           "link": null
         }
       ],
@@ -479,17 +479,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-clarity",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 15,
         "classes": [
           "MaPen"
         ],
-        "type": "Neck",
-        "level": 15,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -513,17 +513,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-fracture",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 15,
         "classes": [
           "ArPen"
         ],
-        "type": "Neck",
-        "level": 15,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -547,17 +547,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-precision",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 15,
         "classes": [
           "Crit"
         ],
-        "type": "Neck",
-        "level": 15,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -581,17 +581,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/necklace-of-zeal",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Uncommon",
+        "level": 15,
         "classes": [
           "Fervor"
         ],
-        "type": "Neck",
-        "level": 15,
-        "rarity": "Uncommon"
+        "type": "Neck"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -615,20 +615,20 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/pendant-of-adaptability",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Rare",
+        "level": 20,
         "classes": [
           "Crit",
           "Fervor",
           "ArPen",
           "MaPen"
         ],
-        "type": "Neck",
-        "level": 20,
-        "rarity": "Rare"
+        "type": "Neck"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 5) — 4× Copper Setting, 5× Ramgold, Amber, Beryl, Ruby, Agate, Malachite + 150g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -652,20 +652,20 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/pendant-of-versatility",
       "properties": {
         "subcategory": "Neck",
+        "rarity": "Rare",
+        "level": 10,
         "classes": [
           "Crit",
           "Fervor",
           "ArPen",
           "MaPen"
         ],
-        "type": "Neck",
-        "level": 10,
-        "rarity": "Rare"
+        "type": "Neck"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 1) — 4× Copper Setting, 3× Glittering Stone, Simple Pearl + 100g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -689,14 +689,14 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/philosophers-stone",
       "properties": {
         "subcategory": "Trinket",
-        "type": "Trinket",
+        "rarity": "Rare",
         "level": 10,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 2) — 5× Tungstene Ore, Simple Pearl, Fragment of Kyre, Fragment of Mely, Fragment of Naya + 100g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -720,16 +720,16 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/poetrident",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
         "classes": [
           "Fervor"
         ],
-        "type": "Trinket",
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Dungeon Manfish",
           "link": null
         }
       ],
@@ -753,14 +753,14 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/prismatic-pearl",
       "properties": {
         "subcategory": "Trinket",
-        "type": "Trinket",
+        "rarity": "Rare",
         "level": 20,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — Simple Pearl, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 150g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -784,14 +784,14 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/purified-heart",
       "properties": {
         "subcategory": "Trinket",
-        "type": "Trinket",
+        "rarity": "Rare",
         "level": 15,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 4) — 5× Ephemeral Heart, 5× Fresh Essence, 5× Ramgold, Prismatic Fragment + 150g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -815,16 +815,16 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/raclette-pan",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
         "classes": [
           "ArPen"
         ],
-        "type": "Trinket",
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Dungeon Kobold",
           "link": null
         }
       ],
@@ -848,17 +848,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-clarity",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "MaPen"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -882,17 +882,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-fracture",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "ArPen"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -916,17 +916,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-precision",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "Crit"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -950,17 +950,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-vitality",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 6,
         "classes": [
           "Vita"
         ],
-        "type": "Finger",
-        "level": 6,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -984,17 +984,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ring-of-zeal",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "Fervor"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1018,17 +1018,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-clarity",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "MaPen"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1052,17 +1052,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-fracture",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "ArPen"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1086,17 +1086,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-precision",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 20,
         "classes": [
           "Crit"
         ],
-        "type": "Finger",
-        "level": 20,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1120,17 +1120,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/ringlet-of-zeal",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Uncommon",
+        "level": 10,
         "classes": [
           "Fervor"
         ],
-        "type": "Finger",
-        "level": 10,
-        "rarity": "Uncommon"
+        "type": "Finger"
       },
       "sources": [
         {
-          "kind": "unknown",
-          "text": "Source not mapped yet.",
+          "kind": "drop",
+          "text": "Drop",
           "link": null
         }
       ],
@@ -1154,23 +1154,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-clarity",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "MaPen"
         ],
         "type": "Finger",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
-          "link": null
-        },
-        {
-          "kind": "auto_learn",
-          "text": "Recipe automatically known at Jeweller level 6.",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1194,23 +1189,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-fracture",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "ArPen"
         ],
         "type": "Finger",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
-          "link": null
-        },
-        {
-          "kind": "auto_learn",
-          "text": "Recipe automatically known at Jeweller level 6.",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1234,23 +1224,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-precision",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Crit"
         ],
         "type": "Finger",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
-          "link": null
-        },
-        {
-          "kind": "auto_learn",
-          "text": "Recipe automatically known at Jeweller level 6.",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1274,23 +1259,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/set-eye-of-zeal",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 25,
         "classes": [
           "Fervor"
         ],
         "type": "Finger",
-        "level": 25,
-        "ilevel": 260,
-        "rarity": "Rare"
+        "ilevel": 260
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 6) — 2× Copper Setting, 3× Glittering Stone, 5× Fiendish Eye, 5× Ramgold; 150 Craft points",
-          "link": null
-        },
-        {
-          "kind": "auto_learn",
-          "text": "Recipe automatically known at Jeweller level 6.",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1314,18 +1294,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/signet-of-the-fighter",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 15,
         "classes": [
           "Crit",
           "ArPen"
         ],
-        "type": "Finger",
-        "level": 15,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Agate + 125g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1349,18 +1329,18 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/signet-of-the-wizard",
       "properties": {
         "subcategory": "Finger",
+        "rarity": "Rare",
+        "level": 15,
         "classes": [
           "Fervor",
           "MaPen"
         ],
-        "type": "Finger",
-        "level": 15,
-        "rarity": "Rare"
+        "type": "Finger"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Jeweller (Level 3) — 2× Copper Setting, 3× Glittering Stone, 3× Ruby + 125g",
+          "text": "Craft by Jeweller",
           "link": null
         }
       ],
@@ -1384,17 +1364,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-cunning",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Rogue"
         ],
-        "type": "Trinket",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Mely, 15× Lavendula Petal + 75g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -1418,17 +1398,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-power",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Warrior"
         ],
-        "type": "Trinket",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Kyre, 15× Madrigold Petal + 75g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -1452,17 +1432,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-rigtheousness",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Priest"
         ],
-        "type": "Trinket",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Kyre, 10× Lavendula Petal + 75g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],
@@ -1486,17 +1466,17 @@
       "pageUrl": "https://metaforge.app/farever/database/jewellery/stone-of-wisdom",
       "properties": {
         "subcategory": "Trinket",
+        "rarity": "Rare",
+        "level": 6,
         "classes": [
           "Mage"
         ],
-        "type": "Trinket",
-        "level": 6,
-        "rarity": "Rare"
+        "type": "Trinket"
       },
       "sources": [
         {
           "kind": "craft",
-          "text": "Crafted by Alchemist (Level 1) — Glittering Stone, 2× Fragment of Naya, 15× Madrigold Petal + 75g",
+          "text": "Craft by Alchemist",
           "link": null
         }
       ],

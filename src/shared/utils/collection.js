@@ -8,10 +8,5 @@ export function sourceText(item) {
     return "Source not mapped yet.";
   }
 
-  if (item.sources.length === 1) {
-    return source.text === "Fonte ainda nao mapeada." ? "Source not mapped yet." : source.text;
-  }
-
-  const text = source.text === "Fonte ainda nao mapeada." ? "Source not mapped yet." : source.text;
-  return `${text} +${item.sources.length - 1}`;
+  return source.text === "Fonte ainda nao mapeada." ? "Source not mapped yet." : source.text;
 }
