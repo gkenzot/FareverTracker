@@ -1,0 +1,3638 @@
+{
+  "source": "https://metaforge.app/farever/database/augments",
+  "importedAt": "2026-07-22T14:51:12.952Z",
+  "total": 93,
+  "propertyFields": [
+    {
+      "key": "subcategory",
+      "label": "Subcategory"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "rarity",
+      "label": "Rarity"
+    },
+    {
+      "key": "level",
+      "label": "Level"
+    }
+  ],
+  "augments": [
+    {
+      "id": "AttunedCutBeryl",
+      "metaforgeId": 757,
+      "name": "Attuned Cut Beryl",
+      "slug": "attuned-cut-beryl",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "AttunedCutBeryl__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/AttunedCutBeryl__gfx.webp",
+      "iconPath": "/images/augments/AttunedCutBeryl__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/attuned-cut-beryl",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "AttunedCutRuby",
+      "metaforgeId": 764,
+      "name": "Attuned Cut Ruby",
+      "slug": "attuned-cut-ruby",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "AttunedCutRuby__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/AttunedCutRuby__gfx.webp",
+      "iconPath": "/images/augments/AttunedCutRuby__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/attuned-cut-ruby",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 7
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "DemonGearUpgradeRare_FervToCrit",
+      "metaforgeId": 778,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-fervtocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Fervor into Critical.",
+      "iconFilename": "DemonGearUpgradeRare_FervToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_FervToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_FervToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-fervtocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -20
+        },
+        {
+          "label": "Critical",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_FervToAp",
+      "metaforgeId": 779,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-fervtoap",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Fervor into Armor Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_FervToAp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_FervToAp__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_FervToAp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-fervtoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -20
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_FervToMP",
+      "metaforgeId": 780,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-fervtomp",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Fervor into Magic Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_FervToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_FervToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_FervToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-fervtomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -20
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_CritToFerv",
+      "metaforgeId": 781,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-crittoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Critical into Fervor.",
+      "iconFilename": "DemonGearUpgradeRare_CritToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_CritToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_CritToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-crittoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -20
+        },
+        {
+          "label": "Fervor",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_CritToAP",
+      "metaforgeId": 782,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-crittoap",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Critical into Armor Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_CritToAP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_CritToAP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_CritToAP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-crittoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -20
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_CritToMP",
+      "metaforgeId": 783,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-crittomp",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Critical into Magic Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_CritToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_CritToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_CritToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-crittomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -20
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_APToCrit",
+      "metaforgeId": 784,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-aptocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Critical.",
+      "iconFilename": "DemonGearUpgradeRare_APToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_APToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_APToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-aptocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -20
+        },
+        {
+          "label": "Critical",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_APToFerv",
+      "metaforgeId": 785,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-aptoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Fervor.",
+      "iconFilename": "DemonGearUpgradeRare_APToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_APToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_APToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-aptoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -20
+        },
+        {
+          "label": "Fervor",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_APToMP",
+      "metaforgeId": 786,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-aptomp",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Magic Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_APToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_APToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_APToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-aptomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -20
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_MPToCrit",
+      "metaforgeId": 787,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-mptocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Critical.",
+      "iconFilename": "DemonGearUpgradeRare_MPToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_MPToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_MPToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-mptocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -20
+        },
+        {
+          "label": "Critical",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_MPToFerv",
+      "metaforgeId": 788,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-mptoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Fervor.",
+      "iconFilename": "DemonGearUpgradeRare_MPToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_MPToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_MPToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-mptoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -20
+        },
+        {
+          "label": "Fervor",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgradeRare_MPToAP",
+      "metaforgeId": 789,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-rare-mptoap",
+      "family": "Corrupted Gift",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Armor Penetration.",
+      "iconFilename": "DemonGearUpgradeRare_MPToAP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgradeRare_MPToAP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgradeRare_MPToAP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-rare-mptoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -20
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 20
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_FervToCrit",
+      "metaforgeId": 790,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-fervtocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Fervor into Critical.",
+      "iconFilename": "DemonGearUpgrade_FervToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_FervToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_FervToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-fervtocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -40
+        },
+        {
+          "label": "Critical",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_FervToAp",
+      "metaforgeId": 791,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-fervtoap",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Fervor into Armor Penetration.",
+      "iconFilename": "DemonGearUpgrade_FervToAp__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_FervToAp__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_FervToAp__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-fervtoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -40
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_FervToMP",
+      "metaforgeId": 792,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-fervtomp",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Fervor into Magic Penetration.",
+      "iconFilename": "DemonGearUpgrade_FervToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_FervToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_FervToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-fervtomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": -40
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_CritToFerv",
+      "metaforgeId": 793,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-crittoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Critical into Fervor.",
+      "iconFilename": "DemonGearUpgrade_CritToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_CritToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_CritToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-crittoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -40
+        },
+        {
+          "label": "Fervor",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_CritToAP",
+      "metaforgeId": 794,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-crittoap",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Critical into Armor Penetration.",
+      "iconFilename": "DemonGearUpgrade_CritToAP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_CritToAP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_CritToAP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-crittoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -40
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_CritToMP",
+      "metaforgeId": 795,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-crittomp",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Critical into Magic Penetration.",
+      "iconFilename": "DemonGearUpgrade_CritToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_CritToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_CritToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-crittomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": -40
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_APToCrit",
+      "metaforgeId": 796,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-aptocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Critical.",
+      "iconFilename": "DemonGearUpgrade_APToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_APToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_APToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-aptocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -40
+        },
+        {
+          "label": "Critical",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_APToFerv",
+      "metaforgeId": 797,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-aptoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Fervor.",
+      "iconFilename": "DemonGearUpgrade_APToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_APToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_APToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-aptoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -40
+        },
+        {
+          "label": "Fervor",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_APToMP",
+      "metaforgeId": 798,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-aptomp",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Armor Penetration into Magic Penetration.",
+      "iconFilename": "DemonGearUpgrade_APToMP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_APToMP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_APToMP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-aptomp",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": -40
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_MPToCrit",
+      "metaforgeId": 799,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-mptocrit",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Critical.",
+      "iconFilename": "DemonGearUpgrade_MPToCrit__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_MPToCrit__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_MPToCrit__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-mptocrit",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -40
+        },
+        {
+          "label": "Critical",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_MPToFerv",
+      "metaforgeId": 800,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-mptoferv",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Fervor.",
+      "iconFilename": "DemonGearUpgrade_MPToFerv__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_MPToFerv__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_MPToFerv__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-mptoferv",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -40
+        },
+        {
+          "label": "Fervor",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "DemonGearUpgrade_MPToAP",
+      "metaforgeId": 801,
+      "name": "Corrupted Gift",
+      "slug": "corrupted-gift-epic-mptoap",
+      "family": "Corrupted Gift",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Converts Magic Penetration into Armor Penetration.",
+      "iconFilename": "DemonGearUpgrade_MPToAP__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonGearUpgrade_MPToAP__gfx.webp",
+      "iconPath": "/images/augments/DemonGearUpgrade_MPToAP__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/corrupted-gift-epic-mptoap",
+      "properties": {
+        "type": "AugmentDemon",
+        "subcategory": "Corrupted Gift",
+        "rarity": "Epic",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": -40
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 40
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "corrupted"
+    },
+    {
+      "id": "BrutalityCursedCutEye",
+      "metaforgeId": 803,
+      "name": "Cursed Eye of Brutality",
+      "slug": "cursed-eye-of-brutality",
+      "family": "Cursed Eye",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "+9 Critical, +9 Fervor, +9 Armor Penetration, -9 Magic Penetration",
+      "iconFilename": "BrutalityCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/BrutalityCursedCutEye__gfx.webp",
+      "iconPath": "/images/augments/BrutalityCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/cursed-eye-of-brutality",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Cursed Eye",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 9
+        },
+        {
+          "label": "Fervor",
+          "value": 9
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 9
+        },
+        {
+          "label": "Magic Penetration",
+          "value": -9
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "DominationCursedCutEye",
+      "metaforgeId": 802,
+      "name": "Cursed Eye of Domination",
+      "slug": "cursed-eye-of-domination",
+      "family": "Cursed Eye",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "+9 Critical, +9 Armor Penetration, +9 Magic Penetration, -9 Fervor",
+      "iconFilename": "DominationCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DominationCursedCutEye__gfx.webp",
+      "iconPath": "/images/augments/DominationCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/cursed-eye-of-domination",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Cursed Eye",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 9
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 9
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 9
+        },
+        {
+          "label": "Fervor",
+          "value": -9
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "FanatismCursedCutEye",
+      "metaforgeId": 805,
+      "name": "Cursed Eye of Fanatism",
+      "slug": "cursed-eye-of-fanatism",
+      "family": "Cursed Eye",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "+9 Fervor, +9 Armor Penetration, +9 Magic Penetration, -9 Critical",
+      "iconFilename": "FanatismCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FanatismCursedCutEye__gfx.webp",
+      "iconPath": "/images/augments/FanatismCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/cursed-eye-of-fanatism",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Cursed Eye",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 9
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 9
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 9
+        },
+        {
+          "label": "Critical",
+          "value": -9
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "ViceCursedCutEye",
+      "metaforgeId": 804,
+      "name": "Cursed Eye of Vice",
+      "slug": "cursed-eye-of-vice",
+      "family": "Cursed Eye",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "+9 Critical, +9 Fervor, +9 Magic Penetration, -9 Armor Penetration",
+      "iconFilename": "ViceCursedCutEye__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ViceCursedCutEye__gfx.webp",
+      "iconPath": "/images/augments/ViceCursedCutEye__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/cursed-eye-of-vice",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Cursed Eye",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 9
+        },
+        {
+          "label": "Fervor",
+          "value": 9
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 9
+        },
+        {
+          "label": "Armor Penetration",
+          "value": -9
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "DivinedCopperPlate",
+      "metaforgeId": 744,
+      "name": "Divine Bronze Plate",
+      "slug": "divine-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DivinedCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DivinedCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/DivinedCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/divine-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "DivinedEmbroidery",
+      "metaforgeId": 751,
+      "name": "Divine Soft Embroidery",
+      "slug": "divine-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "DivinedEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DivinedEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/DivinedEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/divine-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "GildedCutBeryl",
+      "metaforgeId": 758,
+      "name": "Gilded Cut Beryl",
+      "slug": "gilded-cut-beryl",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "GildedCutBeryl__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GildedCutBeryl__gfx.webp",
+      "iconPath": "/images/augments/GildedCutBeryl__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/gilded-cut-beryl",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "GildedCutRuby",
+      "metaforgeId": 765,
+      "name": "Gilded Cut Ruby",
+      "slug": "gilded-cut-ruby",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "GildedCutRuby__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GildedCutRuby__gfx.webp",
+      "iconPath": "/images/augments/GildedCutRuby__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/gilded-cut-ruby",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 7
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "GracefulCopperPlate",
+      "metaforgeId": 743,
+      "name": "Graceful Bronze Plate",
+      "slug": "graceful-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "GracefulCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GracefulCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/GracefulCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/graceful-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "GracefulEmbroidery",
+      "metaforgeId": 750,
+      "name": "Graceful Soft Embroidery",
+      "slug": "graceful-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "GracefulEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/GracefulEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/GracefulEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/graceful-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "HonedCopperPlate",
+      "metaforgeId": 739,
+      "name": "Honed Bronze Plate",
+      "slug": "honed-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "HonedCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/HonedCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/HonedCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/honed-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Dexterity",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "HonedEmbroidery",
+      "metaforgeId": 746,
+      "name": "Honed Soft Embroidery",
+      "slug": "honed-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "HonedEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/HonedEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/HonedEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/honed-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Dexterity",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "FormulaFeetArmor_Z2",
+      "metaforgeId": 614,
+      "name": "Magic Formula: Armor",
+      "slug": "magic-formula-armor",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetArmor_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetArmor_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetArmor_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-armor",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 200
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaFeetArmorPen_Z2",
+      "metaforgeId": 612,
+      "name": "Magic Formula: Armor Penetration",
+      "slug": "magic-formula-armor-penetration",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetArmorPen_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetArmorPen_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetArmorPen_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-armor-penetration",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaFeetCritical_Z2",
+      "metaforgeId": 610,
+      "name": "Magic Formula: Critical Chance",
+      "slug": "magic-formula-critical-chance",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetCritical_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetCritical_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetCritical_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-critical-chance",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaWeaponDevote",
+      "metaforgeId": 616,
+      "name": "Magic Formula: Devote",
+      "slug": "magic-formula-devote",
+      "family": "Enchantment (weapon)",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaWeaponDevote__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponDevote__gfx.webp",
+      "iconPath": "/images/augments/FormulaWeaponDevote__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-devote",
+      "properties": {
+        "type": "AugmentEnchantWeapon",
+        "subcategory": "Enchantment (weapon)",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "MainhandWeapon"
+      ],
+      "adornmentKind": "enchantment-weapon"
+    },
+    {
+      "id": "FormulaHandsDexterity_Z2",
+      "metaforgeId": 606,
+      "name": "Magic Formula: Dexterity",
+      "slug": "magic-formula-dexterity",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsDexterity_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsDexterity_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsDexterity_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-dexterity",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaHandsFaith_Z2",
+      "metaforgeId": 608,
+      "name": "Magic Formula: Faith",
+      "slug": "magic-formula-faith",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsFaith_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsFaith_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsFaith_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-faith",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Faith",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaFeetFervor_Z2",
+      "metaforgeId": 611,
+      "name": "Magic Formula: Fervor",
+      "slug": "magic-formula-fervor",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetFervor_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetFervor_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetFervor_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-fervor",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaWeaponFlamingWeapon",
+      "metaforgeId": 603,
+      "name": "Magic Formula: Flaming Weapon",
+      "slug": "magic-formula-flaming-weapon",
+      "family": "Enchantment (weapon)",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaWeaponFlamingWeapon__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponFlamingWeapon__gfx.webp",
+      "iconPath": "/images/augments/FormulaWeaponFlamingWeapon__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-flaming-weapon",
+      "properties": {
+        "type": "AugmentEnchantWeapon",
+        "subcategory": "Enchantment (weapon)",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "MainhandWeapon"
+      ],
+      "adornmentKind": "enchantment-weapon"
+    },
+    {
+      "id": "FormulaHandsIntelligence_Z2",
+      "metaforgeId": 609,
+      "name": "Magic Formula: Intelligence",
+      "slug": "magic-formula-intelligence",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsIntelligence_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsIntelligence_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsIntelligence_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-intelligence",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaWeaponLifestealing",
+      "metaforgeId": 806,
+      "name": "Magic Formula: Lifestealing",
+      "slug": "magic-formula-lifestealing",
+      "family": "Enchantment (weapon)",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "Your ComboAttack have a 0.5 chance to deal 30 Magic damage to your target and heal you for 10 Health.",
+      "iconFilename": "FormulaWeaponLifestealing__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponLifestealing__gfx.webp",
+      "iconPath": "/images/augments/FormulaWeaponLifestealing__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-lifestealing",
+      "properties": {
+        "type": "AugmentEnchantWeapon",
+        "subcategory": "Enchantment (weapon)",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "MainhandWeapon"
+      ],
+      "adornmentKind": "enchantment-weapon"
+    },
+    {
+      "id": "FormulaFeetMagicPen_Z2",
+      "metaforgeId": 613,
+      "name": "Magic Formula: Magic Penetration",
+      "slug": "magic-formula-magic-penetration",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMagicPen_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMagicPen_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMagicPen_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-magic-penetration",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaFeetMinorArmor",
+      "metaforgeId": 602,
+      "name": "Magic Formula: Minor Armor",
+      "slug": "magic-formula-minor-armor",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMinorArmor__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMinorArmor__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMinorArmor__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-armor",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 100
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaFeetMinorArmorPen",
+      "metaforgeId": 600,
+      "name": "Magic Formula: Minor Armor Penetration",
+      "slug": "magic-formula-minor-armor-penetration",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMinorArmorPen__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMinorArmorPen__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMinorArmorPen__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-armor-penetration",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 8
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaFeetMinorCritical",
+      "metaforgeId": 598,
+      "name": "Magic Formula: Minor Critical Chance",
+      "slug": "magic-formula-minor-critical-chance",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMinorCritical__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMinorCritical__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMinorCritical__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-critical-chance",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 8
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaHandsMinorDexterity",
+      "metaforgeId": 594,
+      "name": "Magic Formula: Minor Dexterity",
+      "slug": "magic-formula-minor-dexterity",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsMinorDexterity__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsMinorDexterity__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsMinorDexterity__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-dexterity",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaHandsMinorFaith",
+      "metaforgeId": 596,
+      "name": "Magic Formula: Minor Faith",
+      "slug": "magic-formula-minor-faith",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsMinorFaith__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsMinorFaith__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsMinorFaith__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-faith",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaFeetMinorFervor",
+      "metaforgeId": 599,
+      "name": "Magic Formula: Minor Fervor",
+      "slug": "magic-formula-minor-fervor",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMinorFervor__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMinorFervor__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMinorFervor__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-fervor",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 8
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaHandsMinorIntelligence",
+      "metaforgeId": 597,
+      "name": "Magic Formula: Minor Intelligence",
+      "slug": "magic-formula-minor-intelligence",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsMinorIntelligence__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsMinorIntelligence__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsMinorIntelligence__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-intelligence",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaFeetMinorMagicPen",
+      "metaforgeId": 601,
+      "name": "Magic Formula: Minor Magic Penetration",
+      "slug": "magic-formula-minor-magic-penetration",
+      "family": "Enchantment (feet)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaFeetMinorMagicPen__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaFeetMinorMagicPen__gfx.webp",
+      "iconPath": "/images/augments/FormulaFeetMinorMagicPen__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-magic-penetration",
+      "properties": {
+        "type": "AugmentEnchantFeet",
+        "subcategory": "Enchantment (feet)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 8
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Feet"
+      ],
+      "adornmentKind": "enchantment-feet"
+    },
+    {
+      "id": "FormulaHandsMinorStrength",
+      "metaforgeId": 595,
+      "name": "Magic Formula: Minor Strength",
+      "slug": "magic-formula-minor-strength",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsMinorStrength__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsMinorStrength__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsMinorStrength__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-strength",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaHandsMinorVitality",
+      "metaforgeId": 593,
+      "name": "Magic Formula: Minor Vitality",
+      "slug": "magic-formula-minor-vitality",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsMinorVitality__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsMinorVitality__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsMinorVitality__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-minor-vitality",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 3
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaWeaponSparkHarvesting",
+      "metaforgeId": 604,
+      "name": "Magic Formula: Spark Harvesting",
+      "slug": "magic-formula-spark-harvesting",
+      "family": "Enchantment (weapon)",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaWeaponSparkHarvesting__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponSparkHarvesting__gfx.webp",
+      "iconPath": "/images/augments/FormulaWeaponSparkHarvesting__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-spark-harvesting",
+      "properties": {
+        "type": "AugmentEnchantWeapon",
+        "subcategory": "Enchantment (weapon)",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "MainhandWeapon"
+      ],
+      "adornmentKind": "enchantment-weapon"
+    },
+    {
+      "id": "FormulaHandsStrength_Z2",
+      "metaforgeId": 607,
+      "name": "Magic Formula: Strength",
+      "slug": "magic-formula-strength",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsStrength_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsStrength_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsStrength_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-strength",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaHandsVitality_Z2",
+      "metaforgeId": 605,
+      "name": "Magic Formula: Vitality",
+      "slug": "magic-formula-vitality",
+      "family": "Enchantment (hands)",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaHandsVitality_Z2__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaHandsVitality_Z2__gfx.webp",
+      "iconPath": "/images/augments/FormulaHandsVitality_Z2__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-vitality",
+      "properties": {
+        "type": "AugmentEnchantHands",
+        "subcategory": "Enchantment (hands)",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 6
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Hands"
+      ],
+      "adornmentKind": "enchantment-hands"
+    },
+    {
+      "id": "FormulaWeaponZealot",
+      "metaforgeId": 615,
+      "name": "Magic Formula: Zealot",
+      "slug": "magic-formula-zealot",
+      "family": "Enchantment (weapon)",
+      "rarity": "Rare",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "FormulaWeaponZealot__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponZealot__gfx.webp",
+      "iconPath": "/images/augments/FormulaWeaponZealot__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/magic-formula-zealot",
+      "properties": {
+        "type": "AugmentEnchantWeapon",
+        "subcategory": "Enchantment (weapon)",
+        "rarity": "Rare",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "MainhandWeapon"
+      ],
+      "adornmentKind": "enchantment-weapon"
+    },
+    {
+      "id": "MysticCopperPlate",
+      "metaforgeId": 742,
+      "name": "Mystic Bronze Plate",
+      "slug": "mystic-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MysticCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MysticCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/MysticCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/mystic-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 2
+        },
+        {
+          "label": "Intellect",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "MysticEmbroidery",
+      "metaforgeId": 749,
+      "name": "Mystic Soft Embroidery",
+      "slug": "mystic-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "MysticEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/MysticEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/MysticEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/mystic-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 2
+        },
+        {
+          "label": "Intellect",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "ReinforcedCopperPlate",
+      "metaforgeId": 738,
+      "name": "Reinforced Bronze Plate",
+      "slug": "reinforced-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ReinforcedCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ReinforcedCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/ReinforcedCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/reinforced-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 100
+        },
+        {
+          "label": "Vitality",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "ReinforcedEmbroidery",
+      "metaforgeId": 745,
+      "name": "Reinforced Soft Embroidery",
+      "slug": "reinforced-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ReinforcedEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ReinforcedEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/ReinforcedEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/reinforced-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 100
+        },
+        {
+          "label": "Vitality",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "ResonantCutAgate",
+      "metaforgeId": 760,
+      "name": "Resonant Cut Agate",
+      "slug": "resonant-cut-agate",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ResonantCutAgate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ResonantCutAgate__gfx.webp",
+      "iconPath": "/images/augments/ResonantCutAgate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/resonant-cut-agate",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 7
+        },
+        {
+          "label": "Fervor",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "ResonantCutAmber",
+      "metaforgeId": 753,
+      "name": "Resonant Cut Amber",
+      "slug": "resonant-cut-amber",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "ResonantCutAmber__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ResonantCutAmber__gfx.webp",
+      "iconPath": "/images/augments/ResonantCutAmber__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/resonant-cut-amber",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 4
+        },
+        {
+          "label": "Fervor",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "RunedCopperPlate",
+      "metaforgeId": 740,
+      "name": "Runed Bronze Plate",
+      "slug": "runed-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "RunedCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/RunedCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/RunedCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/runed-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Intellect",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "RunedEmbroidery",
+      "metaforgeId": 747,
+      "name": "Runed Soft Embroidery",
+      "slug": "runed-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "RunedEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/RunedEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/RunedEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/runed-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Intellect",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "SanctifiedCopperPlate",
+      "metaforgeId": 741,
+      "name": "Sanctified Bronze Plate",
+      "slug": "sanctified-bronze-plate",
+      "family": "Plate",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SanctifiedCopperPlate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SanctifiedCopperPlate__gfx.webp",
+      "iconPath": "/images/augments/SanctifiedCopperPlate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sanctified-bronze-plate",
+      "properties": {
+        "type": "AugmentBlacksmith",
+        "subcategory": "Plate",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Chest"
+      ],
+      "adornmentKind": "plate"
+    },
+    {
+      "id": "SanctifiedEmbroidery",
+      "metaforgeId": 748,
+      "name": "Sanctified Soft Embroidery",
+      "slug": "sanctified-soft-embroidery",
+      "family": "Embroidery",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SanctifiedEmbroidery__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SanctifiedEmbroidery__gfx.webp",
+      "iconPath": "/images/augments/SanctifiedEmbroidery__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sanctified-soft-embroidery",
+      "properties": {
+        "type": "AugmentOutfitter",
+        "subcategory": "Embroidery",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "Back"
+      ],
+      "adornmentKind": "embroidery"
+    },
+    {
+      "id": "DemonSigil_War_SurgeOfViolence",
+      "metaforgeId": 766,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-surge-of-violence",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Surge of Violence.",
+      "iconFilename": "DemonSigil_War_SurgeOfViolence__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_War_SurgeOfViolence__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_War_SurgeOfViolence__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-surge-of-violence",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Warrior"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Warrior"
+      ]
+    },
+    {
+      "id": "DemonSigil_War_InfusedWounds",
+      "metaforgeId": 767,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-infused-wound",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Infused Wound.",
+      "iconFilename": "DemonSigil_War_InfusedWounds__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_War_InfusedWounds__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_War_InfusedWounds__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-infused-wound",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Warrior"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Warrior"
+      ]
+    },
+    {
+      "id": "DemonSigil_War_SecondWind",
+      "metaforgeId": 768,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-second-wind",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Second Wind.",
+      "iconFilename": "DemonSigil_War_SecondWind__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_War_SecondWind__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_War_SecondWind__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-second-wind",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Warrior"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Warrior"
+      ]
+    },
+    {
+      "id": "DemonSigil_Priest_LuminousBastion",
+      "metaforgeId": 769,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-luminous-bastion",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Luminous Bastion.",
+      "iconFilename": "DemonSigil_Priest_LuminousBastion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Priest_LuminousBastion__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Priest_LuminousBastion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-luminous-bastion",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Priest"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Priest"
+      ]
+    },
+    {
+      "id": "DemonSigil_Priest_SolarDevotion",
+      "metaforgeId": 770,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-solar-devotion",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Solar Devotion.",
+      "iconFilename": "DemonSigil_Priest_SolarDevotion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Priest_SolarDevotion__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Priest_SolarDevotion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-solar-devotion",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Priest"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Priest"
+      ]
+    },
+    {
+      "id": "DemonSigil_Priest_SunHalo",
+      "metaforgeId": 771,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-sun-halo",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Sun Halo.",
+      "iconFilename": "DemonSigil_Priest_SunHalo__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Priest_SunHalo__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Priest_SunHalo__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-sun-halo",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Priest"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Priest"
+      ]
+    },
+    {
+      "id": "DemonSigil_Mage_SparkExplosion",
+      "metaforgeId": 772,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-conduit-spark-explosion",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Conduit: Spark Explosion.",
+      "iconFilename": "DemonSigil_Mage_SparkExplosion__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Mage_SparkExplosion__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Mage_SparkExplosion__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-conduit-spark-explosion",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Mage"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Mage"
+      ]
+    },
+    {
+      "id": "DemonSigil_Mage_HighVoltage",
+      "metaforgeId": 773,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-high-voltage",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent High Voltage.",
+      "iconFilename": "DemonSigil_Mage_HighVoltage__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Mage_HighVoltage__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Mage_HighVoltage__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-high-voltage",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Mage"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Mage"
+      ]
+    },
+    {
+      "id": "DemonSigil_Mage_Lifebolt",
+      "metaforgeId": 774,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-conduit-lifebolt",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Conduit: Lifebolt.",
+      "iconFilename": "DemonSigil_Mage_Lifebolt__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Mage_Lifebolt__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Mage_Lifebolt__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-conduit-lifebolt",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Mage"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Mage"
+      ]
+    },
+    {
+      "id": "DemonSigil_Rogue_VenomousFinisher",
+      "metaforgeId": 775,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-venomous-finisher",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Venomous Finisher.",
+      "iconFilename": "DemonSigil_Rogue_VenomousFinisher__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Rogue_VenomousFinisher__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Rogue_VenomousFinisher__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-venomous-finisher",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Rogue"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Rogue"
+      ]
+    },
+    {
+      "id": "DemonSigil_Rogue_VirulentMagic",
+      "metaforgeId": 776,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-virulent-magic",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Virulent Magic.",
+      "iconFilename": "DemonSigil_Rogue_VirulentMagic__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Rogue_VirulentMagic__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Rogue_VirulentMagic__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-virulent-magic",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Rogue"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Rogue"
+      ]
+    },
+    {
+      "id": "DemonSigil_Rogue_CheatDeath",
+      "metaforgeId": 777,
+      "name": "Sigil of Bet'Hatesht",
+      "slug": "sigil-of-bethatesht-cheat-death",
+      "family": "Demon Sigil",
+      "rarity": "Epic",
+      "itemLevel": null,
+      "description": "Grants the talent Cheat Death.",
+      "iconFilename": "DemonSigil_Rogue_CheatDeath__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/DemonSigil_Rogue_CheatDeath__gfx.webp",
+      "iconPath": "/images/augments/DemonSigil_Rogue_CheatDeath__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sigil-of-bethatesht-cheat-death",
+      "properties": {
+        "type": "AugmentDemonSigil",
+        "subcategory": "Demon Sigil",
+        "rarity": "Epic",
+        "level": null,
+        "classes": [
+          "Rogue"
+        ]
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [
+        {
+          "npc_name": "Mira, Demon Huntress",
+          "npc_slug": "mira-demon-huntress",
+          "cost": "5 Nightblood"
+        }
+      ],
+      "achievements": [],
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "augmentTargets": [
+        "GearHead"
+      ],
+      "adornmentKind": "sigil",
+      "classes": [
+        "Rogue"
+      ]
+    },
+    {
+      "id": "StrongCutAgate",
+      "metaforgeId": 759,
+      "name": "Strong Cut Agate",
+      "slug": "strong-cut-agate",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StrongCutAgate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StrongCutAgate__gfx.webp",
+      "iconPath": "/images/augments/StrongCutAgate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/strong-cut-agate",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "StrongCutAmber",
+      "metaforgeId": 752,
+      "name": "Strong Cut Amber",
+      "slug": "strong-cut-amber",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "StrongCutAmber__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/StrongCutAmber__gfx.webp",
+      "iconPath": "/images/augments/StrongCutAmber__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/strong-cut-amber",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "SunderedCutAgate",
+      "metaforgeId": 761,
+      "name": "Sundered Cut Agate",
+      "slug": "sundered-cut-agate",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SunderedCutAgate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SunderedCutAgate__gfx.webp",
+      "iconPath": "/images/augments/SunderedCutAgate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sundered-cut-agate",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 7
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "SunderedCutAmber",
+      "metaforgeId": 754,
+      "name": "Sundered Cut Amber",
+      "slug": "sundered-cut-amber",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SunderedCutAmber__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SunderedCutAmber__gfx.webp",
+      "iconPath": "/images/augments/SunderedCutAmber__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/sundered-cut-amber",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 4
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "SurgingCutAgate",
+      "metaforgeId": 762,
+      "name": "Surging Cut Agate",
+      "slug": "surging-cut-agate",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SurgingCutAgate__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SurgingCutAgate__gfx.webp",
+      "iconPath": "/images/augments/SurgingCutAgate__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/surging-cut-agate",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 7
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "SurgingCutAmber",
+      "metaforgeId": 755,
+      "name": "Surging Cut Amber",
+      "slug": "surging-cut-amber",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "SurgingCutAmber__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/SurgingCutAmber__gfx.webp",
+      "iconPath": "/images/augments/SurgingCutAmber__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/surging-cut-amber",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "TemperedCutBeryl",
+      "metaforgeId": 756,
+      "name": "Tempered Cut Beryl",
+      "slug": "tempered-cut-beryl",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "TemperedCutBeryl__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/TemperedCutBeryl__gfx.webp",
+      "iconPath": "/images/augments/TemperedCutBeryl__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/tempered-cut-beryl",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 4
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 4
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    },
+    {
+      "id": "TemperedCutRuby",
+      "metaforgeId": 763,
+      "name": "Tempered Cut Ruby",
+      "slug": "tempered-cut-ruby",
+      "family": "Gem",
+      "rarity": "Uncommon",
+      "itemLevel": null,
+      "description": "",
+      "iconFilename": "TemperedCutRuby__gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/TemperedCutRuby__gfx.webp",
+      "iconPath": "/images/augments/TemperedCutRuby__gfx.webp",
+      "pageUrl": "https://metaforge.app/farever/database/augments/tempered-cut-ruby",
+      "properties": {
+        "type": "AugmentJeweller",
+        "subcategory": "Gem",
+        "rarity": "Uncommon",
+        "level": null
+      },
+      "sources": [],
+      "droppedBy": [],
+      "shops": [],
+      "achievements": [],
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 7
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "augmentTargets": [
+        "GearFinger",
+        "GearNeck"
+      ],
+      "adornmentKind": "stone"
+    }
+  ]
+}

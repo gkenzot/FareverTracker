@@ -137,6 +137,15 @@ const ARMOR_FACTION_LABELS = {
   RDemon: "Demon",
   RCrimson: "Crimson"
 };
+
+/** Base catalog levels when MetaForge omits level or stores bogus level 1 (Demon templates). */
+const ARMOR_FACTION_BASE_LEVELS = {
+  RManfish: 6,
+  RKobold: 6,
+  RBee: 15,
+  RCrimson: 20,
+  RDemon: 25
+};
 const WEAPON_BOSS_DUNGEONS = {
   "Munster Chuck": "Cheese Station",
   Reblochonk: "Cheese Station",
@@ -742,6 +751,45 @@ function itemIdHasFaction(item, factionKey) {
   return item.id.includes(`_${factionKey}`) || item.id.includes(`${factionKey}_`);
 }
 
+function armorFactionKey(item) {
+  for (const factionKey of Object.keys(ARMOR_FACTION_BASE_LEVELS)) {
+    if (itemIdHasFaction(item, factionKey)) {
+      return factionKey;
+    }
+  }
+  return null;
+}
+
+function isStarterArmorItem(item) {
+  const id = String(item?.id ?? "");
+  if (/_Start$/i.test(id) || /_Starter_/i.test(id) || /^Starter_/i.test(id)) {
+    return true;
+  }
+  const sources = Array.isArray(item?.sources) ? item.sources : [];
+  return sources.some((source) => String(source?.kind ?? "").toLowerCase() === "starter");
+}
+
+/** Fix missing / bogus MetaForge armor levels using faction defaults. */
+function resolveArmorItemLevel(item) {
+  if (isStarterArmorItem(item)) {
+    return item.itemLevel ?? item.properties?.level ?? null;
+  }
+
+  const faction = armorFactionKey(item);
+  const factionLevel = faction ? ARMOR_FACTION_BASE_LEVELS[faction] : null;
+  const raw = item.itemLevel ?? item.properties?.level ?? null;
+
+  if (raw == null || raw === "") {
+    return factionLevel ?? null;
+  }
+
+  if (Number(raw) === 1 && factionLevel != null) {
+    return factionLevel;
+  }
+
+  return raw;
+}
+
 function armorDungeonSource(item) {
   if (item.id.includes("_Craft")) {
     return null;
@@ -948,19 +996,34 @@ function enrichItem(item, collection) {
   }
 
   if (collection.key === "armor") {
-    const dungeonSource = armorDungeonSource(item);
+    const resolvedLevel = resolveArmorItemLevel(item);
+    const withLevel =
+      resolvedLevel != null && resolvedLevel !== item.itemLevel
+        ? {
+            ...item,
+            itemLevel: resolvedLevel,
+            properties: {
+              ...item.properties,
+              level: resolvedLevel
+            }
+          }
+        : item;
+
+    const dungeonSource = armorDungeonSource(withLevel);
 
     if (dungeonSource) {
-      const existingSources = withoutUnknownSources(item.sources).filter(
+      const existingSources = withoutUnknownSources(withLevel.sources).filter(
         (source) => source.kind !== dungeonSource.source.kind || source.text !== dungeonSource.source.text
       );
 
       return {
-        ...item,
+        ...withLevel,
         sources: [dungeonSource.source, ...existingSources],
         dungeonSources: dungeonSource.dungeonSources
       };
     }
+
+    return withLevel;
   }
 
   if (collection.key === "weapons") {
@@ -998,11 +1061,24 @@ function isPropertyValue(value) {
     return value.length > 0 && value.every((item) => ["string", "number", "boolean"].includes(typeof item));
   }
 
+  // MetaForge weapon_damage is an object { min, max, avg, ... }.
+  if (value && typeof value === "object" && Number.isFinite(Number(value.avg))) {
+    return true;
+  }
+
   return value !== null && value !== undefined && value !== "" && ["string", "number", "boolean"].includes(typeof value);
 }
 
 function isDisplayProperty(key, value) {
-  if (!isPropertyValue(value) || HIDDEN_PROPERTY_KEYS.has(key)) {
+  if (HIDDEN_PROPERTY_KEYS.has(key)) {
+    return false;
+  }
+
+  if (key === "weapon_damage" && value && typeof value === "object") {
+    return Number.isFinite(Number(value.avg));
+  }
+
+  if (!isPropertyValue(value)) {
     return false;
   }
 
@@ -1108,7 +1184,35 @@ function normalizeProperties(item, collection) {
     properties.variant = variant;
   }
 
+  // Collection tables show a scalar; full blob lives on item.weaponDamage after enrich.
+  if (properties.weapon_damage && typeof properties.weapon_damage === "object") {
+    const avg = Number(properties.weapon_damage.avg);
+    if (Number.isFinite(avg)) {
+      properties.weapon_damage = avg;
+    }
+  }
+
   return properties;
+}
+
+function normalizeWeaponDamage(raw) {
+  if (!raw || typeof raw !== "object") {
+    return null;
+  }
+  const avg = Number(raw.avg);
+  if (!Number.isFinite(avg)) {
+    return null;
+  }
+  return {
+    min: Number(raw.min) || 0,
+    max: Number(raw.max) || 0,
+    avg,
+    affinity: raw.affinity ?? null,
+    skillId: raw.skill_id ?? null,
+    scalingAttr: raw.scaling_attr ?? null,
+    scalingRatio: Number(raw.scaling_ratio) || 0,
+    note: raw._note ?? null
+  };
 }
 
 function buildPropertyFields(items, getProperties = sourceProperties) {
@@ -1143,6 +1247,9 @@ function normalizeItem(item, collection) {
         ? companionIdentity(item.name_raw ?? item.slug ?? String(item.id)).species
         : item.subcategory ?? item.type ?? "Outros";
 
+  const weaponDamage =
+    collection.key === "weapons" ? normalizeWeaponDamage(item.weapon_damage) : null;
+
   return {
     id: item.name_raw ?? item.slug ?? String(item.id),
     metaforgeId: item.id,
@@ -1161,6 +1268,7 @@ function normalizeItem(item, collection) {
     droppedBy: item.dropped_by ?? [],
     shops: item.shop_sources ?? [],
     achievements: item.reward_for_achievements ?? [],
+    ...(weaponDamage ? { weaponDamage } : {}),
     ...collection.extraFields(item)
   };
 }

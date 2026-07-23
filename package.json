@@ -8,7 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "import:mounts": "node scripts/import-collections.mjs --only=mounts",
-    "import:collections": "node scripts/import-collections.mjs"
+    "import:collections": "node scripts/import-collections.mjs",
+    "enrich:stats": "node scripts/enrich-gear-stats.mjs",
+    "import:skills": "node scripts/import-skills.mjs",
+    "download:skill-icons": "node scripts/download-skill-icons.mjs"
   },
   "dependencies": {
     "react": "^19.2.7",

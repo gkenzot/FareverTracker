@@ -14,6 +14,7 @@ import {
   isAllMissingPage as isAllMissingPageKey,
   isMissingCollectionPage
 } from "./features/collections/collectionRegistry";
+import { BuildLabPage } from "./features/builds/BuildLabPage";
 import { DashboardSettingsPage } from "./features/dashboard/DashboardSettingsPage";
 import { HomeDashboardPage } from "./features/dashboard/HomeDashboardPage";
 import { useDashboardSettings } from "./shared/hooks/useDashboardSettings";
@@ -65,11 +66,12 @@ export default function App() {
   const isCharacterManagerPage = activePage === "characters";
   const isDashboardSettingsPage = activePage === "dashboard-settings";
   const isHomePage = activePage === "home";
+  const isBuildLabPage = activePage === "build-lab";
   const isAllMissingPage = isAllMissingPageKey(activePage);
   const isMissingPage = isMissingCollectionPage(activePage);
   const activeCollectionKey = getCollectionKeyFromPage(activePage);
   const activeConfig =
-    isCharacterManagerPage || isDashboardSettingsPage || isHomePage || isAllMissingPage
+    isCharacterManagerPage || isDashboardSettingsPage || isHomePage || isBuildLabPage || isAllMissingPage
       ? null
       : collectionConfigs[activeCollectionKey];
   const accountCollectionKeys = getAccountCollectionKeys(collectionConfigs, collectionOrder);
@@ -258,6 +260,16 @@ export default function App() {
         )}
       </div>
       <div className="side-section">
+        <span className="side-section-title">Tools</span>
+        <button
+          className={isBuildLabPage ? "active" : ""}
+          type="button"
+          onClick={() => setActivePage("build-lab")}
+        >
+          Build
+        </button>
+      </div>
+      <div className="side-section">
         <button
           className={`side-section-title-button ${isAllMissingPage ? "active" : ""}`}
           type="button"
@@ -339,6 +351,24 @@ export default function App() {
         onOpenCollection={openCollectionPage}
         showImportPrompt={!hasSavedAppState}
         onOpenImport={() => setActivePage("characters")}
+      />
+    );
+  }
+
+  if (isBuildLabPage) {
+    return (
+      <BuildLabPage
+        characters={characters}
+        activeCharacterId={activeCharacterId || characters[0]?.id || ""}
+        setActiveCharacterId={setActiveCharacterId}
+        dashboardStats={dashboardStats}
+        navigation={navigation}
+        hiddenCharacterMenus={hiddenCharacterMenus}
+        isDashboardSettingsPage={isDashboardSettingsPage}
+        onOpenHome={openHomePage}
+        onOpenDashboardSettings={() => setActivePage("dashboard-settings")}
+        onToggleCharacterMenu={toggleCharacterMenu}
+        onOpenCharacters={() => setActivePage("characters")}
       />
     );
   }

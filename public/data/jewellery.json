@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/jewellery",
-  "importedAt": "2026-07-22T11:42:20.145Z",
+  "importedAt": "2026-07-22T15:08:22.165Z",
   "total": 43,
   "propertyFields": [
     {
@@ -61,7 +61,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 25
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "MaPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "MaPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z1_Ap",
@@ -95,7 +141,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 25
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "ArPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "ArPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z1_Cri",
@@ -129,7 +221,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 25
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z1_Vit",
@@ -163,7 +301,45 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 1
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Vita"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "Vita": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z1_Fer",
@@ -197,7 +373,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 25
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z1RCraft_Mp",
@@ -231,7 +453,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z1RCraft_Ap",
@@ -265,7 +500,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z1RCraft_Cri",
@@ -299,7 +547,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Critical",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z1RCraft_Fer",
@@ -333,7 +594,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Fervor",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Trinket_Bee",
@@ -342,7 +616,7 @@
       "slug": "eternal-flower-heart",
       "family": "Trinket",
       "rarity": "Rare",
-      "itemLevel": null,
+      "itemLevel": 25,
       "description": "",
       "iconFilename": "Trinket_Bee__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Bee__gfx.webp",
@@ -354,7 +628,8 @@
         "classes": [
           "MaPen"
         ],
-        "type": "Trinket"
+        "type": "Trinket",
+        "level": 25
       },
       "sources": [
         {
@@ -366,7 +641,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "MaPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "MaPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Trinket_Demon",
@@ -375,7 +696,7 @@
       "slug": "finger-of-sukunamaatata",
       "family": "Trinket",
       "rarity": "Rare",
-      "itemLevel": null,
+      "itemLevel": 25,
       "description": "All your damage have a chance to curse the target, dealing 20% Strength Raw damage over 6s.\n\nIf the target dies while cursed, you get healed for 5% Strength healing.",
       "iconFilename": "Trinket_Demon__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Demon__gfx.webp",
@@ -384,7 +705,8 @@
       "properties": {
         "subcategory": "Trinket",
         "rarity": "Rare",
-        "type": "Trinket"
+        "type": "Trinket",
+        "level": 25
       },
       "sources": [
         {
@@ -396,7 +718,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 80
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Demon",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "InfusedTusk",
@@ -429,7 +797,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Trinket_Crimson",
@@ -438,7 +852,7 @@
       "slug": "lost-relic-found",
       "family": "Trinket",
       "rarity": "Rare",
-      "itemLevel": null,
+      "itemLevel": 25,
       "description": "",
       "iconFilename": "Trinket_Crimson__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Crimson__gfx.webp",
@@ -450,7 +864,8 @@
         "classes": [
           "Crit"
         ],
-        "type": "Trinket"
+        "type": "Trinket",
+        "level": 25
       },
       "sources": [
         {
@@ -462,7 +877,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 80
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z2_Mp",
@@ -496,7 +957,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 36
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "MaPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "MaPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z2_Ap",
@@ -530,7 +1037,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 36
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "ArPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "ArPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z2_Cri",
@@ -564,7 +1117,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 36
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z2_Fer",
@@ -598,7 +1197,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 36
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.14,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Necklace_Z2RCraft",
@@ -635,7 +1280,32 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 4
+        },
+        {
+          "label": "Critical",
+          "value": 11
+        },
+        {
+          "label": "Fervor",
+          "value": 11
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 11
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 11
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Necklace_Z1RCraft",
@@ -672,7 +1342,32 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Critical",
+          "value": 8
+        },
+        {
+          "label": "Fervor",
+          "value": 8
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 8
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 8
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "PhilosopherStone",
@@ -703,7 +1398,28 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 2
+        },
+        {
+          "label": "Dexterity",
+          "value": 2
+        },
+        {
+          "label": "Intellect",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": null
     },
     {
       "id": "Trinket_Manfish",
@@ -712,7 +1428,7 @@
       "slug": "poetrident",
       "family": "Trinket",
       "rarity": "Rare",
-      "itemLevel": null,
+      "itemLevel": 25,
       "description": "",
       "iconFilename": "Trinket_Manfish__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Manfish__gfx.webp",
@@ -724,7 +1440,8 @@
         "classes": [
           "Fervor"
         ],
-        "type": "Trinket"
+        "type": "Trinket",
+        "level": 25
       },
       "sources": [
         {
@@ -736,7 +1453,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "PrismaticPearl",
@@ -767,7 +1530,11 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     },
     {
       "id": "PurifiedHeart",
@@ -798,7 +1565,11 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     },
     {
       "id": "Trinket_Kobold",
@@ -807,7 +1578,7 @@
       "slug": "raclette-pan",
       "family": "Trinket",
       "rarity": "Rare",
-      "itemLevel": null,
+      "itemLevel": 25,
       "description": "",
       "iconFilename": "Trinket_Kobold__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Trinket_Kobold__gfx.webp",
@@ -819,7 +1590,8 @@
         "classes": [
           "ArPen"
         ],
-        "type": "Trinket"
+        "type": "Trinket",
+        "level": 25
       },
       "sources": [
         {
@@ -831,7 +1603,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "ArPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.08,
+          "armor": null
+        },
+        "scalings": {
+          "ArPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Mp",
@@ -865,7 +1683,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "MaPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "MaPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Ap",
@@ -899,7 +1763,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "ArPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "ArPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Cri",
@@ -933,7 +1843,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z1_Vit",
@@ -967,7 +1923,45 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 1
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Vita"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "Vita": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Fer",
@@ -1001,7 +1995,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z2_Mp",
@@ -1035,7 +2075,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Magic Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "MaPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "MaPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z2_Ap",
@@ -1069,7 +2155,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor Penetration",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "ArPen"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "ArPen": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z2_Cri",
@@ -1103,7 +2235,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Critical",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Crit"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "Crit": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z2_Fer",
@@ -1137,7 +2315,53 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Fervor",
+          "value": 21
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Uncommon",
+        "baseApts": [
+          "Fervor"
+        ],
+        "atbRatio": {
+          "primary": 0,
+          "vitality": 0.05,
+          "ratings": 0.1,
+          "armor": null
+        },
+        "scalings": {
+          "Fervor": [
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Rare"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1000,
+              "conds": {},
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": null,
+        "flawless": false,
+        "upgradeLevel": 0
+      }
     },
     {
       "id": "Finger_Z3RCraft_Mp",
@@ -1172,7 +2396,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 39
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z3RCraft_Ap",
@@ -1207,7 +2444,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 39
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z3RCraft_Cri",
@@ -1242,7 +2492,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Critical",
+          "value": 39
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z3RCraft_Fer",
@@ -1277,7 +2540,20 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Fervor",
+          "value": 39
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z2RCraft_CriAP",
@@ -1312,7 +2588,24 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 3
+        },
+        {
+          "label": "Critical",
+          "value": 13
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 13
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "Finger_Z2RCraft_FerMP",
@@ -1347,7 +2640,24 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 3
+        },
+        {
+          "label": "Fervor",
+          "value": 13
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 13
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": null
     },
     {
       "id": "StoneOfCunning",
@@ -1381,7 +2691,11 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     },
     {
       "id": "StoneOfPower",
@@ -1415,7 +2729,11 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     },
     {
       "id": "StoneOfRighteousness",
@@ -1449,7 +2767,11 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     },
     {
       "id": "StoneOfWisdom",
@@ -1483,7 +2805,12 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null
     }
-  ]
+  ],
+  "statsEnrichedAt": "2026-07-22T15:08:22.170Z"
 }

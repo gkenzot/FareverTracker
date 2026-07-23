@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/weapons",
-  "importedAt": "2026-07-22T11:26:32.708Z",
+  "importedAt": "2026-07-23T00:01:27.687Z",
   "total": 37,
   "propertyFields": [
     {
@@ -26,6 +26,10 @@
     {
       "key": "ilevel",
       "label": "Item Level"
+    },
+    {
+      "key": "weapon_damage",
+      "label": "Weapon Damage"
     }
   ],
   "weapons": [
@@ -51,7 +55,8 @@
           "Priest"
         ],
         "type": "Mace",
-        "ilevel": 210
+        "ilevel": 210,
+        "weapon_damage": 27.3
       },
       "sources": [
         {
@@ -63,7 +68,237 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 9
+        },
+        {
+          "label": "Vitality",
+          "value": 22
+        },
+        {
+          "label": "Fervor",
+          "value": 57
+        },
+        {
+          "label": "Faith",
+          "value": 9
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 24,
+        "max": 30,
+        "avg": 27.3,
+        "affinity": "Physical",
+        "skillId": "Mace_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Book_Start",
@@ -71,7 +306,7 @@
       "name": "Apprentice's Grimoire",
       "slug": "apprentices-grimoire",
       "family": "Book",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "itemLevel": 1,
       "description": "At one point, this was an Expert's Grimoire, but all the advanced pages are damaged beyond recognition.",
       "iconFilename": "Book_Start__gfx.webp",
@@ -80,13 +315,14 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/apprentices-grimoire",
       "properties": {
         "subcategory": "Book",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "level": 1,
         "classes": [
           "Mage"
         ],
         "type": "Book",
-        "ilevel": 10
+        "ilevel": 20,
+        "weapon_damage": 1.3
       },
       "sources": [
         {
@@ -125,7 +361,137 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 1
+        },
+        {
+          "label": "Intellect",
+          "value": 3
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Starter",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 1,
+        "max": 1,
+        "avg": 1.3,
+        "affinity": "Fire",
+        "skillId": "Book_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Sword_Swarm",
@@ -149,7 +515,8 @@
           "Priest"
         ],
         "type": "Sword",
-        "ilevel": 110
+        "ilevel": 110,
+        "weapon_damage": 14.3
       },
       "sources": [
         {
@@ -161,7 +528,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 11
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 19
+        },
+        {
+          "label": "Faith",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 12,
+        "max": 15,
+        "avg": 14.3,
+        "affinity": "Physical",
+        "skillId": "Sword_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Book_WaterOrbs",
@@ -185,7 +786,8 @@
           "Priest"
         ],
         "type": "Book",
-        "ilevel": 90
+        "ilevel": 90,
+        "weapon_damage": 11.7
       },
       "sources": [
         {
@@ -197,7 +799,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 10
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 18
+        },
+        {
+          "label": "Faith",
+          "value": 4
+        },
+        {
+          "label": "Fervor",
+          "value": 18
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 10,
+        "max": 12,
+        "avg": 11.7,
+        "affinity": "Fire",
+        "skillId": "Book_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Staff_Censer",
@@ -221,7 +1057,8 @@
           "Priest"
         ],
         "type": "Staff",
-        "ilevel": 150
+        "ilevel": 150,
+        "weapon_damage": 26.25
       },
       "sources": [
         {
@@ -233,7 +1070,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 15
+        },
+        {
+          "label": "Critical",
+          "value": 23
+        },
+        {
+          "label": "Faith",
+          "value": 6
+        },
+        {
+          "label": "Fervor",
+          "value": 23
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 23,
+        "max": 28,
+        "avg": 26.25,
+        "affinity": "Light",
+        "skillId": "Staff_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.175,
+        "note": null
+      }
     },
     {
       "id": "Axe_Boomerang",
@@ -257,7 +1328,8 @@
           "Rogue"
         ],
         "type": "Axe",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 6.5
       },
       "sources": [
         {
@@ -269,7 +1341,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Critical",
+          "value": 15
+        },
+        {
+          "label": "Dexterity",
+          "value": 3
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 5,
+        "max": 7,
+        "avg": 6.5,
+        "affinity": "Physical",
+        "skillId": "Axe_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Fists_WaterUppecut",
@@ -293,7 +1599,8 @@
           "Mage"
         ],
         "type": "Fists",
-        "ilevel": 90
+        "ilevel": 90,
+        "weapon_damage": 11.7
       },
       "sources": [
         {
@@ -305,7 +1612,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 9
+        },
+        {
+          "label": "Critical",
+          "value": 18
+        },
+        {
+          "label": "Intellect",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 18
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 10,
+        "max": 12,
+        "avg": 11.7,
+        "affinity": "Physical",
+        "skillId": "Fists_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Shield_OrbitWater",
@@ -341,7 +1882,216 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 209
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": null,
+          "vitality": null,
+          "ratings": null,
+          "armor": 0.337
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "Bow_Craft",
@@ -364,7 +2114,8 @@
           "Rogue"
         ],
         "type": "Bow",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 7.88
       },
       "sources": [
         {
@@ -403,7 +2154,141 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Critical",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 7,
+        "max": 8,
+        "avg": 7.88,
+        "affinity": "Physical",
+        "skillId": "Bow_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1575,
+        "note": null
+      }
     },
     {
       "id": "Shield_Craft",
@@ -466,7 +2351,216 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 144
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": null,
+          "vitality": null,
+          "ratings": null,
+          "armor": 0.337
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "Scepter_Flamie",
@@ -489,7 +2583,8 @@
           "Priest"
         ],
         "type": "Scepter",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 6.5
       },
       "sources": [
         {
@@ -506,7 +2601,141 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Faith",
+          "value": 6
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Critical",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 5,
+        "max": 7,
+        "avg": 6.5,
+        "affinity": "Light",
+        "skillId": "Scepter_Base_Attack",
+        "scalingAttr": "Faith",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Halos_Totem",
@@ -530,7 +2759,8 @@
           "Priest"
         ],
         "type": "Halos",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 8.5
       },
       "sources": [
         {
@@ -547,7 +2777,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 15
+        },
+        {
+          "label": "Faith",
+          "value": 3
+        },
+        {
+          "label": "Fervor",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 7,
+        "max": 9,
+        "avg": 8.5,
+        "affinity": "Magic",
+        "skillId": "Halos_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.17,
+        "note": null
+      }
     },
     {
       "id": "Sword_Craft",
@@ -571,7 +3035,8 @@
           "Priest"
         ],
         "type": "Sword",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 6.5
       },
       "sources": [
         {
@@ -610,7 +3075,241 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 15
+        },
+        {
+          "label": "Faith",
+          "value": 3
+        },
+        {
+          "label": "Fervor",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 5,
+        "max": 7,
+        "avg": 6.5,
+        "affinity": "Physical",
+        "skillId": "Sword_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Spear_Eruption",
@@ -634,7 +3333,8 @@
           "Priest"
         ],
         "type": "Spear",
-        "ilevel": 90
+        "ilevel": 90,
+        "weapon_damage": 14.85
       },
       "sources": [
         {
@@ -646,7 +3346,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 9
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 18
+        },
+        {
+          "label": "Faith",
+          "value": 4
+        },
+        {
+          "label": "Critical",
+          "value": 18
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 13,
+        "max": 16,
+        "avg": 14.85,
+        "affinity": "Physical",
+        "skillId": "Spear_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.165,
+        "note": null
+      }
     },
     {
       "id": "Bow_BigGame",
@@ -670,7 +3604,8 @@
           "Mage"
         ],
         "type": "Bow",
-        "ilevel": 150
+        "ilevel": 150,
+        "weapon_damage": 23.62
       },
       "sources": [
         {
@@ -682,7 +3617,237 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 13
+        },
+        {
+          "label": "Critical",
+          "value": 45
+        },
+        {
+          "label": "Intellect",
+          "value": 7
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 21,
+        "max": 25,
+        "avg": 23.62,
+        "affinity": "Physical",
+        "skillId": "Bow_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1575,
+        "note": null
+      }
     },
     {
       "id": "Thrown_Seeds",
@@ -706,7 +3871,8 @@
           "Mage"
         ],
         "type": "Thrown",
-        "ilevel": 110
+        "ilevel": 110,
+        "weapon_damage": 28.6
       },
       "sources": [
         {
@@ -718,7 +3884,237 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 5
+        },
+        {
+          "label": "Vitality",
+          "value": 10
+        },
+        {
+          "label": "Fervor",
+          "value": 39
+        },
+        {
+          "label": "Intellect",
+          "value": 5
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 25,
+        "max": 31,
+        "avg": 28.6,
+        "affinity": "Physical",
+        "skillId": "Thrown_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.26,
+        "note": null
+      }
     },
     {
       "id": "DA_Water",
@@ -759,7 +4155,232 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 15
+        },
+        {
+          "label": "Dexterity",
+          "value": 3
+        },
+        {
+          "label": "Critical",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Manfish",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "GA_Craft",
@@ -826,7 +4447,132 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 6
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "Spear_Goo",
@@ -850,7 +4596,8 @@
           "Mage"
         ],
         "type": "Spear",
-        "ilevel": 110
+        "ilevel": 110,
+        "weapon_damage": 18.15
       },
       "sources": [
         {
@@ -862,7 +4609,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 11
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 19
+        },
+        {
+          "label": "Intellect",
+          "value": 5
+        },
+        {
+          "label": "Fervor",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 16,
+        "max": 19,
+        "avg": 18.15,
+        "affinity": "Physical",
+        "skillId": "Spear_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.165,
+        "note": null
+      }
     },
     {
       "id": "Net_Basic",
@@ -917,7 +4898,12 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [],
+      "statsByClass": null,
+      "statsSource": null,
+      "statsScale": null,
+      "weaponDamage": null
     },
     {
       "id": "Sword_Start",
@@ -925,7 +4911,7 @@
       "name": "Light Practice Sword",
       "slug": "light-practice-sword",
       "family": "Sword",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "itemLevel": 1,
       "description": "If you've been given this sword, someone thinks you can't be trusted with a real one.",
       "iconFilename": "Sword_Start__gfx.webp",
@@ -934,13 +4920,14 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/light-practice-sword",
       "properties": {
         "subcategory": "Sword",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "level": 1,
         "classes": [
           "Warrior"
         ],
         "type": "Sword",
-        "ilevel": 10
+        "ilevel": 20,
+        "weapon_damage": 1.3
       },
       "sources": [
         {
@@ -979,7 +4966,137 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Strength",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Starter",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 1,
+        "max": 1,
+        "avg": 1.3,
+        "affinity": "Physical",
+        "skillId": "Sword_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Shield_Firebreath",
@@ -1015,7 +5132,216 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 209
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": null,
+          "vitality": null,
+          "ratings": null,
+          "armor": 0.337
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "GS_Nova",
@@ -1038,7 +5364,8 @@
           "Warrior"
         ],
         "type": "GreatSword",
-        "ilevel": 210
+        "ilevel": 210,
+        "weapon_damage": 199.5
       },
       "sources": [
         {
@@ -1050,7 +5377,141 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 17
+        },
+        {
+          "label": "Vitality",
+          "value": 22
+        },
+        {
+          "label": "Critical",
+          "value": 57
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Kobold",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 179,
+        "max": 219,
+        "avg": 199.5,
+        "affinity": "Physical",
+        "skillId": "GS_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.95,
+        "note": "2H weapon_damage derived from base-attack ratio (live 2H weapons had null damage / no anchor) — verify in-game."
+      }
     },
     {
       "id": "Halos_Demon",
@@ -1074,7 +5535,8 @@
           "Priest"
         ],
         "type": "Halos",
-        "ilevel": 260
+        "ilevel": 260,
+        "weapon_damage": 8.5
       },
       "sources": [
         {
@@ -1091,7 +5553,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Fervor",
+          "value": 15
+        },
+        {
+          "label": "Faith",
+          "value": 3
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Demon",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 7,
+        "max": 9,
+        "avg": 8.5,
+        "affinity": "Chaos",
+        "skillId": "Halos_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.17,
+        "note": null
+      }
     },
     {
       "id": "Daggers_Demondash",
@@ -1115,7 +5811,8 @@
           "Mage"
         ],
         "type": "Daggers",
-        "ilevel": 260
+        "ilevel": 260,
+        "weapon_damage": 5.38
       },
       "sources": [
         {
@@ -1132,7 +5829,237 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 6
+        },
+        {
+          "label": "Fervor",
+          "value": 31
+        },
+        {
+          "label": "Intellect",
+          "value": 3
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Demon",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 4,
+        "max": 5,
+        "avg": 5.38,
+        "affinity": "Chaos",
+        "skillId": "Daggers_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1075,
+        "note": null
+      }
     },
     {
       "id": "GM_MassGrab",
@@ -1168,7 +6095,232 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 11
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 19
+        },
+        {
+          "label": "Faith",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "Staff_Craft",
@@ -1191,7 +6343,8 @@
           "Mage"
         ],
         "type": "Staff",
-        "ilevel": 50
+        "ilevel": 50,
+        "weapon_damage": 8.75
       },
       "sources": [
         {
@@ -1230,7 +6383,141 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 7,
+        "max": 9,
+        "avg": 8.75,
+        "affinity": "Fire",
+        "skillId": "Staff_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.175,
+        "note": null
+      }
     },
     {
       "id": "Fists_LightMonk",
@@ -1254,7 +6541,8 @@
           "Priest"
         ],
         "type": "Fists",
-        "ilevel": 150
+        "ilevel": 150,
+        "weapon_damage": 19.5
       },
       "sources": [
         {
@@ -1266,7 +6554,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 13
+        },
+        {
+          "label": "Critical",
+          "value": 23
+        },
+        {
+          "label": "Faith",
+          "value": 6
+        },
+        {
+          "label": "Fervor",
+          "value": 23
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 17,
+        "max": 21,
+        "avg": 19.5,
+        "affinity": "Physical",
+        "skillId": "Fists_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Scepter_Start",
@@ -1274,7 +6796,7 @@
       "name": "Rehearsal Scepter",
       "slug": "rehearsal-scepter",
       "family": "Scepter",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "itemLevel": 1,
       "description": "This false scepter is materially identical to a real one. But material reality is of little importance when it comes to rituals.",
       "iconFilename": "Scepter_Start__gfx.webp",
@@ -1283,13 +6805,14 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rehearsal-scepter",
       "properties": {
         "subcategory": "Scepter",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "level": 1,
         "classes": [
           "Priest"
         ],
         "type": "Scepter",
-        "ilevel": 10
+        "ilevel": 20,
+        "weapon_damage": 1.3
       },
       "sources": [
         {
@@ -1318,7 +6841,137 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 2
+        },
+        {
+          "label": "Faith",
+          "value": 2
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Starter",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 1,
+        "max": 1,
+        "avg": 1.3,
+        "affinity": "Light",
+        "skillId": "Scepter_Base_Attack",
+        "scalingAttr": "Faith",
+        "scalingRatio": 0.13,
+        "note": null
+      }
     },
     {
       "id": "Shield_Start",
@@ -1326,7 +6979,7 @@
       "name": "Rough Shield",
       "slug": "rough-shield",
       "family": "Shield",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "itemLevel": 1,
       "description": "This shield is so rudimentary it usually ends up doing more harm than it prevents.",
       "iconFilename": "Shield_Start__gfx.webp",
@@ -1335,13 +6988,13 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rough-shield",
       "properties": {
         "subcategory": "Shield",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "level": 1,
         "classes": [
           "Warrior"
         ],
         "type": "Shield",
-        "ilevel": 10
+        "ilevel": 20
       },
       "sources": [
         {
@@ -1370,7 +7023,124 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Armor",
+          "value": 109
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter"
+        ],
+        "atbRatio": {
+          "primary": null,
+          "vitality": null,
+          "ratings": null,
+          "armor": 0.337
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Starter",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "Daggers_Start",
@@ -1378,7 +7148,7 @@
       "name": "Rusty Knives",
       "slug": "rusty-knives",
       "family": "Daggers",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "itemLevel": 1,
       "description": "These training knives were confiscated from their previous bearer for obvious reasons.",
       "iconFilename": "Daggers_Start__gfx.webp",
@@ -1387,13 +7157,14 @@
       "pageUrl": "https://metaforge.app/farever/database/weapons/rusty-knives",
       "properties": {
         "subcategory": "Daggers",
-        "rarity": "Uncommon",
+        "rarity": "Rare",
         "level": 1,
         "classes": [
           "Rogue"
         ],
         "type": "Daggers",
-        "ilevel": 10
+        "ilevel": 20,
+        "weapon_damage": 1.07
       },
       "sources": [
         {
@@ -1422,7 +7193,137 @@
         }
       ],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Vitality",
+          "value": 1
+        },
+        {
+          "label": "Dexterity",
+          "value": 3
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "metaforge",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Starter",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 0,
+        "max": 1,
+        "avg": 1.07,
+        "affinity": "Physical",
+        "skillId": "Daggers_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1075,
+        "note": null
+      }
     },
     {
       "id": "Staff_SummonDemon",
@@ -1445,7 +7346,8 @@
           "Mage"
         ],
         "type": "Staff",
-        "ilevel": 260
+        "ilevel": 260,
+        "weapon_damage": 8.75
       },
       "sources": [
         {
@@ -1457,7 +7359,141 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Intellect",
+          "value": 7
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Critical",
+          "value": 31
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 7,
+        "max": 9,
+        "avg": 8.75,
+        "affinity": "Chaos",
+        "skillId": "Staff_Base_Attack",
+        "scalingAttr": "Intellect",
+        "scalingRatio": 0.175,
+        "note": null
+      }
     },
     {
       "id": "Crescent_FlowerSpiral",
@@ -1481,7 +7517,8 @@
           "Priest"
         ],
         "type": "Crescent",
-        "ilevel": 110
+        "ilevel": 110,
+        "weapon_damage": 20.07
       },
       "sources": [
         {
@@ -1493,7 +7530,241 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 5
+        },
+        {
+          "label": "Vitality",
+          "value": 10
+        },
+        {
+          "label": "Fervor",
+          "value": 19
+        },
+        {
+          "label": "Faith",
+          "value": 4
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 18,
+        "max": 22,
+        "avg": 20.07,
+        "affinity": "Physical",
+        "skillId": "Crescent_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1825,
+        "note": null
+      }
     },
     {
       "id": "Daggers_DuplicatePoison",
@@ -1516,7 +7787,8 @@
           "Rogue"
         ],
         "type": "Daggers",
-        "ilevel": 90
+        "ilevel": 90,
+        "weapon_damage": 9.68
       },
       "sources": [
         {
@@ -1528,7 +7800,141 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Dexterity",
+          "value": 9
+        },
+        {
+          "label": "Vitality",
+          "value": 8
+        },
+        {
+          "label": "Critical",
+          "value": 36
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "World",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 8,
+        "max": 10,
+        "avg": 9.68,
+        "affinity": "Physical",
+        "skillId": "Daggers_Base_Attack",
+        "scalingAttr": "Dexterity",
+        "scalingRatio": 0.1075,
+        "note": null
+      }
     },
     {
       "id": "DM_Multispin",
@@ -1564,7 +7970,232 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 6
+        },
+        {
+          "label": "Vitality",
+          "value": 13
+        },
+        {
+          "label": "Fervor",
+          "value": 23
+        },
+        {
+          "label": "Dexterity",
+          "value": 7
+        },
+        {
+          "label": "Critical",
+          "value": 23
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Assassin"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Assassin": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Dexterity",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 1800,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 100,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2308,
+              "conds": {},
+              "start": 208,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Crimson",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "DS_Z1RBee_AssWiz",
@@ -1600,7 +8231,232 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 4
+        },
+        {
+          "label": "Vitality",
+          "value": 11
+        },
+        {
+          "label": "Armor Penetration",
+          "value": 19
+        },
+        {
+          "label": "Intellect",
+          "value": 5
+        },
+        {
+          "label": "Fervor",
+          "value": 19
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Wizard"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Wizard": [
+            {
+              "end": 648,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 36,
+              "endAtb": "Intellect",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Bee",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": null
     },
     {
       "id": "GA_Demon",
@@ -1624,7 +8480,8 @@
           "Priest"
         ],
         "type": "GreatAxe",
-        "ilevel": 260
+        "ilevel": 260,
+        "weapon_damage": 35
       },
       "sources": [
         {
@@ -1641,7 +8498,242 @@
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "stats": [
+        {
+          "label": "Strength",
+          "value": 3
+        },
+        {
+          "label": "Vitality",
+          "value": 7
+        },
+        {
+          "label": "Fervor",
+          "value": 15
+        },
+        {
+          "label": "Faith",
+          "value": 3
+        },
+        {
+          "label": "Magic Penetration",
+          "value": 15
+        }
+      ],
+      "statsByClass": null,
+      "statsSource": "siagarta",
+      "statsScale": {
+        "rarity": "Rare",
+        "baseApts": [
+          "Fighter",
+          "Cleric"
+        ],
+        "atbRatio": {
+          "primary": 0.28,
+          "vitality": 0.26,
+          "ratings": 0.175,
+          "armor": null
+        },
+        "scalings": {
+          "Fighter": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Strength",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 2900,
+              "conds": {},
+              "start": 261,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "ArmorPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ],
+          "Cleric": [
+            {
+              "end": 540,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 30,
+              "endAtb": "Faith",
+              "gearOnly": false,
+              "statGroup": 0
+            },
+            {
+              "end": 2250,
+              "conds": {
+                "minRarity": "Uncommon"
+              },
+              "start": 125,
+              "endAtb": "MaxHealth",
+              "gearOnly": false,
+              "sourceAtb": "Vitality",
+              "statGroup": 1
+            },
+            {
+              "end": 1795,
+              "conds": {},
+              "start": 162,
+              "endAtb": "Armor",
+              "gearOnly": true,
+              "statGroup": 2
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Bee"
+                  },
+                  {
+                    "ref": "Demon"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "SpellPenetrationRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Kobold"
+                  },
+                  {
+                    "ref": "Starter"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "CritChanceRating",
+              "gearOnly": true,
+              "statGroup": 3
+            },
+            {
+              "end": 1000,
+              "conds": {
+                "factions": [
+                  {
+                    "ref": "Manfish"
+                  },
+                  {
+                    "ref": "Crimson"
+                  },
+                  {
+                    "ref": "World"
+                  },
+                  {
+                    "ref": "Craft"
+                  }
+                ],
+                "minRarity": "Rare"
+              },
+              "start": 150,
+              "endAtb": "FervorRating",
+              "gearOnly": true,
+              "statGroup": 3
+            }
+          ]
+        },
+        "faction": "Demon",
+        "flawless": false,
+        "upgradeLevel": 0
+      },
+      "weaponDamage": {
+        "min": 31,
+        "max": 38,
+        "avg": 35,
+        "affinity": "Chaos",
+        "skillId": "GA_Base_Attack",
+        "scalingAttr": "Strength",
+        "scalingRatio": 0.7,
+        "note": "2H weapon_damage derived from base-attack ratio (live 2H weapons had null damage / no anchor) — verify in-game."
+      }
     }
-  ]
+  ],
+  "statsEnrichedAt": "2026-07-23T00:01:27.687Z"
 }
