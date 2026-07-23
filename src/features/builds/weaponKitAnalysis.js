@@ -4,7 +4,7 @@
  * Base hit: weaponDamage + Σ(coeff × attr).
  */
 
-import { isLevel30Skill, resolveActiveClassSkillIds } from "./classSkillLoadout";
+import { isLevel30Skill, resolveActiveClassSkillIds, skillMatchesClass } from "./classSkillLoadout";
 import { getWeaponSubcategory, listWeaponKitSkills, resolveWeaponMeta } from "./weaponKitHelpers";
 
 const VALID_ATTRS = new Set(["Strength", "Intellect", "Dexterity", "Faith", "Vitality", "Armor"]);
@@ -92,20 +92,12 @@ export function damageBucket(type) {
   return "Other";
 }
 
-export function attributeStatKey(attrLabel) {
+function attributeStatKey(attrLabel) {
   return ATTR_TO_KEY[attrLabel] ?? null;
 }
 
-function skillMatchesClass(skill, className) {
-  if (!className) {
-    return false;
-  }
-  const wanted = String(className).trim().toLowerCase();
-  return (skill.classes || []).some((value) => String(value).trim().toLowerCase() === wanted);
-}
-
 /** Parse tooltip hits like "105% Strength Physical damage". */
-export function parseSkillDamageHits(description) {
+function parseSkillDamageHits(description) {
   if (!description) {
     return [];
   }
@@ -128,7 +120,7 @@ export function parseSkillDamageHits(description) {
 }
 
 /** Detect interval / DoT cadence from tooltip text. */
-export function parseDamageCadence(description) {
+function parseDamageCadence(description) {
   const text = String(description || "");
   const every = text.match(/every\s+(\d+(?:\.\d+)?)s/i);
   const over = text.match(/over\s+(\d+(?:\.\d+)?)s/i);
@@ -156,7 +148,7 @@ function conditionUptime(assumptions, condition) {
  * Flat + conditional talent effects.
  * Conditional bonuses are returned with a `condition` key and scaled by assumptions later.
  */
-export function parseTalentEffects(description, points = 1) {
+function parseTalentEffects(description, points = 1) {
   const text = String(description || "");
   const rank = Math.max(1, Number(points) || 1);
   const effects = {
@@ -464,7 +456,7 @@ function weaponDamageForSource(source, mainHand, arsenalWeapon) {
   };
 }
 
-export function resolveEffectiveSkillModifier(analysis) {
+function resolveEffectiveSkillModifier(analysis) {
   const entries = analysis?.throughput?.entries;
   if (!Array.isArray(entries) || entries.length === 0) {
     return null;

@@ -10,21 +10,11 @@ import {
   writeStoredIds
 } from "./storage";
 import { readWeaponStatusRecord } from "../constants/weaponStatus";
-import { normalizeCharacterBuild } from "../../features/builds/buildSlots";
-
-const CHARACTER_BUILD_STORAGE_PREFIX = "farever-check:character-build";
-
-function getCharacterBuildStorageKey(characterId) {
-  return getCharacterStorageKey(CHARACTER_BUILD_STORAGE_PREFIX, characterId);
-}
-
-function readCharacterBuild(characterId) {
-  return normalizeCharacterBuild(readJsonStorage(getCharacterBuildStorageKey(characterId), null));
-}
-
-function writeCharacterBuild(characterId, build) {
-  return writeJsonStorage(getCharacterBuildStorageKey(characterId), normalizeCharacterBuild(build));
-}
+import {
+  getCharacterBuildStorageKey,
+  readCharacterBuild,
+  writeCharacterBuild
+} from "../../features/builds/useCharacterBuild";
 
 export const PROGRESS_BACKUP_TYPE = "farever-check-full-progress";
 export const PROGRESS_BACKUP_FILENAME = "FareverTracker.json";
@@ -276,7 +266,7 @@ export function importProgressBackup({
 
   for (const character of nextCharacters) {
     if (characterBuildsById[character.id]) {
-      writeCharacterBuild(character.id, normalizeCharacterBuild(characterBuildsById[character.id]));
+      writeCharacterBuild(character.id, characterBuildsById[character.id]);
     }
   }
 

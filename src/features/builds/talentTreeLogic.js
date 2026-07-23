@@ -1,4 +1,4 @@
-import { COLUMN_TIER_GATES, getTalentTree } from "./talentTrees.js";
+import { COLUMN_TIER_GATES, getTalentTree } from "./talentTrees";
 
 function normalizeName(name) {
   return String(name || "")
@@ -74,19 +74,6 @@ export function getPoints(pointsById, talentId) {
   return Math.max(0, Math.floor(Number(pointsById?.[talentId]) || 0));
 }
 
-export function getColumnPoints(resolved, pointsById, branchIndex) {
-  if (!resolved?.branches?.[branchIndex]) {
-    return 0;
-  }
-  let total = 0;
-  for (const tierNodes of resolved.branches[branchIndex]) {
-    for (const node of tierNodes) {
-      total += getPoints(pointsById, node.id);
-    }
-  }
-  return total;
-}
-
 /**
  * Column points from tiers strictly below `tier` (same branch).
  * Tier gates only care about investment already in earlier phases.
@@ -106,7 +93,7 @@ export function getColumnPointsBeforeTier(resolved, pointsById, branchIndex, tie
   return total;
 }
 
-export function meetsTierGate(resolved, pointsById, node) {
+function meetsTierGate(resolved, pointsById, node) {
   if (!node || node.role === "root") {
     return true;
   }
@@ -115,7 +102,7 @@ export function meetsTierGate(resolved, pointsById, node) {
   return getColumnPointsBeforeTier(resolved, pointsById, node.branch, node.tier) >= required;
 }
 
-export function isRootUnlocked(resolved, pointsById) {
+function isRootUnlocked(resolved, pointsById) {
   if (!resolved?.root) {
     return false;
   }
@@ -184,22 +171,4 @@ export function canDecreaseTalent(resolved, pointsById, talentId, toZero = false
   }
 
   return true;
-}
-
-export function describeUnlockBlock(resolved, pointsById, talentId) {
-  const node = resolved?.byId?.get(talentId);
-  if (!node) {
-    return "Talent desconhecido.";
-  }
-  if (node.role !== "root" && !isRootUnlocked(resolved, pointsById)) {
-    return `Precisa de 1 ponto em ${resolved.root.name} (root).`;
-  }
-  if (node.role !== "root") {
-    const required = COLUMN_TIER_GATES[node.tier] ?? 0;
-    const have = getColumnPointsBeforeTier(resolved, pointsById, node.branch, node.tier);
-    if (have < required) {
-      return `Coluna precisa de ${required} pts nos tiers anteriores (tem ${have}).`;
-    }
-  }
-  return "";
 }

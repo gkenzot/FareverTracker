@@ -28,7 +28,7 @@ function num(value, digits = 2) {
  * Static formula copy + optional live breakdown for the Attributes explain modal.
  * @type {Record<string, { title: string, summary: string, formula: string, notes?: string[], buildLive?: (attrs: object) => string[] }>}
  */
-export const ATTRIBUTE_FORMULA_DOCS = {
+const ATTRIBUTE_FORMULA_DOCS = {
   vitality: {
     title: "Vitality",
     summary: "Atributo primário somado da base da classe (L25) com o gear e adereços.",

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { assetPath } from "../../shared/utils/assets";
 import { filterItemsByCharacterClass } from "../../shared/utils/characterClass";
 import {
@@ -9,6 +9,7 @@ import {
   createEmptyEquipmentSlot,
   getAdornmentFieldsForSlot,
   getAugmentDisplayName,
+  findAugmentByName,
   getDefaultUsedLevel,
   getDefaultUsedRarity,
   getItemCatalogRarity,
@@ -82,13 +83,6 @@ function writeDragPayload(event, payload) {
   event.dataTransfer.effectAllowed = "move";
 }
 
-function normalizeLookup(value) {
-  return String(value ?? "")
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ");
-}
-
 function formatStatLine(stat) {
   const value = Number(stat?.value);
   if (!Number.isFinite(value)) {
@@ -124,43 +118,6 @@ function resolveItemStats(item, { characterClassName, usedLevel, usedRarity, use
   return sortGearStatsForDisplay(
     slotKey === "arsenal" ? applyArsenalStatFactor(stats) : stats,
     characterClassName
-  );
-}
-
-function findAugmentByName(augments, name, adornmentKind = "") {
-  const wanted = normalizeLookup(name);
-  if (!wanted) {
-    return null;
-  }
-
-  const pool = adornmentKind
-    ? augments.filter((item) => augmentMatchesAdornmentField(item, adornmentKind))
-    : augments;
-
-  const exact = pool.find((item) => {
-    const names = [item.name, getAugmentDisplayName(item), item.slug, item.id]
-      .filter(Boolean)
-      .map((value) => normalizeLookup(value));
-    return names.includes(wanted);
-  });
-  if (exact) {
-    return exact;
-  }
-
-  return (
-    pool.find((item) => {
-      const candidates = [item.name, getAugmentDisplayName(item), item.slug, item.id]
-        .filter(Boolean)
-        .map((value) => normalizeLookup(value));
-      return candidates.some((candidate) => {
-        if (candidate.includes(wanted) || wanted.includes(candidate)) {
-          return true;
-        }
-        const softWanted = wanted.replace(/\bgate\b/g, "agate");
-        const softCandidate = candidate.replace(/\bgate\b/g, "agate");
-        return softCandidate.includes(softWanted) || softWanted.includes(softCandidate);
-      });
-    }) ?? null
   );
 }
 
@@ -724,6 +681,7 @@ export function EquipmentPaperDoll({
   catalogs,
   ownedIds,
   itemsById,
+  augments = [],
   onChangeSlot,
   onReplaceEquipment
 }) {
@@ -735,33 +693,6 @@ export function EquipmentPaperDoll({
   const [editingSlot, setEditingSlot] = useState("");
   const [dragging, setDragging] = useState(null);
   const [tooltip, setTooltip] = useState(null);
-  const [augments, setAugments] = useState([]);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function loadAugments() {
-      try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/augments.json`);
-        if (!response.ok) {
-          return;
-        }
-        const payload = await response.json();
-        if (!cancelled) {
-          setAugments(Array.isArray(payload.augments) ? payload.augments : []);
-        }
-      } catch {
-        if (!cancelled) {
-          setAugments([]);
-        }
-      }
-    }
-
-    loadAugments();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   const slotByKey = useMemo(
     () => Object.fromEntries(EQUIPMENT_SLOTS.map((slot) => [slot.key, slot])),

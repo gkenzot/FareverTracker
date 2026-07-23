@@ -1,6 +1,6 @@
 /** Farever gear stat scaling (ported from SiagartaDB / game constants). */
 
-export const STAT_CONSTANTS = {
+const STAT_CONSTANTS = {
   levelScalingMaxLevel: 50,
   gearStatsRatioStart: 0.5,
   gearStatsRatioEnd: 0.9,
@@ -53,7 +53,7 @@ const RARITY_RANK = {
   Legendary: 4
 };
 
-export const ATTR_LABELS = {
+const ATTR_LABELS = {
   Strength: "Strength",
   Dexterity: "Dexterity",
   Intellect: "Intellect",
@@ -83,7 +83,7 @@ function average(values) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
-export function computeItemLevel({ level, rarity, flawless = false, upgradeLevel = 0, iLevel = null }) {
+function computeItemLevel({ level, rarity, flawless = false, upgradeLevel = 0, iLevel = null }) {
   if (level != null && Number.isFinite(Number(level))) {
     const rarityBonus = STAT_CONSTANTS.rarityILevelBonus[rarity] ?? 0;
     const flawlessBonus = flawless ? STAT_CONSTANTS.flawlessILevelBonus : 0;
@@ -98,7 +98,7 @@ export function computeItemLevel({ level, rarity, flawless = false, upgradeLevel
  * @param {{ level: number, rarity: string, flawless?: boolean, upgradeLevel?: number }} options
  * @returns {{ label: string, value: number, attribute: string }[]}
  */
-export function computeGearStats(payload, options = {}) {
+function computeGearStats(payload, options = {}) {
   if (!payload?.baseApts?.length || !payload?.scalings) {
     return [];
   }
@@ -267,7 +267,7 @@ export function scaleItemStats(item, { level, rarity, upgradeLevel = 0, characte
 const MAX_DROP_FALLBACK_LEVEL = 25;
 
 /** Arsenal slot applies this fraction of the weapon’s normal sheet stats. */
-export const ARSENAL_STAT_FACTOR = 0.4;
+const ARSENAL_STAT_FACTOR = 0.4;
 
 export function applyArsenalStatFactor(stats = []) {
   return stats

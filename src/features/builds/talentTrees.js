@@ -20,7 +20,7 @@ export const COLUMN_TIER_GATES = {
  * }>}
  * branches[branchIndex][tierIndex] = nodes in that tier (left→right)
  */
-export const TALENT_TREES = {
+const TALENT_TREES = {
   Warrior: {
     root: {
       name: "Hemorrhage",

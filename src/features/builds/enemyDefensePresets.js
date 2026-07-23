@@ -3,8 +3,7 @@
  * Confirmed note: "Level 20 Bosses have 1,500 Armor" → 75 armor per level.
  */
 
-export const BOSS_ARMOR_PER_LEVEL = 75;
-export const BOSS_ARMOR_AT_LEVEL_20 = BOSS_ARMOR_PER_LEVEL * 20;
+const BOSS_ARMOR_PER_LEVEL = 75;
 export const BOSS_LEVEL_MIN = 1;
 export const BOSS_LEVEL_MAX = 25;
 export const DEFAULT_BOSS_LEVEL = 25;
@@ -19,7 +18,7 @@ export function bossArmorAtLevel(level) {
 }
 
 /** Named encounters from Armor Tests (labels only — armor comes from level). */
-export const BOSS_NAMES_BY_LEVEL = {
+const BOSS_NAMES_BY_LEVEL = {
   1: ["Crab"],
   10: ["Skunk", "Ratsar"],
   13: ["Lady Bee"],

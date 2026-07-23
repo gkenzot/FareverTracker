@@ -161,7 +161,7 @@ const BY_NORMALIZED = new Map(
 
 export const WEAPON_UPGRADE_BONUS_MIN_LEVEL = 3;
 
-export function getWeaponUpgradeBonusTable(item) {
+function getWeaponUpgradeBonusTable(item) {
   if (!item) {
     return null;
   }

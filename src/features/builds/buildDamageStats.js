@@ -28,7 +28,7 @@ function classPrimaryKey(className) {
  * Attribute 2 = primary with the majority contribution from the gear set
  * (excluding the class primary). Falls back to highest total among the others.
  */
-export function resolveAttribute2FromBuild(attributes, className) {
+function resolveAttribute2FromBuild(attributes, className) {
   const classKey = classPrimaryKey(className);
   const gear = attributes?._breakdown?.gear ?? {};
 
@@ -141,7 +141,7 @@ function weaponAffinityDamageProfile(equipment, itemsById) {
  * Damage-type profile that drives which penetration/mastery the sheet uses.
  * Priority: kit throughput by Physical/Magic → main-hand affinity → class fallback.
  */
-export function resolveDamageProfile({
+function resolveDamageProfile({
   kit = null,
   equipment = null,
   itemsById = null,
@@ -203,7 +203,7 @@ export function formatDamageProfileSource(profile) {
 }
 
 /** Weighted effective pen (display / fallback). Live damage splits AP and MP by bucket. */
-export function resolvePenetrationForProfile(attributes, profile) {
+function resolvePenetrationForProfile(attributes, profile) {
   const armor = Number(attributes?.armorPenetration) || 0;
   const magic = Number(attributes?.magicPenetration) || 0;
   if (!profile) {
@@ -213,7 +213,7 @@ export function resolvePenetrationForProfile(attributes, profile) {
 }
 
 /** Weighted effective mastery (display / fallback). Live damage splits by bucket. */
-export function resolveMasteryForProfile(attributes, profile) {
+function resolveMasteryForProfile(attributes, profile) {
   const physical = (Number(attributes?.physicalMastery) || 0) / 100;
   const magic = (Number(attributes?.magicMastery) || 0) / 100;
   if (!profile) {
@@ -223,7 +223,7 @@ export function resolveMasteryForProfile(attributes, profile) {
 }
 
 /** Average weapon damage from MetaForge catalog (`item.weaponDamage.avg`). */
-export function resolveMainHandWeaponDamage(equipment, itemsById) {
+function resolveMainHandWeaponDamage(equipment, itemsById) {
   const itemId = equipment?.weapon?.itemId;
   if (!itemId || !itemsById?.get) {
     return { value: 0, item: null, weaponDamage: null };
@@ -245,7 +245,7 @@ export function resolveMainHandWeaponDamage(equipment, itemsById) {
  * Skill modifier (and optional extras) stay as shared overrides.
  * Penetration/mastery follow damage type (Physical/Magic), not class.
  */
-export function buildDamageStatsFromAttributes(attributes, className, overrides = {}) {
+function buildDamageStatsFromAttributes(attributes, className, overrides = {}) {
   const attr1Key = classPrimaryKey(className);
   const attr1Meta = PRIMARY_KEYS.find((entry) => entry.key === attr1Key);
   const attr2 = resolveAttribute2FromBuild(attributes, className);

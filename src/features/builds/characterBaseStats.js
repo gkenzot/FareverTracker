@@ -4,7 +4,7 @@
  */
 import { ARMOR_PEN_RATING_PER_PERCENT, percentToRating } from "./damageFormulas";
 
-export const FIXED_CHARACTER_LEVEL = 25;
+const FIXED_CHARACTER_LEVEL = 25;
 
 const CLASS_ALIASES = {
   warrior: ["warrior", "fighter"],
@@ -88,7 +88,7 @@ export function normalizeCharacterClassKey(className) {
 /**
  * @returns {(typeof BASE_BY_CLASS)[keyof typeof BASE_BY_CLASS] & { level: number }} | null}
  */
-export function getCharacterBaseStats(className) {
+function getCharacterBaseStats(className) {
   const key = normalizeCharacterClassKey(className);
   const base = BASE_BY_CLASS[key];
   if (!base) {

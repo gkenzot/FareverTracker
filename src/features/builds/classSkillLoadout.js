@@ -4,7 +4,7 @@
 export const CLASS_SKILL_MAX_ACTIVE = 4;
 
 /** EA cap: level 30 skills exist in data but cannot be unlocked yet. */
-export const LEVEL_30_SKILL_IDS = new Set([
+const LEVEL_30_SKILL_IDS = new Set([
   "Warrior_BurstOfAnger",
   "Mage_Overload",
   "Priest_Miracle",
@@ -20,13 +20,13 @@ export const CLASS_SIGNATURE_SKILL_IDS = new Set([
 ]);
 
 /** Kinds that appear on the class skill bar (Prayers are a separate Rosary system). */
-export const CLASS_SKILL_SLOT_KINDS = new Set(["Active", "Signature"]);
+const CLASS_SKILL_SLOT_KINDS = new Set(["Active", "Signature"]);
 
 /**
  * Unlock level for class bar skills (progression tables).
  * Missing ids fall back to 99 (unknown) or 30 when locked.
  */
-export const CLASS_SKILL_UNLOCK_LEVEL = {
+const CLASS_SKILL_UNLOCK_LEVEL = {
   // Warrior
   Warrior_Rage_Strike: 1,
   Warrior_Charge: 3,
@@ -81,7 +81,7 @@ export function isClassSignatureSkill(skill) {
   return CLASS_SIGNATURE_SKILL_IDS.has(skill.id);
 }
 
-export function getClassSkillUnlockLevel(skill) {
+function getClassSkillUnlockLevel(skill) {
   if (!skill) {
     return 99;
   }
@@ -94,7 +94,7 @@ export function getClassSkillUnlockLevel(skill) {
   return 99;
 }
 
-export function isClassSkillSlotCandidate(skill) {
+function isClassSkillSlotCandidate(skill) {
   if (!skill || !CLASS_SKILL_SLOT_KINDS.has(skill.kind)) {
     return false;
   }
@@ -113,7 +113,7 @@ export function skillMatchesClass(skill, className) {
   return (skill.classes || []).some((value) => String(value).trim().toLowerCase() === wanted);
 }
 
-export function compareClassSkillsByUnlock(left, right) {
+function compareClassSkillsByUnlock(left, right) {
   // Signature first, then Actives by unlock level.
   const leftSig = Number(isClassSignatureSkill(left));
   const rightSig = Number(isClassSignatureSkill(right));
@@ -134,14 +134,14 @@ export function listClassSkillSlotRows(skills, className) {
     .sort(compareClassSkillsByUnlock);
 }
 
-export function getClassSignatureSkill(skills, className) {
+function getClassSignatureSkill(skills, className) {
   return (
     listClassSkillSlotRows(skills, className).find((skill) => isClassSignatureSkill(skill)) ?? null
   );
 }
 
 /** First N unlockable Actives (Signature is always separate / always on). */
-export function defaultActiveClassSkillIds(skills, className, limit = CLASS_SKILL_MAX_ACTIVE) {
+function defaultActiveClassSkillIds(skills, className, limit = CLASS_SKILL_MAX_ACTIVE) {
   return listClassSkillSlotRows(skills, className)
     .filter((skill) => skill.kind === "Active" && !isLevel30Skill(skill))
     .slice(0, Math.max(0, limit))

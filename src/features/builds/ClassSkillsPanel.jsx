@@ -15,8 +15,8 @@ import {
   getColumnPointsBeforeTier,
   getPoints,
   resolveTalentTree
-} from "./talentTreeLogic.js";
-import { COLUMN_TIER_GATES } from "./talentTrees.js";
+} from "./talentTreeLogic";
+import { COLUMN_TIER_GATES } from "./talentTrees";
 
 function getSkillIconSrc(skill, kind = "skill") {
   const folder = kind === "rune" ? "runes" : "skills";

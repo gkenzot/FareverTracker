@@ -110,19 +110,6 @@ export const EQUIPMENT_SLOTS = [
   }
 ];
 
-export const EQUIPMENT_SLOT_GROUPS = [
-  {
-    key: "body",
-    label: "Equipment",
-    slots: EQUIPMENT_SLOTS.filter((slot) => !EQUIPMENT_LAYOUT.weapons.includes(slot.key))
-  },
-  {
-    key: "weapons",
-    label: "Weapons",
-    slots: EQUIPMENT_SLOTS.filter((slot) => EQUIPMENT_LAYOUT.weapons.includes(slot.key))
-  }
-];
-
 export const WEAPON_RARITY_OPTIONS = ["Rare", "Epic", "Legendary"];
 
 /** Max weapon upgrade slots by rarity (Siagarta / game constants). */
@@ -406,6 +393,51 @@ export function getAugmentDisplayName(augment) {
   return base;
 }
 
+function normalizeAugmentLookup(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ");
+}
+
+/** Resolve an adornment name against the augments catalog (exact, then soft match). */
+export function findAugmentByName(augments, name, adornmentKind = "") {
+  const wanted = normalizeAugmentLookup(name);
+  if (!wanted) {
+    return null;
+  }
+
+  const pool = adornmentKind
+    ? augments.filter((item) => augmentMatchesAdornmentField(item, adornmentKind))
+    : augments;
+
+  const exact = pool.find((item) => {
+    const names = [item.name, getAugmentDisplayName(item), item.slug, item.id]
+      .filter(Boolean)
+      .map((value) => normalizeAugmentLookup(value));
+    return names.includes(wanted);
+  });
+  if (exact) {
+    return exact;
+  }
+
+  return (
+    pool.find((item) => {
+      const candidates = [item.name, getAugmentDisplayName(item), item.slug, item.id]
+        .filter(Boolean)
+        .map((value) => normalizeAugmentLookup(value));
+      return candidates.some((candidate) => {
+        if (candidate.includes(wanted) || wanted.includes(candidate)) {
+          return true;
+        }
+        const softWanted = wanted.replace(/\bgate\b/g, "agate");
+        const softCandidate = candidate.replace(/\bgate\b/g, "agate");
+        return softCandidate.includes(softWanted) || softWanted.includes(softCandidate);
+      });
+    }) ?? null
+  );
+}
+
 export function augmentMatchesAdornmentField(augment, fieldKey) {
   if (!augment || !fieldKey) {
     return false;
@@ -681,11 +713,6 @@ export function isShopPurchasableItem(item) {
     }
     return /valley merchant|wandering merchant/i.test(String(source?.text ?? ""));
   });
-}
-
-/** @deprecated Prefer isShopPurchasableItem — kept for UI copy. */
-export function isStarterShopItem(item) {
-  return isShopPurchasableItem(item);
 }
 
 /**

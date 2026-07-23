@@ -51,9 +51,9 @@ export function percentToRating(percent, ratingPerPercent) {
  * Same secondary budget on an item (~equal rating), ranked by Average Damage gain
  * on the live build (Physical→AP / Magic→MP split kept intact).
  */
-export const GEAR_SECONDARY_RATING_BUDGET = 38;
+const GEAR_SECONDARY_RATING_BUDGET = 38;
 
-export const GEAR_SECONDARY_CHOICES = [
+const GEAR_SECONDARY_CHOICES = [
   {
     key: "fervor",
     label: "Fervor",
@@ -154,7 +154,7 @@ export function rankGearSecondaryChoices(
  * Single-bucket PvE hit (one pen + one mastery).
  * Critical Bonus is a full multiplier (e.g. 1.52 for 152%), not 1 + bonus.
  */
-export function calculateSingleBucketDamage(build) {
+function calculateSingleBucketDamage(build) {
   const weaponDamage = Number(build.weaponDamage) || 0;
   const modifier = Number(build.modifier) || 0;
   const attribute1 = Number(build.attribute1) || 0;
@@ -165,7 +165,7 @@ export function calculateSingleBucketDamage(build) {
   const criticalBonus = Number(build.criticalBonus) || 0;
   const extraDamage1 = Number(build.extraDamage1) || 0;
   const extraDamage2 = Number(build.extraDamage2) || 0;
-  const armorPen = Number(build.armorPen) || 0;
+  const armorPen = Number(build.armorPenetration ?? build.armorPen) || 0;
   const enemyDefense = Number(build.enemyDefense) || 0;
   const defenseModifier = Number(build.defenseModifier) || DEFENSE_MODIFIER;
 
@@ -187,7 +187,7 @@ export function calculateSingleBucketDamage(build) {
   };
 }
 
-function resolveDamageProfile(build) {
+function resolveBuildAttachedDamageProfile(build) {
   return build?.damageProfile ?? build?._meta?.damageProfile ?? null;
 }
 
@@ -197,7 +197,7 @@ function resolveDamageProfile(build) {
  * Magic uses Magic Pen (+ Magic mastery); results are weighted by kit shares.
  */
 export function calculateBuildDamage(build) {
-  const profile = resolveDamageProfile(build);
+  const profile = resolveBuildAttachedDamageProfile(build);
   const physicalShare = Number(profile?.physicalShare);
   const magicShare = Number(profile?.magicShare);
   const canSplit =
@@ -267,22 +267,6 @@ export function calculateBuildDamage(build) {
   };
 }
 
-export function compareBuilds(buildA, buildB) {
-  const resultA = calculateBuildDamage(buildA);
-  const resultB = calculateBuildDamage(buildB);
-  const gainA = resultB.averageDamage > 0 ? resultA.averageDamage / resultB.averageDamage - 1 : 0;
-  const gainB = resultA.averageDamage > 0 ? resultB.averageDamage / resultA.averageDamage - 1 : 0;
-
-  return { resultA, resultB, gainA, gainB };
-}
-
-/** Armor damage reduction: armor / (armor + 2285) */
-export function armorDamageReduction(armor, defenseModifier = DEFENSE_MODIFIER) {
-  const value = Number(armor) || 0;
-  const mod = Number(defenseModifier) || DEFENSE_MODIFIER;
-  return value / (value + mod);
-}
-
 export function sampleEnemyDefenseRange({ min = 0, max = 2300, step = 50 } = {}) {
   const points = [];
   const start = Math.max(0, Number(min) || 0);
@@ -308,42 +292,6 @@ export function buildAverageDamageCurve(build, rangeOptions) {
   }));
 }
 
-export function buildGainCurve(buildA, buildB, rangeOptions) {
-  return sampleEnemyDefenseRange(rangeOptions).map((enemyDefense) => {
-    const resultA = calculateBuildDamage({ ...buildA, enemyDefense });
-    const resultB = calculateBuildDamage({ ...buildB, enemyDefense });
-    const gainA = resultB.averageDamage > 0 ? resultA.averageDamage / resultB.averageDamage - 1 : 0;
-
-    return {
-      enemyDefense,
-      averageA: resultA.averageDamage,
-      averageB: resultB.averageDamage,
-      gainA
-    };
-  });
-}
-
-/** First armor where Build A stops beating Build B (gain crosses below 0), if any. */
-export function findGainCrossover(buildA, buildB, rangeOptions) {
-  const curve = buildGainCurve(buildA, buildB, { ...rangeOptions, step: rangeOptions?.step ?? 10 });
-
-  for (let index = 1; index < curve.length; index += 1) {
-    const prev = curve[index - 1];
-    const next = curve[index];
-    if (prev.gainA === 0) {
-      return { enemyDefense: prev.enemyDefense, gainA: 0 };
-    }
-    if ((prev.gainA > 0 && next.gainA <= 0) || (prev.gainA < 0 && next.gainA >= 0)) {
-      const span = next.gainA - prev.gainA;
-      const t = span === 0 ? 0 : -prev.gainA / span;
-      const enemyDefense = prev.enemyDefense + (next.enemyDefense - prev.enemyDefense) * t;
-      return { enemyDefense, gainA: 0 };
-    }
-  }
-
-  return null;
-}
-
 /**
  * ODS-style secondary chart using the build's Fer / AP / MP / Crit.
  * Each line isolates one secondary (others zeroed) on top of the build's base damage.
@@ -351,14 +299,14 @@ export function findGainCrossover(buildA, buildB, rangeOptions) {
  * When equalize=true: (fervor+AP+MP+crit)/4 is applied to each isolated secondary,
  * so the chart compares efficiency at the same share instead of raw contribution.
  */
-export const SECONDARY_INVESTMENT_COLORS = {
+const SECONDARY_INVESTMENT_COLORS = {
   fervor: "#7dffa8",
   armorPen: "#8fb7ff",
   magicPen: "#c4a7ff",
   crit: "#f0c674"
 };
 
-export function resolveSecondaryIsolationValues(baseBuild, { equalize = false } = {}) {
+function resolveSecondaryIsolationValues(baseBuild, { equalize = false } = {}) {
   const base = baseBuild ?? DEFAULT_BUILD;
   const fervor = Number(base.fervor) || 0;
   const armorPenetration = Number(base.armorPenetration ?? base.armorPen) || 0;
@@ -379,10 +327,10 @@ export function resolveSecondaryIsolationValues(baseBuild, { equalize = false } 
   };
 }
 
-export function buildSecondaryIsolationChoices(baseBuild, { equalize = false } = {}) {
+function buildSecondaryIsolationChoices(baseBuild, { equalize = false } = {}) {
   const base = baseBuild ?? DEFAULT_BUILD;
   const values = resolveSecondaryIsolationValues(base, { equalize });
-  const profile = resolveDamageProfile(base);
+  const profile = resolveBuildAttachedDamageProfile(base);
 
   // Isolation lines force a single secondary; clear split profile so each line
   // exercises that secondary alone (AP line = all Physical, MP line = all Magic).

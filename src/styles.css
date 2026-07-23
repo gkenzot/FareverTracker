@@ -1565,34 +1565,15 @@ button.home-dashboard-card:hover {
   gap: 16px;
 }
 
-.build-lab-intro,
 .build-lab-results,
-.build-lab-column,
-.build-lab-hints {
+.build-lab-column {
   border: 1px solid #263149;
   border-radius: var(--panel-radius);
   background: #111827;
   padding: 14px;
 }
 
-.build-lab-intro {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.build-lab-intro p,
-.build-lab-hints p {
-  margin: 0;
-  color: #a9b6d3;
-  font-size: 0.92rem;
-  line-height: 1.45;
-  max-width: 70ch;
-}
-
-.build-lab-ghost-button,
-.build-lab-hint-actions button {
+.build-lab-ghost-button {
   border: 1px solid #334155;
   border-radius: 10px;
   background: #0b1220;
@@ -1603,8 +1584,7 @@ button.home-dashboard-card:hover {
   white-space: nowrap;
 }
 
-.build-lab-ghost-button:hover,
-.build-lab-hint-actions button:hover {
+.build-lab-ghost-button:hover {
   border-color: #4b628a;
   color: #fff;
 }
@@ -1690,8 +1670,7 @@ button.home-dashboard-card:hover {
   margin-bottom: 12px;
 }
 
-.build-lab-column-header h2,
-.build-lab-hints h2 {
+.build-lab-column-header h2 {
   margin: 0;
   font-size: 1rem;
 }
@@ -1733,32 +1712,12 @@ button.home-dashboard-card:hover {
   min-height: 1em;
 }
 
-.build-lab-hints {
-  display: grid;
-  gap: 10px;
-}
-
-.build-lab-hint-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
 .build-lab-enemy {
   margin: 0;
   padding: 14px;
   border: 1px solid #263149;
   border-radius: var(--panel-radius);
   background: #111827;
-  box-sizing: border-box;
-}
-
-.build-lab-derived {
-  margin: 16px 0;
-  padding: 14px;
-  border: 1px solid #243047;
-  border-radius: 12px;
-  background: #0d1524;
   box-sizing: border-box;
 }
 
@@ -1899,11 +1858,6 @@ button.home-dashboard-card:hover {
 
 .build-lab-field--inline span {
   white-space: nowrap;
-}
-
-.build-lab-derived-grid {
-  display: grid;
-  gap: 0;
 }
 
 .build-charts {
@@ -4321,7 +4275,6 @@ button.home-dashboard-card:hover {
   }
 
   .build-chart-header,
-  .build-lab-intro,
   .build-character-bar {
     flex-direction: column;
     align-items: stretch;

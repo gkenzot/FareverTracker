@@ -11,10 +11,10 @@ import {
 } from "./damageFormulas";
 import {
   EQUIPMENT_SLOTS,
+  findAugmentByName,
   getAdornmentFieldsForSlot,
   getAugmentDisplayName,
   getDefaultUsedRarity,
-  augmentMatchesAdornmentField,
   isWeaponEquipmentSlot,
   isOffHandOnlyWeapon,
   resolveSlotAdornments,
@@ -54,44 +54,6 @@ const BLOCK_CHANCE_FROM_WEAPON = 0.5;
 
 /** Block chance from equipped shield (wins over weapon if both). */
 const BLOCK_CHANCE_FROM_SHIELD = 0.6;
-
-function normalizeLookup(value) {
-  return String(value ?? "")
-    .trim()
-    .toLowerCase()
-    .replace(/['’]/g, "")
-    .replace(/\s+/g, " ");
-}
-
-function findAugmentByName(augments, name, adornmentKind = "") {
-  const wanted = normalizeLookup(name);
-  if (!wanted) {
-    return null;
-  }
-
-  const pool = adornmentKind
-    ? augments.filter((item) => augmentMatchesAdornmentField(item, adornmentKind))
-    : augments;
-
-  const exact = pool.find((item) => {
-    const names = [item.name, getAugmentDisplayName(item), item.slug, item.id]
-      .filter(Boolean)
-      .map((value) => normalizeLookup(value));
-    return names.includes(wanted);
-  });
-  if (exact) {
-    return exact;
-  }
-
-  return (
-    pool.find((item) => {
-      const candidates = [item.name, getAugmentDisplayName(item), item.slug, item.id]
-        .filter(Boolean)
-        .map((value) => normalizeLookup(value));
-      return candidates.some((candidate) => candidate.includes(wanted) || wanted.includes(candidate));
-    }) ?? null
-  );
-}
 
 function resolveEquippedItemStats(item, slotKey, slotValue, characterClassName) {
   const allowRarityOverride = isWeaponEquipmentSlot(slotKey);
@@ -156,7 +118,7 @@ function mergeStatTotals(into, from) {
 }
 
 /** Sum raw gear/adornment stat labels for one equipment set. */
-export function aggregateEquipmentStatTotals(equipment, itemsById, augments = [], characterClassName = "") {
+function aggregateEquipmentStatTotals(equipment, itemsById, augments = [], characterClassName = "") {
   const totals = Object.create(null);
   /** Identical cursed-eye Critical penalties do not stack (Kek: −9 once → crit 11.5%). */
   const appliedNegativeCritAugments = new Set();
@@ -213,7 +175,7 @@ function roundStat(value, digits = 2) {
  * Derived combat attributes shown in the Attributes panel.
  * Values are final sheet-style numbers (percents as 0–1 fractions, multipliers as e.g. 1.52).
  */
-export function deriveBuildAttributes(totals = {}, characterClassName = "") {
+function deriveBuildAttributes(totals = {}, characterClassName = "") {
   const strength = Number(totals.Strength) || 0;
   const dexterity = Number(totals.Dexterity) || 0;
   const intellect = Number(totals.Intellect) || 0;

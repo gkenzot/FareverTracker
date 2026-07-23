@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { getCharacterStorageKey } from "../../shared/constants/storageKeys";
+import { getCharacterStorageKey, STORAGE_KEYS } from "../../shared/constants/storageKeys";
+import { fetchJsonData } from "../../shared/utils/dataCache";
 import { PROGRESS_CHANGE_EVENT, readJsonStorage, writeJsonStorage } from "../../shared/utils/storage";
 import { collectionConfigs } from "../collections/collectionConfigs";
 import {
@@ -10,7 +11,7 @@ import {
 } from "./buildSlots";
 
 export function getCharacterBuildStorageKey(characterId) {
-  return getCharacterStorageKey("farever-check:character-build", characterId);
+  return getCharacterStorageKey(STORAGE_KEYS.characterBuild, characterId);
 }
 
 export function readCharacterBuild(characterId) {
@@ -45,11 +46,7 @@ export function useCharacterBuild(characterId) {
   }, [build, characterId]);
 
   function persist(next) {
-    const normalized = normalizeCharacterBuild(next);
-    if (characterId) {
-      writeCharacterBuild(characterId, normalized);
-    }
-    return normalized;
+    return normalizeCharacterBuild(next);
   }
 
   function updateSet(setIndex, updater) {
@@ -73,17 +70,12 @@ export function useCharacterBuild(characterId) {
     setBuild((current) => persist(removeCharacterBuildSet(current, setIndex)));
   }
 
-  function resetBuild() {
-    setBuild(persist(createEmptyCharacterBuild()));
-  }
-
   return {
     build,
     setBuild,
     updateSet,
     addSet,
-    removeSet,
-    resetBuild
+    removeSet
   };
 }
 
@@ -129,11 +121,7 @@ export function useOwnedGearCatalog(characterId) {
         const entries = await Promise.all(
           GEAR_COLLECTION_KEYS.map(async (key) => {
             const config = collectionConfigs[key];
-            const response = await fetch(`${import.meta.env.BASE_URL}${config.dataPath}`);
-            if (!response.ok) {
-              throw new Error(`Failed to load ${config.dataPath}`);
-            }
-            const payload = await response.json();
+            const payload = await fetchJsonData(config.dataPath);
             return [key, payload[config.collectionKey] ?? []];
           })
         );
