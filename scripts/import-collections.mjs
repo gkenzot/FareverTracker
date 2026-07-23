@@ -1,4 +1,5 @@
 import { access, mkdir, writeFile } from "node:fs/promises";
+import { withCatalogMaxLevel } from "./gear-catalog-levels.mjs";
 
 const META_FORGE_DATABASE_URL = "https://metaforge.app/farever/database";
 const ICON_BASE_URL = "https://static.metaforge.app/farever/icons";
@@ -138,12 +139,12 @@ const ARMOR_FACTION_LABELS = {
   RCrimson: "Crimson"
 };
 
-/** Base catalog levels when MetaForge omits level or stores bogus level 1 (Demon templates). */
+/** Fallback catalog levels when MetaForge omits level or stores bogus level 1 (Demon templates). */
 const ARMOR_FACTION_BASE_LEVELS = {
-  RManfish: 6,
-  RKobold: 6,
-  RBee: 15,
-  RCrimson: 20,
+  RManfish: 25,
+  RKobold: 25,
+  RBee: 25,
+  RCrimson: 25,
   RDemon: 25
 };
 const WEAPON_BOSS_DUNGEONS = {
@@ -165,6 +166,9 @@ const JEWELLERY_SOURCE_OVERRIDES = {
   "Raclette Pan": { kind: "drop", text: "Dungeon Kobold", link: null },
   "Eternal Flower Heart": { kind: "drop", text: "Dungeon Bee", link: null },
   "Lost Relic Found": { kind: "drop", text: "Dungeon Crimson", link: null }
+};
+const WEAPON_SOURCE_OVERRIDES = {
+  "Ramulus & Ramus": { kind: "drop", text: "Dungeon Crimson", link: null }
 };
 const CRIMSON_ARMOR_NOTE = "Dungeon Crimson";
 const VALLEY_LEVEL_20_SHOP_WEAPONS = new Set([
@@ -995,9 +999,32 @@ function enrichItem(item, collection) {
     }
   }
 
+  if (collection.key === "weapons") {
+    const override = WEAPON_SOURCE_OVERRIDES[item.name];
+    let next = override ? { ...item, sources: [override] } : item;
+
+    const shopSource = valleyLevel20ShopSource(next);
+    if (shopSource) {
+      next = {
+        ...next,
+        sources: withExtraSource(next, shopSource),
+        shops: [
+          ...next.shops,
+          {
+            npc_name: "Valley of Eternal Autumn merchant",
+            zone: "Valley of Eternal Autumn",
+            note: "Rare Level 20 weapon added in the 29/05/2026 patch notes."
+          }
+        ]
+      };
+    }
+
+    return withCatalogMaxLevel(next);
+  }
+
   if (collection.key === "armor") {
     const resolvedLevel = resolveArmorItemLevel(item);
-    const withLevel =
+    let withLevel =
       resolvedLevel != null && resolvedLevel !== item.itemLevel
         ? {
             ...item,
@@ -1016,33 +1043,14 @@ function enrichItem(item, collection) {
         (source) => source.kind !== dungeonSource.source.kind || source.text !== dungeonSource.source.text
       );
 
-      return {
+      withLevel = {
         ...withLevel,
         sources: [dungeonSource.source, ...existingSources],
         dungeonSources: dungeonSource.dungeonSources
       };
     }
 
-    return withLevel;
-  }
-
-  if (collection.key === "weapons") {
-    const shopSource = valleyLevel20ShopSource(item);
-
-    if (shopSource) {
-      return {
-        ...item,
-        sources: withExtraSource(item, shopSource),
-        shops: [
-          ...item.shops,
-          {
-            npc_name: "Valley of Eternal Autumn merchant",
-            zone: "Valley of Eternal Autumn",
-            note: "Rare Level 20 weapon added in the 29/05/2026 patch notes."
-          }
-        ]
-      };
-    }
+    return withCatalogMaxLevel(withLevel);
   }
 
   if (collection.key === "mounts" || collection.key === "gliders") {

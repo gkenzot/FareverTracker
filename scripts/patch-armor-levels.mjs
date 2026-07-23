@@ -9,10 +9,10 @@ import { readFile, writeFile } from "node:fs/promises";
 const ARMOR_PATH = new URL("../public/data/armor.json", import.meta.url);
 
 export const ARMOR_FACTION_BASE_LEVELS = {
-  RManfish: 6,
-  RKobold: 6,
-  RBee: 15,
-  RCrimson: 20,
+  RManfish: 25,
+  RKobold: 25,
+  RBee: 25,
+  RCrimson: 25,
   RDemon: 25
 };
 

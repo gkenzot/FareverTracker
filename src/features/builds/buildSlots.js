@@ -579,10 +579,10 @@ function relabelBuildSets(sets) {
 
 /** Faction base levels when MetaForge omits level or stores bogus level 1 on armor. */
 const ARMOR_FACTION_BASE_LEVELS = {
-  RManfish: 6,
-  RKobold: 6,
-  RBee: 15,
-  RCrimson: 20,
+  RManfish: 25,
+  RKobold: 25,
+  RBee: 25,
+  RCrimson: 25,
   RDemon: 25
 };
 
