@@ -77,11 +77,12 @@ export function resolveMaxObtainableCatalogLevel(item) {
   const current = item.itemLevel ?? item.properties?.level ?? null;
   const currentNumber = Number(current);
 
+  // Premium / appearance with no level — leave alone unless shop/loot.
   if (current == null || current === "") {
-    if (isPureStarterGear(item) || isFixedCraftGear(item)) {
+    if (isFixedCraftGear(item)) {
       return null;
     }
-    if (isMerchantShopGear(item)) {
+    if (isMerchantShopGear(item) || isPureStarterGear(item)) {
       return SHOP_CATALOG_LEVEL;
     }
     const sources = sourcesOf(item);
@@ -95,15 +96,12 @@ export function resolveMaxObtainableCatalogLevel(item) {
     return null;
   }
 
-  if (isPureStarterGear(item)) {
-    return Number.isFinite(currentNumber) ? currentNumber : null;
-  }
-
   if (isFixedCraftGear(item)) {
     return Number.isFinite(currentNumber) ? currentNumber : null;
   }
 
-  if (isMerchantShopGear(item)) {
+  // Starter kit pieces are also sold as Rare L20 in the Valley merchant.
+  if (isMerchantShopGear(item) || isPureStarterGear(item)) {
     return SHOP_CATALOG_LEVEL;
   }
 

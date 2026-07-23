@@ -6797,7 +6797,7 @@
       "slug": "rehearsal-scepter",
       "family": "Scepter",
       "rarity": "Rare",
-      "itemLevel": 1,
+      "itemLevel": 20,
       "description": "This false scepter is materially identical to a real one. But material reality is of little importance when it comes to rituals.",
       "iconFilename": "Scepter_Start__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Start__gfx.webp",
@@ -6806,7 +6806,7 @@
       "properties": {
         "subcategory": "Scepter",
         "rarity": "Rare",
-        "level": 1,
+        "level": 20,
         "classes": [
           "Priest"
         ],
@@ -6980,7 +6980,7 @@
       "slug": "rough-shield",
       "family": "Shield",
       "rarity": "Rare",
-      "itemLevel": 1,
+      "itemLevel": 20,
       "description": "This shield is so rudimentary it usually ends up doing more harm than it prevents.",
       "iconFilename": "Shield_Start__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Start__gfx.webp",
@@ -6989,7 +6989,7 @@
       "properties": {
         "subcategory": "Shield",
         "rarity": "Rare",
-        "level": 1,
+        "level": 20,
         "classes": [
           "Warrior"
         ],
@@ -7149,7 +7149,7 @@
       "slug": "rusty-knives",
       "family": "Daggers",
       "rarity": "Rare",
-      "itemLevel": 1,
+      "itemLevel": 20,
       "description": "These training knives were confiscated from their previous bearer for obvious reasons.",
       "iconFilename": "Daggers_Start__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Start__gfx.webp",
@@ -7158,7 +7158,7 @@
       "properties": {
         "subcategory": "Daggers",
         "rarity": "Rare",
-        "level": 1,
+        "level": 20,
         "classes": [
           "Rogue"
         ],
