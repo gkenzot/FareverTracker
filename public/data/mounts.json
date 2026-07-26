@@ -2902,16 +2902,30 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
           "link": null
         }
       ],
       "droppedBy": [],
-      "shops": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
       "achievements": [],
       "moveSpeedMultiplier": 2,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Mount_Boar_06",
@@ -2933,16 +2947,30 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
+          "kind": "shop",
+          "text": "Sold by Mount Tamer in Navelin",
           "link": null
         }
       ],
       "droppedBy": [],
-      "shops": [],
+      "shops": [
+        {
+          "npc_name": "Mount Tamer",
+          "npc_id": "MountTamer_NPC_1",
+          "zone": "Navelin",
+          "pos": {
+            "x": -397.2588,
+            "y": 1502.1044,
+            "z": 57.75
+          },
+          "cost": null,
+          "buy_price": null,
+          "buy_currency": null
+        }
+      ],
       "achievements": [],
       "moveSpeedMultiplier": 2,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Mount_Hound_06",

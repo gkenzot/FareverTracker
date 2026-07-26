@@ -209,8 +209,6 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Niflelian Crab",
   "Niflelian Crocoboar",
   "Niflelian Dragoon",
-  "Niflelian Goat",
-  "Niflelian Hog",
   "Niflelian Leggybug",
   "Niflelian Moth",
   "Niflelian Skunk",
@@ -229,6 +227,20 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Zerzurean Goat",
   "Zerzurian Crab"
 ]);
+const MOUNT_TAMER_NAVELIN_SHOP = {
+  npc_name: "Mount Tamer",
+  npc_id: "MountTamer_NPC_1",
+  zone: "Navelin",
+  pos: {
+    x: -397.2588,
+    y: 1502.1044,
+    z: 57.75
+  },
+  cost: null,
+  buy_price: null,
+  buy_currency: null
+};
+
 const MOUNT_GLIDER_SOURCE_OVERRIDES = {
   "Antelimbian Raccoon": {
     kind: "other",
@@ -250,11 +262,29 @@ const MOUNT_GLIDER_SOURCE_OVERRIDES = {
     text: "Warrior starter glider (granted at character creation).",
     link: null
   },
+  "Niflelian Goat": {
+    kind: "shop",
+    text: "Sold by Mount Tamer in Navelin",
+    link: null,
+    shops: [MOUNT_TAMER_NAVELIN_SHOP]
+  },
+  "Niflelian Hog": {
+    kind: "shop",
+    text: "Sold by Mount Tamer in Navelin",
+    link: null,
+    shops: [MOUNT_TAMER_NAVELIN_SHOP]
+  },
   "Skoverial Raccoon": {
     kind: "other",
     text: "Mage starter glider (granted at character creation).",
     link: null
   }
+};
+
+const COMPANION_PURCHASE_SOURCE = {
+  kind: "shop",
+  text: "Purchased from vendor.",
+  link: null
 };
 
 const COLLECTIONS = [
@@ -710,7 +740,8 @@ function resolveMountGliderSources(item) {
   const override = MOUNT_GLIDER_SOURCE_OVERRIDES[item.name];
 
   if (override) {
-    return [override];
+    const { shops: _shops, ...source } = override;
+    return [source];
   }
 
   if (hasReliableSource(item.sources)) {
@@ -737,12 +768,25 @@ function resolveMountGliderSources(item) {
 }
 
 function enrichMountGliderItem(item) {
+  const override = MOUNT_GLIDER_SOURCE_OVERRIDES[item.name];
   const sources = resolveMountGliderSources(item);
 
   return {
     ...item,
     sources,
+    shops: override?.shops ?? item.shops,
     inGame: sources[0]?.kind !== "upcoming"
+  };
+}
+
+function enrichCompanionItem(item) {
+  if (hasReliableSource(item.sources)) {
+    return item;
+  }
+
+  return {
+    ...item,
+    sources: [COMPANION_PURCHASE_SOURCE]
   };
 }
 
@@ -1055,6 +1099,10 @@ function enrichItem(item, collection) {
 
   if (collection.key === "mounts" || collection.key === "gliders") {
     return enrichMountGliderItem(item);
+  }
+
+  if (collection.key === "companions") {
+    return enrichCompanionItem(item);
   }
 
   return item;
