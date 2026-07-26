@@ -31,9 +31,9 @@ function num(value, digits = 2) {
 const ATTRIBUTE_FORMULA_DOCS = {
   vitality: {
     title: "Vitality",
-    summary: "Atributo primário somado da base da classe (L25) com o gear e adereços.",
-    formula: "Vitality = base da classe + gear + adereços",
-    notes: ["Arsenal contribui só com 40% dos stats da arma/escudo."],
+    summary: "Primary attribute from class base (L25) plus gear and adornments.",
+    formula: "Vitality = class base + gear + adornments",
+    notes: ["Arsenal contributes only 40% of the weapon/shield stats."],
     buildLive: (attrs) => {
       const b = attrs?._breakdown;
       return [
@@ -45,8 +45,8 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   strength: {
     title: "Strength",
-    summary: "Atributo primário. No Warrior entra no Critical Bonus (junto com Faith).",
-    formula: "Strength = base da classe + gear + adereços",
+    summary: "Primary attribute. On Warrior it feeds Critical Bonus (with Faith).",
+    formula: "Strength = class base + gear + adornments",
     buildLive: (attrs) => {
       const b = attrs?._breakdown;
       return [
@@ -58,22 +58,22 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   dexterity: {
     title: "Dexterity",
-    summary: "Atributo primário. Soma Critical Chance à razão de +0,1% por ponto.",
-    formula: "Dexterity = base da classe + gear + adereços",
+    summary: "Primary attribute. Adds Critical Chance at +0.1% per point.",
+    formula: "Dexterity = class base + gear + adornments",
     buildLive: (attrs) => {
       const b = attrs?._breakdown;
       return [
         `Base: ${num(b?.base?.dexterity, 0)}`,
         `Gear: ${num(b?.gear?.dexterity, 0)}`,
         `Total: ${num(attrs?.dexterity, 0)}`,
-        `Contribuição ao crit: ${pct((Number(attrs?.dexterity) || 0) * 0.001)}`
+        `Crit contribution: ${pct((Number(attrs?.dexterity) || 0) * 0.001)}`
       ];
     }
   },
   faith: {
     title: "Faith",
-    summary: "Atributo primário. Entra no Critical Bonus (junto com Strength).",
-    formula: "Faith = base da classe + gear + adereços",
+    summary: "Primary attribute. Feeds Critical Bonus (with Strength).",
+    formula: "Faith = class base + gear + adornments",
     buildLive: (attrs) => {
       const b = attrs?._breakdown;
       return [
@@ -85,27 +85,27 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   intellect: {
     title: "Intellect",
-    summary: "Atributo primário. Soma Critical Chance à razão de +0,1% por ponto.",
-    formula: "Intellect = base da classe + gear + adereços",
+    summary: "Primary attribute. Adds Critical Chance at +0.1% per point.",
+    formula: "Intellect = class base + gear + adornments",
     buildLive: (attrs) => {
       const b = attrs?._breakdown;
       return [
         `Base: ${num(b?.base?.intellect, 0)}`,
         `Gear: ${num(b?.gear?.intellect, 0)}`,
         `Total: ${num(attrs?.intellect, 0)}`,
-        `Contribuição ao crit: ${pct((Number(attrs?.intellect) || 0) * 0.001)}`
+        `Crit contribution: ${pct((Number(attrs?.intellect) || 0) * 0.001)}`
       ];
     }
   },
   criticalChance: {
     title: "Critical chance",
-    summary: "Mistura base fixa, Dex/Int, rating Critical do gear e bônus flat de upgrade ★3+ (ex.: Worldsplitter).",
-    formula:
-      "Crit % = 0,2% + 0,1%×(Dex+Int) + CriticalRating÷19 + bônus flat de arma ★3+",
+    summary:
+      "Mix of fixed base, Dex/Int, Critical rating from gear, and flat ★3+ upgrade bonuses (e.g. Worldsplitter).",
+    formula: "Crit % = 0.2% + 0.1%×(Dex+Int) + CriticalRating÷19 + flat weapon ★3+ bonus",
     notes: [
-      "Cada 19 de Critical rating ≈ +1% de chance.",
-      "Penalidade de Critical negativa do mesmo Cursed Eye não empilha entre anéis.",
-      "Arsenal: stats base a 40%; o passivo ★3+ conta cheio."
+      "Every 19 Critical rating ≈ +1% chance.",
+      "Negative Critical penalty from the same Cursed Eye does not stack across rings.",
+      "Arsenal: base stats at 40%; the ★3+ passive counts at full value."
     ],
     buildLive: (attrs) => {
       const raw = attrs?._raw ?? {};
@@ -127,9 +127,9 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   criticalBonus: {
     title: "Critical Bonus",
-    summary: "Começa em 150% e sobe com Strength + Faith em curva soft-cap (não é linear em stacks altos).",
-    formula: "Bonus = 150% + 5,76% × S ÷ (S + 205,4),  onde S = Strength + Faith",
-    notes: ["Em stacks baixos aproxima +0,02 pp por ponto de Str/Faith; depois abranda."],
+    summary: "Starts at 150% and scales with Strength + Faith on a soft-cap curve (not linear at high stacks).",
+    formula: "Bonus = 150% + 5.76% × S ÷ (S + 205.4),  where S = Strength + Faith",
+    notes: ["At low stacks ≈ +0.02 pp per Str/Faith point; then it softens."],
     buildLive: (attrs) => {
       const raw = attrs?._raw ?? {};
       const s = (Number(raw.strength) || 0) + (Number(raw.faith) || 0);
@@ -143,11 +143,11 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   armorPenetration: {
     title: "Armor penetration",
-    summary: "Conversão linear do rating Armor Penetration do gear (e bônus % de upgrade ★3+ se houver).",
-    formula: `AP % = ArmorPenRating ÷ ${ARMOR_PEN_RATING_PER_PERCENT.toFixed(4)} ÷ 100  (K = 35÷4,6)`,
+    summary: "Linear conversion of Armor Penetration rating from gear (plus ★3+ upgrade % if any).",
+    formula: `AP % = ArmorPenRating ÷ ${ARMOR_PEN_RATING_PER_PERCENT.toFixed(4)} ÷ 100  (K = 35÷4.6)`,
     notes: [
-      "Calibrado com Beefury +35 rating → 4,6%.",
-      "O jogo pode mostrar 1 casa com arredondamento para cima (ex.: 23,53% → 23,6%)."
+      "Calibrated with Beefury +35 rating → 4.6%.",
+      "The game may show 1 decimal rounded up (e.g. 23.53% → 23.6%)."
     ],
     buildLive: (attrs) => {
       const rating = Number(attrs?._raw?.armorPenRating) || 0;
@@ -155,15 +155,15 @@ const ATTRIBUTE_FORMULA_DOCS = {
       const flat = Number(attrs?._breakdown?.weaponUpgrades?.armorPenetration) || 0;
       return [
         `Armor Pen rating: ${num(rating, 0)}`,
-        `Da conversão: ${pct(fromRating)}`,
+        `From conversion: ${pct(fromRating)}`,
         flat ? `Upgrade ★3+ flat: ${pct(flat)}` : null,
-        `Total (interno): ${pct(attrs?.armorPenetration)}`
+        `Total (internal): ${pct(attrs?.armorPenetration)}`
       ].filter(Boolean);
     }
   },
   magicPenetration: {
     title: "Magic penetration",
-    summary: "Mesma escala linear do Armor Penetration, aplicada ao rating Magic Penetration.",
+    summary: "Same linear scale as Armor Penetration, applied to Magic Penetration rating.",
     formula: `MP % = MagicPenRating ÷ ${ARMOR_PEN_RATING_PER_PERCENT.toFixed(4)} ÷ 100`,
     buildLive: (attrs) => {
       const rating = Number(attrs?._raw?.magicPenRating) || 0;
@@ -171,7 +171,7 @@ const ATTRIBUTE_FORMULA_DOCS = {
       const flat = Number(attrs?._breakdown?.weaponUpgrades?.magicPenetration) || 0;
       return [
         `Magic Pen rating: ${num(rating, 0)}`,
-        `Da conversão: ${pct(fromRating)}`,
+        `From conversion: ${pct(fromRating)}`,
         flat ? `Upgrade ★3+ flat: ${pct(flat)}` : null,
         `Total: ${pct(attrs?.magicPenetration)}`
       ].filter(Boolean);
@@ -179,16 +179,16 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   fervor: {
     title: "Fervor",
-    summary: "Conversão linear do rating Fervor. Usa o mesmo K do Critical Chance (19).",
+    summary: "Linear conversion of Fervor rating. Uses the same K as Critical Chance (19).",
     formula: `Fervor % = FervorRating ÷ ${FERVOR_RATING_PER_PERCENT} ÷ 100`,
-    notes: ["Cada 19 de Fervor rating ≈ +1%."],
+    notes: ["Every 19 Fervor rating ≈ +1%."],
     buildLive: (attrs) => {
       const rating = Number(attrs?._raw?.fervorRating) || 0;
       const fromRating = ratingToPercent(rating, FERVOR_RATING_PER_PERCENT);
       const flat = Number(attrs?._breakdown?.weaponUpgrades?.fervor) || 0;
       return [
         `Fervor rating: ${num(rating, 0)}`,
-        `Da conversão: ${pct(fromRating)}`,
+        `From conversion: ${pct(fromRating)}`,
         flat ? `Upgrade ★3+ flat: ${pct(flat)}` : null,
         `Total: ${pct(attrs?.fervor)}`
       ].filter(Boolean);
@@ -196,38 +196,38 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   block: {
     title: "Block",
-    summary: "Chance fixa por arma/escudo equipados (não usa rating). Arsenal não conta.",
-    formula: "Block = max(0, 50% se main-hand arma, 60% se off-hand escudo)",
-    notes: ["Com arma + escudo fica o maior valor (60%)."],
+    summary: "Fixed chance from equipped weapon/shield (no rating). Arsenal does not count.",
+    formula: "Block = max(0, 50% if main-hand weapon, 60% if off-hand shield)",
+    notes: ["With weapon + shield, the higher value wins (60%)."],
     buildLive: (attrs) => [`Total: ${pct(attrs?.block, 0)}`]
   },
   dodgeChance: {
     title: "Dodge chance",
-    summary: "Vem da base da classe (L25 nu). Gear ainda não adiciona dodge nesta ficha.",
-    formula: "Dodge = base da classe (+ gear Dodge Chance, se houver)",
+    summary: "From class base (naked L25). Gear does not add dodge on this sheet yet.",
+    formula: "Dodge = class base (+ gear Dodge Chance, if any)",
     buildLive: (attrs) => [`Total: ${pct(attrs?.dodgeChance)}`]
   },
   magicMastery: {
     title: "Magic mastery",
-    summary: "Valor de mastery mágica somado do gear/adereços e bônus % de upgrade ★3+ quando aplicável.",
-    formula: "Magic Mastery = soma do gear (+ bônus ★3+ em pontos percentuais)",
+    summary: "Magic mastery from gear/adornments plus ★3+ upgrade % when applicable.",
+    formula: "Magic Mastery = gear sum (+ ★3+ bonus in percentage points)",
     buildLive: (attrs) => [`Total: ${num(attrs?.magicMastery)}`]
   },
   physicalMastery: {
     title: "Physical mastery",
-    summary: "Valor de mastery física somado do gear/adereços e bônus % de upgrade ★3+ quando aplicável.",
-    formula: "Physical Mastery = soma do gear (+ bônus ★3+ em pontos percentuais)",
+    summary: "Physical mastery from gear/adornments plus ★3+ upgrade % when applicable.",
+    formula: "Physical Mastery = gear sum (+ ★3+ bonus in percentage points)",
     buildLive: (attrs) => [`Total: ${num(attrs?.physicalMastery)}`]
   },
   armor: {
     title: "Armor",
-    summary: "Soma direta de Armor do equipamento (escudo no arsenal também a 40%).",
-    formula: "Armor = Σ Armor do gear (arsenal × 0,4)",
+    summary: "Direct sum of Armor from equipment (arsenal shield also at 40%).",
+    formula: "Armor = Σ gear Armor (arsenal × 0.4)",
     buildLive: (attrs) => [`Total: ${num(attrs?.armor, 0)}`]
   },
   maximumHealth: {
     title: "Maximum health",
-    summary: "Três pontos de vida por Vitality, mais Max Health flat do gear se existir.",
+    summary: "Three HP per Vitality, plus flat Max Health from gear if present.",
     formula: "HP = MaxHealthFlat + Vitality × 3",
     buildLive: (attrs) => {
       const vit = Number(attrs?.vitality) || 0;
@@ -236,9 +236,9 @@ const ATTRIBUTE_FORMULA_DOCS = {
   },
   healthRegen: {
     title: "Health regen",
-    summary: "Curva soft-cap em cima da Vitality total (não é linear com ΔVit em stacks altos).",
-    formula: "Regen = 0,301 + 5,047 × Vit ÷ (Vit + 202)",
-    notes: ["Calibrado: nu 1,1 @38 Vit · Beefury 1,6 @70 · build 2,6 @169."],
+    summary: "Soft-cap curve on total Vitality (not linear with ΔVit at high stacks).",
+    formula: "Regen = 0.301 + 5.047 × Vit ÷ (Vit + 202)",
+    notes: ["Calibrated: naked 1.1 @38 Vit · Beefury 1.6 @70 · build 2.6 @169."],
     buildLive: (attrs) => {
       const vit = Number(attrs?._raw?.vitality ?? attrs?.vitality) || 0;
       return [`Vitality: ${num(vit, 0)}`, `Total: ${num(attrs?.healthRegen)}`];

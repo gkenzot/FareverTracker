@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CharacterManagerPage } from "./features/characters/CharacterManagerPage";
 import { AllMissingPage } from "./features/collections/AllMissingPage";
 import { CollectionPage } from "./features/collections/CollectionPage";
@@ -45,6 +45,8 @@ export default function App() {
   const [activePage, setActivePage] = useState("home");
   const [hiddenCharacterMenus, setHiddenCharacterMenus] = useState(readHiddenCharacterMenus);
   const [hasSavedAppState, setHasSavedAppState] = useState(() => hasStoredAppState(collectionConfigs, collectionOrder));
+  const [dataBackupMessage, setDataBackupMessage] = useState("");
+  const importSaveInputRef = useRef(null);
   const {
     characters,
     activeCharacter,
@@ -160,6 +162,28 @@ export default function App() {
     return summarizeProgressBackup(payload);
   }
 
+  async function handleSidebarImportSave(event) {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+
+    if (!file) {
+      return;
+    }
+
+    try {
+      const payload = JSON.parse(await file.text());
+      importFullProgress(payload);
+      setDataBackupMessage("");
+    } catch (importError) {
+      setDataBackupMessage(`Import failed: ${importError.message}`);
+    }
+  }
+
+  function handleSidebarExportSave() {
+    exportFullProgress();
+    setDataBackupMessage("");
+  }
+
   function openHomePage() {
     setActivePage("home");
   }
@@ -256,11 +280,17 @@ export default function App() {
             })}
           </>
         ) : (
-          <p className="side-empty">No characters yet.</p>
+          <button
+            className={`add-character-nav-button ${isCharacterManagerPage ? "active" : ""}`}
+            type="button"
+            onClick={() => setActivePage("characters")}
+          >
+            Add character
+          </button>
         )}
       </div>
       <div className="side-section">
-        <span className="side-section-title">Tools</span>
+        <span className="side-section-title">Tools (beta)</span>
         <button
           className={isBuildLabPage ? "active" : ""}
           type="button"
@@ -292,6 +322,23 @@ export default function App() {
             </button>
           );
         })}
+      </div>
+      <div className="side-section side-section--data">
+        <span className="side-section-title">Data</span>
+        <button type="button" onClick={() => importSaveInputRef.current?.click()}>
+          Import save
+        </button>
+        <button type="button" onClick={handleSidebarExportSave}>
+          Export save
+        </button>
+        <input
+          ref={importSaveInputRef}
+          type="file"
+          accept="application/json,.json"
+          onChange={handleSidebarImportSave}
+          hidden
+        />
+        {dataBackupMessage ? <p className="side-data-message">{dataBackupMessage}</p> : null}
       </div>
     </>
   );

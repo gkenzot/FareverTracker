@@ -5351,7 +5351,7 @@
       "family": "GreatSword",
       "rarity": "Rare",
       "itemLevel": 25,
-      "description": "",
+      "description": "Enripit, once known as the Nightlord who almost stopped the Guardians War, is no longer even able to stop the Kobolds from stealing his sword.",
       "iconFilename": "GS_Nova__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/GS_Nova__gfx.webp",
       "iconPath": "/images/weapons/GS_Nova__gfx.webp",
@@ -5365,13 +5365,13 @@
         ],
         "type": "GreatSword",
         "ilevel": 210,
-        "weapon_damage": 199.5
+        "weapon_damage": 121.5
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Dungeon Crimson Barracks / Chakram's Chapel",
-          "link": null
+          "text": "Dungeon Ratsar's Lair (King Ratsar)",
+          "link": "creatures/ratsar"
         }
       ],
       "droppedBy": [],
@@ -5381,19 +5381,24 @@
       "stats": [
         {
           "label": "Strength",
-          "value": 17
+          "value": 29
         },
         {
           "label": "Vitality",
-          "value": 22
+          "value": 37
         },
         {
           "label": "Critical",
-          "value": 57
+          "value": 75
         }
       ],
       "statsByClass": null,
-      "statsSource": "siagarta",
+      "statsSource": "in-game",
+      "statsTip": {
+        "level": 25,
+        "rarity": "Epic",
+        "upgradeLevel": 0
+      },
       "statsScale": {
         "rarity": "Rare",
         "baseApts": [
@@ -5503,14 +5508,14 @@
         "upgradeLevel": 0
       },
       "weaponDamage": {
-        "min": 179,
-        "max": 219,
-        "avg": 199.5,
+        "min": 109,
+        "max": 134,
+        "avg": 121.5,
         "affinity": "Physical",
         "skillId": "GS_Base_Attack",
         "scalingAttr": "Strength",
         "scalingRatio": 0.95,
-        "note": "2H weapon_damage derived from base-attack ratio (live 2H weapons had null damage / no anchor) — verify in-game."
+        "note": "In-game player tooltip: L25 Epic ★0."
       }
     },
     {

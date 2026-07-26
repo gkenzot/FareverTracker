@@ -6,6 +6,7 @@ import { collectionConfigs } from "../collections/collectionConfigs";
 import {
   addCharacterBuildSet,
   createEmptyCharacterBuild,
+  moveCharacterBuildSet,
   normalizeCharacterBuild,
   removeCharacterBuildSet
 } from "./buildSlots";
@@ -70,12 +71,17 @@ export function useCharacterBuild(characterId) {
     setBuild((current) => persist(removeCharacterBuildSet(current, setIndex)));
   }
 
+  function moveSet(fromIndex, toIndex) {
+    setBuild((current) => persist(moveCharacterBuildSet(current, fromIndex, toIndex)));
+  }
+
   return {
     build,
     setBuild,
     updateSet,
     addSet,
-    removeSet
+    removeSet,
+    moveSet
   };
 }
 

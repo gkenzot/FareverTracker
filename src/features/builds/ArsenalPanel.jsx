@@ -139,14 +139,14 @@ export function ArsenalPanel({
   }
 
   if (!className) {
-    return <p className="state">Selecione um personagem com classe.</p>;
+    return <p className="state">Select a character with a class.</p>;
   }
 
   if (!arsenalItem) {
     return (
       <section className="build-arsenal-panel" aria-label="Arsenal">
         <p className="state">
-          Equipe uma arma no slot <strong>Arsenal</strong> na aba Build para escolher as skills.
+          Equip a weapon in the <strong>Arsenal</strong> slot on the Build tab to choose skills.
         </p>
       </section>
     );
@@ -156,15 +156,15 @@ export function ArsenalPanel({
     <section className="build-arsenal-panel" aria-label="Arsenal">
       <p className="build-skills-intro">
         Arsenal: <strong>{arsenalItem.name}</strong>
-        {subcategory ? <> · {subcategory}</> : null}. {pickCount}/{ARSENAL_MAX_PICKS} slots — skills e
-        passiva compartilham os mesmos espaços.
+        {subcategory ? <> · {subcategory}</> : null}. {pickCount}/{ARSENAL_MAX_PICKS} slots — skills and
+        the passive share the same slots.
       </p>
 
       {!hasWeaponSkillsInCatalog ? (
-        <p className="state">Catálogo de weapon skills ainda não carregou — atualize a página.</p>
+        <p className="state">Weapon skills catalog has not loaded yet — refresh the page.</p>
       ) : kitOptions.length === 0 ? (
         <p className="state">
-          Nenhuma skill/passiva encontrada para {arsenalItem.name}
+          No skill/passive found for {arsenalItem.name}
           {subcategory ? ` (${subcategory})` : ""}.
         </p>
       ) : (

@@ -69,25 +69,25 @@ function AttributeExplainModal({ attributeKey, attributes, onClose }) {
             <h3 id={titleId}>{doc.title}</h3>
             {row ? (
               <p className="build-attr-modal-value">
-                Valor atual: <strong>{formatAttributeValue(attributes?.[attributeKey], row.format)}</strong>
+                Current value: <strong>{formatAttributeValue(attributes?.[attributeKey], row.format)}</strong>
               </p>
             ) : null}
           </div>
           <button type="button" className="build-lab-ghost-button" onClick={onClose}>
-            Fechar
+            Close
           </button>
         </div>
 
         <p className="build-attr-modal-summary">{doc.summary}</p>
 
         <div className="build-attr-modal-block">
-          <h4>Fórmula</h4>
+          <h4>Formula</h4>
           <code>{doc.formula}</code>
         </div>
 
         {live.length > 0 ? (
           <div className="build-attr-modal-block">
-            <h4>Nesta build</h4>
+            <h4>In this build</h4>
             <ul>
               {live.map((line) => (
                 <li key={line}>{line}</li>
@@ -98,7 +98,7 @@ function AttributeExplainModal({ attributeKey, attributes, onClose }) {
 
         {doc.notes?.length ? (
           <div className="build-attr-modal-block">
-            <h4>Notas</h4>
+            <h4>Notes</h4>
             <ul>
               {doc.notes.map((note) => (
                 <li key={note}>{note}</li>
@@ -145,8 +145,8 @@ export function BuildAttributesPanel({ attributes, buildLabel = "A" }) {
         />
       ))}
       <p className="build-attributes-note">
-        Clique no nome do atributo para ver a fórmula. Base L25 + gear + adereços; Arsenal a 40%;
-        aditivos de skill ignorados.
+        Click an attribute name to see its formula. Base L25 + gear + adornments; Arsenal at 40%;
+        skill additive bonuses ignored.
       </p>
 
       {explainKey ? (

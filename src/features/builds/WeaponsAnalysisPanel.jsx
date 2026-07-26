@@ -159,18 +159,18 @@ function AssumptionsCard({ assumptions, onChange }) {
               }
             }}
           />
-          <span>Usar recomendados</span>
+          <span>Use recommended</span>
         </label>
       </div>
       {useRecommended ? (
         <p className="weapon-analysis-note weapon-analysis-note--collapsed">
-          Valores típicos ativos. Desmarque para ajustar uptimes e taxas.
+          Typical values active. Uncheck to adjust uptimes and rates.
         </p>
       ) : (
         <>
           <p className="weapon-analysis-note">
-            Condicionais (poisoned, Chaincast…) escalam com uptime. Passivas/DoTs/conduits usam as
-            taxas abaixo quando não têm CD.
+            Conditionals (poisoned, Chaincast…) scale with uptime. Passives/DoTs/conduits use the
+            rates below when they have no CD.
           </p>
           <div className="weapon-analysis-assumptions-toggles">
             {KIT_ASSUMPTION_TOGGLES.map((toggle) => (
@@ -274,22 +274,22 @@ export function WeaponsAnalysisPanel({
     <section className="weapon-analysis-panel" aria-label="Weapons analysis">
       <p className="build-skills-intro">
         Build <strong>{buildLabel}</strong>: main-hand + arsenal skills + class skills{" "}
-        <em>ativas</em> (máx. 4) + talents. Passivas (arma/classe) ficam de fora do /min. O share
-        Physical vs Magic daqui alimenta o Damage: Physical → Armor Pen, Magic → Magic Pen, depois
-        junta no Average Damage. Crit/extra condicionais entram com uptime.
+        <em>active</em> (max 4) + talents. Weapon/class passives are excluded from /min. Physical vs
+        Magic share here feeds Damage: Physical → Armor Pen, Magic → Magic Pen, then combined in
+        Average Damage. Crit/extra conditionals use uptime.
       </p>
 
       <AssumptionsCard assumptions={assumptions} onChange={onChangeAssumptions} />
 
       {!hasWeapons && !hasClassOrTalents ? (
         <p className="state">
-          Equipe armas, selecione picks no Arsenal, ou use class skills/talents com tooltip de dano.
+          Equip weapons, select Arsenal picks, or use class skills/talents with parseable damage tooltips.
         </p>
       ) : (
         <>
           <div className="weapon-analysis-grid">
             <div className="weapon-analysis-card">
-              <h3>Throughput do kit</h3>
+              <h3>Kit throughput</h3>
               <dl className="weapon-analysis-dl">
                 <div>
                   <dt>Base /min</dt>
@@ -316,11 +316,11 @@ export function WeaponsAnalysisPanel({
                   </dd>
                 </div>
                 <div>
-                  <dt>modifier efetivo</dt>
+                  <dt>Effective modifier</dt>
                   <dd>
                     {modifierPct != null ? `${modifierPct}%` : "—"}
                     {kitModifierEnabled && modifierPct != null ? (
-                      <span className="weapon-analysis-pill">usado no Damage</span>
+                      <span className="weapon-analysis-pill">used in Damage</span>
                     ) : null}
                   </dd>
                 </div>
@@ -328,9 +328,9 @@ export function WeaponsAnalysisPanel({
             </div>
 
             <div className="weapon-analysis-card">
-              <h3>Bonuses de talents</h3>
+              <h3>Talent bonuses</h3>
               {analysis.talentEffects.length === 0 ? (
-                <p className="state">Nenhum talent com efeito parseável e pontos investidos.</p>
+                <p className="state">No talents with parseable effects and invested points.</p>
               ) : (
                 <dl className="weapon-analysis-dl">
                   <div>
@@ -388,56 +388,56 @@ export function WeaponsAnalysisPanel({
             <WeaponSummaryCard
               title="Main-hand"
               weapon={analysis.mainHand}
-              emptyText="Nenhuma arma no slot main-hand."
+              emptyText="No weapon in the main-hand slot."
             />
             <WeaponSummaryCard
               title="Arsenal"
               weapon={analysis.arsenalWeapon}
-              emptyText="Nenhuma arma no slot arsenal."
+              emptyText="No weapon in the arsenal slot."
             />
           </div>
 
           <div className="weapon-analysis-grid weapon-analysis-grid--shares">
             <ShareBars
-              title="Dano base /min · Physical vs Magic"
+              title="Base damage /min · Physical vs Magic"
               rows={analysis.throughput.damageByBucket}
-              emptyLabel="Sem skills com throughput ativo."
+              emptyLabel="No skills with active throughput."
               showValue
               valueSuffix="/min"
             />
             <ShareBars
-              title="Dano base /min · por atributo"
+              title="Base damage /min · by attribute"
               rows={analysis.throughput.damageByAttribute}
-              emptyLabel="Sem contribuição de atributo no throughput."
+              emptyLabel="No attribute contribution in throughput."
               showValue
               valueSuffix="/min"
             />
             <ShareBars
-              title="Composição · tipos (coeffs)"
+              title="Composition · types (coeffs)"
               rows={analysis.composition.byType}
-              emptyLabel="Nenhum hit parseado no kit."
+              emptyLabel="No hits parsed in the kit."
             />
             <ShareBars
-              title="Composição · atributos (coeffs)"
+              title="Composition · attributes (coeffs)"
               rows={analysis.composition.byAttribute}
-              emptyLabel="Nenhum atributo parseado no kit."
+              emptyLabel="No attributes parsed in the kit."
             />
           </div>
 
           <div className="weapon-analysis-section">
             <h3>
-              Skills do kit ({analysis.parseableCount}/{analysis.entries.length} parseáveis ·{" "}
-              {analysis.throughput.entries.length} no /min)
+              Kit skills ({analysis.parseableCount}/{analysis.entries.length} parseable ·{" "}
+              {analysis.throughput.entries.length} in /min)
             </h3>
             {analysis.entries.length === 0 ? (
-              <p className="state">Nenhuma skill/talent parseável encontrada neste loadout.</p>
+              <p className="state">No parseable skills/talents found in this loadout.</p>
             ) : (
               <div className="weapon-analysis-table-wrap">
                 <table className="weapon-analysis-table">
                   <thead>
                     <tr>
                       <th>Skill</th>
-                      <th>Fonte</th>
+                      <th>Source</th>
                       <th>Hits</th>
                       <th>Base/cast</th>
                       <th>Rate</th>
@@ -484,7 +484,7 @@ export function WeaponsAnalysisPanel({
 
           {analysis.unparsed.length > 0 ? (
             <p className="weapon-analysis-note">
-              Sem tooltip de dano parseável:{" "}
+              No parseable damage tooltip:{" "}
               {analysis.unparsed.map((entry) => entry.name).join(", ")}.
             </p>
           ) : null}

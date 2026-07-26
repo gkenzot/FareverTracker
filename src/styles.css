@@ -356,6 +356,25 @@ a:hover {
   text-align: center;
 }
 
+.side-nav .add-character-nav-button {
+  width: 100%;
+  margin-top: 2px;
+  border-style: dashed;
+  color: #9db0d4;
+  font-weight: 700;
+}
+
+.side-section--data {
+  margin-top: 4px;
+}
+
+.side-data-message {
+  margin: 6px 2px 0;
+  color: #8a95ad;
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
 .side-nav .manage-characters-button {
   display: block;
   width: 24px;
@@ -2301,6 +2320,24 @@ button.home-dashboard-card:hover {
 
 .build-set-tab.active .build-set-tab-main {
   color: #eef2ff;
+}
+
+.build-set-tab-promote {
+  border: 0;
+  border-left: 1px solid #334155;
+  background: transparent;
+  color: #9aa8c7;
+  padding: 0 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.build-set-tab-promote:hover {
+  color: #8fb7ff;
+  background: rgba(143, 183, 255, 0.1);
 }
 
 .build-set-tab-remove {

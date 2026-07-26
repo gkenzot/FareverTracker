@@ -22,10 +22,10 @@ import {
   augmentMatchesCharacterClass,
   isFixedCraftLevelItem,
   isOffHandOnlyWeapon,
-  isShopPurchasableItem,
   isTwoHandedWeapon,
   isWeaponEquipmentSlot,
   itemAllowsDuplicateEquip,
+  itemCanReachLevel,
   itemFitsSlot,
   resolveSlotAdornments,
   resolveUsedLevel,
@@ -65,6 +65,11 @@ function getItemRarity(item) {
 
 function isRareOrAbove(item) {
   return RARE_AND_UP.has(getItemRarity(item).toLowerCase());
+}
+
+/** Rare+ inventory toggle: Rare/Epic/Legendary that can reach EA max level (25). */
+function matchesRarePlusInventoryFilter(item) {
+  return isRareOrAbove(item) && itemCanReachLevel(item, MAX_DROP_ITEM_LEVEL);
 }
 
 function readDragPayload(event) {
@@ -141,25 +146,27 @@ function getTooltipMetaRows(item, extras = {}) {
     const avg = Number(weaponDamage.avg);
     const min = Number(weaponDamage.min);
     const max = Number(weaponDamage.max);
-    const range =
-      Number.isFinite(min) && Number.isFinite(max) ? ` (${min}–${max})` : "";
+    const hasRange = Number.isFinite(min) && Number.isFinite(max);
+    const value = hasRange
+      ? `${min}–${max}${weaponDamage.affinity ? ` · ${weaponDamage.affinity}` : ""}`
+      : `${avg}${weaponDamage.affinity ? ` · ${weaponDamage.affinity}` : ""}`;
     rows.push({
       label: "Weapon Damage",
-      value: `${avg}${range}${weaponDamage.affinity ? ` · ${weaponDamage.affinity}` : ""}`
+      value
     });
   }
   if (isTwoHandedWeapon(item)) {
     rows.push({ label: "Hands", value: "Two-handed" });
   }
   if (extras.usedLevel != null) {
-    rows.push({ label: "Used level", value: String(extras.usedLevel) });
+    rows.push({ label: "Weapon level", value: String(extras.usedLevel) });
   }
   if (
     extras.usedUpgradeLevel != null &&
     Number(extras.usedUpgradeLevel) > 0 &&
     isWeaponEquipmentSlot(extras.slotKey)
   ) {
-    rows.push({ label: "Upgrades", value: `+${extras.usedUpgradeLevel}` });
+    rows.push({ label: "Upgrade", value: `★${extras.usedUpgradeLevel}` });
   }
 
   return rows;
@@ -249,7 +256,7 @@ function AdornmentStatBlocks({ blocks, className = "" }) {
           ) : block.description ? (
             <p>{block.description}</p>
           ) : (
-            <p>Sem stats mapeados para este adereço.</p>
+            <p>No stats mapped for this adornment.</p>
           )}
         </div>
       ))}
@@ -403,8 +410,8 @@ function EquipmentSlot({
           isGhost
             ? ghostHint
             : item
-              ? "Botão direito para desequipar"
-              : `${slot?.label} · clique para filtrar inventário`
+              ? "Right-click to unequip"
+              : `${slot?.label} · click to filter inventory`
         }
         onClick={onClick}
         onContextMenu={(event) => {
@@ -455,7 +462,7 @@ function EquipmentSlot({
         {item &&
         isWeaponEquipmentSlot(slotKey) &&
         resolveUsedUpgradeLevel(value, displayRarity) > 0 ? (
-          <em className="eq-slot-upgrade">+{resolveUsedUpgradeLevel(value, displayRarity)}</em>
+          <em className="eq-slot-upgrade">★{resolveUsedUpgradeLevel(value, displayRarity)}</em>
         ) : null}
         {isGhost ? <span className="eq-slot-ghost-badge">2H</span> : null}
       </button>
@@ -499,15 +506,21 @@ function ItemConfigCard({
     slotKey
   });
   const adornmentStatBlocks = getSelectedAdornmentBlocks(slotKey, adornments, augmentOptions);
-  const levelScales = Boolean(item?.statsScale) || (Array.isArray(item?.stats) && item.stats.length > 0) || Boolean(item?.statsByClass);
-  const shopDefault = isShopPurchasableItem(item);
   const upgradeBonusBlock = showUpgrades
     ? getWeaponUpgradeBonusBlock(item, { rarity: usedRarity, upgradeLevel: usedUpgradeLevel })
     : null;
   const extraStatBlocks = upgradeBonusBlock ? [upgradeBonusBlock, ...adornmentStatBlocks] : adornmentStatBlocks;
+  const weaponDamageMin = Number(item?.weaponDamage?.min);
+  const weaponDamageMax = Number(item?.weaponDamage?.max);
+  const weaponDamageLine =
+    Number.isFinite(weaponDamageMin) && Number.isFinite(weaponDamageMax)
+      ? `Weapon Damage ${weaponDamageMin}–${weaponDamageMax}${
+          item.weaponDamage?.affinity ? ` · ${item.weaponDamage.affinity}` : ""
+        }`
+      : null;
 
   return (
-    <section className="eq-item-config" aria-label="Configurar item do Build">
+    <section className="eq-item-config" aria-label="Configure build item">
       <div className="eq-bag-header">
         <div className="eq-bag-title-row">
           <h3>Item · {slot?.label ?? "Slot"}</h3>
@@ -517,13 +530,6 @@ function ItemConfigCard({
             </button>
           </div>
         </div>
-        <p>
-          {isWeaponSlot
-            ? "Ajuste level, rarity e level up desta arma."
-            : adornmentFields.length > 0
-              ? "Ajuste o level e os adereços deste slot."
-              : "Ajuste o level usado deste equipamento."}
-        </p>
       </div>
 
       <div className="eq-item-config-body">
@@ -535,7 +541,7 @@ function ItemConfigCard({
               <span className={rarityClass(showRarity ? usedRarity : catalogRarity || lockedRarity)}>
                 {showRarity ? usedRarity : catalogRarity || lockedRarity || "Unknown"}
               </span>
-              {showUpgrades && usedUpgradeLevel > 0 ? ` · +${usedUpgradeLevel}` : ""}
+              {showUpgrades && usedUpgradeLevel > 0 ? ` · ★${usedUpgradeLevel}` : ""}
               {isTwoHandedWeapon(item) ? " · 2H" : ""}
             </span>
           </div>
@@ -543,8 +549,16 @@ function ItemConfigCard({
 
         {note ? <p className="eq-level-note">{note}</p> : null}
 
-        {liveStats.length > 0 ? (
+        {slotKey === "arsenal" ? (
+          <p className="eq-level-note">
+            Arsenal slot: weapon attrs count at 40% (e.g. 37 Vit → +15). Weapon Damage and the ★3+
+            passive don't use that cut on the sheet the same way — attrs here are already reduced.
+          </p>
+        ) : null}
+
+        {liveStats.length > 0 || weaponDamageLine ? (
           <ul className="eq-item-config-stats">
+            {weaponDamageLine ? <li key="weapon-damage">{weaponDamageLine}</li> : null}
             {liveStats.map((stat) => (
               <li key={`${stat.label}-${stat.value}`}>{formatStatLine(stat)}</li>
             ))}
@@ -556,7 +570,7 @@ function ItemConfigCard({
         <div className="eq-item-config-fields">
           <label className="eq-item-config-slider-field">
             <span className="eq-item-config-field-head">
-              Used level
+              Weapon level
               <strong>{effectiveLevel ?? defaultLevel}</strong>
             </span>
             <input
@@ -566,18 +580,9 @@ function ItemConfigCard({
               step="1"
               value={Math.min(effectiveLevel ?? defaultLevel, MAX_DROP_ITEM_LEVEL)}
               disabled={crafted}
-              aria-label="Used level"
+              aria-label="Weapon level"
               onChange={(event) => onChangeLevel(event.target.value)}
             />
-            <small>
-              {crafted
-                ? "Item craftado: level fixo"
-                : shopDefault
-                  ? `Default loja/starter: ${defaultLevel}`
-                  : `Default drop/max: ${defaultLevel}`}
-              {!crafted && levelScales ? " · attrs escalam com level" : ""}
-              {!crafted && !levelScales ? " · attrs sem escala no DB" : ""}
-            </small>
           </label>
 
           {showRarity ? (
@@ -601,16 +606,15 @@ function ItemConfigCard({
                   </button>
                 ))}
               </div>
-              <small>Default do catálogo: {catalogRarity || "Rare"}</small>
             </div>
           ) : null}
 
           {showUpgrades ? (
             <label className="eq-item-config-slider-field">
               <span className="eq-item-config-field-head">
-                Level up
+                Upgrade
                 <strong>
-                  +{usedUpgradeLevel} / {maxUpgrades}
+                  ★{usedUpgradeLevel} / {maxUpgrades}
                 </strong>
               </span>
               <input
@@ -619,10 +623,9 @@ function ItemConfigCard({
                 max={maxUpgrades}
                 step="1"
                 value={Math.min(usedUpgradeLevel, maxUpgrades)}
-                aria-label="Level up"
+                aria-label="Upgrade"
                 onChange={(event) => onChangeUpgradeLevel(Number(event.target.value))}
               />
-              <small>Max por raridade: Rare 3 · Epic 4 · Legendary 5</small>
             </label>
           ) : null}
 
@@ -651,7 +654,7 @@ function ItemConfigCard({
                   aria-label={field.label}
                   onChange={(event) => onChangeAdornment(field.key, event.target.value)}
                 >
-                  <option value="">Nenhum</option>
+                  <option value="">None</option>
                   {!knownOption ? <option value={current}>{current}</option> : null}
                   {options.map((option) => (
                     <option key={option.id} value={option.label}>
@@ -662,9 +665,9 @@ function ItemConfigCard({
                 <small>
                   {field.key === "sigil"
                     ? characterClassName
-                      ? `3 opções de ${characterClassName}`
-                      : "Selecione do catálogo"
-                    : "Selecione do catálogo"}
+                      ? `3 options for ${characterClassName}`
+                      : "Select from catalog"
+                    : "Select from catalog"}
                 </small>
               </label>
             );
@@ -791,7 +794,7 @@ export function EquipmentPaperDoll({
         if (ownedOnly && !isOwned) {
           continue;
         }
-        if (rareAndUpOnly && !isRareOrAbove(item)) {
+        if (rareAndUpOnly && !matchesRarePlusInventoryFilter(item)) {
           continue;
         }
         items.push({ ...withCollection, isOwned });
@@ -1016,8 +1019,8 @@ export function EquipmentPaperDoll({
               isGhost={isOffHandGhost}
               ghostHint={
                 mainHandIsTwoHanded
-                  ? `${mainHandItem?.name ?? "Two-handed"} também ocupa o Off Hand. Altere na Main Hand.`
-                  : "Off Hand: apenas escudos (com arma 1H na Main Hand)."
+                  ? `${mainHandItem?.name ?? "Two-handed"} also occupies Off Hand. Change it from Main Hand.`
+                  : "Off Hand: shields only (with a 1H weapon in Main Hand)."
               }
               onDragOver={(event) => {
                 if (!canDropOnSlot(slotKey)) {
@@ -1094,14 +1097,14 @@ export function EquipmentPaperDoll({
       <section className="eq-bag" onDragOver={(event) => event.preventDefault()} onDrop={handleBagDrop}>
         <div className="eq-bag-header">
           <div className="eq-bag-title-row">
-            <h3>Inventário{ownedOnly ? " (owned)" : ""}</h3>
+            <h3>Inventory{ownedOnly ? " (owned)" : ""}</h3>
             <div className="eq-bag-toggles">
               <button
                 type="button"
                 className={`eq-owned-toggle ${ownedOnly ? "is-on" : ""}`}
                 aria-pressed={ownedOnly}
                 onClick={() => setOwnedOnly((current) => !current)}
-                title={ownedOnly ? "Mostrando só owned. Clique para ver todos." : "Mostrando todos. Clique para filtrar owned."}
+                title={ownedOnly ? "Showing owned only. Click to show all." : "Showing all. Click to filter owned."}
               >
                 Owned {ownedOnly ? "ON" : "OFF"}
               </button>
@@ -1112,24 +1115,20 @@ export function EquipmentPaperDoll({
                 onClick={() => setRareAndUpOnly((current) => !current)}
                 title={
                   rareAndUpOnly
-                    ? "Mostrando Rare+. Clique para ver todas as raridades."
-                    : "Clique para mostrar só Rare (azul) ou superior."
+                    ? "Showing Rare+ that can reach level 25. Click to show all."
+                    : "Click to show only Rare+ that can reach level 25."
                 }
               >
-                Rare+ {rareAndUpOnly ? "ON" : "OFF"}
+                Rare+ L25 {rareAndUpOnly ? "ON" : "OFF"}
               </button>
             </div>
           </div>
-          <p>
-            Arraste o ícone para o slot do Build. Clique no equipado para configurar. Solte aqui para
-            desequipar.
-          </p>
         </div>
         <div className="eq-bag-filters">
           {[
-            ["all", "Todos"],
-            ["weapons", "Armas"],
-            ["armor", "Roupa"],
+            ["all", "All"],
+            ["weapons", "Weapons"],
+            ["armor", "Armor"],
             ["jewellery", "Jewellery"]
           ].map(([key, label]) => (
             <button
@@ -1155,10 +1154,10 @@ export function EquipmentPaperDoll({
             {bagItems.length === 0 ? (
               <p className="build-equipment-empty">
                 {slotFilterDef
-                  ? `Nenhum item para ${slotFilterDef.label}.`
+                  ? `No items for ${slotFilterDef.label}.`
                   : ownedOnly
-                    ? "Nenhum item owned nesta categoria."
-                    : "Nenhum item nesta categoria."}
+                    ? "No owned items in this category."
+                    : "No items in this category."}
               </p>
             ) : (
               bagItems.map((item) => (
@@ -1208,7 +1207,7 @@ export function EquipmentPaperDoll({
           characterClassName={character?.className}
           note={
             editingSlot === "weapon" && isTwoHandedWeapon(editingItem)
-              ? "Arma de duas mãos: também ocupa o Off Hand. Faça alterações pela Main Hand."
+              ? "Two-handed weapon: also occupies Off Hand. Make changes from Main Hand."
               : ""
           }
           onClose={() => setEditingSlot("")}

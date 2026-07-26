@@ -24,6 +24,7 @@ import {
 import {
   MAX_BUILD_SETS,
   TALENT_POINTS_AT_LEVEL_25,
+  getActiveIndexAfterMove,
   promoteCharacterBuildLevels
 } from "./buildSlots";
 import { DEFAULT_BUILD, DEFENSE_MODIFIER, calculateBuildDamage } from "./damageFormulas";
@@ -37,7 +38,7 @@ import { useCharacterBuild, useOwnedGearCatalog } from "./useCharacterBuild";
 import { analyzeWeaponKit, DEFAULT_KIT_ASSUMPTIONS } from "./weaponKitAnalysis";
 import { WeaponsAnalysisPanel } from "./WeaponsAnalysisPanel";
 
-function BuildSetSwitcher({ sets, activeIndex, onSelect, onAdd, onRemove }) {
+function BuildSetSwitcher({ sets, activeIndex, onSelect, onAdd, onRemove, onPromote }) {
   const [pendingRemoveIndex, setPendingRemoveIndex] = useState(null);
   const pendingSet =
     pendingRemoveIndex != null ? sets[pendingRemoveIndex] : null;
@@ -73,9 +74,23 @@ function BuildSetSwitcher({ sets, activeIndex, onSelect, onAdd, onRemove }) {
             {index > 0 ? (
               <button
                 type="button"
+                className="build-set-tab-promote"
+                aria-label={`Make Build ${set.label} the primary build (A)`}
+                title="Make Build A (primary)"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onPromote?.(index);
+                }}
+              >
+                ↑A
+              </button>
+            ) : null}
+            {index > 0 ? (
+              <button
+                type="button"
                 className="build-set-tab-remove"
                 aria-label={`Remove Build ${set.label}`}
-                title="Remover build"
+                title="Remove build"
                 onClick={(event) => {
                   event.stopPropagation();
                   requestRemove(index);
@@ -87,7 +102,7 @@ function BuildSetSwitcher({ sets, activeIndex, onSelect, onAdd, onRemove }) {
           </div>
         ))}
         {sets.length < MAX_BUILD_SETS ? (
-          <button type="button" className="build-set-add" onClick={onAdd} title="Adicionar build">
+          <button type="button" className="build-set-add" onClick={onAdd} title="Add build">
             +
           </button>
         ) : null}
@@ -103,18 +118,17 @@ function BuildSetSwitcher({ sets, activeIndex, onSelect, onAdd, onRemove }) {
             onClick={(event) => event.stopPropagation()}
           >
             <div className="build-attr-modal-head">
-              <h3 id="build-remove-title">Remover Build {pendingLabel}?</h3>
+              <h3 id="build-remove-title">Remove Build {pendingLabel}?</h3>
             </div>
             <p className="build-attr-modal-summary">
-              Tem certeza? Essa build e o equipamento dela serão removidos. Essa ação não pode ser
-              desfeita.
+              Are you sure? This build and its equipment will be removed. This cannot be undone.
             </p>
             <div className="build-confirm-actions">
               <button type="button" className="build-lab-ghost-button" onClick={cancelRemove}>
-                Cancelar
+                Cancel
               </button>
               <button type="button" className="build-confirm-danger" onClick={confirmRemove}>
-                Remover
+                Remove
               </button>
             </div>
           </div>
@@ -152,7 +166,7 @@ export function BuildLabPage({
   const activeCharacter =
     characters.find((character) => character.id === activeCharacterId) ?? characters[0] ?? null;
   const characterId = activeCharacter?.id ?? "";
-  const { build, setBuild, updateSet, addSet, removeSet } = useCharacterBuild(characterId);
+  const { build, setBuild, updateSet, addSet, removeSet, moveSet } = useCharacterBuild(characterId);
   const { catalogs, ownedIds, itemsById, loading, error } = useOwnedGearCatalog(characterId);
   const [augments, setAugments] = useState([]);
   const [skillsCatalog, setSkillsCatalog] = useState([]);
@@ -520,6 +534,14 @@ export function BuildLabPage({
     });
   }
 
+  function handlePromoteSet(index) {
+    if (index <= 0) {
+      return;
+    }
+    moveSet(index, 0);
+    setActiveIndex((current) => getActiveIndexAfterMove(current, index, 0));
+  }
+
   return (
     <PageShell
       title="Build"
@@ -570,7 +592,7 @@ export function BuildLabPage({
 
         {!characterId ? (
           <section className="build-lab-empty">
-            <p>Crie um personagem para montar o set e comparar builds.</p>
+            <p>Create a character to build a set and compare builds.</p>
           </section>
         ) : (
           <>
@@ -658,6 +680,7 @@ export function BuildLabPage({
               onSelect={setActiveIndex}
               onAdd={handleAddSet}
               onRemove={handleRemoveSet}
+              onPromote={handlePromoteSet}
             />
 
             {panel === "equipment" && activeSet ? (
@@ -755,7 +778,7 @@ export function BuildLabPage({
                 {analysisBuild ? (
                   <SecondaryAnalysisCharts build={analysisBuild} bossDefense={enemyDefense} />
                 ) : (
-                  <p className="state">Selecione uma build para analisar.</p>
+                  <p className="state">Select a build to analyze.</p>
                 )}
               </>
             ) : null}
@@ -781,16 +804,16 @@ export function BuildLabPage({
 
                 <p className="build-lab-column-note">
                   {useKitModifier && activeKitModifier != null
-                    ? `Skill modifier do kit (build ativa): ${Math.round(activeKitModifier * 100)}% — cada build usa o seu. Desative em Damage analysis para manual.`
-                    : `Skill modifier manual ${Math.round(Number(skillParams.modifier) * 100)}% — edite em Damage analysis.`}{" "}
-                  Penetração: Physical → Armor Pen, Magic → Magic Pen (pesos do Weapons analysis).
+                    ? `Kit skill modifier (active build): ${Math.round(activeKitModifier * 100)}% — each build uses its own. Disable in Damage analysis for manual.`
+                    : `Manual skill modifier ${Math.round(Number(skillParams.modifier) * 100)}% — edit in Damage analysis.`}{" "}
+                  Penetration: Physical → Armor Pen, Magic → Magic Pen (weights from Weapons analysis).
                   {analysisBuild?.stats?.damageProfile
-                    ? ` Ativa: ${formatDamageProfileLabel(analysisBuild.stats.damageProfile)} (${formatDamageProfileSource(analysisBuild.stats.damageProfile)}).`
+                    ? ` Active: ${formatDamageProfileLabel(analysisBuild.stats.damageProfile)} (${formatDamageProfileSource(analysisBuild.stats.damageProfile)}).`
                     : ""}
                 </p>
 
                 {comparedBuilds.length === 0 ? (
-                  <p className="state">Selecione ao menos uma build para comparar.</p>
+                  <p className="state">Select at least one build to compare.</p>
                 ) : (
                   <>
                     <AttributeComparative

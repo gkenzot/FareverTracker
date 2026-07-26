@@ -125,22 +125,22 @@ export function ClassSkillsPanel({
   const slotsFull = activeCount >= CLASS_SKILL_MAX_ACTIVE;
 
   if (!className) {
-    return <p className="state">Selecione um personagem com classe.</p>;
+    return <p className="state">Select a character with a class.</p>;
   }
 
   if (rows.slotRows.length === 0 && rows.passives.length === 0 && rows.prayers.length === 0) {
-    return <p className="state">Nenhuma class skill encontrada para {className}.</p>;
+    return <p className="state">No class skills found for {className}.</p>;
   }
 
   return (
     <section className="build-skills-panel" aria-label="Class skills">
       <p className="build-skills-intro">
-        Class skills de <strong>{className}</strong>. Signature sempre ativa. Mais{" "}
+        Class skills for <strong>{className}</strong>. Signature is always active. Up to{" "}
         <strong>
           {activeCount}/{CLASS_SKILL_MAX_ACTIVE}
         </strong>{" "}
-        Actives (ordenadas por unlock; default = 4 primeiras). Passivas e Prayers à parte. Level 30
-        bloqueado (EA).
+        Actives (sorted by unlock; default = first 4). Passives and Prayers are separate. Level 30
+        locked (EA).
       </p>
 
       <div className="build-skills-list">
@@ -162,7 +162,7 @@ export function ClassSkillsPanel({
                 <div className="build-skill-card-header">
                   <h3>{skill.name}</h3>
                   {isSignature ? (
-                    <span className="build-skill-kind" title="Signature sempre ativa">
+                    <span className="build-skill-kind" title="Signature always active">
                       {skill.kind}
                     </span>
                   ) : (
@@ -170,12 +170,12 @@ export function ClassSkillsPanel({
                       className={`build-skill-kind-toggle ${toggleDisabled && !active ? "is-disabled" : ""}`}
                       title={
                         locked
-                          ? "Level 30 · indisponível"
+                          ? "Level 30 · unavailable"
                           : active
-                            ? "Desativar skill"
+                            ? "Disable skill"
                             : slotsFull
-                              ? "Limite de 4 Actives"
-                              : "Ativar skill"
+                              ? "4 Active limit"
+                              : "Enable skill"
                       }
                     >
                       <span className="build-skill-kind">{skill.kind}</span>
@@ -185,8 +185,8 @@ export function ClassSkillsPanel({
                         disabled={toggleDisabled && !active}
                         aria-label={
                           locked
-                            ? `${skill.name} bloqueada (level 30)`
-                            : `${active ? "Desativar" : "Ativar"} ${skill.name}`
+                            ? `${skill.name} locked (level 30)`
+                            : `${active ? "Disable" : "Enable"} ${skill.name}`
                         }
                         onChange={() => onToggleActiveSkill?.(skill.id)}
                       />
@@ -196,14 +196,14 @@ export function ClassSkillsPanel({
                 {skill.description ? <p>{skill.description}</p> : null}
                 <div className="build-skill-card-meta">
                   {skill.cooldown != null ? <small>CD {skill.cooldown}s</small> : null}
-                  {locked ? <small className="build-skill-lock">Level 30 · indisponível</small> : null}
-                  {isSignature ? <small>Sempre ativa</small> : null}
+                  {locked ? <small className="build-skill-lock">Level 30 · unavailable</small> : null}
+                  {isSignature ? <small>Always active</small> : null}
                 </div>
                 {hasRunes ? (
                   <div
                     className="build-skill-runes"
                     role="listbox"
-                    aria-label={`Runas de ${skill.name}`}
+                    aria-label={`Runes for ${skill.name}`}
                   >
                     {skill.runes.map((rune) => {
                       const isSelected = selected === rune.id;
@@ -229,7 +229,7 @@ export function ClassSkillsPanel({
                     })}
                   </div>
                 ) : (
-                  <small className="build-skill-no-rune">Sem runas</small>
+                  <small className="build-skill-no-rune">No runes</small>
                 )}
               </div>
             </article>
@@ -240,7 +240,7 @@ export function ClassSkillsPanel({
       {rows.prayers.length > 0 ? (
         <div className="build-skills-passives">
           <h3>Prayers</h3>
-          <p className="build-skills-intro">Sistema do Rosary · não ocupam os 4 slots da barra.</p>
+          <p className="build-skills-intro">Rosary system · don't use the 4 bar slots.</p>
           <div className="build-skills-list">
             {rows.prayers.map((skill) => (
               <article key={skill.id} className="build-skill-card build-skill-card--passive">
@@ -260,8 +260,8 @@ export function ClassSkillsPanel({
 
       {rows.passives.length > 0 ? (
         <div className="build-skills-passives">
-          <h3>Passivas de classe</h3>
-          <p className="build-skills-intro">Sempre ativas · não ocupam os 4 slots · não alteram o kit /min.</p>
+          <h3>Class passives</h3>
+          <p className="build-skills-intro">Always active · don't use the 4 slots · don't affect kit /min.</p>
           <div className="build-skills-list">
             {rows.passives.map((skill) => (
               <article key={skill.id} className="build-skill-card build-skill-card--passive">
@@ -378,24 +378,24 @@ export function TalentsPanel({
   }
 
   if (!className) {
-    return <p className="state">Selecione um personagem com classe.</p>;
+    return <p className="state">Select a character with a class.</p>;
   }
 
   if (!resolved) {
-    return <p className="state">Árvore de talents ainda não mapeada para {className}.</p>;
+    return <p className="state">Talent tree not mapped yet for {className}.</p>;
   }
 
   return (
     <section className="build-talents-panel" aria-label="Talents">
       <div className="build-talents-header">
         <p>
-          Árvore de <strong>{className}</strong>. Clique para gastar, botão direito para devolver.
+          <strong>{className}</strong> talent tree. Click to spend, right-click to refund.
         </p>
         <div className={`build-talents-budget ${remaining < 0 ? "is-over" : ""}`}>
           <strong>
             {spent}/{pointBudget}
           </strong>
-          <span>{remaining} restantes</span>
+          <span>{remaining} left</span>
         </div>
       </div>
 

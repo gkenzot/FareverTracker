@@ -225,9 +225,10 @@ export function scaleItemStats(item, { level, rarity, upgradeLevel = 0, characte
 
   const staticStats = resolveStaticStats(item, characterClassName);
 
-  // Crafted pieces often ship both fixed tooltip stats and a faction statsScale template.
-  // Prefer the fixed stats when present — statsScale can invent extras (e.g. Demon Fervor on crafts).
-  if (isCraftedItemId(item) && staticStats.length > 0) {
+  // Pure recipe crafts often ship both fixed tooltip stats and a faction statsScale template.
+  // Prefer the fixed tip when present — statsScale can invent extras (e.g. Demon Fervor on crafts).
+  // Do NOT treat Valley/World shop weapons (Sword_Craft, Shield_Craft, …) as fixed crafts.
+  if (isFixedLevelCraftItem(item) && staticStats.length > 0) {
     return finalizeScaledStats(item, staticStats);
   }
 
@@ -278,13 +279,29 @@ export function applyArsenalStatFactor(stats = []) {
     .filter((stat) => Number(stat.value) !== 0);
 }
 
-function isCraftedItemId(item) {
-  const id = String(item?.id ?? "");
-  if (/Craft/i.test(id)) {
-    return true;
-  }
+/**
+ * True only for recipe crafts with a locked tip (armor/jewellery crafts).
+ * World/Valley weapons use ids like Sword_Craft / GA_Craft but still scale with level.
+ */
+function isFixedLevelCraftItem(item) {
   const sources = Array.isArray(item?.sources) ? item.sources : [];
-  return sources.some((source) => String(source?.kind ?? "").toLowerCase() === "craft");
+  const hasCraftSource = sources.some(
+    (source) => String(source?.kind ?? "").toLowerCase() === "craft"
+  );
+  const idLooksCraft = /Craft/i.test(String(item?.id ?? ""));
+  if (!hasCraftSource && !idLooksCraft) {
+    return false;
+  }
+
+  const isShopPurchasable = sources.some((source) => {
+    const kind = String(source?.kind ?? "").toLowerCase();
+    if (kind === "shop" || kind === "starter") {
+      return true;
+    }
+    return /valley merchant|wandering merchant/i.test(String(source?.text ?? ""));
+  });
+
+  return !isShopPurchasable;
 }
 
 function isTrinketItem(item) {

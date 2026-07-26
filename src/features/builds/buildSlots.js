@@ -50,7 +50,7 @@ export const EQUIPMENT_LAYOUT = {
 };
 
 export const EQUIPMENT_SLOTS = [
-  { key: "head", label: "Capacete", shortLabel: "Head", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Head") },
+  { key: "head", label: "Helmet", shortLabel: "Head", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Head") },
   {
     key: "pendant",
     label: "Pendant",
@@ -60,24 +60,24 @@ export const EQUIPMENT_SLOTS = [
   },
   {
     key: "shoulders",
-    label: "Ombro",
+    label: "Shoulders",
     shortLabel: "Shoulders",
     collectionKey: "armor",
     matches: (item) => matchSubcategory(item, "Shoulders")
   },
-  { key: "chest", label: "Peito", shortLabel: "Chest", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Chest") },
-  { key: "back", label: "Capa", shortLabel: "Back", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Back") },
+  { key: "chest", label: "Chest", shortLabel: "Chest", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Chest") },
+  { key: "back", label: "Cloak", shortLabel: "Back", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Back") },
   {
     key: "ring1",
-    label: "Anel 1",
+    label: "Ring 1",
     shortLabel: "Ring",
     collectionKey: "jewellery",
     matches: (item) => matchSubcategory(item, "Finger")
   },
-  { key: "hands", label: "Luva", shortLabel: "Hands", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Hands") },
-  { key: "waist", label: "Cinto", shortLabel: "Waist", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Waist") },
-  { key: "legs", label: "Calça", shortLabel: "Legs", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Legs") },
-  { key: "feet", label: "Bota", shortLabel: "Feet", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Feet") },
+  { key: "hands", label: "Gloves", shortLabel: "Hands", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Hands") },
+  { key: "waist", label: "Belt", shortLabel: "Waist", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Waist") },
+  { key: "legs", label: "Legs", shortLabel: "Legs", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Legs") },
+  { key: "feet", label: "Boots", shortLabel: "Feet", collectionKey: "armor", matches: (item) => matchSubcategory(item, "Feet") },
   {
     key: "trinket",
     label: "Trinket",
@@ -87,7 +87,7 @@ export const EQUIPMENT_SLOTS = [
   },
   {
     key: "ring2",
-    label: "Anel 2",
+    label: "Ring 2",
     shortLabel: "Ring",
     collectionKey: "jewellery",
     matches: (item) => matchSubcategory(item, "Finger")
@@ -281,7 +281,7 @@ export function getAdornmentFieldsForSlot(slotKey) {
     case "ring1":
     case "ring2":
     case "pendant":
-      return [{ key: "stone", label: "Pedra", placeholder: "Ex.: Sundered Cut Agate / Cursed Eye" }];
+      return [{ key: "stone", label: "Stone", placeholder: "e.g. Sundered Cut Agate / Cursed Eye" }];
     case "hands":
       return [
         {
@@ -665,6 +665,36 @@ export const MAX_DROP_ITEM_LEVEL = 25;
 
 /** Starter / merchant-bought weapons as Rare. */
 export const STARTER_SHOP_ITEM_LEVEL = 20;
+
+/**
+ * True when the item can exist / be used at `targetLevel` (default EA cap 25):
+ * catalog max, a shop listing that level, or non-fixed drop/cache gear that scales up.
+ */
+export function itemCanReachLevel(item, targetLevel = MAX_DROP_ITEM_LEVEL) {
+  if (!item || !Number.isFinite(Number(targetLevel))) {
+    return false;
+  }
+  const target = Number(targetLevel);
+
+  if (isFixedCraftLevelItem(item)) {
+    return (getItemCatalogLevel(item) ?? 0) >= target;
+  }
+
+  const catalog = getItemCatalogLevel(item);
+  if (catalog != null && catalog >= target) {
+    return true;
+  }
+
+  const shops = Array.isArray(item.shops) ? item.shops : [];
+  if (shops.some((shop) => Number(shop?.level) >= target)) {
+    return true;
+  }
+
+  const sources = Array.isArray(item.sources) ? item.sources : [];
+  return sources.some((source) =>
+    ["drop", "chest", "container", "instance"].includes(String(source?.kind ?? "").toLowerCase())
+  );
+}
 
 export function clampItemLevel(level, { min = 1, max = MAX_DROP_ITEM_LEVEL } = {}) {
   const number = Number(level);
@@ -1059,6 +1089,45 @@ export function removeCharacterBuildSet(build, index) {
     ...normalized,
     sets: relabelBuildSets(normalized.sets.filter((_, setIndex) => setIndex !== index))
   };
+}
+
+/** Move a build set to another slot and relabel A/B/C… by order. */
+export function moveCharacterBuildSet(build, fromIndex, toIndex) {
+  const normalized = normalizeCharacterBuild(build);
+  const { sets } = normalized;
+  if (
+    fromIndex < 0 ||
+    fromIndex >= sets.length ||
+    toIndex < 0 ||
+    toIndex >= sets.length ||
+    fromIndex === toIndex
+  ) {
+    return normalized;
+  }
+
+  const next = [...sets];
+  const [moved] = next.splice(fromIndex, 1);
+  next.splice(toIndex, 0, moved);
+
+  return {
+    ...normalized,
+    sets: relabelBuildSets(next)
+  };
+}
+
+/** After a move, map the previously active set index to its new index. */
+export function getActiveIndexAfterMove(activeIndex, fromIndex, toIndex) {
+  if (activeIndex === fromIndex) {
+    return toIndex;
+  }
+  if (fromIndex < toIndex) {
+    if (activeIndex > fromIndex && activeIndex <= toIndex) {
+      return activeIndex - 1;
+    }
+  } else if (activeIndex >= toIndex && activeIndex < fromIndex) {
+    return activeIndex + 1;
+  }
+  return activeIndex;
 }
 
 export function getSlotDefinition(slotKey) {

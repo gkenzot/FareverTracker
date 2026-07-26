@@ -632,7 +632,7 @@ export function BuildCharts({ builds = [], bossDefense = null }) {
     <section className="build-charts" aria-label="Build comparison charts">
       <ChartFrame
         title="Average damage vs enemy armor"
-        subtitle="Curvas das builds selecionadas. Os pontos marcam a Enemy Defense de cada uma."
+        subtitle="Selected build curves. Points mark each build's Enemy Defense."
         xLabel="Enemy Defense"
         yLabel="Average Damage"
         xDomain={xDomainZoom}
@@ -658,7 +658,7 @@ export function BuildCharts({ builds = [], bossDefense = null }) {
       {gainCurves.length > 0 ? (
         <ChartFrame
           title={`Average damage gain vs Build ${baselineLabel}`}
-          subtitle={`Positivo = essa build vence a Build ${baselineLabel} naquele armor.`}
+          subtitle={`Positive = this build beats Build ${baselineLabel} at that armor.`}
           xLabel="Enemy Defense"
           yLabel={`Gain vs ${baselineLabel}`}
           xDomain={xDomainZoom}
@@ -686,7 +686,7 @@ export function BuildCharts({ builds = [], bossDefense = null }) {
       <div className="build-chart-point-cards">
         {points.map((point) => (
           <article key={point.key} className="build-chart-point-card" style={{ "--accent": point.color }}>
-            <span>Ponto {point.label}</span>
+            <span>{point.label} point</span>
             <strong>
               Armor {Math.round(point.enemyDefense)} → {point.averageDamage.toFixed(2)} dmg
             </strong>
@@ -727,12 +727,12 @@ function GearSecondaryPriorityRank({ build = null, bossDefense = null }) {
   const top = rank.entries[0];
 
   return (
-    <section className="gear-priority-rank" aria-label="O que priorizar no gear">
+    <section className="gear-priority-rank" aria-label="Gear priority">
       <div className="gear-priority-rank-head">
-        <h3>O que priorizar no gear</h3>
+        <h3>What to prioritize on gear</h3>
         <p>
-          Build {label}: se duas peças forem parecidas,{" "}
-          <strong style={{ color: top.color }}>{top.label}</strong> costuma dar mais dano agora.
+          Build {label}: if two pieces are similar,{" "}
+          <strong style={{ color: top.color }}>{top.label}</strong> usually gives more damage now.
         </p>
       </div>
       <ol className="gear-priority-rank-list">
@@ -741,12 +741,12 @@ function GearSecondaryPriorityRank({ build = null, bossDefense = null }) {
           const signed = gainPct > 0 ? "+" : "";
           return (
             <li key={entry.key} style={{ "--accent": entry.color }}>
-              <span className="gear-priority-rank-place">{index + 1}º</span>
+              <span className="gear-priority-rank-place">{index + 1}.</span>
               <div className="gear-priority-rank-body">
                 <strong>{entry.label}</strong>
                 <small>
                   {signed}
-                  {gainPct}% dano
+                  {gainPct}% damage
                   {entry.deltaDamage !== 0
                     ? ` · ${entry.deltaDamage > 0 ? "+" : ""}${entry.deltaDamage.toFixed(2)}`
                     : ""}
@@ -757,8 +757,8 @@ function GearSecondaryPriorityRank({ build = null, bossDefense = null }) {
         })}
       </ol>
       <p className="gear-priority-rank-note">
-        Compara a mesma quantidade de secondary no item. Physical do kit aproveita Armor Pen; Magic
-        aproveita Magic Pen. Para decidir uma peça específica, use Damage compare.
+        Compares the same amount of secondary on the item. Kit Physical uses Armor Pen; Magic
+        uses Magic Pen. To decide on a specific piece, use Damage compare.
       </p>
     </section>
   );
@@ -851,17 +851,17 @@ export function SecondaryAnalysisCharts({ build = null, bossDefense = null }) {
     <section className="build-charts" aria-label="Damage analysis charts">
       <GearSecondaryPriorityRank build={build} bossDefense={activeBossDefense} />
       <p className="build-lab-column-note">
-        Dano vivo: Physical usa Armor Pen, Magic usa Magic Pen; o Average Damage junta pelos shares do
-        kit
-        {profile ? ` (${profileLabel} · ${profileSource})` : ""}. As linhas abaixo isolam cada
-        secondary (AP = hipotético 100% Physical, MP = 100% Magic).
+        Live damage: Physical uses Armor Pen, Magic uses Magic Pen; Average Damage combines kit
+        shares
+        {profile ? ` (${profileLabel} · ${profileSource})` : ""}. Lines below isolate each
+        secondary (AP = hypothetical 100% Physical, MP = 100% Magic).
       </p>
       <ChartFrame
         title="Fervor vs Armor Pen vs Magic Pen vs Crit"
         subtitle={
           equalizeSecondaries && secondaryEqualShare != null
-            ? `Build ${label}: Fer+AP+MP+Crit equalizados. Total ${Math.round(secondaryEqualTotal * 100)}% · share ${Math.round(secondaryEqualShare * 100)}% cada.`
-            : `Isola cada secondary real da Build ${label} (os outros zeram).`
+            ? `Build ${label}: Fer+AP+MP+Crit equalized. Total ${Math.round(secondaryEqualTotal * 100)}% · ${Math.round(secondaryEqualShare * 100)}% each.`
+            : `Isolates each real secondary on Build ${label} (others zeroed).`
         }
         xLabel="Enemy Defense"
         yLabel="Average Damage"
@@ -875,9 +875,9 @@ export function SecondaryAnalysisCharts({ build = null, bossDefense = null }) {
             className={`build-chart-zoom ${equalizeSecondaries ? "is-zoomed" : ""}`}
             aria-pressed={equalizeSecondaries}
             onClick={() => setEqualizeSecondaries((current) => !current)}
-            title="Soma Fer+AP+MP+Crit, divide por 4 e aplica o mesmo valor em cada linha"
+            title="Sum Fer+AP+MP+Crit, divide by 4, and apply the same value to each line"
           >
-            Equalizar
+            Equalize
           </button>
         }
         series={secondaryCurves.map((entry) => ({
@@ -923,7 +923,7 @@ const DEFAULT_SKILL_PARAMS = {
   modifier: DEFAULT_BUILD.modifier
 };
 
-const SKILL_INPUT_FIELDS = [{ key: "modifier", label: "Skill modifier (coeficiente)", kind: "percent" }];
+const SKILL_INPUT_FIELDS = [{ key: "modifier", label: "Skill modifier (coefficient)", kind: "percent" }];
 
 function formatDamage(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "—";
@@ -1005,26 +1005,26 @@ export function SkillParamsEditor({
             checked={useKitModifier}
             onChange={(event) => setRecommended(event.target.checked)}
           />
-          <span>Usar recomendados</span>
+          <span>Use recommended</span>
         </label>
       </div>
       {collapsed ? (
         <p className="build-lab-column-note build-lab-column-note--collapsed">
           {hasKit
-            ? `Modifier do kit ativo · ${recommendedPercent}%`
-            : `Modifier padrão · ${recommendedPercent}%`}
-          . Desmarque para ajustar.
+            ? `Active kit modifier · ${recommendedPercent}%`
+            : `Default modifier · ${recommendedPercent}%`}
+          . Uncheck to adjust.
         </p>
       ) : (
         <>
           <p className="build-lab-column-note">
-            Coeficiente da skill simulada. Com kit parseável, o recomendado usa o modifier do Weapons
-            analysis. Physical → Armor Pen, Magic → Magic Pen. Weapon Damage vem da main-hand.
+            Simulated skill coefficient. With a parseable kit, the recommended value uses the Weapons
+            analysis modifier. Physical → Armor Pen, Magic → Magic Pen. Weapon Damage comes from main-hand.
           </p>
           <div className="build-lab-fields">
             {hasKit ? (
               <p className="build-lab-column-note build-lab-column-note--hint">
-                Kit sugere {kitPercent}% — marque Usar recomendados para aplicar.
+                Kit suggests {kitPercent}% — check Use recommended to apply.
               </p>
             ) : null}
             {SKILL_INPUT_FIELDS.map((field) => {
@@ -1081,17 +1081,17 @@ export function EnemyDefensePicker({
             checked={useRecommended}
             onChange={(event) => onToggleRecommended?.(event.target.checked)}
           />
-          <span>Usar recomendados</span>
+          <span>Use recommended</span>
         </label>
       </div>
       {collapsed ? (
         <p className="build-lab-column-note build-lab-column-note--collapsed">
-          Boss level {DEFAULT_BOSS_LEVEL} · Armor {recommendedArmor}. Desmarque para ajustar.
+          Boss level {DEFAULT_BOSS_LEVEL} · Armor {recommendedArmor}. Uncheck to adjust.
         </p>
       ) : (
         <>
           <div className="build-lab-boss-tools">
-            <p className="build-lab-column-note">Armadura do boss (Calculator): level × 75</p>
+            <p className="build-lab-column-note">Boss armor (Calculator): level × 75</p>
             <button
               type="button"
               className={`build-lab-boss-chip ${customMode ? "active" : ""}`}
@@ -1135,7 +1135,7 @@ export function EnemyDefensePicker({
               />
               {names.length > 0 ? (
                 <p className="build-lab-enemy-current">
-                  Encontros anotados nesse level: {names.join(", ")}
+                  Encounters noted at this level: {names.join(", ")}
                 </p>
               ) : null}
             </div>
@@ -1153,8 +1153,8 @@ export function AttributeComparative({ builds, damageResults, baselineLabel }) {
         <h2>Attribute comparative</h2>
       </div>
       <p className="build-lab-column-note">
-        Average Damage = (share Physical × dano com Armor Pen) + (share Magic × dano com Magic Pen),
-        conforme o kit de cada build.
+        Average Damage = (Physical share × damage with Armor Pen) + (Magic share × damage with Magic Pen),
+        based on each build's kit.
       </p>
       <div className="build-lab-stat build-lab-stat--header build-lab-stat--multi" style={{ "--build-cols": builds.length }}>
         <span>Stat</span>
@@ -1279,9 +1279,9 @@ export function CompareBuildToggles({ sets, selectedKeys, onToggle }) {
   }
 
   return (
-    <section className="build-lab-compare-toggles" aria-label="Builds no comparativo">
+    <section className="build-lab-compare-toggles" aria-label="Builds in compare">
       <div className="build-lab-column-header">
-        <h2>Comparar</h2>
+        <h2>Compare</h2>
       </div>
       <div className="build-lab-compare-chips">
         {sets.map((set, index) => {
@@ -1294,7 +1294,7 @@ export function CompareBuildToggles({ sets, selectedKeys, onToggle }) {
               className={`build-lab-boss-chip ${selected ? "active" : ""}`}
               aria-pressed={selected}
               onClick={() => onToggle(key)}
-              title={selected ? `Remover Build ${set.label} do comparativo` : `Incluir Build ${set.label}`}
+              title={selected ? `Remove Build ${set.label} from compare` : `Include Build ${set.label}`}
             >
               Build {set.label}
             </button>

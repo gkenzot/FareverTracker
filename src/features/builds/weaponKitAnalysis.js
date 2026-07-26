@@ -54,8 +54,8 @@ export const KIT_ASSUMPTION_FIELDS = [
 ];
 
 export const KIT_ASSUMPTION_TOGGLES = [
-  { key: "includeTalentDamage", label: "Incluir talent DoTs/hits no /min" },
-  { key: "includeConduits", label: "Incluir conduits no /min" }
+  { key: "includeTalentDamage", label: "Include talent DoTs/hits in /min" },
+  { key: "includeConduits", label: "Include conduits in /min" }
 ];
 
 export function normalizeKitAssumptions(value) {
@@ -211,7 +211,7 @@ function parseTalentEffects(description, points = 1) {
     effects.conditionals.push({
       condition: "chaincast",
       extraDamageFlat: Number(chaincastDamage[1]) / 100 * rank,
-      label: "Attack damage sob Chaincast"
+      label: "Attack damage under Chaincast"
     });
   }
 
@@ -233,7 +233,7 @@ function parseTalentEffects(description, points = 1) {
     effects.conditionals.push({
       condition: "rageShield",
       extraDamageFlat: Number(rageShieldDamage[1]) / 100 * rank,
-      label: "damage sob Rage Shield"
+      label: "damage under Rage Shield"
     });
   }
 
@@ -244,12 +244,12 @@ function parseTalentEffects(description, points = 1) {
     effects.conditionals.push({
       condition: "chaincast",
       extraDamageFlat: (Number(kineticSurge[1]) / 100) * rank * 0.35,
-      label: "aprox. Kinetic Surge (35% dos casts)"
+      label: "approx. Kinetic Surge (35% of casts)"
     });
   }
 
   if (/next ComboAttack/i.test(text) && !effects.conditionals.length) {
-    effects.notes.push("próximo ComboAttack (burst — não modelado)");
+    effects.notes.push("next ComboAttack (burst — not modeled)");
   }
 
   return effects;
@@ -309,7 +309,7 @@ function resolveSoftRate({ kind, source, cadence, assumptions, cooldown }) {
     return {
       castsPerMin: rate,
       rateMode: "conduit",
-      rateNote: `${rate}/min (assumido)`
+      rateNote: `${rate}/min (assumed)`
     };
   }
 
@@ -322,7 +322,7 @@ function resolveSoftRate({ kind, source, cadence, assumptions, cooldown }) {
     return {
       castsPerMin: rate,
       rateMode: "interval",
-      rateNote: `a cada ${cadence.everySec}s`
+      rateNote: `every ${cadence.everySec}s`
     };
   }
 

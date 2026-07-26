@@ -95,6 +95,11 @@ const BY_NAME = {
     Epic: "Critical Chance +3%",
     Legendary: "Critical Chance +4%"
   },
+  "Martyr of Enripit": {
+    Rare: "Critical Chance +2%",
+    Epic: "Critical Chance +3%",
+    Legendary: "Critical Chance +4%"
+  },
   Worldsplitter: {
     Rare: "Critical Chance +2%",
     Epic: "Critical Chance +3%",

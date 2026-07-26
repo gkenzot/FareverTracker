@@ -1,0 +1,118 @@
+[[File:Upgrade_Station.png|thumb|300px|The Upgrade Station in Tyrna]]
+[[File:Upgrade_Station_UI.png|thumb|300px|Previewing an upgrade — current stats on the left, upgraded stats on the right]]
+
+Upgrade Stations can be found in [[Navelin]] and [[Tyrna]]. They allow you to increase your weapon's star rating, increasing its stats and unlocking a bonus passive at 3 stars.
+
+When upgrading a weapon, it shows a side-by-side preview of the current and upgraded stats before committing. Stat increases are shown in green with the delta in brackets..
+
+=== Upgrade Materials ===
+
+* {{Kw|name=Spark Dust}}— obtained by defeating sparkling mobs, chests, or completing world activities
+* {{Kw|name=Spark Shard}}— obtained by recycling weapons of Rare quality or higher.
+* {{Kw|name=Spark Crystal}} — required for ★★★★ and ★★★★★ upgrades only. Currently only available as a reward from the [https://icecavebear.github.io/farever-map/#@2066.5,3329.0,0.0,RHVuZ2VvbnMsT3JiIGNoZXN0cw Lee Van Glyph] quest (1x{{Kw|name=Spark Crystal}} for 10x {{Kw|name=Ephemeral Heart}}). Can be completed once per character.
+
+=== Star Upgrade Limits by Rarity ===
+
+{| class="wikitable" style="width:40%; text-align:center; font-size:90%;"
+! Rarity !! Max Stars
+|-
+| <span style="color:#4caf50;">'''Uncommon'''</span> || ★★
+|-
+| <span style="color:#4da6ff;">'''Rare'''</span> || ★★★
+|-
+| <span style="color:#b266ff;">'''Epic'''</span> || ★★★★
+|-
+| <span style="color:#ffb84d;">'''Legendary'''</span> || ★★★★★
+|}
+
+Reaching '''3 stars''' unlocks the weapon's unique bonus passive effect.
+
+=== Upgrade Costs ===
+ 
+Costs scale with weapon level and rarity.
+
+ <div id="weapon-upgrade-calc"></div>
+''the cost calculator is an estimation, it has a slight margin of error''
+=== Weapon Upgrade Bonuses ===
+
+{| class="wikitable" style="width:100%; text-align:center; font-size:85%; line-height:1.4;"
+|- style="background:#2a2a2a; color:#ffffff;"
+! style="width:22%; text-align:left; padding:5px 8px;" | Weapon
+! style="width:26%;" | <span style="color:#4da6ff;">Rare ★★★</span>
+! style="width:26%;" | <span style="color:#b266ff;">Epic ★★★★</span>
+! style="width:26%;" | <span style="color:#ffb84d;">Legendary ★★★★★</span>
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Ghost Clams of the Low Tide}}
+| Attacks have 5% chance to reduce weapon skill cooldowns by 0.5s
+| Attacks have 6% chance to reduce weapon skill cooldowns by 0.5s
+| Attacks have 7% chance to reduce weapon skill cooldowns by 0.5s
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Flame of Argol}}
+| Magic Penetration +5%
+| Magic Penetration +6%
+| Magic Penetration +7%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Twin Fangs of Ratsar}}
+| Base attack damage from behind +10%
+| Base attack damage from behind +12%
+| Base attack damage from behind +14%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Thornlace}}
+| Damage +10% when surrounded by 3+ enemies
+| Damage +12% when surrounded by 3+ enemies
+| Damage +14% when surrounded by 3+ enemies
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Ipheion, Star Blossom}}
+| Attacks against enemies 20m+ away gain +5% crit chance
+| Attacks against enemies 20m+ away gain +6% crit chance
+| Attacks against enemies 20m+ away gain +7% crit chance
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Book of Mi'Mizan}}
+| Magic Mastery +5%
+| Magic Mastery +6%
+| Magic Mastery +7%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Radiance}}
+| Cooldown Reduction +3%
+| Cooldown Reduction +4%
+| Cooldown Reduction +5%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Clawdius}}<br>{{Kw|name=Ramulus & Ramus}}
+| Physical Mastery +5%
+| Physical Mastery +6%
+| Physical Mastery +7%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Horns of the Wind}}<br>{{Kw|name=Credence}}
+| Base attack damage against enemies 20m+ away +10%
+| Base attack damage against enemies 20m+ away +12%
+| Base attack damage against enemies 20m+ away +14%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Lady Bee’s Ceremonial Stinger}}<br>{{Kw|name=Gorgon Ratsay’s Toothpick}}
+| Armor Penetration +5%
+| Armor Penetration +6%
+| Armor Penetration +7%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Iron Fins of the Leviathan}}<br>{{Kw|name=Cheese Moon}}<br>{{Kw|name=Judgement}}
+| Critical Chance +2%
+| Critical Chance +3%
+| Critical Chance +4%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Crabgantua's Kneecap}}<br>{{Kw|name=Dominion}}<br>{{Kw|name=Magma Mia}}
+| Damage taken -7%
+| Damage taken -9%
+| Damage taken -11%
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Pocket Hive}}<br>{{Kw|name=Twin Pillars of Justice}}<br>{{Kw|name=Amon Ram, the Creator}}
+| Base attacks have 5% chance to stun enemies for 2s
+| Base attacks have 6% chance to stun enemies for 2s
+| Base attacks have 7% chance to stun enemies for 2s
+|-
+| style="text-align:left; padding:5px 8px;" | {{Kw|name=Wingsabers}}<br>{{Kw|name=Beefury, Blessed Blade of the Farseeker}}<br>{{Kw|name=Glory}}
+| Base attacks have 5% chance to attack twice
+| Base attacks have 6% chance to attack twice
+| Base attacks have 7% chance to attack twice
+|}
+
+<div id="weapon-upgrade-calc"></div>
+
+[[Category:Guides]]
