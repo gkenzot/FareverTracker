@@ -215,10 +215,11 @@ export function createEmptyEquipmentSlot() {
 export function createEmptyAdornments() {
   return {
     stone: "",
-    cursed: "", // legacy / reserved — Corrupted Gifts not implemented in UI yet
-    enchantment: "", // legacy shared key — migrated to hands/feet
+    cursed: "", // Corrupted Gift on weapons (±20 / ±40 conversions)
+    enchantment: "", // legacy shared key — migrated to hands/feet/weapon
     enchantmentHands: "",
     enchantmentFeet: "",
+    enchantmentWeapon: "",
     sigil: "",
     plate: "",
     embroidery: ""
@@ -259,7 +260,7 @@ export function resolveSlotAdornments(slotKey, adornments) {
     next.cursed = "";
   }
 
-  // Legacy: shared enchantment key → hands/feet specific keys.
+  // Legacy: shared enchantment key → hands/feet/weapon specific keys.
   if (slotKey === "hands" && !next.enchantmentHands && next.enchantment) {
     next.enchantmentHands = next.enchantment;
     next.enchantment = "";
@@ -267,6 +268,11 @@ export function resolveSlotAdornments(slotKey, adornments) {
 
   if (slotKey === "feet" && !next.enchantmentFeet && next.enchantment) {
     next.enchantmentFeet = next.enchantment;
+    next.enchantment = "";
+  }
+
+  if (isWeaponEquipmentSlot(slotKey) && !next.enchantmentWeapon && next.enchantment) {
+    next.enchantmentWeapon = next.enchantment;
     next.enchantment = "";
   }
 
@@ -281,7 +287,9 @@ export function getAdornmentFieldsForSlot(slotKey) {
     case "ring1":
     case "ring2":
     case "pendant":
-      return [{ key: "stone", label: "Stone", placeholder: "e.g. Sundered Cut Agate / Cursed Eye" }];
+      return [
+        { key: "stone", label: "Stone", placeholder: "e.g. Sundered Cut Agate / Cursed Eye" }
+      ];
     case "hands":
       return [
         {
@@ -296,6 +304,21 @@ export function getAdornmentFieldsForSlot(slotKey) {
           key: "enchantmentFeet",
           label: "Magic Formula",
           placeholder: "Ex.: Magic Formula: Armor"
+        }
+      ];
+    case "weapon":
+    case "secondaryWeapon":
+    case "arsenal":
+      return [
+        {
+          key: "enchantmentWeapon",
+          label: "Weapon Enchantment",
+          placeholder: "Ex.: Magic Formula: Flaming Weapon"
+        },
+        {
+          key: "cursed",
+          label: "Corrupted Gift",
+          placeholder: "Ex.: Fervor → Critical (±40)"
         }
       ];
     case "chest":
@@ -377,9 +400,32 @@ export function augmentMatchesCharacterClass(augment, className) {
   return classes.some((value) => wantedSet.has(String(value).trim().toLowerCase()));
 }
 
+export function getCorruptedGiftDisplayName(augment) {
+  const description = String(augment?.description ?? "").trim();
+  const conversion = description.match(/converts\s+(.+?)\s+into\s+(.+?)\.?$/i);
+  const stats = Array.isArray(augment?.stats) ? augment.stats : [];
+  const magnitude = stats.some((stat) => Math.abs(Number(stat?.value)) >= 40)
+    ? "±40"
+    : stats.some((stat) => Math.abs(Number(stat?.value)) >= 20)
+      ? "±20"
+      : "";
+
+  if (conversion) {
+    const from = conversion[1].trim();
+    const to = conversion[2].trim();
+    return magnitude ? `Corrupted Gift (${from} → ${to}, ${magnitude})` : `Corrupted Gift (${from} → ${to})`;
+  }
+
+  return magnitude ? `Corrupted Gift (${magnitude})` : "Corrupted Gift";
+}
+
 export function getAugmentDisplayName(augment) {
   if (!augment) {
     return "";
+  }
+
+  if (isCorruptedGiftAugment(augment)) {
+    return getCorruptedGiftDisplayName(augment);
   }
 
   const base = String(augment.name ?? "").trim();
@@ -443,13 +489,17 @@ export function augmentMatchesAdornmentField(augment, fieldKey) {
     return false;
   }
 
-  // Corrupted Gifts stay in the DB but are not selectable yet.
+  const kind = String(augment.adornmentKind ?? "").toLowerCase();
+  const subcategory = getAugmentSubcategory(augment).toLowerCase();
+
+  if (fieldKey === "cursed") {
+    return isCorruptedGiftAugment(augment);
+  }
+
+  // Corrupted Gifts only appear on weapons.
   if (isCorruptedGiftAugment(augment)) {
     return false;
   }
-
-  const kind = String(augment.adornmentKind ?? "").toLowerCase();
-  const subcategory = getAugmentSubcategory(augment).toLowerCase();
 
   if (fieldKey === "stone") {
     return (
@@ -460,16 +510,16 @@ export function augmentMatchesAdornmentField(augment, fieldKey) {
     );
   }
 
-  if (fieldKey === "cursed") {
-    // Reserved for future Corrupted Gift UI — intentionally empty for now.
-    return false;
-  }
-
   if (fieldKey === "sigil") {
     return isDemonSigilAugment(augment);
   }
 
-  if (fieldKey === "enchantment" || fieldKey === "enchantmentHands" || fieldKey === "enchantmentFeet") {
+  if (
+    fieldKey === "enchantment" ||
+    fieldKey === "enchantmentHands" ||
+    fieldKey === "enchantmentFeet" ||
+    fieldKey === "enchantmentWeapon"
+  ) {
     if (fieldKey === "enchantmentHands") {
       return (
         kind === "enchantment-hands" ||
@@ -482,6 +532,13 @@ export function augmentMatchesAdornmentField(augment, fieldKey) {
         kind === "enchantment-feet" ||
         subcategory.includes("enchantment (feet)") ||
         (subcategory.includes("enchant") && subcategory.includes("feet"))
+      );
+    }
+    if (fieldKey === "enchantmentWeapon") {
+      return (
+        kind === "enchantment-weapon" ||
+        subcategory.includes("enchantment (weapon)") ||
+        (subcategory.includes("enchant") && subcategory.includes("weapon"))
       );
     }
     // Legacy shared key — keep matching any hand/foot formula, not weapon.

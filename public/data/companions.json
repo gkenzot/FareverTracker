@@ -2248,15 +2248,16 @@
       },
       "sources": [
         {
-          "kind": "shop",
-          "text": "Purchased from vendor.",
+          "kind": "upcoming",
+          "text": "Not available in the current version.",
           "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
-      "moveSpeedMultiplier": null
+      "moveSpeedMultiplier": null,
+      "inGame": false
     },
     {
       "id": "Lizard_Yellow",

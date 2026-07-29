@@ -48,7 +48,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Sponge Blob.",
+          "text": "Boss Sponge Blob · 1%",
           "link": null
         }
       ],
@@ -239,7 +239,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a chest at Crops Top.",
+          "text": "Chest, Crops Top",
           "link": null
         }
       ],
@@ -272,7 +272,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Nepsilon.",
+          "text": "Boss Nepsilon · 1%",
           "link": null
         }
       ],
@@ -381,7 +381,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Collector of Ramburg",
+          "text": "Achievement: Collector of Ramburg, Collect all the secret orbs in Ramburg.",
           "link": null
         }
       ],
@@ -484,7 +484,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Golcano.",
+          "text": "Boss Golcano · 1%",
           "link": null
         }
       ],
@@ -562,7 +562,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Munster's Crossing",
+          "text": "Chest, Munster's Crossing",
           "link": null
         }
       ],
@@ -607,7 +607,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Triton Beach",
+          "text": "Chest, Triton Beach",
           "link": null
         }
       ],
@@ -652,7 +652,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Secret Orb Hunter",
+          "text": "Achievement: Secret Orb Hunter, Complete all the Dungeon secret orb collection achievements in Skover Island.",
           "link": "achievements/secret-orb-hunter"
         }
       ],
@@ -724,7 +724,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Secret Orb Hunter",
+          "text": "Achievement: Secret Orb Hunter, Complete all the Dungeon secret orb collection achievements in Valley of Eternal Autumn.",
           "link": "achievements/secret-orb-hunter"
         }
       ],
@@ -763,92 +763,92 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Rice Seedling",
+          "text": "Boss Rice Seedling · 0.1%",
           "link": "creatures/rice-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Black Rice Seedling",
+          "text": "Boss Black Rice Seedling · 0.1%",
           "link": "creatures/black-rice-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Rice Seedling",
+          "text": "Boss Sparkling Rice Seedling · 0.1%",
           "link": "creatures/sparkling-rice-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Rice Seedling",
+          "text": "Boss Invoked Rice Seedling · 0.1%",
           "link": "creatures/invoked-rice-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Onion Seedling",
+          "text": "Boss Onion Seedling · 0.1%",
           "link": "creatures/onion-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Onion Seedling",
+          "text": "Boss Invoked Onion Seedling · 0.1%",
           "link": "creatures/invoked-onion-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Controversial Onion Seedling",
+          "text": "Boss Controversial Onion Seedling · 0.1%",
           "link": "creatures/controversial-onion-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Garlic Seedling",
+          "text": "Boss Garlic Seedling · 0.1%",
           "link": "creatures/garlic-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fragrant Garlic Seedling",
+          "text": "Boss Fragrant Garlic Seedling · 0.1%",
           "link": "creatures/fragrant-garlic-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Turnip Seedling",
+          "text": "Boss Turnip Seedling · 0.1%",
           "link": "creatures/turnip-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lucrative Turnip Seedling",
+          "text": "Boss Lucrative Turnip Seedling · 0.1%",
           "link": "creatures/lucrative-turnip-seedling"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Beet the Maul",
+          "text": "Boss Beet the Maul · 0.1%",
           "link": "creatures/beet-the-maul"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Seed Barrett",
+          "text": "Boss Seed Barrett · 0.1%",
           "link": "creatures/seed-barrett"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Seed Vicious",
+          "text": "Boss Seed Vicious · 0.1%",
           "link": "creatures/seed-vicious"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Turnip Arker ",
+          "text": "Boss Turnip Arker · 0.1%",
           "link": "creatures/turnip-arker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Garlic Hooper",
+          "text": "Boss Garlic Hooper · 0.1%",
           "link": "creatures/garlic-hooper"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Charles Cabbage",
+          "text": "Boss Charles Cabbage · 0.1%",
           "link": "creatures/charles-cabbage"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Jared Lettuce",
+          "text": "Boss Jared Lettuce · 0.1%",
           "link": "creatures/jared-lettuce"
         }
       ],
@@ -1113,7 +1113,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Dream Team",
+          "text": "Achievement: Dream Team, Close 10 gates in a Rift.",
           "link": null
         }
       ],
@@ -1152,152 +1152,152 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Miner",
+          "text": "Boss Kobold Miner · 0.1%",
           "link": "creatures/kobold-miner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Freelance Kobold Miner",
+          "text": "Boss Freelance Kobold Miner · 0.1%",
           "link": "creatures/freelance-kobold-miner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Miner of Estrone",
+          "text": "Boss Kobold Miner of Estrone · 0.1%",
           "link": "creatures/kobold-miner-of-estrone"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Gorgon's Hollow Miner",
+          "text": "Boss Gorgon's Hollow Miner · 0.1%",
           "link": "creatures/gorgons-hollow-miner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Miner",
+          "text": "Boss Sparkling Miner · 0.1%",
           "link": "creatures/sparkling-miner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Senior Kobold Miner",
+          "text": "Boss Senior Kobold Miner · 0.1%",
           "link": "creatures/senior-kobold-miner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Thief",
+          "text": "Boss Kobold Thief · 0.1%",
           "link": "creatures/kobold-thief"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Trustworthy Kobold Thief",
+          "text": "Boss Trustworthy Kobold Thief · 0.1%",
           "link": "creatures/trustworthy-kobold-thief"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Thief of Estrone",
+          "text": "Boss Kobold Thief of Estrone · 0.1%",
           "link": "creatures/kobold-thief-of-estrone"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Cleanhanded Kobold Thief",
+          "text": "Boss Cleanhanded Kobold Thief · 0.1%",
           "link": "creatures/cleanhanded-kobold-thief"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Overseer",
+          "text": "Boss Kobold Overseer · 0.1%",
           "link": "creatures/kobold-overseer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Unpredictable Kobold Overseer",
+          "text": "Boss Unpredictable Kobold Overseer · 0.1%",
           "link": "creatures/unpredictable-kobold-overseer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lunatic Kobold Overseer",
+          "text": "Boss Lunatic Kobold Overseer · 0.1%",
           "link": "creatures/lunatic-kobold-overseer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Ratsar Lighter",
+          "text": "Boss Ratsar Lighter · 0.1%",
           "link": "creatures/ratsar-lighter"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Gorgon's Hollow Overseer",
+          "text": "Boss Gorgon's Hollow Overseer · 0.1%",
           "link": "creatures/gorgons-hollow-overseer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Overseer",
+          "text": "Boss Invoked Overseer · 0.1%",
           "link": "creatures/invoked-overseer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Raider",
+          "text": "Boss Kobold Raider · 0.1%",
           "link": "creatures/kobold-raider"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nervous Kobold Raider",
+          "text": "Boss Nervous Kobold Raider · 0.1%",
           "link": "creatures/nervous-kobold-raider"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Docker",
+          "text": "Boss Kobold Docker · 0.1%",
           "link": "creatures/kobold-docker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Steady Kobold Docker",
+          "text": "Boss Steady Kobold Docker · 0.1%",
           "link": "creatures/steady-kobold-docker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Docker",
+          "text": "Boss Sparkling Docker · 0.1%",
           "link": "creatures/sparkling-docker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Docker of Estrone",
+          "text": "Boss Kobold Docker of Estrone · 0.1%",
           "link": "creatures/kobold-docker-of-estrone"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Stationmaster",
+          "text": "Boss Stationmaster · 0.1%",
           "link": "creatures/stationmaster"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Docker",
+          "text": "Boss Invoked Docker · 0.1%",
           "link": "creatures/invoked-docker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Reliable Kobold Docker",
+          "text": "Boss Reliable Kobold Docker · 0.1%",
           "link": "creatures/reliable-kobold-docker"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Heraclette",
+          "text": "Boss Heraclette · 0.1%",
           "link": "creatures/heraclette"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kobold Crusher",
+          "text": "Boss Kobold Crusher · 0.1%",
           "link": "creatures/kobold-crusher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Reblochonk",
+          "text": "Boss Reblochonk · 0.1%",
           "link": "creatures/reblochonk"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Munster Chuck",
+          "text": "Boss Munster Chuck · 0.1%",
           "link": "creatures/munster-chuck"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from King Ratsar",
+          "text": "Boss King Ratsar · 0.1%",
           "link": "creatures/king-ratsar"
         }
       ],
@@ -1813,7 +1813,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found while exploring Ramburg",
+          "text": "Chest, Found while exploring Ramburg",
           "link": null
         }
       ],
@@ -1846,7 +1846,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Nightqueen Shaarlize Te'ror",
+          "text": "Boss Nightqueen Shaarlize Te'ror · 1%",
           "link": "creatures/nightqueen-shaarlize-teror"
         }
       ],
@@ -1891,7 +1891,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Fly!.",
+          "text": "Achievement: Let's Fly!, Collect 25 gliders.",
           "link": null
         }
       ],
@@ -1930,7 +1930,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Ramburg Vault Chest",
+          "text": "Chest, Ramburg",
           "link": null
         }
       ],
@@ -1996,7 +1996,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from King Ratsar.",
+          "text": "Boss King Ratsar · 1%",
           "link": null
         }
       ],
@@ -2041,7 +2041,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Collector of Skover Island.",
+          "text": "Achievement: Collector of Skover Island, Collect all the secret orbs in Skover Island.",
           "link": null
         }
       ],
@@ -2080,7 +2080,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Collector of Valley of Eternal Autumn.",
+          "text": "Achievement: Collector of Valley of Eternal Autumn, Collect all the secret orbs in Valley of Eternal Autumn.",
           "link": null
         }
       ],
@@ -2119,7 +2119,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found while exploring Ramburg",
+          "text": "Chest, Found while exploring Ramburg",
           "link": null
         }
       ],
@@ -2257,7 +2257,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Thornwall",
+          "text": "Chest, Thornwall",
           "link": null
         }
       ],
@@ -2302,157 +2302,157 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Fighter",
+          "text": "Boss Nepsid Fighter · 0.1%",
           "link": "creatures/nepsid-fighter"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Adept Nepsid Fighter",
+          "text": "Boss Adept Nepsid Fighter · 0.1%",
           "link": "creatures/adept-nepsid-fighter"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fighter of the Lost City",
+          "text": "Boss Fighter of the Lost City · 0.1%",
           "link": "creatures/fighter-of-the-lost-city"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Expert Nepsid Fighter",
+          "text": "Boss Expert Nepsid Fighter · 0.1%",
           "link": "creatures/expert-nepsid-fighter"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Runner",
+          "text": "Boss Nepsid Runner · 0.1%",
           "link": "creatures/nepsid-runner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Agile Nepsid Runner",
+          "text": "Boss Agile Nepsid Runner · 0.1%",
           "link": "creatures/agile-nepsid-runner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Runner of the Lost City",
+          "text": "Boss Runner of the Lost City · 0.1%",
           "link": "creatures/runner-of-the-lost-city"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Skuttle Goldengill",
+          "text": "Boss Skuttle Goldengill · 0.1%",
           "link": "creatures/skuttle-goldengill"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Scummy BlackGill",
+          "text": "Boss Scummy BlackGill · 0.1%",
           "link": "creatures/scummy-blackgill"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Runner of New Atlaan",
+          "text": "Boss Runner of New Atlaan · 0.1%",
           "link": "creatures/runner-of-new-atlaan"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Acrobatic Nepsid Runner",
+          "text": "Boss Acrobatic Nepsid Runner · 0.1%",
           "link": "creatures/acrobatic-nepsid-runner"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Breakwater",
+          "text": "Boss Nepsid Breakwater · 0.1%",
           "link": "creatures/nepsid-breakwater"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Breakwater of New Atlaan",
+          "text": "Boss Breakwater of New Atlaan · 0.1%",
           "link": "creatures/breakwater-of-new-atlaan"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Confident Invoked Breakwater",
+          "text": "Boss Confident Invoked Breakwater · 0.1%",
           "link": "creatures/confident-invoked-breakwater"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Wavemonger",
+          "text": "Boss Nepsid Wavemonger · 0.1%",
           "link": "creatures/nepsid-wavemonger"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Educated Nepsid Wavemonger",
+          "text": "Boss Educated Nepsid Wavemonger · 0.1%",
           "link": "creatures/educated-nepsid-wavemonger"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Wavemonger of the Lost City",
+          "text": "Boss Wavemonger of the Lost City · 0.1%",
           "link": "creatures/wavemonger-of-the-lost-city"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Wavemonger",
+          "text": "Boss Sparkling Wavemonger · 0.1%",
           "link": "creatures/sparkling-wavemonger"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Wavemonger",
+          "text": "Boss Invoked Wavemonger · 0.1%",
           "link": "creatures/invoked-wavemonger"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Wavemonger of New Atlaan",
+          "text": "Boss Wavemonger of New Atlaan · 0.1%",
           "link": "creatures/wavemonger-of-new-atlaan"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Erudite Nepsid Wavemonger",
+          "text": "Boss Erudite Nepsid Wavemonger · 0.1%",
           "link": "creatures/erudite-nepsid-wavemonger"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Oracle",
+          "text": "Boss Invoked Oracle · 0.1%",
           "link": "creatures/invoked-oracle"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Oracle of New Atlaan",
+          "text": "Boss Oracle of New Atlaan · 0.1%",
           "link": "creatures/oracle-of-new-atlaan"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Oracle",
+          "text": "Boss Nepsid Oracle · 0.1%",
           "link": "creatures/nepsid-oracle"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Whale",
+          "text": "Boss Nepsid Whale · 0.1%",
           "link": "creatures/nepsid-whale"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Whale",
+          "text": "Boss Sparkling Whale · 0.1%",
           "link": "creatures/sparkling-whale"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsid Whale of the Lost City",
+          "text": "Boss Nepsid Whale of the Lost City · 0.1%",
           "link": "creatures/nepsid-whale-of-the-lost-city"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Slippery Invoked Whale",
+          "text": "Boss Slippery Invoked Whale · 0.1%",
           "link": "creatures/slippery-invoked-whale"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Slick Nepsid Whale",
+          "text": "Boss Slick Nepsid Whale · 0.1%",
           "link": "creatures/slick-nepsid-whale"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Gilliver",
+          "text": "Boss Gilliver · 0.1%",
           "link": "creatures/gilliver"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nepsilon",
+          "text": "Boss Nepsilon · 0.1%",
           "link": "creatures/nepsilon"
         }
       ],
@@ -2926,7 +2926,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Reblochonk.",
+          "text": "Boss Reblochonk · 1%",
           "link": null
         }
       ],
@@ -3004,7 +3004,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Fly!.",
+          "text": "Achievement: Let's Fly!, Collect 10 gliders.",
           "link": null
         }
       ],
@@ -3239,7 +3239,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Robin Hoof.",
+          "text": "Boss Robin Hoof · 1%",
           "link": null
         }
       ],
@@ -3284,7 +3284,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Fly!.",
+          "text": "Achievement: Let's Fly!, Collect 50 gliders.",
           "link": null
         }
       ],
@@ -3403,7 +3403,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found while exploring Ramburg",
+          "text": "Chest, Found while exploring Ramburg",
           "link": null
         }
       ],
@@ -3436,7 +3436,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Forgotten Chapel",
+          "text": "Chest, Forgotten Chapel",
           "link": null
         }
       ],
@@ -3481,7 +3481,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Gatsbee.",
+          "text": "Boss Gatsbee · 1%",
           "link": null
         }
       ],
@@ -3804,7 +3804,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found while exploring Ramburg",
+          "text": "Chest, Found while exploring Ramburg",
           "link": null
         }
       ],
@@ -3837,7 +3837,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found while exploring Ramburg",
+          "text": "Chest, Found while exploring Ramburg",
           "link": null
         }
       ],

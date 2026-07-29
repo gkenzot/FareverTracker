@@ -249,7 +249,7 @@ const MOUNT_GLIDER_SOURCE_OVERRIDES = {
   },
   "Antelimbian Seedbird": {
     kind: "chest",
-    text: "Found in a chest at Crops Top.",
+    text: "Chest, Crops Top",
     link: null
   },
   "Azuramean Owl": {
@@ -286,6 +286,7 @@ const COMPANION_PURCHASE_SOURCE = {
   text: "Purchased from vendor.",
   link: null
 };
+const COMPANION_UNAVAILABLE = new Set(["Yellow Rabbit"]);
 
 const COLLECTIONS = [
   {
@@ -666,6 +667,47 @@ function hasReliableSource(sources) {
   return sources.some((source) => !isUnknownSource(source) && !isGenericUpcoming(source));
 }
 
+function formatDropPercent(drop) {
+  if (drop?.drop_percent) {
+    return normalizePercentLabel(drop.drop_percent);
+  }
+
+  if (Number.isFinite(Number(drop?.drop_probability))) {
+    const percent = Number(drop.drop_probability) * 100;
+    const formatted = percent >= 1 ? String(Math.round(percent * 100) / 100) : percent.toFixed(4).replace(/\.?0+$/, "");
+    return `${formatted}%`;
+  }
+
+  return null;
+}
+
+function normalizePercentLabel(value) {
+  const raw = String(value ?? "").trim();
+  const match = raw.match(/^([\d.]+)\s*%$/);
+  if (!match) {
+    return raw;
+  }
+
+  const number = Number(match[1]);
+  if (!Number.isFinite(number)) {
+    return raw;
+  }
+
+  const formatted = number >= 1 ? String(Math.round(number * 100) / 100) : number.toFixed(4).replace(/\.?0+$/, "");
+  return `${formatted}%`;
+}
+
+function formatBossOrDungeonDropText(name, percent) {
+  const cleanName = String(name ?? "").trim().replace(/\.$/, "");
+  if (!cleanName) {
+    return null;
+  }
+
+  const isDungeon = /^dungeon\b/i.test(cleanName);
+  const label = isDungeon ? cleanName.replace(/^dungeon\s+/i, "Dungeon ") : `Boss ${cleanName}`;
+  return percent ? `${label} · ${percent}` : label;
+}
+
 function formatDropSource(drops) {
   const validDrops = (drops ?? []).filter((drop) => drop.unit_name);
 
@@ -674,12 +716,17 @@ function formatDropSource(drops) {
   }
 
   const [firstDrop] = validDrops;
-  const percent = firstDrop.drop_percent ?? `${(firstDrop.drop_probability * 100).toFixed(4).replace(/\.?0+$/, "")}%`;
+  const percent = formatDropPercent(firstDrop);
+  const text = formatBossOrDungeonDropText(firstDrop.unit_name, percent);
+
+  if (!text) {
+    return null;
+  }
 
   if (validDrops.length === 1) {
     return {
       kind: "drop",
-      text: `${percent} chance to drop from ${firstDrop.unit_name}.`,
+      text,
       link: null
     };
   }
@@ -687,7 +734,7 @@ function formatDropSource(drops) {
   const names = validDrops.map((drop) => drop.unit_name).join(", ");
   return {
     kind: "drop",
-    text: `${percent} chance to drop from ${names}.`,
+    text: formatBossOrDungeonDropText(names, percent),
     link: null
   };
 }
@@ -697,21 +744,119 @@ function formatAchievementSource(achievements) {
     return null;
   }
 
-  const names = achievements.map((achievement) => achievement.name);
+  const [first] = achievements;
+  const name = String(first?.name ?? "").trim();
+  if (!name) {
+    return null;
+  }
 
-  if (names.length === 1) {
+  const description = String(first?.description ?? "").trim().replace(/\.$/, "");
+  return {
+    kind: "achievement",
+    text: description ? `Achievement: ${name}, ${description}.` : `Achievement: ${name}`,
+    link: null
+  };
+}
+
+function formatChestSourceText(text) {
+  const raw = String(text ?? "").trim();
+  if (!raw) {
+    return "Chest";
+  }
+
+  const patterns = [
+    /found in vault chest in\s+(.+?)\.?$/i,
+    /found in world chest in\s+(.+?)\.?$/i,
+    /found in a chest at\s+(.+?)\.?$/i,
+    /found in a\s+(.+?)\s+vault chest\.?$/i,
+    /found in\s+(.+?)\.?$/i
+  ];
+
+  for (const pattern of patterns) {
+    const match = raw.match(pattern);
+    if (match?.[1]) {
+      return `Chest, ${match[1].trim().replace(/\.$/, "")}`;
+    }
+  }
+
+  if (/^chest\b/i.test(raw)) {
+    return raw.replace(/^chest\b/i, "Chest");
+  }
+
+  return `Chest, ${raw.replace(/\.$/, "")}`;
+}
+
+function polishMountGliderDropText(text) {
+  const raw = String(text ?? "").trim();
+  if (!raw) {
+    return raw;
+  }
+
+  const bossDungeonMatch = raw.match(/^(Boss|Dungeon)\s+(.+?)(?:\s·\s([\d.]+%))?$/i);
+  if (bossDungeonMatch) {
+    const kind = /^dungeon$/i.test(bossDungeonMatch[1]) ? "Dungeon" : "Boss";
+    const name = bossDungeonMatch[2].trim();
+    const percent = bossDungeonMatch[3] ? normalizePercentLabel(bossDungeonMatch[3]) : null;
+    return percent ? `${kind} ${name} · ${percent}` : `${kind} ${name}`;
+  }
+
+  const chanceMatch = raw.match(/^([\d.]+%)\s*chance to drop from\s+(.+?)\.?$/i);
+  if (chanceMatch) {
+    return formatBossOrDungeonDropText(chanceMatch[2], normalizePercentLabel(chanceMatch[1]));
+  }
+
+  if (/^dungeon\b/i.test(raw)) {
+    return raw.replace(/^dungeon\s+/i, "Dungeon ").replace(/\.$/, "");
+  }
+
+  return raw;
+}
+
+function polishMountGliderAchievementText(text, achievements = []) {
+  const raw = String(text ?? "").trim();
+  const nameMatch = raw.match(/reward from achievements?:\s*(.+?)\.?$/i);
+  const name = (nameMatch?.[1] ?? "").trim();
+  if (!name) {
+    return raw.startsWith("Achievement:") ? raw : raw;
+  }
+
+  const matched =
+    achievements.find((achievement) => String(achievement?.name ?? "").trim().toLowerCase() === name.toLowerCase()) ??
+    achievements[0];
+  const description = String(matched?.description ?? "").trim().replace(/\.$/, "");
+
+  return description ? `Achievement: ${name}, ${description}.` : `Achievement: ${name}`;
+}
+
+function polishMountGliderSource(source, item) {
+  if (!source || typeof source !== "object") {
+    return source;
+  }
+
+  const kind = String(source.kind ?? "").toLowerCase();
+
+  if (kind === "drop") {
     return {
-      kind: "achievement",
-      text: `Reward from achievement: ${names[0]}.`,
-      link: null
+      ...source,
+      text: polishMountGliderDropText(source.text)
     };
   }
 
-  return {
-    kind: "achievement",
-    text: `Reward from achievements: ${names.join(" / ")}.`,
-    link: null
-  };
+  if (kind === "achievement") {
+    return {
+      ...source,
+      text: polishMountGliderAchievementText(source.text, item?.achievements)
+    };
+  }
+
+  if (kind === "chest") {
+    return {
+      ...source,
+      text: formatChestSourceText(source.text)
+    };
+  }
+
+  return source;
 }
 
 function formatShopSource(shops) {
@@ -769,7 +914,7 @@ function resolveMountGliderSources(item) {
 
 function enrichMountGliderItem(item) {
   const override = MOUNT_GLIDER_SOURCE_OVERRIDES[item.name];
-  const sources = resolveMountGliderSources(item);
+  const sources = resolveMountGliderSources(item).map((source) => polishMountGliderSource(source, item));
 
   return {
     ...item,
@@ -780,6 +925,14 @@ function enrichMountGliderItem(item) {
 }
 
 function enrichCompanionItem(item) {
+  if (COMPANION_UNAVAILABLE.has(item.name)) {
+    return {
+      ...item,
+      sources: [{ kind: "upcoming", text: UNAVAILABLE_NOTE, link: null }],
+      inGame: false
+    };
+  }
+
   if (hasReliableSource(item.sources)) {
     return item;
   }

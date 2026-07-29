@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { assetPath } from "../../shared/utils/assets";
+import { WeaponUpgradePips } from "../../components/WeaponUpgradePips";
 import { filterItemsByCharacterClass } from "../../shared/utils/characterClass";
 import {
   EQUIPMENT_LAYOUT,
@@ -610,23 +611,11 @@ function ItemConfigCard({
           ) : null}
 
           {showUpgrades ? (
-            <label className="eq-item-config-slider-field">
-              <span className="eq-item-config-field-head">
-                Upgrade
-                <strong>
-                  ★{usedUpgradeLevel} / {maxUpgrades}
-                </strong>
-              </span>
-              <input
-                type="range"
-                min="0"
-                max={maxUpgrades}
-                step="1"
-                value={Math.min(usedUpgradeLevel, maxUpgrades)}
-                aria-label="Upgrade"
-                onChange={(event) => onChangeUpgradeLevel(Number(event.target.value))}
-              />
-            </label>
+            <WeaponUpgradePips
+              value={usedUpgradeLevel}
+              max={maxUpgrades}
+              onChange={onChangeUpgradeLevel}
+            />
           ) : null}
 
           {adornmentFields.map((field) => {
@@ -667,7 +656,11 @@ function ItemConfigCard({
                     ? characterClassName
                       ? `3 options for ${characterClassName}`
                       : "Select from catalog"
-                    : "Select from catalog"}
+                    : field.key === "cursed"
+                      ? "±20 Rare / ±40 Epic conversions"
+                      : field.key === "enchantmentWeapon"
+                        ? "Weapon magic formula"
+                        : "Select from catalog"}
                 </small>
               </label>
             );

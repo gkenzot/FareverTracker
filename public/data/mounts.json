@@ -38,7 +38,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from High Inquisitor Chakram",
+          "text": "Boss High Inquisitor Chakram · 1%",
           "link": "creatures/high-inquisitor-chakram"
         }
       ],
@@ -81,7 +81,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Bestiary of Valley of Eternal Autumn.",
+          "text": "Achievement: Bestiary of Valley of Eternal Autumn, Complete all codex entries in Valley of Eternal Autumn.",
           "link": null
         }
       ],
@@ -194,87 +194,87 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crab",
+          "text": "Boss Crab · 0.1%",
           "link": "creatures/crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fiddler Crab",
+          "text": "Boss Fiddler Crab · 0.1%",
           "link": "creatures/fiddler-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Snapping Crab",
+          "text": "Boss Snapping Crab · 0.1%",
           "link": "creatures/snapping-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Crab",
+          "text": "Boss Sparkling Crab · 0.1%",
           "link": "creatures/sparkling-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Solist Crab",
+          "text": "Boss Solist Crab · 0.1%",
           "link": "creatures/solist-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Krabby Jacob",
+          "text": "Boss Krabby Jacob · 0.1%",
           "link": "creatures/krabby-jacob"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crab of the Lost City",
+          "text": "Boss Crab of the Lost City · 0.1%",
           "link": "creatures/crab-of-the-lost-city"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Snapping Invoked Crab",
+          "text": "Boss Snapping Invoked Crab · 0.1%",
           "link": "creatures/snapping-invoked-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Virtuoso Invoked Crab",
+          "text": "Boss Virtuoso Invoked Crab · 0.1%",
           "link": "creatures/virtuoso-invoked-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Abyssal Crab",
+          "text": "Boss Abyssal Crab · 0.1%",
           "link": "creatures/abyssal-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Ruins Crab",
+          "text": "Boss Ruins Crab · 0.1%",
           "link": "creatures/ruins-crab"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Belzebubbles",
+          "text": "Boss Belzebubbles · 0.1%",
           "link": "creatures/belzebubbles"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kraba the Sorceress",
+          "text": "Boss Kraba the Sorceress · 0.1%",
           "link": "creatures/kraba-the-sorceress"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fiddle Crabstro",
+          "text": "Boss Fiddle Crabstro · 0.1%",
           "link": "creatures/fiddle-crabstro"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Crustacean",
+          "text": "Boss Sparkling Crustacean · 0.1%",
           "link": "creatures/sparkling-crustacean"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Carcinos the Proud",
+          "text": "Boss Carcinos the Proud · 0.1%",
           "link": "creatures/carcinos-the-proud"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crabgantua",
+          "text": "Boss Crabgantua · 0.1%",
           "link": "creatures/crabgantua"
         }
       ],
@@ -659,7 +659,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Savior of Skover",
+          "text": "Achievement: Savior of Skover, Complete all the Dungeons in Skover Island.",
           "link": "achievements/savior-of-skover"
         }
       ],
@@ -701,7 +701,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Ride!.",
+          "text": "Achievement: Let's Ride!, Collect 25 mounts.",
           "link": null
         }
       ],
@@ -845,7 +845,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Rootbee Cave",
+          "text": "Chest, Rootbee Cave",
           "link": null
         }
       ],
@@ -970,147 +970,147 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hunter Shepherd",
+          "text": "Boss Hunter Shepherd · 0.1%",
           "link": "creatures/hunter-shepherd"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Soldier",
+          "text": "Boss Crimson Soldier · 0.1%",
           "link": "creatures/crimson-soldier"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Devout Crimson Soldier",
+          "text": "Boss Devout Crimson Soldier · 0.1%",
           "link": "creatures/devout-crimson-soldier"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fervent Crimson Soldier",
+          "text": "Boss Fervent Crimson Soldier · 0.1%",
           "link": "creatures/fervent-crimson-soldier"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Obsessive Crimson Soldier",
+          "text": "Boss Obsessive Crimson Soldier · 0.1%",
           "link": "creatures/obsessive-crimson-soldier"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Archer",
+          "text": "Boss Crimson Archer · 0.1%",
           "link": "creatures/crimson-archer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Observant Crimson Archer",
+          "text": "Boss Observant Crimson Archer · 0.1%",
           "link": "creatures/observant-crimson-archer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sighted Crimson Archer",
+          "text": "Boss Sighted Crimson Archer · 0.1%",
           "link": "creatures/sighted-crimson-archer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Eagle-eyed Crimson Archer",
+          "text": "Boss Eagle-eyed Crimson Archer · 0.1%",
           "link": "creatures/eagle-eyed-crimson-archer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Farmhand",
+          "text": "Boss Crimson Farmhand · 0.1%",
           "link": "creatures/crimson-farmhand"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Celeryman Pumpkintaro",
+          "text": "Boss Celeryman Pumpkintaro · 0.1%",
           "link": "creatures/celeryman-pumpkintaro"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Bucolic Crimson Farmhand",
+          "text": "Boss Bucolic Crimson Farmhand · 0.1%",
           "link": "creatures/bucolic-crimson-farmhand"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Agamemnon",
+          "text": "Boss Crimson Captain Agamemnon · 0.1%",
           "link": "creatures/crimson-captain-agamemnon"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Ram Page",
+          "text": "Boss Ram Page · 0.1%",
           "link": "creatures/ram-page"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Captain Ramshackle",
+          "text": "Boss Captain Ramshackle · 0.1%",
           "link": "creatures/captain-ramshackle"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Captain Wolfram",
+          "text": "Boss Captain Wolfram · 0.1%",
           "link": "creatures/captain-wolfram"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Miranda",
+          "text": "Boss Crimson Captain Miranda · 0.1%",
           "link": "creatures/crimson-captain-miranda"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Sensabille",
+          "text": "Boss Crimson Captain Sensabille · 0.1%",
           "link": "creatures/crimson-captain-sensabille"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Clover",
+          "text": "Boss Crimson Captain Clover · 0.1%",
           "link": "creatures/crimson-captain-clover"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Carmine",
+          "text": "Boss Crimson Captain Carmine · 0.1%",
           "link": "creatures/crimson-captain-carmine"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Hector",
+          "text": "Boss Crimson Captain Hector · 0.1%",
           "link": "creatures/crimson-captain-hector"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Captain Ben",
+          "text": "Boss Crimson Captain Ben · 0.1%",
           "link": "creatures/crimson-captain-ben"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Preacher",
+          "text": "Boss Crimson Preacher · 0.1%",
           "link": "creatures/crimson-preacher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Trained Crimson Preacher",
+          "text": "Boss Trained Crimson Preacher · 0.1%",
           "link": "creatures/trained-crimson-preacher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Shrewd Crimson Geomancer",
+          "text": "Boss Shrewd Crimson Geomancer · 0.1%",
           "link": "creatures/shrewd-crimson-geomancer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crimson Beekeeper",
+          "text": "Boss Crimson Beekeeper · 0.1%",
           "link": "creatures/crimson-beekeeper"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Beekept Crimson",
+          "text": "Boss Beekept Crimson · 0.1%",
           "link": "creatures/beekept-crimson"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from High Inquisitor Chakram",
+          "text": "Boss High Inquisitor Chakram · 0.1%",
           "link": "creatures/high-inquisitor-chakram"
         },
         {
           "kind": "chest",
-          "text": "Found in World Chest in Alkatram",
+          "text": "Chest, Alkatram",
           "link": null
         }
       ],
@@ -1487,7 +1487,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1% chance to drop from Nightking Maat Demon",
+          "text": "Boss Nightking Maat Demon · 1%",
           "link": "creatures/nightking-maat-demon"
         },
         {
@@ -1566,137 +1566,137 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Terror",
+          "text": "Boss Nightling Terror · 0.1%",
           "link": "creatures/nightling-terror"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Slayer",
+          "text": "Boss Nightling Slayer · 0.1%",
           "link": "creatures/nightling-slayer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Nightling Slayer",
+          "text": "Boss Invoked Nightling Slayer · 0.1%",
           "link": "creatures/invoked-nightling-slayer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Ruinbringer",
+          "text": "Boss Nightling Ruinbringer · 0.1%",
           "link": "creatures/nightling-ruinbringer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightlord Asmoderator",
+          "text": "Boss Nightlord Asmoderator · 0.1%",
           "link": "creatures/nightlord-asmoderator"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightlord Naamahs'tea",
+          "text": "Boss Nightlord Naamahs'tea · 0.1%",
           "link": "creatures/nightlord-naamahstea"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Blade",
+          "text": "Boss Nightling Blade · 0.1%",
           "link": "creatures/nightling-blade"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Warbringer",
+          "text": "Boss Nightling Warbringer · 0.1%",
           "link": "creatures/nightling-warbringer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightlord Diabloot",
+          "text": "Boss Nightlord Diabloot · 0.1%",
           "link": "creatures/nightlord-diabloot"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Luciferrari",
+          "text": "Boss Luciferrari · 0.1%",
           "link": "creatures/luciferrari"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Kristian Belial",
+          "text": "Boss Kristian Belial · 0.1%",
           "link": "creatures/kristian-belial"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Baphometal",
+          "text": "Boss Baphometal · 0.1%",
           "link": "creatures/baphometal"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Mortalkombaal",
+          "text": "Boss Mortalkombaal · 0.1%",
           "link": "creatures/mortalkombaal"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightqueen Shaarlize Te'ror",
+          "text": "Boss Nightqueen Shaarlize Te'ror · 0.1%",
           "link": "creatures/nightqueen-shaarlize-teror"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Shaarlize's Guardian",
+          "text": "Boss Shaarlize's Guardian · 0.1%",
           "link": "creatures/shaarlizes-guardian"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightspawn",
+          "text": "Boss Nightspawn · 0.1%",
           "link": "creatures/nightspawn"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Nightspawn",
+          "text": "Boss Invoked Nightspawn · 0.1%",
           "link": "creatures/invoked-nightspawn"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Summoned Nightspawn",
+          "text": "Boss Summoned Nightspawn · 0.1%",
           "link": "creatures/summoned-nightspawn"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Draculag, aspiring Nightgod",
+          "text": "Boss Draculag, aspiring Nightgod · 0.1%",
           "link": "creatures/draculag-aspiring-nightgod"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Belzebeat",
+          "text": "Boss Belzebeat · 0.1%",
           "link": "creatures/belzebeat"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Asmodeaf",
+          "text": "Boss Asmodeaf · 0.1%",
           "link": "creatures/asmodeaf"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Subjugator",
+          "text": "Boss Nightling Subjugator · 0.1%",
           "link": "creatures/nightling-subjugator"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lady Zaster",
+          "text": "Boss Lady Zaster · 0.1%",
           "link": "creatures/lady-zaster"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lady Borgild",
+          "text": "Boss Lady Borgild · 0.1%",
           "link": "creatures/lady-borgild"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Nightling Deathbringer",
+          "text": "Boss Nightling Deathbringer · 0.1%",
           "link": "creatures/nightling-deathbringer"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Ariana Grandemon",
+          "text": "Boss Ariana Grandemon · 0.1%",
           "link": "creatures/ariana-grandemon"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lilithium",
+          "text": "Boss Lilithium · 0.1%",
           "link": "creatures/lilithium"
         }
       ],
@@ -2163,7 +2163,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Ride!.",
+          "text": "Achievement: Let's Ride!, Collect 50 mounts.",
           "link": null
         }
       ],
@@ -2231,7 +2231,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Empire State of Faith",
+          "text": "Achievement: Empire State of Faith, Complete all the exploration achievements in Ramburg.",
           "link": null
         }
       ],
@@ -2268,42 +2268,42 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Boar",
+          "text": "Boss Boar · 0.1%",
           "link": "creatures/boar"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Reclusive Boar",
+          "text": "Boss Reclusive Boar · 0.1%",
           "link": "creatures/reclusive-boar"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hermitic Boar",
+          "text": "Boss Hermitic Boar · 0.1%",
           "link": "creatures/hermitic-boar"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Boar",
+          "text": "Boss Sparkling Boar · 0.1%",
           "link": "creatures/sparkling-boar"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Niels Boar",
+          "text": "Boss Niels Boar · 0.1%",
           "link": "creatures/niels-boar"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Boar Burnham",
+          "text": "Boss Boar Burnham · 0.1%",
           "link": "creatures/boar-burnham"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Venerer's Hog",
+          "text": "Boss Venerer's Hog · 0.1%",
           "link": "creatures/venerers-hog"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Crocoboar",
+          "text": "Boss Crocoboar · 0.1%",
           "link": "creatures/crocoboar"
         }
       ],
@@ -2434,7 +2434,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Crabgantua.",
+          "text": "Boss Crabgantua · 1%",
           "link": null
         }
       ],
@@ -2522,7 +2522,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Lady Bee.",
+          "text": "Boss Lady Bee · 1%",
           "link": null
         }
       ],
@@ -2596,77 +2596,77 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Snow Leopard",
+          "text": "Boss Snow Leopard · 0.1%",
           "link": "creatures/snow-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Cave Leopard",
+          "text": "Boss Cave Leopard · 0.1%",
           "link": "creatures/cave-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Cliff Leopard",
+          "text": "Boss Cliff Leopard · 0.1%",
           "link": "creatures/cliff-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Rock Leopard",
+          "text": "Boss Rock Leopard · 0.1%",
           "link": "creatures/rock-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Volcano Leopard",
+          "text": "Boss Volcano Leopard · 0.1%",
           "link": "creatures/volcano-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hill Leopard",
+          "text": "Boss Hill Leopard · 0.1%",
           "link": "creatures/hill-leopard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Wolf",
+          "text": "Boss Wolf · 0.1%",
           "link": "creatures/wolf"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Alpha Wolf",
+          "text": "Boss Alpha Wolf · 0.1%",
           "link": "creatures/alpha-wolf"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Fangandog",
+          "text": "Boss Fangandog · 0.1%",
           "link": "creatures/fangandog"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Carmine Hound",
+          "text": "Boss Carmine Hound · 0.1%",
           "link": "creatures/carmine-hound"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Bloodred Hound",
+          "text": "Boss Bloodred Hound · 0.1%",
           "link": "creatures/bloodred-hound"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Dogma",
+          "text": "Boss Dogma · 0.1%",
           "link": "creatures/dogma"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Coyote",
+          "text": "Boss Coyote · 0.1%",
           "link": "creatures/coyote"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Starving Coyote",
+          "text": "Boss Starving Coyote · 0.1%",
           "link": "creatures/starving-coyote"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Coyote",
+          "text": "Boss Sparkling Coyote · 0.1%",
           "link": "creatures/sparkling-coyote"
         }
       ],
@@ -2993,7 +2993,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: City Cleaner",
+          "text": "Achievement: City Cleaner, Complete all the Dungeons in Ramburg.",
           "link": "achievements/city-cleaner"
         }
       ],
@@ -3168,7 +3168,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Queen Honeyzabeth.",
+          "text": "Boss Queen Honeyzabeth · 1%",
           "link": null
         }
       ],
@@ -3211,7 +3211,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Valley of the Eternal Dungeons",
+          "text": "Achievement: Valley of the Eternal Dungeons, Complete all the Dungeons in Valley of Eternal Autumn.",
           "link": "achievements/valley-of-the-eternal-dungeons"
         }
       ],
@@ -3248,7 +3248,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in a Ramburg Vault Chest",
+          "text": "Chest, Ramburg",
           "link": null
         }
       ],
@@ -3279,27 +3279,27 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Skunk",
+          "text": "Boss Skunk · 0.1%",
           "link": "creatures/skunk"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Unpopular Skunk",
+          "text": "Boss Unpopular Skunk · 0.1%",
           "link": "creatures/unpopular-skunk"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Skunk",
+          "text": "Boss Sparkling Skunk · 0.1%",
           "link": "creatures/sparkling-skunk"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Skunk",
+          "text": "Boss Invoked Skunk · 0.1%",
           "link": "creatures/invoked-skunk"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Unpopular Invoked Skunk",
+          "text": "Boss Unpopular Invoked Skunk · 0.1%",
           "link": "creatures/unpopular-invoked-skunk"
         }
       ],
@@ -3386,7 +3386,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: City Cleaner",
+          "text": "Achievement: City Cleaner, Complete all the Dungeons in CrimsonIsland_Region.",
           "link": null
         }
       ],
@@ -3423,7 +3423,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Empire State of Faith",
+          "text": "Achievement: Empire State of Faith, Complete all the exploration achievements in Ramburg.",
           "link": "achievements/empire-state-of-faith"
         }
       ],
@@ -3460,7 +3460,7 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "1.0000% chance to drop from Munster Chuck.",
+          "text": "Boss Munster Chuck · 1%",
           "link": null
         }
       ],
@@ -3503,7 +3503,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Bestiary of Ramburg",
+          "text": "Achievement: Bestiary of Ramburg, Complete all codex entries in Ramburg.",
           "link": null
         }
       ],
@@ -3571,7 +3571,7 @@
       "sources": [
         {
           "kind": "chest",
-          "text": "Found in Vault Chest in Florin Hill",
+          "text": "Chest, Florin Hill",
           "link": null
         }
       ],
@@ -3645,7 +3645,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Valley of the Eternal Exploration",
+          "text": "Achievement: Valley of the Eternal Exploration, Complete all the exploration achievements in Valley of Eternal Autumn.",
           "link": "achievements/valley-of-the-eternal-exploration"
         }
       ],
@@ -3744,7 +3744,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: A Great Diskovery",
+          "text": "Achievement: A Great Diskovery, Complete all the exploration achievements in Skover Island.",
           "link": "achievements/a-great-diskovery"
         }
       ],
@@ -3781,7 +3781,7 @@
       "sources": [
         {
           "kind": "achievement",
-          "text": "Reward from achievement: Let's Ride!.",
+          "text": "Achievement: Let's Ride!, Collect 10 mounts.",
           "link": null
         }
       ],
@@ -3849,217 +3849,217 @@
       "sources": [
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Apix Harvester",
+          "text": "Boss Apix Harvester · 0.1%",
           "link": "creatures/apix-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Bibulous Apix Harvester",
+          "text": "Boss Bibulous Apix Harvester · 0.1%",
           "link": "creatures/bibulous-apix-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Tipsy Apix Harvester",
+          "text": "Boss Tipsy Apix Harvester · 0.1%",
           "link": "creatures/tipsy-apix-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hivetree Harvester",
+          "text": "Boss Hivetree Harvester · 0.1%",
           "link": "creatures/hivetree-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Harvester",
+          "text": "Boss Sparkling Harvester · 0.1%",
           "link": "creatures/sparkling-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Beelial",
+          "text": "Boss Beelial · 0.1%",
           "link": "creatures/beelial"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Bibulous Invoked Harvester",
+          "text": "Boss Bibulous Invoked Harvester · 0.1%",
           "link": "creatures/bibulous-invoked-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Intoxicated Apix Harvester",
+          "text": "Boss Intoxicated Apix Harvester · 0.1%",
           "link": "creatures/intoxicated-apix-harvester"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Blackbird Harpy",
+          "text": "Boss Blackbird Harpy · 0.1%",
           "link": "creatures/blackbird-harpy"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Apix Watcher",
+          "text": "Boss Apix Watcher · 0.1%",
           "link": "creatures/apix-watcher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hivetree Watcher",
+          "text": "Boss Hivetree Watcher · 0.1%",
           "link": "creatures/hivetree-watcher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Honey Mucha",
+          "text": "Boss Honey Mucha · 0.1%",
           "link": "creatures/honey-mucha"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Overzealous Apix Watcher",
+          "text": "Boss Overzealous Apix Watcher · 0.1%",
           "link": "creatures/overzealous-apix-watcher"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Apix Builder",
+          "text": "Boss Apix Builder · 0.1%",
           "link": "creatures/apix-builder"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Sparkling Builder",
+          "text": "Boss Sparkling Builder · 0.1%",
           "link": "creatures/sparkling-builder"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Hivetree Builder",
+          "text": "Boss Hivetree Builder · 0.1%",
           "link": "creatures/hivetree-builder"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Overworked Apix Builder",
+          "text": "Boss Overworked Apix Builder · 0.1%",
           "link": "creatures/overworked-apix-builder"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Overworked Invoked Builder",
+          "text": "Boss Overworked Invoked Builder · 0.1%",
           "link": "creatures/overworked-invoked-builder"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Apix Royal Guard",
+          "text": "Boss Apix Royal Guard · 0.1%",
           "link": "creatures/apix-royal-guard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Royal Guard of the Hivetree",
+          "text": "Boss Royal Guard of the Hivetree · 0.1%",
           "link": "creatures/royal-guard-of-the-hivetree"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Honey Zucca",
+          "text": "Boss Honey Zucca · 0.1%",
           "link": "creatures/honey-zucca"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Royal Guard",
+          "text": "Boss Invoked Royal Guard · 0.1%",
           "link": "creatures/invoked-royal-guard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Overqualified Apix Royal Guard",
+          "text": "Boss Overqualified Apix Royal Guard · 0.1%",
           "link": "creatures/overqualified-apix-royal-guard"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Bartlebee",
+          "text": "Boss Bartlebee · 0.1%",
           "link": "creatures/bartlebee"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Left Wing",
+          "text": "Boss Left Wing · 0.1%",
           "link": "creatures/left-wing"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Right Wing",
+          "text": "Boss Right Wing · 0.1%",
           "link": "creatures/right-wing"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Apix Defender",
+          "text": "Boss Apix Defender · 0.1%",
           "link": "creatures/apix-defender"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Overprotective Apix Defender",
+          "text": "Boss Overprotective Apix Defender · 0.1%",
           "link": "creatures/overprotective-apix-defender"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Invoked Defender",
+          "text": "Boss Invoked Defender · 0.1%",
           "link": "creatures/invoked-defender"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Notorious Bee",
+          "text": "Boss Notorious Bee · 0.1%",
           "link": "creatures/notorious-bee"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Blackbird Volture",
+          "text": "Boss Blackbird Volture · 0.1%",
           "link": "creatures/blackbird-volture"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Gatsbee",
+          "text": "Boss Gatsbee · 0.1%",
           "link": "creatures/gatsbee"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Lady Bee",
+          "text": "Boss Lady Bee · 0.1%",
           "link": "creatures/lady-bee"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Chamber Guardian",
+          "text": "Boss Chamber Guardian · 0.1%",
           "link": "creatures/chamber-guardian"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Egglektra",
+          "text": "Boss Egglektra · 0.1%",
           "link": "creatures/egglektra"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Queen Honeyzabeth",
+          "text": "Boss Queen Honeyzabeth · 0.1%",
           "link": "creatures/queen-honeyzabeth"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Champion's Chrysalid",
+          "text": "Boss Champion's Chrysalid · 0.1%",
           "link": "creatures/champions-chrysalid"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Prince Beelliams",
+          "text": "Boss Prince Beelliams · 0.1%",
           "link": "creatures/prince-beelliams"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Prince Beeter",
+          "text": "Boss Prince Beeter · 0.1%",
           "link": "creatures/prince-beeter"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Princess Beeatrice",
+          "text": "Boss Princess Beeatrice · 0.1%",
           "link": "creatures/princess-beeatrice"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Feeder Bee",
+          "text": "Boss Feeder Bee · 0.1%",
           "link": "creatures/feeder-bee"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Honey Cannon",
+          "text": "Boss Honey Cannon · 0.1%",
           "link": "creatures/honey-cannon"
         },
         {
           "kind": "drop",
-          "text": "0.1% chance to drop from Cannon Plant",
+          "text": "Boss Cannon Plant · 0.1%",
           "link": "creatures/cannon-plant"
         }
       ],

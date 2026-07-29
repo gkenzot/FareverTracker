@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
+import { CollectionIconGrid } from "../../components/CollectionIconGrid";
 import { CollectionTable } from "../../components/CollectionTable";
+import { ColumnSettingsModal } from "../../components/ColumnSettingsModal";
 import { DatabaseToolbar } from "../../components/DatabaseToolbar";
+import { IconViewButton } from "../../components/IconViewButton";
 import { PageShell } from "../../components/PageShell";
 import { fetchJsonData } from "../../shared/utils/dataCache";
-import { PROGRESS_CHANGE_EVENT } from "../../shared/utils/storage";
-import { createCollectionColumns } from "./collectionColumns";
+import { PROGRESS_CHANGE_EVENT, readJsonStorage, writeJsonStorage } from "../../shared/utils/storage";
+import { createCollectionColumns, collectionSupportsGearTooltip } from "./collectionColumns";
 import { filterItems, sortItems } from "./collectionFilters";
 import { createMissingItems } from "./collectionModes";
 
@@ -13,6 +16,16 @@ const defaultViewState = {
   columnFilters: {},
   sortConfig: { key: "missingCount", direction: "desc" }
 };
+
+const DEFAULT_ICON_VIEW = { enabled: false };
+const ICON_VIEW_STORAGE_KEY = "farever-check:icon-view-missing-all";
+
+function readIconView() {
+  const stored = readJsonStorage(ICON_VIEW_STORAGE_KEY, DEFAULT_ICON_VIEW) ?? {};
+  return {
+    enabled: Boolean(stored.enabled)
+  };
+}
 
 function normalizeColumnOrder(columns, storedOrder) {
   const columnByKey = new Map(columns.map((column) => [column.key, column]));
@@ -28,7 +41,8 @@ function createAllMissingColumns() {
     statusMode: "missing",
     propertyFields: [],
     showItemLevel: true,
-    showSpeed: false
+    showSpeed: false,
+    showGearTooltip: (item) => collectionSupportsGearTooltip(item.collectionKey)
   });
   const collectionColumn = {
     key: "collection",
@@ -109,6 +123,8 @@ export function AllMissingPage({
   const [viewState, setViewState] = useState(defaultViewState);
   const [columnOrderKeys, setColumnOrderKeys] = useState([]);
   const [hiddenColumnKeys, setHiddenColumnKeys] = useState([]);
+  const [isColumnSettingsOpen, setIsColumnSettingsOpen] = useState(false);
+  const [iconView, setIconView] = useState(readIconView);
   const [progressToken, setProgressToken] = useState(0);
   const { query, columnFilters, sortConfig } = viewState;
 
@@ -233,9 +249,32 @@ export function AllMissingPage({
     setColumnOrderKeys(nextColumns.map((column) => column.key));
   }
 
+  function updateIconView(enabled) {
+    const next = { enabled: Boolean(enabled) };
+    writeJsonStorage(ICON_VIEW_STORAGE_KEY, next);
+    setIconView(next);
+  }
+
   return (
     <PageShell
       title="Missing"
+      headingActions={
+        <>
+          <IconViewButton
+            enabled={iconView.enabled}
+            onToggle={() => updateIconView(!iconView.enabled)}
+          />
+          <button
+            className={`page-settings-button ${isColumnSettingsOpen ? "active" : ""}`}
+            type="button"
+            onClick={() => setIsColumnSettingsOpen(true)}
+            title="Configure columns"
+            aria-label="Configure columns"
+          >
+            settings
+          </button>
+        </>
+      }
       stat={{
         current: dashboardStats.current,
         total: dashboardStats.total,
@@ -256,33 +295,47 @@ export function AllMissingPage({
       <DatabaseToolbar
         query={query}
         onQueryChange={(nextQuery) => updateViewState((current) => ({ ...current, query: nextQuery }))}
-        columns={orderedColumns}
-        hiddenColumnKeys={hiddenColumnKeys}
-        onToggleColumn={toggleColumnVisibility}
-        onReorderColumn={reorderColumn}
-        onShowAllColumns={() => setHiddenColumnKeys([])}
-        menuResetKey="missing"
       />
 
       {loading ? <p className="state">Loading missing items...</p> : null}
       {error ? <p className="state error">{error}</p> : null}
 
       {!loading && !error ? (
-        <CollectionTable
-          columns={visibleColumns}
-          items={visibleItems}
-          getRowKey={(item) => item.rowKey}
-          getRowClassName={(item) => ((item.missingCount ?? 0) === 0 ? "is-collected" : "")}
-          sortConfig={sortConfig}
-          onSort={(key, direction = "asc") =>
-            updateViewState((current) => ({ ...current, sortConfig: { key, direction } }))
-          }
-          columnFilters={effectiveColumnFilters}
-          filterOptions={filterOptions}
-          onFilterChange={updateColumnFilter}
-          emptyMessage="No missing items found with the current filters."
-        />
+        iconView.enabled ? (
+          <CollectionIconGrid
+            items={visibleItems}
+            getRowKey={(item) => item.rowKey}
+            isCollected={(item) => (item.missingCount ?? 0) === 0}
+            showGearTooltip={(item) => collectionSupportsGearTooltip(item.collectionKey)}
+            emptyMessage="No missing items found with the current filters."
+          />
+        ) : (
+          <CollectionTable
+            columns={visibleColumns}
+            items={visibleItems}
+            getRowKey={(item) => item.rowKey}
+            getRowClassName={(item) => ((item.missingCount ?? 0) === 0 ? "is-collected" : "")}
+            sortConfig={sortConfig}
+            onSort={(key, direction = "asc") =>
+              updateViewState((current) => ({ ...current, sortConfig: { key, direction } }))
+            }
+            columnFilters={effectiveColumnFilters}
+            filterOptions={filterOptions}
+            onFilterChange={updateColumnFilter}
+            emptyMessage="No missing items found with the current filters."
+          />
+        )
       ) : null}
+
+      <ColumnSettingsModal
+        open={isColumnSettingsOpen}
+        onClose={() => setIsColumnSettingsOpen(false)}
+        columns={orderedColumns}
+        hiddenColumnKeys={hiddenColumnKeys}
+        onToggleColumn={toggleColumnVisibility}
+        onReorderColumn={reorderColumn}
+        onShowAllColumns={() => setHiddenColumnKeys([])}
+      />
     </PageShell>
   );
 }

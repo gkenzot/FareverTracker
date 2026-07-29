@@ -3,7 +3,8 @@ export const STORAGE_KEYS = {
   characters: "farever-check:characters",
   dashboardSettings: "farever-check:dashboard-settings",
   hiddenCharacterMenus: "farever-check:hidden-character-menus",
-  characterBuild: "farever-check:character-build"
+  characterBuild: "farever-check:character-build",
+  tradeLists: "farever-check:trade-lists"
 };
 
 export function getCharacterStorageKey(storageKey, characterId) {

@@ -21,6 +21,7 @@ function DashboardRow({ collection }) {
 
 export function PageShell({
   title,
+  headingActions = null,
   stat,
   navigation,
   actions,
@@ -101,6 +102,7 @@ export function PageShell({
         <main className="content-shell">
           <section className="page-heading">
             <h1>{title}</h1>
+            {headingActions ? <div className="page-heading-actions">{headingActions}</div> : null}
           </section>
 
           {children}

@@ -15,6 +15,7 @@ import {
   isMissingCollectionPage
 } from "./features/collections/collectionRegistry";
 import { BuildLabPage } from "./features/builds/BuildLabPage";
+import { TradePage } from "./features/trade/TradePage";
 import { DashboardSettingsPage } from "./features/dashboard/DashboardSettingsPage";
 import { HomeDashboardPage } from "./features/dashboard/HomeDashboardPage";
 import { useDashboardSettings } from "./shared/hooks/useDashboardSettings";
@@ -69,11 +70,12 @@ export default function App() {
   const isDashboardSettingsPage = activePage === "dashboard-settings";
   const isHomePage = activePage === "home";
   const isBuildLabPage = activePage === "build-lab";
+  const isTradePage = activePage === "trade";
   const isAllMissingPage = isAllMissingPageKey(activePage);
   const isMissingPage = isMissingCollectionPage(activePage);
   const activeCollectionKey = getCollectionKeyFromPage(activePage);
   const activeConfig =
-    isCharacterManagerPage || isDashboardSettingsPage || isHomePage || isBuildLabPage || isAllMissingPage
+    isCharacterManagerPage || isDashboardSettingsPage || isHomePage || isBuildLabPage || isTradePage || isAllMissingPage
       ? null
       : collectionConfigs[activeCollectionKey];
   const accountCollectionKeys = getAccountCollectionKeys(collectionConfigs, collectionOrder);
@@ -298,6 +300,9 @@ export default function App() {
         >
           Build
         </button>
+        <button className={isTradePage ? "active" : ""} type="button" onClick={() => setActivePage("trade")}>
+          Trade
+        </button>
       </div>
       <div className="side-section">
         <button
@@ -398,6 +403,22 @@ export default function App() {
         onOpenCollection={openCollectionPage}
         showImportPrompt={!hasSavedAppState}
         onOpenImport={() => setActivePage("characters")}
+      />
+    );
+  }
+
+  if (isTradePage) {
+    return (
+      <TradePage
+        characters={characters}
+        activeCharacterId={activeCharacterId || characters[0]?.id || ""}
+        dashboardStats={dashboardStats}
+        navigation={navigation}
+        hiddenCharacterMenus={hiddenCharacterMenus}
+        isDashboardSettingsPage={isDashboardSettingsPage}
+        onOpenHome={openHomePage}
+        onOpenDashboardSettings={() => setActivePage("dashboard-settings")}
+        onToggleCharacterMenu={toggleCharacterMenu}
       />
     );
   }

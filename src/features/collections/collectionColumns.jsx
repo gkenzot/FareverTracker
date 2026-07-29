@@ -1,15 +1,46 @@
+import { useState } from "react";
+import { GearItemHoverTooltip } from "../../components/GearItemHoverTooltip";
 import { sourceLabels } from "../../shared/constants/sourceLabels";
 import { OWNED_WEAPON_RARITIES } from "../../shared/constants/weaponStatus";
 import { assetPath } from "../../shared/utils/assets";
 import { getPrimarySource, sourceText } from "../../shared/utils/collection";
+import { collectionSupportsGearTooltip } from "../../shared/utils/gearTooltip";
 
-function ItemNameCell({ item }) {
+export { collectionSupportsGearTooltip };
+
+function ItemNameCell({ item, showGearTooltip = false }) {
+  const [tooltip, setTooltip] = useState(null);
+  const enableTooltip = Boolean(
+    showGearTooltip === true
+      ? true
+      : typeof showGearTooltip === "function"
+        ? showGearTooltip(item)
+        : false
+  );
+
+  const iconHoverProps = enableTooltip
+    ? {
+        onMouseEnter: (event) => setTooltip({ x: event.clientX, y: event.clientY }),
+        onMouseMove: (event) => setTooltip({ x: event.clientX, y: event.clientY }),
+        onMouseLeave: () => setTooltip(null)
+      }
+    : {};
+
   return (
     <div className="name-cell">
       {item.iconPath ? (
-        <img className="mount-icon" src={assetPath(item.iconPath)} alt="" loading="lazy" />
+        <img
+          className={`mount-icon ${enableTooltip ? "mount-icon--hoverable" : ""}`}
+          src={assetPath(item.iconPath)}
+          alt=""
+          loading="lazy"
+          {...iconHoverProps}
+        />
       ) : (
-        <span className="mount-icon mount-icon--empty" />
+        <span
+          className={`mount-icon mount-icon--empty ${enableTooltip ? "mount-icon--hoverable" : ""}`}
+          {...iconHoverProps}
+        />
       )}
       <div className="name-text">
         <a className="mount-name" href={item.pageUrl} target="_blank" rel="noreferrer" title={item.name}>
@@ -17,6 +48,7 @@ function ItemNameCell({ item }) {
         </a>
         <span className="mount-id">{item.id}</span>
       </div>
+      {enableTooltip && tooltip ? <GearItemHoverTooltip item={item} x={tooltip.x} y={tooltip.y} /> : null}
     </div>
   );
 }
@@ -59,6 +91,7 @@ export function createCollectionColumns({
   showSpeed = true,
   showAvailability = false,
   showWeaponStatus = false,
+  showGearTooltip = false,
   getWeaponStatus = () => "",
   onWeaponStatusChange = () => {}
 }) {
@@ -105,7 +138,7 @@ export function createCollectionColumns({
       filterable: true,
       widthClassName: "name-col",
       getFilterValue: (item) => item.name ?? "",
-      render: (item) => <ItemNameCell item={item} />
+      render: (item) => <ItemNameCell item={item} showGearTooltip={showGearTooltip} />
     }
   ];
 

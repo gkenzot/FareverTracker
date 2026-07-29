@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState, useCallback } from "react";
+import { CollectionIconGrid } from "../../components/CollectionIconGrid";
 import { CollectionTable } from "../../components/CollectionTable";
+import { ColumnSettingsModal } from "../../components/ColumnSettingsModal";
 import { DatabaseToolbar } from "../../components/DatabaseToolbar";
+import { IconViewButton } from "../../components/IconViewButton";
 import { PageShell } from "../../components/PageShell";
 import { useCollectionData } from "../../shared/hooks/useCollectionData";
 import { useLocalSet } from "../../shared/hooks/useLocalSet";
@@ -15,7 +18,7 @@ import { getPrepareOptions } from "../../shared/utils/collectionSettings";
 import { PROGRESS_CHANGE_EVENT, readJsonStorage, writeJsonStorage } from "../../shared/utils/storage";
 import { getCharacterStorageKey } from "../../shared/constants/storageKeys";
 import { catalogRarityToWeaponStatus } from "../../shared/constants/weaponStatus";
-import { createCollectionColumns } from "./collectionColumns";
+import { createCollectionColumns, collectionSupportsGearTooltip } from "./collectionColumns";
 import { filterValues, getVisiblePropertyFields } from "./collectionFields";
 import { filterItems, sortItems } from "./collectionFilters";
 import { createMissingItems } from "./collectionModes";
@@ -28,6 +31,20 @@ function getHiddenColumnsStorageKey(collectionKey, missingMode) {
 function getColumnOrderStorageKey(collectionKey, missingMode) {
   const mode = missingMode ? "missing" : "collection";
   return `farever-check:column-order-${mode}-${collectionKey}`;
+}
+
+function getIconViewStorageKey(collectionKey, missingMode) {
+  const mode = missingMode ? "missing" : "collection";
+  return `farever-check:icon-view-${mode}-${collectionKey}`;
+}
+
+const DEFAULT_ICON_VIEW = { enabled: false };
+
+function readIconView(collectionKey, missingMode) {
+  const stored = readJsonStorage(getIconViewStorageKey(collectionKey, missingMode), DEFAULT_ICON_VIEW) ?? {};
+  return {
+    enabled: Boolean(stored.enabled)
+  };
 }
 
 function readHiddenColumnKeys(collectionKey, missingMode) {
@@ -151,12 +168,18 @@ export function CollectionPage({
   const [viewState, setViewState] = useState(() => readViewState(viewStateStorageKey, missingMode, defaultViewState));
   const [hiddenColumnsByCollection, setHiddenColumnsByCollection] = useState({});
   const [columnOrderByCollection, setColumnOrderByCollection] = useState({});
+  const [isColumnSettingsOpen, setIsColumnSettingsOpen] = useState(false);
+  const [iconView, setIconView] = useState(() => readIconView(config.key, missingMode));
   const [progressToken, setProgressToken] = useState(0);
   const { query, columnFilters, sortConfig } = viewState;
 
   useEffect(() => {
     setViewState(readViewState(viewStateStorageKey, missingMode, defaultViewState));
   }, [defaultViewState, viewStateStorageKey, missingMode]);
+
+  useEffect(() => {
+    setIconView(readIconView(config.key, missingMode));
+  }, [config.key, missingMode]);
 
   useEffect(() => {
     function refreshProgress() {
@@ -210,11 +233,13 @@ export function CollectionPage({
         showSpeed: config.showSpeed ?? true,
         showAvailability: config.showAvailability ?? false,
         showWeaponStatus: Boolean(weaponStatusStorageKey),
+        showGearTooltip: collectionSupportsGearTooltip(config.key),
         getWeaponStatus,
         onWeaponStatusChange: setWeaponStatus
       }),
     [
       collected,
+      config.key,
       config.showAvailability,
       config.showItemLevel,
       config.showSpeed,
@@ -366,9 +391,32 @@ export function CollectionPage({
     persistHiddenColumnKeys([]);
   }
 
+  function updateIconView(enabled) {
+    const next = { enabled: Boolean(enabled) };
+    writeJsonStorage(getIconViewStorageKey(config.key, missingMode), next);
+    setIconView(next);
+  }
+
   return (
     <PageShell
       title={pageTitle ?? config.title}
+      headingActions={
+        <>
+          <IconViewButton
+            enabled={iconView.enabled}
+            onToggle={() => updateIconView(!iconView.enabled)}
+          />
+          <button
+            className={`page-settings-button ${isColumnSettingsOpen ? "active" : ""}`}
+            type="button"
+            onClick={() => setIsColumnSettingsOpen(true)}
+            title="Configure columns"
+            aria-label="Configure columns"
+          >
+            settings
+          </button>
+        </>
+      }
       stat={{
         current: dashboardStats.current,
         total: dashboardStats.total,
@@ -386,40 +434,54 @@ export function CollectionPage({
       onToggleCharacterMenu={onToggleCharacterMenu}
       syncInfo={meta ? `Source: MetaForge · updated ${new Date(meta.importedAt).toLocaleString("en-US")}` : ""}
     >
-      <DatabaseToolbar
-        query={query}
-        onQueryChange={updateQuery}
-        columns={orderedColumns}
-        hiddenColumnKeys={normalizedHiddenColumnKeys}
-        onToggleColumn={toggleColumnVisibility}
-        onReorderColumn={reorderColumn}
-        onShowAllColumns={showAllColumns}
-        menuResetKey={config.key}
-      />
+      <DatabaseToolbar query={query} onQueryChange={updateQuery} />
 
       {loading ? <p className="state">Loading {config.loadingLabel}...</p> : null}
       {error ? <p className="state error">{error}</p> : null}
 
       {!loading && !error ? (
-        <CollectionTable
-          columns={visibleColumns}
-          items={visibleItems}
-          getRowKey={(item) => item.id}
-          getRowClassName={(item) => {
-            if (missingMode) {
-              return (item.missingCount ?? 0) === 0 ? "is-collected" : "";
+        iconView.enabled ? (
+          <CollectionIconGrid
+            items={visibleItems}
+            getRowKey={(item) => item.id}
+            isCollected={(item) =>
+              missingMode ? (item.missingCount ?? 0) === 0 : collected.has(item.id)
             }
+            onToggleCollected={missingMode ? undefined : handleToggleCollected}
+            showGearTooltip={collectionSupportsGearTooltip(config.key)}
+            emptyMessage="No items found with the current filters."
+          />
+        ) : (
+          <CollectionTable
+            columns={visibleColumns}
+            items={visibleItems}
+            getRowKey={(item) => item.id}
+            getRowClassName={(item) => {
+              if (missingMode) {
+                return (item.missingCount ?? 0) === 0 ? "is-collected" : "";
+              }
 
-            return collected.has(item.id) ? "is-collected" : "";
-          }}
-          sortConfig={sortConfig}
-          onSort={updateSort}
-          columnFilters={effectiveColumnFilters}
-          filterOptions={filterOptions}
-          onFilterChange={updateColumnFilter}
-          emptyMessage="No items found with the current filters."
-        />
+              return collected.has(item.id) ? "is-collected" : "";
+            }}
+            sortConfig={sortConfig}
+            onSort={updateSort}
+            columnFilters={effectiveColumnFilters}
+            filterOptions={filterOptions}
+            onFilterChange={updateColumnFilter}
+            emptyMessage="No items found with the current filters."
+          />
+        )
       ) : null}
+
+      <ColumnSettingsModal
+        open={isColumnSettingsOpen}
+        onClose={() => setIsColumnSettingsOpen(false)}
+        columns={orderedColumns}
+        hiddenColumnKeys={normalizedHiddenColumnKeys}
+        onToggleColumn={toggleColumnVisibility}
+        onReorderColumn={reorderColumn}
+        onShowAllColumns={showAllColumns}
+      />
     </PageShell>
   );
 }
