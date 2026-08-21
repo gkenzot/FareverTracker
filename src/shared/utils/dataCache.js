@@ -3,7 +3,7 @@ import { getDataUrl } from "./storage";
 const dataCache = new Map();
 
 /** Bump when public/data catalogs change so SPA clients refetch. */
-export const DATA_CATALOG_REVISION = 3;
+export const DATA_CATALOG_REVISION = 7;
 
 export function fetchJsonData(path, reloadToken = null) {
   const revision = reloadToken ?? DATA_CATALOG_REVISION;

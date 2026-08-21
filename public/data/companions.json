@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/creatures",
-  "importedAt": "2026-07-19T19:02:58.724Z",
+  "importedAt": "2026-08-21T15:04:47.711Z",
   "total": 74,
   "propertyFields": [
     {
@@ -2241,8 +2241,8 @@
       "pageUrl": "https://metaforge.app/farever/database/creatures/yellowrabbits",
       "properties": {
         "subcategory": "Critter",
-        "type": "Critter",
         "level": 100,
+        "type": "Critter",
         "species": "Rabbit",
         "variant": "Yellow"
       },

@@ -10,6 +10,9 @@
  *   node scripts/enrich-gear-stats.mjs --only=jewellery,augments
  */
 import { access, mkdir, readFile, writeFile } from "node:fs/promises";
+import { closeMetaForgeFetch, installCurlFetch } from "./http-fetch.mjs";
+
+installCurlFetch();
 
 const META_FORGE_DATABASE_URL = "https://metaforge.app/farever/database";
 const SIAGARTA_ITEM_URL = "https://siagartadb.info/en/items";
@@ -899,7 +902,11 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main()
+  .catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    closeMetaForgeFetch();
+  });

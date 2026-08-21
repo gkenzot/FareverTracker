@@ -1,5 +1,8 @@
 import { access, mkdir, writeFile } from "node:fs/promises";
 import { withCatalogMaxLevel } from "./gear-catalog-levels.mjs";
+import { closeMetaForgeFetch, installCurlFetch } from "./http-fetch.mjs";
+
+installCurlFetch();
 
 const META_FORGE_DATABASE_URL = "https://metaforge.app/farever/database";
 const ICON_BASE_URL = "https://static.metaforge.app/farever/icons";
@@ -212,10 +215,8 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Niflelian Leggybug",
   "Niflelian Moth",
   "Niflelian Skunk",
-  "Niflelian Wingfish",
   "Obralian Featherbeak",
   "Pink Moth",
-  "Ponogian Crab",
   "Ruleanese Crocoboar",
   "Semeruian Seedbird",
   "Sforian Leggybug",
@@ -278,6 +279,16 @@ const MOUNT_GLIDER_SOURCE_OVERRIDES = {
     kind: "other",
     text: "Mage starter glider (granted at character creation).",
     link: null
+  },
+  "Ponogian Crab": {
+    kind: "drop",
+    text: "Summoned demons · Kristian Belial",
+    link: "creatures/kristian-belial"
+  },
+  "Niflelian Wingfish": {
+    kind: "drop",
+    text: "Summoned demons · Ariana Grandemon",
+    link: "creatures/ariana-grandemon"
   }
 };
 
@@ -697,14 +708,24 @@ function normalizePercentLabel(value) {
   return `${formatted}%`;
 }
 
+function dungeonNameForBoss(name) {
+  const cleanName = String(name ?? "").trim().replace(/\.$/, "");
+  return WEAPON_BOSS_DUNGEONS[cleanName] ?? null;
+}
+
 function formatBossOrDungeonDropText(name, percent) {
   const cleanName = String(name ?? "").trim().replace(/\.$/, "");
   if (!cleanName) {
     return null;
   }
 
-  const isDungeon = /^dungeon\b/i.test(cleanName);
-  const label = isDungeon ? cleanName.replace(/^dungeon\s+/i, "Dungeon ") : `Boss ${cleanName}`;
+  if (/^dungeon\b/i.test(cleanName)) {
+    const label = cleanName.replace(/^dungeon\s+/i, "Dungeon ");
+    return percent ? `${label} · ${percent}` : label;
+  }
+
+  const dungeon = dungeonNameForBoss(cleanName);
+  const label = dungeon ? `Dungeon ${dungeon}` : `Boss ${cleanName}`;
   return percent ? `${label} · ${percent}` : label;
 }
 
@@ -794,10 +815,9 @@ function polishMountGliderDropText(text) {
 
   const bossDungeonMatch = raw.match(/^(Boss|Dungeon)\s+(.+?)(?:\s·\s([\d.]+%))?$/i);
   if (bossDungeonMatch) {
-    const kind = /^dungeon$/i.test(bossDungeonMatch[1]) ? "Dungeon" : "Boss";
     const name = bossDungeonMatch[2].trim();
     const percent = bossDungeonMatch[3] ? normalizePercentLabel(bossDungeonMatch[3]) : null;
-    return percent ? `${kind} ${name} · ${percent}` : `${kind} ${name}`;
+    return formatBossOrDungeonDropText(name, percent);
   }
 
   const chanceMatch = raw.match(/^([\d.]+%)\s*chance to drop from\s+(.+?)\.?$/i);
@@ -1052,7 +1072,26 @@ function simplifyCraftText(text) {
   return match ? `Craft by ${match[1]}` : text;
 }
 
+function rewriteDungeonBossSourceText(text) {
+  const match = String(text).match(/^Boss\s+(.+?)(?:\s·\s([\d.]+%))?$/i);
+  if (!match) {
+    return text;
+  }
+
+  const dungeon = dungeonNameForBoss(match[1]);
+  if (!dungeon) {
+    return text;
+  }
+
+  return match[2] ? `Dungeon ${dungeon} · ${match[2]}` : `Dungeon ${dungeon}`;
+}
+
 function simplifyWeaponDropText(text) {
+  const rewritten = rewriteDungeonBossSourceText(text);
+  if (rewritten !== text) {
+    return rewritten;
+  }
+
   const match = String(text).match(/drop from\s+(.+?)\.?$/i);
 
   if (!match) {
@@ -1060,13 +1099,13 @@ function simplifyWeaponDropText(text) {
   }
 
   const boss = match[1].trim().replace(/\.$/, "");
-  const dungeon = WEAPON_BOSS_DUNGEONS[boss];
+  const dungeon = dungeonNameForBoss(boss);
   return dungeon ? `Dungeon ${dungeon}` : `Dungeon ${boss}`;
 }
 
 function simplifySourceText(source, collectionKey) {
   const kind = source.kind ?? "unknown";
-  const text = source.text ?? "";
+  const text = rewriteDungeonBossSourceText(source.text ?? "");
   const link = source.link ?? null;
 
   if (/Chaotic Gear Cache/i.test(text)) {
@@ -1576,7 +1615,11 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main()
+  .catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    closeMetaForgeFetch();
+  });

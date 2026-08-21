@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/skills",
-  "importedAt": "2026-07-23T01:47:12.316Z",
+  "importedAt": "2026-08-21T15:15:15.372Z",
   "talentPointsAtLevel25": 17,
   "total": 227,
   "skills": [
@@ -14,14 +14,14 @@
       "description": "Consumed by Flower Spiral to spin an additional time.",
       "cooldown": 3,
       "duration": 10,
-      "iconFilename": "Crescent_FlowerSpiral_Skill_1_Charge__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Crescent_FlowerSpiral_Skill_1_Charge__gfx.webp",
+      "iconFilename": "crescent-flower-spiral-skill-1-charge-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/crescent-flower-spiral-skill-1-charge-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/psychoactive-petal",
-      "iconPath": "/images/skills/Crescent_FlowerSpiral_Skill_1_Charge__gfx.webp"
+      "iconPath": "/images/skills/crescent-flower-spiral-skill-1-charge-gfx.webp"
     },
     {
       "id": "Halos_Totem_SummonPassive",
@@ -30,17 +30,17 @@
       "slug": "soothing-waves",
       "kind": "Passive",
       "classes": [],
-      "description": "Heals all allies in the area for every 2s.",
+      "description": "Heals all allies in the area for 6% Intellect Health every 2s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Halos_Totem_SummonPassive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Totem_SummonPassive__gfx.webp",
+      "iconFilename": "halos-totem-summon-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-totem-summon-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/soothing-waves",
-      "iconPath": "/images/skills/Halos_Totem_SummonPassive__gfx.webp"
+      "iconPath": "/images/skills/halos-totem-summon-passive-gfx.webp"
     },
     {
       "id": "Daggers_Demondash_Passive",
@@ -49,17 +49,17 @@
       "slug": "chaos-scorch",
       "kind": "Weapon Passive",
       "classes": [],
-      "description": "Your WeaponSkills burn enemies for 20% of the damage dealt over 6s.",
+      "description": "Your Weapon Skills burn enemies for 20% of the damage dealt over 6s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Daggers_Demondash_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Demondash_Passive__gfx.webp",
+      "iconFilename": "daggers-demondash-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-demondash-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/chaos-scorch",
-      "iconPath": "/images/skills/Daggers_Demondash_Passive__gfx.webp"
+      "iconPath": "/images/skills/daggers-demondash-passive-gfx.webp"
     },
     {
       "id": "Staff_SummonDemon_Passive",
@@ -68,17 +68,17 @@
       "slug": "inner-demon",
       "kind": "Weapon Passive",
       "classes": [],
-      "description": "Your next WeaponSkill has no cooldown but costs you half of your remaining Health (30s cooldown).",
+      "description": "Your next Weapon Skill has no cooldown but costs you 50% of your remaining Health (30 cooldown).",
       "cooldown": 30,
       "duration": null,
-      "iconFilename": "Staff_SummonDemon_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_SummonDemon_Passive__gfx.webp",
+      "iconFilename": "staff-summon-demon-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-summon-demon-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/inner-demon",
-      "iconPath": "/images/skills/Staff_SummonDemon_Passive__gfx.webp"
+      "iconPath": "/images/skills/staff-summon-demon-passive-gfx.webp"
     },
     {
       "id": "GA_Demon_Passive",
@@ -87,17 +87,17 @@
       "slug": "resilience-of-the-unkillable-demon-king",
       "kind": "Weapon Passive",
       "classes": [],
-      "description": "Your next ComboAttack deals an additionnal and heal yourself for 50% of the damage dealt (30s cooldown).",
+      "description": "Your next Final Combo Attack deals 30% increased damage and heal yourself for 50% of the damage dealt (30 cooldown).",
       "cooldown": 30,
       "duration": null,
-      "iconFilename": "GA_Demon_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Demon_Passive__gfx.webp",
+      "iconFilename": "ga-demon-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-demon-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/resilience-of-the-unkillable-demon-king",
-      "iconPath": "/images/skills/GA_Demon_Passive__gfx.webp"
+      "iconPath": "/images/skills/ga-demon-passive-gfx.webp"
     },
     {
       "id": "Halos_Demon_Passive",
@@ -106,17 +106,17 @@
       "slug": "veil-of-the-unkillable-demon-king",
       "kind": "Weapon Passive",
       "classes": [],
-      "description": "As long as all Skills of this weapon are on cooldown, you are permanently protected by a Shield absorbing.",
+      "description": "As long as all Skills of this weapon are on cooldown, you are permanently protected by a Shield absorbing 70% Intellect damage.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Halos_Demon_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Demon_Passive__gfx.webp",
+      "iconFilename": "halos-demon-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-demon-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/veil-of-the-unkillable-demon-king",
-      "iconPath": "/images/skills/Halos_Demon_Passive__gfx.webp"
+      "iconPath": "/images/skills/halos-demon-passive-gfx.webp"
     },
     {
       "id": "Halos_Demon_Skill1",
@@ -125,17 +125,17 @@
       "slug": "chaotic-distorsion",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Teleports to the targeted area, dealing 100% Intellect Magic damage upon arrival to nearby enemies. Recast within 3s to teleport back to the initial position.",
+      "description": "Teleports to the targeted area, dealing 150% Intellect Magic damage upon arrival to nearby enemies. Recast within 3s to teleport back to the initial position.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Halos_Demon_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Demon_Skill1__gfx.webp",
+      "iconFilename": "halos-demon-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-demon-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/chaotic-distorsion",
-      "iconPath": "/images/skills/Halos_Demon_Skill1__gfx.webp"
+      "iconPath": "/images/skills/halos-demon-skill1-gfx.webp"
     },
     {
       "id": "GA_Demon_Skill2",
@@ -144,17 +144,17 @@
       "slug": "dark-gift",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Enter a dark state, increasing your CritChance, MagicMastery, PhysicalMastery and CDR by 15% but you are loosing 15% of your MaxHealth every 2s.",
+      "description": "Enter a dark state during 10s, increasing your Crit Chance, Magic Mastery, Physical Mastery and Cooldown Reduction by 10% but you are loosing 15% of your Maximum Health every 2s.",
       "cooldown": 40,
       "duration": null,
-      "iconFilename": "GA_Demon_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Demon_Skill2__gfx.webp",
+      "iconFilename": "ga-demon-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-demon-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/dark-gift",
-      "iconPath": "/images/skills/GA_Demon_Skill2__gfx.webp"
+      "iconPath": "/images/skills/ga-demon-skill2-gfx.webp"
     },
     {
       "id": "Halos_Demon_Skill2",
@@ -163,17 +163,17 @@
       "slug": "deceiver-trick",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Copies the last WeaponSkill used.",
+      "description": "Drops an area at your position, lasting 6s. If an enemy leaves the area, it gets stunned for 3s and take 80% Intellect Magic damage.",
       "cooldown": 25,
       "duration": null,
-      "iconFilename": "Halos_Demon_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Demon_Skill2__gfx.webp",
+      "iconFilename": "halos-demon-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-demon-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/deceiver-trick",
-      "iconPath": "/images/skills/Halos_Demon_Skill2__gfx.webp"
+      "iconPath": "/images/skills/halos-demon-skill2-gfx.webp"
     },
     {
       "id": "Staff_SummonDemon_Skill1",
@@ -182,17 +182,17 @@
       "slug": "demonic-discharge",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Throws a demonic bolt at an enemy, dealing. Consume all stacks of Demonic Charge to add as many additional demonic bolts.\n\nDuring combat, generates a stack of Demonic Charge each time one of your summons deals damage, stacking up to.",
+      "description": "Channels to discharge all Demonic Charge charged, each dealing 20% Intellect Magic damage.\n\nDuring combat, generates a stack of Demonic Charge each time one of your summons deals damage, stacking up to 20.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Staff_SummonDemon_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_SummonDemon_Skill1__gfx.webp",
+      "iconFilename": "staff-summon-demon-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-summon-demon-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/demonic-discharge",
-      "iconPath": "/images/skills/Staff_SummonDemon_Skill1__gfx.webp"
+      "iconPath": "/images/skills/staff-summon-demon-skill1-gfx.webp"
     },
     {
       "id": "Daggers_Demondash_Skill1",
@@ -201,17 +201,17 @@
       "slug": "infernal-plunge",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Jumps behind a target, dealing. If the target is afflicted by Chaos Mark, consumes it to reset the cooldown.",
+      "description": "Jumps behind a target, dealing 60% Dexterity Physical damage. If the target is afflicted by Chaos Mark, consumes it to reset the cooldown.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Daggers_Demondash_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Demondash_Skill1__gfx.webp",
+      "iconFilename": "daggers-demondash-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-demondash-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/infernal-plunge",
-      "iconPath": "/images/skills/Daggers_Demondash_Skill1__gfx.webp"
+      "iconPath": "/images/skills/daggers-demondash-skill1-gfx.webp"
     },
     {
       "id": "Staff_SummonDemon_Skill2",
@@ -220,17 +220,17 @@
       "slug": "summon-vile-imps",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Summon 2 Vile Imp dealing every 2s. Lasts 6s.",
+      "description": "Summon 2 Vile Imp dealing 20% Intellect Magic damage every 1.5s. Lasts 12s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Staff_SummonDemon_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_SummonDemon_Skill2__gfx.webp",
+      "iconFilename": "staff-summon-demon-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-summon-demon-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/summon-vile-imps",
-      "iconPath": "/images/skills/Staff_SummonDemon_Skill2__gfx.webp"
+      "iconPath": "/images/skills/staff-summon-demon-skill2-gfx.webp"
     },
     {
       "id": "GA_Demon_Skill1",
@@ -239,17 +239,17 @@
       "slug": "tear-reality",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "A huge slash in a cone dealing 1% Strength Physical damage and reducing enemies Armor and MagicArmor for 15s.",
+      "description": "A huge slash in a cone dealing 150% Strength Physical damage and reducing enemies Armor and Magic Armor by 25% for 15s.",
       "cooldown": 25,
       "duration": 1.12,
-      "iconFilename": "GA_Demon_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Demon_Skill1__gfx.webp",
+      "iconFilename": "ga-demon-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-demon-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/tear-reality",
-      "iconPath": "/images/skills/GA_Demon_Skill1__gfx.webp"
+      "iconPath": "/images/skills/ga-demon-skill1-gfx.webp"
     },
     {
       "id": "Daggers_Demondash_Skill2",
@@ -258,17 +258,17 @@
       "slug": "void-fangs",
       "kind": "Weapon Skill",
       "classes": [],
-      "description": "Spawns 2 void fangs that follow you. Recast the skill to throw a fang and deal to a target, applying Chaos Mark for 6s.",
+      "description": "Spawns 2 void fangs that follow you. Recast the skill to throw a fang and deal 25% Dexterity Magic damage to a target, applying Chaos Mark for 6s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Daggers_Demondash_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_Demondash_Skill2__gfx.webp",
+      "iconFilename": "daggers-demondash-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-demondash-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [],
       "grantedByItems": [],
       "pageUrl": "https://metaforge.app/farever/database/skills/void-fangs",
-      "iconPath": "/images/skills/Daggers_Demondash_Skill2__gfx.webp"
+      "iconPath": "/images/skills/daggers-demondash-skill2-gfx.webp"
     },
     {
       "id": "Mage_Blink",
@@ -340,7 +340,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Fully regenerates your Spark and resets the cooldowns of all your WeaponSkills.",
+      "description": "Fully regenerates your Spark and resets the cooldowns of all your Weapon Skills.",
       "cooldown": 180,
       "duration": 0.8,
       "iconFilename": "Mage_ChronoReset__gfx.webp",
@@ -401,7 +401,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Grants CooldownReduction to allies within 100 for 15s.",
+      "description": "Grants 30% Cooldown Reduction to allies within 100m for 15s.",
       "cooldown": 120,
       "duration": 0.4,
       "iconFilename": "Mage_MysticEmpowerment__gfx.webp",
@@ -523,7 +523,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Gain a Shield absorbing damage equal to 40% of your MaxHealth. Lasts 60s.",
+      "description": "Gain a Shield absorbing damage equal to 40% of your Maximum Health. Lasts 60s.",
       "cooldown": 30,
       "duration": 0.45,
       "iconFilename": "Mage_ShieldOfSpark__gfx.webp",
@@ -584,7 +584,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Blast nearby enemies, dealing 90% Intellect Magic damage and immobilizing them for 4s.",
+      "description": "Blast nearby enemies, dealing 150% Intellect Magic damage and immobilizing them for 4s.",
       "cooldown": 25,
       "duration": 0.45,
       "iconFilename": "Mage_StaticNova__gfx.webp",
@@ -645,7 +645,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Launches a lifebolt healing the nearest wounded ally .\n\nActivates when you consume Spark above the gauge threshold.",
+      "description": "Launches a lifebolt healing the nearest wounded ally for 25% Intellect Health.\n\nActivates when you consume Spark above the gauge threshold.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ConduitLifebolt_Conduit__gfx.webp",
@@ -666,7 +666,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Increases your MagicMastery for 15s. Can stack up to times.\n\nActivates when you consume Spark above the gauge threshold.",
+      "description": "Increases your Magic Mastery by 0.5% for 15s. Can stack up to 20 times.\n\nActivates when you consume Spark above the gauge threshold.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Conduit_Power__gfx.webp",
@@ -687,7 +687,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Fires 1 shard at your target dealing 25% Intellect Spark damage.\n\nActivates when you consume Spark above the gauge threshold.",
+      "description": "Fires 1 shard at your target dealing 30% Intellect Magic damage.\n\nActivates when you consume Spark above the gauge threshold.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Conduit_Projectile__gfx.webp",
@@ -729,7 +729,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "All your MagicDamage has a chance to make your next WeaponSkill or ComboAttack cost no Spark.",
+      "description": "All your Magic Damage has a chance to make your next Weapon Skill or Final Combo Attack cost no Spark.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Foresight__gfx.webp",
@@ -771,7 +771,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Using a WeaponSkill or your ComboAttack consumes Spark.\n\nConsuming Spark activates your Conduits if your gauge is above the threshold.\n\nYou can select any combination of Conduits.",
+      "description": "Using a Weapon Skill or your Final Combo Attack consumes Spark.\n\nConsuming Spark activates your Conduits if your gauge is above the threshold.\n\nYou can select any combination of Conduits.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_SparkMaster__gfx.webp",
@@ -792,7 +792,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Channels a powerful beam dealing 100% Intellect Magic damage over 2s.\nEach tick regenerates Spark.",
+      "description": "Channels a powerful beam dealing 200% Intellect Magic damage over 1s.\nEach tick regenerates 18% Spark.",
       "cooldown": 12,
       "duration": null,
       "iconFilename": "Mage_RayOfSpark__gfx.webp",
@@ -853,7 +853,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Your Attacks deal 15% increased critical damage.",
+      "description": "Your Attacks deal 15%/30% increased critical damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_Amplification__gfx.webp",
@@ -874,7 +874,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Using 4 Skills within 4s grants you Chaincast for 10s.",
+      "description": "Using 4 Skills grants you Chaincast for 15s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_Chaincast__gfx.webp",
@@ -895,7 +895,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Damage dealt by your Attacks increased by 15% while you are under Chaincast.",
+      "description": "Damage dealt by your Attacks increased by 15%/30% while you are under Chaincast.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ChainStrike__gfx.webp",
@@ -916,7 +916,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "",
+      "description": "Spell Penetration increased by 5/10%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ConcentratedPower__gfx.webp",
@@ -937,7 +937,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Triggering Conduits has a 0.15 chance to regenerate 5 Spark points.",
+      "description": "Triggering Conduits has a 25% chance to regenerate 5 Spark points.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ConduitResidues__gfx.webp",
@@ -958,7 +958,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Unlocks a new Conduit : Lifebolt.\n\nLaunches a lifebolt healing the nearest wounded ally .\n\nActivates when you consume Spark above the gauge threshold.",
+      "description": "Unlocks a new Conduit : Lifebolt.\n\nLaunches a lifebolt healing the nearest wounded ally for 25% Intellect Health.\n\nActivates when you consume Spark above the gauge threshold.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ConduitLifebolt__gfx.webp",
@@ -1000,7 +1000,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "MagicMastery increased .\n\nPhysicalMastery increased by 50% of your MagicMastery.",
+      "description": "Magic Mastery increased by 5%.\n\nPhysical Mastery increased by 50% of your Magic Mastery.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_Discipline__gfx.webp",
@@ -1021,7 +1021,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Chaincast increases the healing effect of your next WeaponSkill by 30%.",
+      "description": "Chaincast increases the healing effect of your next Weapon Skill by 30%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_EchoingLife__gfx.webp",
@@ -1042,7 +1042,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Increases your maximum Spark gauge by 10 points.",
+      "description": "Increases your maximum Spark gauge by 10/20 points.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ExpandedSpirit__gfx.webp",
@@ -1063,7 +1063,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Fervor increased .",
+      "description": "Fervor increased by 1.5%/3%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_FerventWizard__gfx.webp",
@@ -1084,7 +1084,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "While in combat, heal yourself for 2% of your MaxHealth every 10 Spark point spent.",
+      "description": "While in combat, heal yourself for 3%/6% of your Maximum Health every 10 Spark point spent.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_FlowingVitality__gfx.webp",
@@ -1105,7 +1105,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Consuming Chaincast causes your next ComboAttack to critically strike.",
+      "description": "Consuming Chaincast causes your next Final Combo Attack to critically strike.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_HighVoltage__gfx.webp",
@@ -1126,7 +1126,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "While in combat, regenerates 2 Spark point every 3s.",
+      "description": "While in combat, regenerates 3 Spark point every 2s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_InfiniteResources__gfx.webp",
@@ -1147,7 +1147,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Chaincast increases the Physical damage of your next WeaponSkill by 50%.",
+      "description": "Chaincast increases the Physical damage of your next Weapon Skill by 50%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_KineticSurge__gfx.webp",
@@ -1168,7 +1168,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Any healing effect you provide has a 0.12 chance to grant you Chaincast.",
+      "description": "Any healing effect you provide has a 10%/20% chance to regenerate 2 Spark points.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_LifeCurrent__gfx.webp",
@@ -1189,7 +1189,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Your Attacks have a 0.07 chance to reduce the cooldown of your WeaponSkills by 0.5s.",
+      "description": "Your Attacks have a 7%/15% chance to reduce the cooldown of your Weapon Skills by 0.5s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_NimbleFingers__gfx.webp",
@@ -1210,7 +1210,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Magic critical strikes increase your chance to land Physical critical strikes by 0.07 for 6s.",
+      "description": "Magic critical strikes increase your chance to land Physical critical strikes by 7%/15% for 6s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_PowerCircuit__gfx.webp",
@@ -1231,7 +1231,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Your WeaponSkills have a 0.25 chance to recover 25% of their Spark cost.",
+      "description": "Your Weapon Skills have a 25% chance to recover 25%/50% of their Spark cost.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_ProdigiousMind__gfx.webp",
@@ -1273,7 +1273,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Hess'tuss Flask regenerates 10 Spark points.",
+      "description": "Refillable Flask regenerates 15/30 Spark points.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_SparkFlask__gfx.webp",
@@ -1294,7 +1294,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Each Spark point spent has a 0.02 chance to reduce the cooldown of your WeaponSkills by 1s.",
+      "description": "Each Spark point spent has a 2%/4% chance to reduce the cooldown of your Weapon Skills by 1s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Mage_Talent_TemporalCompression__gfx.webp",
@@ -1317,11 +1317,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Blocking an attack engulfs you in flames for 4s, dealing 30% Intellect Magic damage to nearby enemies every 1s.",
+      "description": "Blocking an attack engulfs you in flames for 4s, dealing 50% Intellect Magic damage to nearby enemies every 1s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Shield_Firebreath_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Firebreath_Passive__gfx.webp",
+      "iconFilename": "shield-firebreath-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/shield-firebreath-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1337,7 +1337,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/cinder-coat",
-      "iconPath": "/images/skills/Shield_Firebreath_Passive__gfx.webp"
+      "iconPath": "/images/skills/shield-firebreath-passive-gfx.webp"
     },
     {
       "id": "Bow_Craft_Passive",
@@ -1349,11 +1349,11 @@
         "Mage",
         "Rogue"
       ],
-      "description": "Your Attack have an 0.08 chance to reset the cooldown of Aimed Shot.",
+      "description": "Your Attack have an 8% chance to reset the cooldown of Aimed Shot.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Bow_Craft_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_Craft_Passive__gfx.webp",
+      "iconFilename": "bow-craft-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-craft-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1369,7 +1369,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/deadeye-focus",
-      "iconPath": "/images/skills/Bow_Craft_Passive__gfx.webp"
+      "iconPath": "/images/skills/bow-craft-passive-gfx.webp"
     },
     {
       "id": "Staff_Craft_Passive",
@@ -1380,11 +1380,11 @@
       "classes": [
         "Mage"
       ],
-      "description": "All your other non-periodic Magic damage apply a stack of Flame Bomb.\nAt stacks, Flame Bomb becomes unstable and explode, dealing 35% Intellect Magic damage to nearby enemies.",
+      "description": "All your other non-periodic Magic damage apply a stack of Flame Bomb.\nAt 15 stacks, Flame Bomb becomes unstable and explode, dealing 35% Intellect Magic damage to nearby enemies.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Staff_Craft_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_Craft_Passive__gfx.webp",
+      "iconFilename": "staff-craft-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-craft-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1400,7 +1400,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/flame-bomb",
-      "iconPath": "/images/skills/Staff_Craft_Passive__gfx.webp"
+      "iconPath": "/images/skills/staff-craft-passive-gfx.webp"
     },
     {
       "id": "Fists_WaterUppercut_P",
@@ -1413,11 +1413,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Erupts water, dealing 20% Intellect Magic damage to nearby enemies when using a ComboAttack or WeaponSkill different from the last action.",
+      "description": "Erupts water, dealing 20% Intellect Magic damage to nearby enemies when using a Final Combo Attack or Weapon Skill different from the last action.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Fists_WaterUppercut_P__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_WaterUppercut_P__gfx.webp",
+      "iconFilename": "fists-water-uppercut-p-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-water-uppercut-p-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1433,7 +1433,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/going-with-the-flow",
-      "iconPath": "/images/skills/Fists_WaterUppercut_P__gfx.webp"
+      "iconPath": "/images/skills/fists-water-uppercut-p-gfx.webp"
     },
     {
       "id": "Spear_Eruption_Passive",
@@ -1447,11 +1447,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Your Skills and Attacks increase your Armor by 30%, stacking up to times.",
+      "description": "Your Skills and Attacks increase your Armor by 2%, stacking up to 15 times.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Spear_Eruption_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Eruption_Passive__gfx.webp",
+      "iconFilename": "spear-eruption-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-eruption-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1467,7 +1467,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/heart-of-the-furnace",
-      "iconPath": "/images/skills/Spear_Eruption_Passive__gfx.webp"
+      "iconPath": "/images/skills/spear-eruption-passive-gfx.webp"
     },
     {
       "id": "Shield_Craft_Passive",
@@ -1480,7 +1480,7 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Your next ComboAttack deals an additional 15% Armor Physical damage (20s cooldown).",
+      "description": "Your next Final Combo Attack deals an additional 10% Armor Physical damage (20 cooldown).",
       "cooldown": 20,
       "duration": null,
       "iconFilename": "Shield_Craft_Passive__gfx.webp",
@@ -1511,7 +1511,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "A dark cloud spawns around every 3s in combat, lasting 6s. When you go into the cloud, the censer absorbs the cloud, increasing your movement speed by for 3s.\nOnce you have absorbed 10 clouds, you can release a hidden power.",
+      "description": "A dark cloud spawns around every 3s in combat, lasting 6s. When you go into the cloud, the censer absorbs the cloud, increasing your movement speed by 30% for 3s.\nOnce you have absorbed 10 clouds, you can release a hidden power.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Staff_Censer_Passive__gfx.webp",
@@ -1534,11 +1534,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Your WeaponSkills grant you a Shield absorbing for 8s.",
+      "description": "Your Weapon Skills grant you a Shield absorbing 25% Faith for 8s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Fists_LightMonk_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_LightMonk_Passive__gfx.webp",
+      "iconFilename": "fists-light-monk-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-light-monk-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1554,7 +1554,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/inner-peace",
-      "iconPath": "/images/skills/Fists_LightMonk_Passive__gfx.webp"
+      "iconPath": "/images/skills/fists-light-monk-passive-gfx.webp"
     },
     {
       "id": "Thrown_Seeds_Passive",
@@ -1569,8 +1569,8 @@
       "description": "Your damage and healing done to a target increase by 2% for each different periodic effect on them, up to 6%.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Thrown_Seeds_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Thrown_Seeds_Passive__gfx.webp",
+      "iconFilename": "thrown-seeds-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/thrown-seeds-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1586,7 +1586,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/natural-ascendancy",
-      "iconPath": "/images/skills/Thrown_Seeds_Passive__gfx.webp"
+      "iconPath": "/images/skills/thrown-seeds-passive-gfx.webp"
     },
     {
       "id": "Halos_Totem_Passive",
@@ -1598,11 +1598,11 @@
         "Mage",
         "Priest"
       ],
-      "description": "Using a Skill causes all your active Totems to erupt, dealing 19% Intellect Magic damage to nearby enemies.",
+      "description": "Using a Skill causes all your active Totems to erupt, dealing 18.75% Intellect Magic damage to nearby enemies.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Halos_Totem_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Totem_Passive__gfx.webp",
+      "iconFilename": "halos-totem-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-totem-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1618,7 +1618,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/power-of-the-tides",
-      "iconPath": "/images/skills/Halos_Totem_Passive__gfx.webp"
+      "iconPath": "/images/skills/halos-totem-passive-gfx.webp"
     },
     {
       "id": "DS_Bladeleaf_Passive",
@@ -1630,11 +1630,11 @@
         "Mage",
         "Warrior"
       ],
-      "description": "The next time one of your skills deals Magic damage, it is increased by 100% (30s cooldown).",
+      "description": "The next time one of your skills deals Magic damage, it is increased by 100% (30 cooldown).",
       "cooldown": 30,
       "duration": null,
-      "iconFilename": "DS_Bladeleaf_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DS_Bladeleaf_Passive__gfx.webp",
+      "iconFilename": "ds-bladeleaf-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ds-bladeleaf-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1650,7 +1650,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/queens-decree",
-      "iconPath": "/images/skills/DS_Bladeleaf_Passive__gfx.webp"
+      "iconPath": "/images/skills/ds-bladeleaf-passive-gfx.webp"
     },
     {
       "id": "Shield_OrbitWater_P",
@@ -1663,11 +1663,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Your ComboAttacks and AttackBlocks grant you a stack of Water Infusion.\nAt stacks, your next AttackBlock is empowered, dealing 250% Faith Magic damage to nearby enemies.",
+      "description": "Your Final Combo Attacks and Attack Blocks grant you a stack of Water Infusion.\nAt 4 stacks, your next Attack Block is empowered, dealing 250% Faith Magic damage to nearby enemies.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Shield_OrbitWater_P__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_OrbitWater_P__gfx.webp",
+      "iconFilename": "shield-orbit-water-p-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/shield-orbit-water-p-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1683,7 +1683,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/shell-of-the-devourer",
-      "iconPath": "/images/skills/Shield_OrbitWater_P__gfx.webp"
+      "iconPath": "/images/skills/shield-orbit-water-p-gfx.webp"
     },
     {
       "id": "Bow_BigGame_Passive",
@@ -1695,11 +1695,11 @@
         "Mage",
         "Rogue"
       ],
-      "description": "Your WeaponSkills' damage mark the enemies for 10s. Your next Attack against them consumes the mark and deal 50% increased damage.",
+      "description": "Your Weapon Skills' damage mark the enemies for 10s. Your next Attack against them consumes the mark and deal 50% increased damage.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Bow_BigGame_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_BigGame_Passive__gfx.webp",
+      "iconFilename": "bow-big-game-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-big-game-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1715,7 +1715,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/thrill-of-the-hunter",
-      "iconPath": "/images/skills/Bow_BigGame_Passive__gfx.webp"
+      "iconPath": "/images/skills/bow-big-game-passive-gfx.webp"
     },
     {
       "id": "Spear_Goo_Passive",
@@ -1729,11 +1729,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Magic critical strikes coat enemies in goo for 8s, slowing them by 40%.\nPhysical critical strikes ignite Goo to deal 140% Intellect Magic damage over.",
+      "description": "Magic critical strikes coat enemies in goo for 8s, slowing them by 30%.\nPhysical critical strikes ignite Goo to deal 168% Intellect Magic damage over 6s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Spear_Goo_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Goo_Passive__gfx.webp",
+      "iconFilename": "spear-goo-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-goo-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1749,7 +1749,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/unstable-goo",
-      "iconPath": "/images/skills/Spear_Goo_Passive__gfx.webp"
+      "iconPath": "/images/skills/spear-goo-passive-gfx.webp"
     },
     {
       "id": "Book_WaterOrbs_Passive",
@@ -1761,7 +1761,7 @@
         "Mage",
         "Priest"
       ],
-      "description": "Applying Shields has a 0.35 chance to heal over 6s.",
+      "description": "Applying Shields has a 35% chance to heal 30% Faith Health over 6s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Book_WaterOrbs_Passive__gfx.webp",
@@ -1793,7 +1793,7 @@
         "Mage",
         "Priest"
       ],
-      "description": "Spawns a <val>Water Sphere</val> and consumes all stacks of Tide to spawn as much as additional spheres, up to 8. Walking through a sphere consumes it to grant a Shield absorbing.\n\nDuring combat, generates a stack of Tide every 4s.",
+      "description": "Spawns a Water Sphere and consumes all stacks of Tide to spawn as much as additional spheres, up to 8. Walking through a sphere consumes it to grant a Shield absorbing 40% Faith.\n\nDuring combat, generates a stack of Tide every 4s.",
       "cooldown": 10,
       "duration": 0.4,
       "iconFilename": "Book_WaterOrbs_Skill1__gfx.webp",
@@ -1828,8 +1828,8 @@
       "description": "Aim to shoot a steady arrow that will deal 160% Dexterity Physical damage to the first enemy encountered.",
       "cooldown": 12,
       "duration": null,
-      "iconFilename": "Bow_Craft_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_Craft_Skill1__gfx.webp",
+      "iconFilename": "bow-craft-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-craft-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1845,7 +1845,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/aimed-shot",
-      "iconPath": "/images/skills/Bow_Craft_Skill1__gfx.webp"
+      "iconPath": "/images/skills/bow-craft-skill1-gfx.webp"
     },
     {
       "id": "Spear_Goo_Skill2",
@@ -1862,8 +1862,8 @@
       "description": "Dashes forward and releases a burst of honey dealing 45% Strength Magic damage to nearby enemies.",
       "cooldown": 12,
       "duration": null,
-      "iconFilename": "Spear_Goo_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Goo_Skill2__gfx.webp",
+      "iconFilename": "spear-goo-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-goo-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1879,7 +1879,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/apix-dash",
-      "iconPath": "/images/skills/Spear_Goo_Skill2__gfx.webp"
+      "iconPath": "/images/skills/spear-goo-skill2-gfx.webp"
     },
     {
       "id": "Staff_Craft_S2",
@@ -1890,11 +1890,11 @@
       "classes": [
         "Mage"
       ],
-      "description": "Channels a fire breath dealing up to 8% Intellect Magic damage over 3s to enemies in front of you.",
+      "description": "Channels a fire breath dealing up to 102% Intellect Magic damage over 3s to enemies in front of you.",
       "cooldown": 18,
       "duration": null,
-      "iconFilename": "Staff_Craft_S2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_Craft_S2__gfx.webp",
+      "iconFilename": "staff-craft-s2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-craft-s2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1910,7 +1910,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/blazing-beam",
-      "iconPath": "/images/skills/Staff_Craft_S2__gfx.webp"
+      "iconPath": "/images/skills/staff-craft-s2-gfx.webp"
     },
     {
       "id": "Fists_LightMonk_Skill1",
@@ -1923,11 +1923,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Fires a light wave at an enemy, dealing 40% Dexterity Light damage to the first enemy hit and marking them .\n\nIf an enemy is marked, you can recast to dash to them and deal 120% Dexterity Light damage.",
+      "description": "Fires a light wave at an enemy, dealing 40% Dexterity Magic damage to the first enemy hit and marking them for 4s.\n\nIf an enemy is marked, you can recast to dash to them and deal 120% Dexterity Magic damage.",
       "cooldown": 16,
       "duration": null,
-      "iconFilename": "Fists_LightMonk_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_LightMonk_Skill1__gfx.webp",
+      "iconFilename": "fists-light-monk-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-light-monk-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1943,7 +1943,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/blind-breakthrough",
-      "iconPath": "/images/skills/Fists_LightMonk_Skill1__gfx.webp"
+      "iconPath": "/images/skills/fists-light-monk-skill1-gfx.webp"
     },
     {
       "id": "Staff_Censer_Skill2",
@@ -1954,7 +1954,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Spawns an light orb in the targeted area, creating an area slowing enemies by. The orb explodes after 3s, dealing 180% Intellect Light damage to all enemies in the area and applying a Luon Mark.",
+      "description": "Spawns an light orb in the targeted area, creating an area slowing enemies by 50%. The orb explodes after 3s, dealing 180% Intellect Magic damage to all enemies in the area and applying a Luon Mark.",
       "cooldown": 20,
       "duration": 0.35,
       "iconFilename": "Staff_Censer_Skill2__gfx.webp",
@@ -1979,8 +1979,8 @@
       "description": "Fires a bouncing arrow at an enemy, dealing 100% Dexterity Physical damage before jumping to 2 additional nearby enemies.",
       "cooldown": 10,
       "duration": 0.4,
-      "iconFilename": "Bow_Craft_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_Craft_Skill2__gfx.webp",
+      "iconFilename": "bow-craft-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-craft-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -1996,7 +1996,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/bouncing-shot",
-      "iconPath": "/images/skills/Bow_Craft_Skill2__gfx.webp"
+      "iconPath": "/images/skills/bow-craft-skill2-gfx.webp"
     },
     {
       "id": "Shield_OrbitWater_S1",
@@ -2009,11 +2009,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Spawns a bubble with charges. When an enemy is nearby, the bubble consumes a charge to pulse, dealing 55% Faith Magic damage to enemies and healing allies .",
+      "description": "Spawns a bubble with 3 charges. When an enemy is nearby, the bubble consumes a charge to pulse, dealing 55% Faith Magic damage to enemies and healing allies for 30% Faith Health.",
       "cooldown": 15,
       "duration": null,
-      "iconFilename": "Shield_OrbitWater_S1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_OrbitWater_S1__gfx.webp",
+      "iconFilename": "shield-orbit-water-s1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/shield-orbit-water-s1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2029,7 +2029,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/depth-shield",
-      "iconPath": "/images/skills/Shield_OrbitWater_S1__gfx.webp"
+      "iconPath": "/images/skills/shield-orbit-water-s1-gfx.webp"
     },
     {
       "id": "Spear_Eruption_Skill2",
@@ -2043,11 +2043,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Pulls nearby enemies towards you, dealing 15% Dexterity Magic damage. Then, releases a lava explosion dealing 15% Dexterity Magic damage.",
+      "description": "Pulls nearby enemies towards you, dealing 15% Dexterity Magic damage. Then, releases a lava explosion dealing 150% Dexterity Magic damage.",
       "cooldown": 20,
       "duration": 1.25,
-      "iconFilename": "Spear_Eruption_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Eruption_Skill2__gfx.webp",
+      "iconFilename": "spear-eruption-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-eruption-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2063,7 +2063,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/eruption",
-      "iconPath": "/images/skills/Spear_Eruption_Skill2__gfx.webp"
+      "iconPath": "/images/skills/spear-eruption-skill2-gfx.webp"
     },
     {
       "id": "Book_WaterOrbs_Skill2",
@@ -2075,7 +2075,7 @@
         "Mage",
         "Priest"
       ],
-      "description": "Grabs all nearby <val>Water Spheres</val>. You can recast this within 6s to throw them in the targeted direction, each dealing 40% Intellect Magic damage to the first enemy encountered.",
+      "description": "Grabs all nearby Water Spheres. You can recast this within 6s to throw them in the targeted direction, each dealing 50% Intellect Magic damage to the first enemy encountered.",
       "cooldown": 15,
       "duration": null,
       "iconFilename": "Book_WaterOrbs_Skill2__gfx.webp",
@@ -2107,7 +2107,7 @@
         "Mage",
         "Priest"
       ],
-      "description": "Blasts 90% Intellect Fire damage to the target and stuns them for 1s if they are burning.",
+      "description": "Blasts 90% Intellect Magic damage to the target and stuns them for 1s if they are burning.",
       "cooldown": 10,
       "duration": 0.3,
       "iconFilename": "Book_Start_Skill2__gfx.webp",
@@ -2140,7 +2140,7 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Increases the Armor of all allies within 40 for 10s.",
+      "description": "Increases the Armor of all allies within 40m by 100% for 10s.",
       "cooldown": 40,
       "duration": 0.4,
       "iconFilename": "Shield_Craft_Skill1__gfx.webp",
@@ -2173,11 +2173,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Channels a fire breath dealing up to 45% Intellect Magic damage over 3s to enemies in front of you.",
+      "description": "Channels a fire breath dealing up to 400% Intellect Magic damage over 3s to enemies in front of you.",
       "cooldown": 18,
       "duration": null,
-      "iconFilename": "Shield_Firebreath_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Shield_Firebreath_Skill1__gfx.webp",
+      "iconFilename": "shield-firebreath-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/shield-firebreath-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2193,7 +2193,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/furnace-roar",
-      "iconPath": "/images/skills/Shield_Firebreath_Skill1__gfx.webp"
+      "iconPath": "/images/skills/shield-firebreath-skill1-gfx.webp"
     },
     {
       "id": "Thrown_Seeds_Skill1",
@@ -2208,8 +2208,8 @@
       "description": "Throws a rotating flower in the targeted direction, dealing 150% Dexterity Physical damage to enemies. Harvests all Ravenous Sprout stacks, releasing a poison dealing 35% Intellect Magic damage over 6s.",
       "cooldown": 15,
       "duration": 1,
-      "iconFilename": "Thrown_Seeds_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Thrown_Seeds_Skill1__gfx.webp",
+      "iconFilename": "thrown-seeds-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/thrown-seeds-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2225,7 +2225,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/harvesting-scythe",
-      "iconPath": "/images/skills/Thrown_Seeds_Skill1__gfx.webp"
+      "iconPath": "/images/skills/thrown-seeds-skill1-gfx.webp"
     },
     {
       "id": "DS_Bladeleaf_Skill1",
@@ -2240,8 +2240,8 @@
       "description": "Spins to deal 25% Strength Physical damage to nearby enemies.\n\nYou can recast this within the next 4s seconds, with damage increased by 100%.",
       "cooldown": 12,
       "duration": 0.7,
-      "iconFilename": "DS_Bladeleaf_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DS_Bladeleaf_Skill1__gfx.webp",
+      "iconFilename": "ds-bladeleaf-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ds-bladeleaf-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2257,7 +2257,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/hiveborn-blossom",
-      "iconPath": "/images/skills/DS_Bladeleaf_Skill1__gfx.webp"
+      "iconPath": "/images/skills/ds-bladeleaf-skill1-gfx.webp"
     },
     {
       "id": "Bow_BigGame_Skill1",
@@ -2269,11 +2269,11 @@
         "Mage",
         "Rogue"
       ],
-      "description": "Throws a net in the targeted direction dealing 100% Dexterity Physical damage to the first enemy hit and slowing them for 4s.\nIf an enemy is hit, you gain Big Game Hunter.",
+      "description": "Throws a net in the targeted direction dealing 100% Dexterity Physical damage to the first enemy hit and slowing them by 30% for 4s.\nIf an enemy is hit, you gain Big Game Hunter.",
       "cooldown": 16,
       "duration": 0.4,
-      "iconFilename": "Bow_BigGame_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_BigGame_Skill1__gfx.webp",
+      "iconFilename": "bow-big-game-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-big-game-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2289,7 +2289,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/hunter-net",
-      "iconPath": "/images/skills/Bow_BigGame_Skill1__gfx.webp"
+      "iconPath": "/images/skills/bow-big-game-skill1-gfx.webp"
     },
     {
       "id": "Staff_Censer_Skill1",
@@ -2300,7 +2300,7 @@
       "classes": [
         "Mage"
       ],
-      "description": "Throws a bolt of energy in the targeted direction, dealing 120% Intellect Light damage to enemies, stunning them for 1.5s and applying a Luon Mark.",
+      "description": "Throws a bolt of energy in the targeted direction, dealing 120% Intellect Magic damage to enemies, stunning them for 1.5s and applying a Luon Mark.",
       "cooldown": 15,
       "duration": 0.3,
       "iconFilename": "Staff_Censer_Skill1__gfx.webp",
@@ -2322,7 +2322,7 @@
         "Mage",
         "Priest"
       ],
-      "description": "Hurls a fire boulder, dealing 140% Intellect Fire damage to an enemy and burning them for 160% Intellect Fire damage over 10s.",
+      "description": "Hurls a fire boulder, dealing 140% Intellect Magic damage to an enemy and burning them for 160% Intellect Magic damage over 10s.",
       "cooldown": 12,
       "duration": 1.72,
       "iconFilename": "Book_Start_Skill1__gfx.webp",
@@ -2356,8 +2356,8 @@
       "description": "Conjures a fiery eruption in the targeted area, dealing 130% Intellect Magic damage and increasing all Magic damage dealt to enemies by 8% for 15s.",
       "cooldown": 12,
       "duration": 1.5,
-      "iconFilename": "Staff_Craft_S1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Staff_Craft_S1__gfx.webp",
+      "iconFilename": "staff-craft-s1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/staff-craft-s1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2373,7 +2373,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/pyroclasm",
-      "iconPath": "/images/skills/Staff_Craft_S1__gfx.webp"
+      "iconPath": "/images/skills/staff-craft-s1-gfx.webp"
     },
     {
       "id": "Bow_BigGame_Skill2",
@@ -2388,8 +2388,8 @@
       "description": "Drops a spark trap on the targeted area. If an enemy steps on it, they are dealt 100% Dexterity Physical damage, are immobilized for 4s and you gain Big Game Hunter.",
       "cooldown": 12,
       "duration": null,
-      "iconFilename": "Bow_BigGame_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Bow_BigGame_Skill2__gfx.webp",
+      "iconFilename": "bow-big-game-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/bow-big-game-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2405,7 +2405,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/ram-trap",
-      "iconPath": "/images/skills/Bow_BigGame_Skill2__gfx.webp"
+      "iconPath": "/images/skills/bow-big-game-skill2-gfx.webp"
     },
     {
       "id": "Fists_LightMonk_Skill2",
@@ -2418,11 +2418,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Punches an enemy with an ancestral power, dealing 100% Dexterity Light damage and knocking them back a long distance. Enemies in the path are also knocked back and dealt 75% of the initial damage.",
+      "description": "Punches an enemy with an ancestral power, dealing 100% Dexterity Magic damage and knocking them back a long distance. Enemies in the path are knocked up and dealt 75% of the initial damage.",
       "cooldown": 24,
       "duration": 0.6,
-      "iconFilename": "Fists_LightMonk_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_LightMonk_Skill2__gfx.webp",
+      "iconFilename": "fists-light-monk-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-light-monk-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2438,7 +2438,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/rams-expulsion",
-      "iconPath": "/images/skills/Fists_LightMonk_Skill2__gfx.webp"
+      "iconPath": "/images/skills/fists-light-monk-skill2-gfx.webp"
     },
     {
       "id": "Halos_Totem_Skill2",
@@ -2450,11 +2450,11 @@
         "Mage",
         "Priest"
       ],
-      "description": "Splashes a huge water burst in a frontal cone, dealing 90% Intellect Water damage to enemies.",
+      "description": "Splashes a huge water burst in a frontal cone, dealing 90% Intellect Magic damage to enemies.",
       "cooldown": 18,
       "duration": null,
-      "iconFilename": "Halos_Totem_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Totem_Skill2__gfx.webp",
+      "iconFilename": "halos-totem-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-totem-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2470,7 +2470,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/riptide",
-      "iconPath": "/images/skills/Halos_Totem_Skill2__gfx.webp"
+      "iconPath": "/images/skills/halos-totem-skill2-gfx.webp"
     },
     {
       "id": "Shield_Start_Skill1",
@@ -2517,11 +2517,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Fires a piercing stinger in the targeted direction, dealing 125% Intellect Magic damage to enemies and knocking them back. After 2s, the stinger returns to you, dealing 125% Intellect Magic damage on its way back, drawing enemies toward you.",
+      "description": "Fires a piercing stinger in the targeted direction, dealing 125% Intellect Magic damage to enemies and knocking them back. After 2s, the stinger returns to you, dealing 180% Strength Physical damage on its way back, drawing enemies toward you.",
       "cooldown": 8,
       "duration": null,
-      "iconFilename": "Spear_Goo_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Goo_Skill1__gfx.webp",
+      "iconFilename": "spear-goo-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-goo-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2537,7 +2537,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/stingerang",
-      "iconPath": "/images/skills/Spear_Goo_Skill1__gfx.webp"
+      "iconPath": "/images/skills/spear-goo-skill1-gfx.webp"
     },
     {
       "id": "DS_Bladeleaf_Skill2",
@@ -2549,11 +2549,11 @@
         "Mage",
         "Warrior"
       ],
-      "description": "Grants a blessing to all allies within 40, causing all their Attacks to deal an additional 30% Intellect Magic damage for 8s.",
+      "description": "Grants a blessing to all allies within 40m, causing all their Attacks to deal an additional 30% Intellect Magic damage for 8s.",
       "cooldown": 45,
       "duration": 0.65,
-      "iconFilename": "DS_Bladeleaf_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DS_Bladeleaf_Skill2__gfx.webp",
+      "iconFilename": "ds-bladeleaf-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ds-bladeleaf-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2569,7 +2569,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/swarmstrike-accord",
-      "iconPath": "/images/skills/DS_Bladeleaf_Skill2__gfx.webp"
+      "iconPath": "/images/skills/ds-bladeleaf-skill2-gfx.webp"
     },
     {
       "id": "Spear_Eruption_Skill1",
@@ -2583,11 +2583,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Surrounds yourself with an embers whirlwind dealing 25% Dexterity Magic damage to nearby enemies every 1s for 8s.",
+      "description": "Surrounds yourself with an embers whirlwind dealing 20% Dexterity Magic damage to nearby enemies every 1s for 8s.",
       "cooldown": 18,
       "duration": 0.5,
-      "iconFilename": "Spear_Eruption_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Spear_Eruption_Skill1__gfx.webp",
+      "iconFilename": "spear-eruption-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/spear-eruption-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2603,7 +2603,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/swirling-embers",
-      "iconPath": "/images/skills/Spear_Eruption_Skill1__gfx.webp"
+      "iconPath": "/images/skills/spear-eruption-skill1-gfx.webp"
     },
     {
       "id": "Halos_Totem_Skill",
@@ -2615,11 +2615,11 @@
         "Mage",
         "Priest"
       ],
-      "description": "Summons a Totem at the targeted location, healing allies that stand in the area for every 2s. Lasts 15s.",
+      "description": "Summons a Totem at the targeted location, healing allies that stand in the area for 6% Intellect Health every 2s. Lasts 15s.",
       "cooldown": 12,
       "duration": 0.3,
-      "iconFilename": "Halos_Totem_Skill__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Halos_Totem_Skill__gfx.webp",
+      "iconFilename": "halos-totem-skill-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/halos-totem-skill-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2635,7 +2635,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/tidal-totem",
-      "iconPath": "/images/skills/Halos_Totem_Skill__gfx.webp"
+      "iconPath": "/images/skills/halos-totem-skill-gfx.webp"
     },
     {
       "id": "Fists_WaterUppercut_S1",
@@ -2648,11 +2648,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Unleashes an upward surge of water, dealing 60% Dexterity Magic damage to all nearby enemies.\n\nUsing a Skill increases the damage of your next Tide Rising Uppercut by 50%, stacking up to times.",
+      "description": "Unleashes an upward surge of water, dealing 60% Dexterity Magic damage to all nearby enemies.\n\nUsing a Skill increases the damage of your next Tide Rising Uppercut by 50%, stacking up to 10 times.",
       "cooldown": 22,
       "duration": 0.75,
-      "iconFilename": "Fists_WaterUppercut_S1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_WaterUppercut_S1__gfx.webp",
+      "iconFilename": "fists-water-uppercut-s1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-water-uppercut-s1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2668,7 +2668,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/tide-rising-uppercut",
-      "iconPath": "/images/skills/Fists_WaterUppercut_S1__gfx.webp"
+      "iconPath": "/images/skills/fists-water-uppercut-s1-gfx.webp"
     },
     {
       "id": "Fists_WaterUppercut_S2",
@@ -2681,11 +2681,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Quickly strikes with both hands, dealing 70% Dexterity Physical damage + 70% Dexterity Physical damage to an enemy.",
+      "description": "Quickly strikes with both hands, dealing 70% Dexterity Physical damage + 70% Intellect Magic damage to an enemy.",
       "cooldown": 6,
       "duration": 0.4,
-      "iconFilename": "Fists_WaterUppercut_S2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Fists_WaterUppercut_S2__gfx.webp",
+      "iconFilename": "fists-water-uppercut-s2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/fists-water-uppercut-s2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2701,7 +2701,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/twin-claws",
-      "iconPath": "/images/skills/Fists_WaterUppercut_S2__gfx.webp"
+      "iconPath": "/images/skills/fists-water-uppercut-s2-gfx.webp"
     },
     {
       "id": "Thrown_Seeds_Skill2",
@@ -2716,8 +2716,8 @@
       "description": "Your Ranged Attacks become bouncing for 6s, dealing 15% increased damage and planting a stack of Ravenous Sprout.",
       "cooldown": 24,
       "duration": 0.5,
-      "iconFilename": "Thrown_Seeds_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Thrown_Seeds_Skill2__gfx.webp",
+      "iconFilename": "thrown-seeds-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/thrown-seeds-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -2733,7 +2733,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/verdant-impetus",
-      "iconPath": "/images/skills/Thrown_Seeds_Skill2__gfx.webp"
+      "iconPath": "/images/skills/thrown-seeds-skill2-gfx.webp"
     },
     {
       "id": "Priest_BeaconOfHope",
@@ -2805,7 +2805,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Grants Fervor to allies within 100 for 15s.",
+      "description": "Grants 10% Fervor to allies within 100m for 15s.",
       "cooldown": 120,
       "duration": 0.45,
       "iconFilename": "Priest_BlessingOfFervor__gfx.webp",
@@ -2866,7 +2866,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Increase your CritChance, CooldownReduction, damage, healing and shielding done by 1% for 20s.",
+      "description": "Increase your Crit Chance, Cooldown Reduction, damage, healing and shielding done by 10% for 20s.",
       "cooldown": 120,
       "duration": 0.8,
       "iconFilename": "Priest_Crusader__gfx.webp",
@@ -2927,7 +2927,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Projects winds ahead, increasing the MoveSpeedFactor of allies that go through by 30% for 3s.",
+      "description": "Projects winds ahead, increasing the Move Speed Factor of allies that go through by 70% for 3s.",
       "cooldown": 25,
       "duration": 0.5,
       "iconFilename": "Priest_FaithfulWinds__gfx.webp",
@@ -2988,7 +2988,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Enter a holy state, granting 50% CooldownReduction to Judgment. and making you charge a random Prayer every 1s for 15s.",
+      "description": "Enter a holy state, granting 50% Cooldown Reduction to Judgment. and making you charge a random Prayer every 1s for 15s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Miracle__gfx.webp",
@@ -3023,7 +3023,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Deals 120% Faith Light damage and stuns nearby enemies for 3s.",
+      "description": "Deals 120% Faith Magic damage and stuns nearby enemies for 3s.",
       "cooldown": 45,
       "duration": 0.45,
       "iconFilename": "Priest_RadiantVerdict__gfx.webp",
@@ -3105,7 +3105,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Judgment heals .\n\nBecomes ready after you use a Skill of your actual weapon.",
+      "description": "Judgment heals for 100% Faith Health.\n\nBecomes ready after you use a Skill of your actual weapon.",
       "cooldown": 1,
       "duration": null,
       "iconFilename": "Priest_Prayer_Life__gfx.webp",
@@ -3126,7 +3126,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Judgment deals 150% Faith Light damage.\n\nBecomes ready after you use your ComboAttack.",
+      "description": "Judgment deals 150% Faith Magic damage.\n\nBecomes ready after you use your Final Combo Attack.",
       "cooldown": 1,
       "duration": null,
       "iconFilename": "Priest_Prayer_Smite__gfx.webp",
@@ -3147,7 +3147,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Judgment grants a Shield absorbing.\n\nBecomes ready after you use a Skill of your Arsenal weapon.",
+      "description": "Judgment grants a Shield absorbing 80% Faith damage for 10s.\n\nBecomes ready after you use a Skill of your Arsenal weapon.",
       "cooldown": 1,
       "duration": null,
       "iconFilename": "Priest_Prayer_Shield__gfx.webp",
@@ -3229,7 +3229,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Prayer: Smite damage is increased by 10%.",
+      "description": "Prayer: Smite damage is increased by 10%/20%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_Authority__gfx.webp",
@@ -3250,7 +3250,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Readying a Prayer has a 0.15 chance of granting you Sunlight.",
+      "description": "Readying a Prayer has a 15%/30% chance of granting you Sunlight.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_BlessedSpirituality__gfx.webp",
@@ -3292,7 +3292,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Fervor increased .",
+      "description": "Fervor increased by 1.5%/3%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_FerventDefender__gfx.webp",
@@ -3334,7 +3334,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Sunlight reduces the MagicArmor and Armor of the enemy hit for 10s.",
+      "description": "Sunlight reduces the Magic Armor and Armor of the enemy hit by 8% for 10s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_MeltingFaith__gfx.webp",
@@ -3355,7 +3355,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Your Attacks deal 15% increased critical damage.",
+      "description": "Your Attacks deal 10%/20% increased critical damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_MightyExecutioner__gfx.webp",
@@ -3376,7 +3376,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Sunlight has a 0.1 additional chance to critically strike.",
+      "description": "Sunlight has a 10%/20% additional chance to critically strike.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_OppressiveRays__gfx.webp",
@@ -3397,7 +3397,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Sunlight ignores 50% of MagicArmor.",
+      "description": "Sunlight ignores 50%/100% of Magic Armor.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_PiercingLight__gfx.webp",
@@ -3418,7 +3418,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "MagicMastery increased .",
+      "description": "Magic Mastery increased by 2%/4%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_PiousAdept__gfx.webp",
@@ -3439,7 +3439,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "The Shield of Prayer: Virtue increases your PhysicalMastery by 15%.",
+      "description": "The Shield of Prayer: Virtue increases your Physical Mastery by 15%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_PotentFortitude__gfx.webp",
@@ -3460,7 +3460,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Your critical Attacks have a 0.15 chance to reduce the cooldown of Judgment by 0.5s.",
+      "description": "Your critical Attacks have a 15%/30% chance to reduce the cooldown of Judgment by 0.5s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_Prosecutor__gfx.webp",
@@ -3481,7 +3481,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Your own Sunlight empowers you for 6s, causing all your Attacks to deal an additional 15% Faith Light damage.",
+      "description": "Your own Sunlight empowers you for 6s, causing all your Attacks to deal an additional 15% Faith Magic damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_PurgingStrikes__gfx.webp",
@@ -3502,7 +3502,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Your own Sunlight damage is increased by 12%.",
+      "description": "Your own Sunlight damage is increased by 12%/25%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_Radiance__gfx.webp",
@@ -3523,7 +3523,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "CooldownReduction increased .",
+      "description": "Cooldown Reduction increased by 3%/6%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_SharpMind__gfx.webp",
@@ -3565,7 +3565,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Sunlight heals for 50% of the damage dealt.",
+      "description": "Sunlight heals for 30% of the damage dealt.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_SoothingRays__gfx.webp",
@@ -3607,7 +3607,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Skills that affect allies empower them for 6s with Sunlight. The next ComboAttack consum Sunlight to deal an additional 60% Faith Light damage.",
+      "description": "Skills that affect allies empower them for 6s with Sunlight. The next Final Combo Attack consum Sunlight to deal an additional 60% Faith Magic damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_Sunlight__gfx.webp",
@@ -3628,7 +3628,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Sunlight reduces the cooldown of WeaponSkills by 1s.",
+      "description": "Sunlight reduces the cooldown of Weapon Skills by 1s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_SwiftJustice__gfx.webp",
@@ -3649,7 +3649,7 @@
       "classes": [
         "Priest"
       ],
-      "description": "Your Attacks have an additional 0.04 chance to critically strike.",
+      "description": "Your Attacks have an additional 4%/8% chance to critically strike.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Priest_Talent_ZealousFighter__gfx.webp",
@@ -3671,11 +3671,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Your WeaponSkill empower your next 2 Attacks that will deal an additional and generate a Benediction stack, stacking up to times.",
+      "description": "Your Weapon Skill empower your next 2 Attacks that will deal an additional 20% Faith Magic damage and generate a Benediction stack, stacking up to 5 times.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Mace_Benediction_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Mace_Benediction_Passive__gfx.webp",
+      "iconFilename": "mace-benediction-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/mace-benediction-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3691,7 +3691,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/blessing",
-      "iconPath": "/images/skills/Mace_Benediction_Passive__gfx.webp"
+      "iconPath": "/images/skills/mace-benediction-passive-gfx.webp"
     },
     {
       "id": "Scepter_Flamie_P",
@@ -3702,11 +3702,11 @@
       "classes": [
         "Priest"
       ],
-      "description": "You are permanently followed by a Flamie, healing every 2s.",
+      "description": "You are permanently followed by a Flamie, healing 10% Faith Health every 2s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Scepter_Flamie_P__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Flamie_P__gfx.webp",
+      "iconFilename": "scepter-flamie-p-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/scepter-flamie-p-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3722,7 +3722,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/flamie",
-      "iconPath": "/images/skills/Scepter_Flamie_P__gfx.webp"
+      "iconPath": "/images/skills/scepter-flamie-p-gfx.webp"
     },
     {
       "id": "GM_MassGrab_Passive",
@@ -3734,11 +3734,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Dealing and taking damage has a 0.2 chance to generate a stack of Buzzing, stacking up to times.\nAt stacks, summons an angry bee that starts attacking enemies for 15s, dealing 80% Faith Magic damage every 3s.",
+      "description": "Dealing and taking damage has a 20% chance to generate a stack of Buzzing, stacking up to 10 times.\nAt 10 stacks, summons an angry bee that starts attacking enemies for 15s, dealing 80% Faith Magic damage every 3s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "GM_MassGrab_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GM_MassGrab_Passive__gfx.webp",
+      "iconFilename": "gm-mass-grab-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/gm-mass-grab-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3754,7 +3754,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/mad-buzz",
-      "iconPath": "/images/skills/GM_MassGrab_Passive__gfx.webp"
+      "iconPath": "/images/skills/gm-mass-grab-passive-gfx.webp"
     },
     {
       "id": "Crescent_FlowerSpiral_Passive",
@@ -3766,11 +3766,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Your Attacks deal an additional 12% Faith Magic damage and slow enemies for 3s.",
+      "description": "Your Attacks deal an additional 12% Faith Magic damage and slow enemies by 70% for 3s.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Crescent_FlowerSpiral_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Crescent_FlowerSpiral_Passive__gfx.webp",
+      "iconFilename": "crescent-flower-spiral-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/crescent-flower-spiral-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3786,7 +3786,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/nectar-infused-blade",
-      "iconPath": "/images/skills/Crescent_FlowerSpiral_Passive__gfx.webp"
+      "iconPath": "/images/skills/crescent-flower-spiral-passive-gfx.webp"
     },
     {
       "id": "Sword_Craft_Passive",
@@ -3798,7 +3798,7 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Heals nearby allies for every 3s while you are surrounded by 2 or more enemies within 6.",
+      "description": "Heals nearby allies for 10% Faith Health every 3s while you are surrounded by 2 or more enemies within 6m.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Sword_Craft_Passive__gfx.webp",
@@ -3830,7 +3830,7 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Your Weapon Skills surround you with an Hive Swarm for 10s.\n\nHive Swarm deals 30% Faith Magic damage to nearby enemies and heals you for that amount every 2s.",
+      "description": "Your Weapon Skills surround you with an Hive Swarm for 10s.\n\nHive Swarm deals 12% Strength Magic damage to nearby enemies and heals you for 20% of that amount every 1s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Sword_Swarm_Passive__gfx.webp",
@@ -3865,8 +3865,8 @@
       "description": "For 4s, all damage you deal heals allies within 15 for 25% of the damage dealt.",
       "cooldown": 16,
       "duration": 0.4,
-      "iconFilename": "Crescent_FlowerSpiral_Skill_2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Crescent_FlowerSpiral_Skill_2__gfx.webp",
+      "iconFilename": "crescent-flower-spiral-skill-2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/crescent-flower-spiral-skill-2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3882,7 +3882,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/bloom",
-      "iconPath": "/images/skills/Crescent_FlowerSpiral_Skill_2__gfx.webp"
+      "iconPath": "/images/skills/crescent-flower-spiral-skill-2-gfx.webp"
     },
     {
       "id": "GM_MassGrab_Skill2",
@@ -3894,11 +3894,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Leaps through the air towards the targeted area, dealing 125% Strength Physical damage and leaving an area upon arrival dealing 125% Strength Physical damage over 12s.",
+      "description": "Leaps through the air towards the targeted area, dealing 125% Strength Physical damage and leaving an area upon arrival dealing 100% Faith Physical damage over 12s.",
       "cooldown": 24,
       "duration": 0.1,
-      "iconFilename": "GM_MassGrab_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GM_MassGrab_Skill2__gfx.webp",
+      "iconFilename": "gm-mass-grab-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/gm-mass-grab-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -3914,7 +3914,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/brood-leap",
-      "iconPath": "/images/skills/GM_MassGrab_Skill2__gfx.webp"
+      "iconPath": "/images/skills/gm-mass-grab-skill2-gfx.webp"
     },
     {
       "id": "Sword_Start_Skill1",
@@ -3990,11 +3990,11 @@
         "Priest",
         "Rogue"
       ],
-      "description": "Spins to deal 18% Dexterity Magic damage to nearby enemies. Consumes all stacks of Psychoactive Petal to spin additional times.\n\nDuring combat, generates a stack of Psychoactive Petal every 4s and after every ComboAttack, stacking up to times.",
+      "description": "Spins to deal 18% Dexterity Magic damage to nearby enemies. Consumes all stacks of Psychoactive Petal to spin additional times.\n\nDuring combat, generates a stack of Psychoactive Petal every 4s and after every Final Combo Attack, stacking up to 6 times.",
       "cooldown": 12,
       "duration": null,
-      "iconFilename": "Crescent_FlowerSpiral_Skill_1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Crescent_FlowerSpiral_Skill_1__gfx.webp",
+      "iconFilename": "crescent-flower-spiral-skill-1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/crescent-flower-spiral-skill-1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4010,7 +4010,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/flower-spiral",
-      "iconPath": "/images/skills/Crescent_FlowerSpiral_Skill_1__gfx.webp"
+      "iconPath": "/images/skills/crescent-flower-spiral-skill-1-gfx.webp"
     },
     {
       "id": "Scepter_Flamie_Skill1",
@@ -4024,8 +4024,8 @@
       "description": "All your Flamies simultaneously burst some heat around, dealing 50% Faith Magic damage to nearby enemies.",
       "cooldown": 8,
       "duration": 0.35,
-      "iconFilename": "Scepter_Flamie_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Flamie_Skill1__gfx.webp",
+      "iconFilename": "scepter-flamie-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/scepter-flamie-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4041,7 +4041,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/heat-emission",
-      "iconPath": "/images/skills/Scepter_Flamie_Skill1__gfx.webp"
+      "iconPath": "/images/skills/scepter-flamie-skill1-gfx.webp"
     },
     {
       "id": "Sword_Swarm_Skill1",
@@ -4053,7 +4053,7 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Performs a strong cleave dealing 100% Strength Physical damage to nearby enemies and reducing their MagicArmor for 10s.",
+      "description": "Performs a strong cleave dealing 100% Strength Physical damage to nearby enemies and reducing their Magic Armor by 30% for 10s.",
       "cooldown": 18,
       "duration": 0.7,
       "iconFilename": "Sword_Swarm_Skill1__gfx.webp",
@@ -4087,8 +4087,8 @@
       "description": "Conjures a heat zone in the targeted area for 4s. Allies within the zone receive a temporary Flamie for 8s.",
       "cooldown": 20,
       "duration": 0.1,
-      "iconFilename": "Scepter_Flamie_S2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Flamie_S2__gfx.webp",
+      "iconFilename": "scepter-flamie-s2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/scepter-flamie-s2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4104,7 +4104,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/hot-hot-hot",
-      "iconPath": "/images/skills/Scepter_Flamie_S2__gfx.webp"
+      "iconPath": "/images/skills/scepter-flamie-s2-gfx.webp"
     },
     {
       "id": "Scepter_Start_Skill1",
@@ -4115,11 +4115,11 @@
       "classes": [
         "Priest"
       ],
-      "description": "Blasts 160% Faith Light damage to the target, burning them for 140% Faith Light damage over 10s.",
+      "description": "Blasts 160% Faith Magic damage to the target, burning them for 140% Faith Magic damage over 10s.",
       "cooldown": 12,
       "duration": 0.27,
-      "iconFilename": "Scepter_Start_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Scepter_Start_Skill1__gfx.webp",
+      "iconFilename": "scepter-start-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/scepter-start-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4135,7 +4135,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/luon-flame",
-      "iconPath": "/images/skills/Scepter_Start_Skill1__gfx.webp"
+      "iconPath": "/images/skills/scepter-start-skill1-gfx.webp"
     },
     {
       "id": "Priest_Talent_Radiance",
@@ -4178,11 +4178,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Emits bright light around you, dealing 80% Faith Magic damage to nearby enemies and consuming all Benediction stacks. If stacks are consumed, this increases your CritChance and Fervor for 15s.",
+      "description": "Emits bright light around you, dealing 80% Faith Magic damage to nearby enemies and consuming all Benediction stacks. If 5 stacks are consumed, this increases your Crit Chance and Fervor by 5% for 15s.",
       "cooldown": 8,
       "duration": 0.5,
-      "iconFilename": "Mace_Benediction_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Mace_Benediction_Skill1__gfx.webp",
+      "iconFilename": "mace-benediction-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/mace-benediction-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4198,7 +4198,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/ram-veil",
-      "iconPath": "/images/skills/Mace_Benediction_Skill1__gfx.webp"
+      "iconPath": "/images/skills/mace-benediction-skill1-gfx.webp"
     },
     {
       "id": "GM_MassGrab_Skill1",
@@ -4210,11 +4210,11 @@
         "Priest",
         "Warrior"
       ],
-      "description": "Draws all nearby enemies before you, dealing them 40% Strength Magic damage, then slams the ground, dealing 40% Strength Magic damage.",
+      "description": "Draws all nearby enemies before you, dealing them 40% Strength Magic damage, then slams the ground, dealing 150% Strength Magic damage.",
       "cooldown": 16,
       "duration": 1.5,
-      "iconFilename": "GM_MassGrab_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GM_MassGrab_Skill1__gfx.webp",
+      "iconFilename": "gm-mass-grab-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/gm-mass-grab-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -4230,7 +4230,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/reverse-honey-spin",
-      "iconPath": "/images/skills/GM_MassGrab_Skill1__gfx.webp"
+      "iconPath": "/images/skills/gm-mass-grab-skill1-gfx.webp"
     },
     {
       "id": "Rogue_Darkness",
@@ -4241,7 +4241,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Consumes all ComboPoints to summon as many Darkness Shadows .\nShadows attack your target, dealing.",
+      "description": "Consumes all Combo Points to summon as many Darkness Shadows .\nShadows attack your target, dealing.",
       "cooldown": 120,
       "duration": 0.3,
       "iconFilename": "Rogue_Darkness__gfx.webp",
@@ -4363,7 +4363,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Spins and projects knifes around you, dealing 100% Dexterity Physical damage to nearby enemies and generate 1 ComboPoint.",
+      "description": "Spins and projects knifes around you, dealing 100% Dexterity Physical damage to nearby enemies and generate 1 Combo Point.",
       "cooldown": 30,
       "duration": 0.3,
       "iconFilename": "Rogue_KnivesTempest__gfx.webp",
@@ -4588,7 +4588,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Finisher has no cooldown and you generate 1 ComboPoint every 1s for 10s.",
+      "description": "Finisher has no cooldown and you generate 1 Combo Point every 1s for 10s.",
       "cooldown": 120,
       "duration": null,
       "iconFilename": "Rogue_UrgeToKill__gfx.webp",
@@ -4649,7 +4649,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "You can now stack up to 5 ComboPoint.",
+      "description": "You can now stack up to 5 Combo Point.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_ComboMax__gfx.webp",
@@ -4670,7 +4670,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Generates 1 ComboPoint when using a ComboAttack or WeaponSkill different from the last action.",
+      "description": "Generates 1 Combo Point when using a Final Combo Attack or Weapon Skill different from the last action.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_ComboPoints__gfx.webp",
@@ -4691,7 +4691,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Consumes all ComboPoints to dash forward, dealing 100% Dexterity Physical damage and knocking enemies back.\nDamage increased by 30% per ComboPoint consumed.",
+      "description": "Consumes all Combo Points to dash forward, dealing 100% Dexterity Physical damage and knocking enemies back.\nDamage increased by 30% per Combo Point consumed.",
       "cooldown": 8,
       "duration": 0.45,
       "iconFilename": "Rogue_Sig_Finisher__gfx.webp",
@@ -4752,7 +4752,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Finisher has a 0.05 chance per ComboPoint to spread acid to enemies, poisoning them for 50% Intellect Magic damage over 8s while reducing their MagicArmor .",
+      "description": "Finisher has a 20% chance per Combo Point to spread acid to enemies, poisoning them for 100% Intellect Magic damage over 6s while reducing their Magic Armor by 25%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_AcidicSplatter__gfx.webp",
@@ -4773,7 +4773,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your MoveSpeedFactor is increased by as long as an enemy is affected by Lethal Poison.",
+      "description": "Your Move Speed Factor is increased by 15% as long as an enemy is affected by Lethal Poison.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_Adrenaline__gfx.webp",
@@ -4794,7 +4794,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Lethal Poison reduces all damage dealt by affected enemies by 1% per stack.",
+      "description": "Lethal Poison reduces all damage dealt by affected enemies by 1%/2% per stack.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_AtrophicPoison__gfx.webp",
@@ -4815,7 +4815,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Damage dealt to poisoned enemies increased by 3%.",
+      "description": "Damage dealt to poisoned enemies increased by 2%/4%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_BullyingTheWeak__gfx.webp",
@@ -4836,7 +4836,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Damage that should kill you leaves you at 5% of your MaxHealth. For 3s, you take reduced damage. ( cooldown).",
+      "description": "Damage that should kill you leaves you at 5% of your Maximum Health. For 3s, you take 85% reduced damage. (120 cooldown).",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_CheatDeath__gfx.webp",
@@ -4878,7 +4878,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Lethal Poison has a 0.01 chance per stack to critically strike.",
+      "description": "Lethal Poison has a 2%/3% chance per stack to critically strike.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_DeadlyPoison__gfx.webp",
@@ -4899,7 +4899,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your ComboAttack always applies Lethal Poison with a 0.35 chance to also apply it to nearby enemies.",
+      "description": "Your Final Combo Attack always applies Lethal Poison to the target and to nearby enemies.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_Envenom__gfx.webp",
@@ -4920,7 +4920,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your Attacks have an additional 0.07 chance to critically strike poisoned enemies.",
+      "description": "Your Attacks have an additional 5%/10% chance to critically strike poisoned enemies.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_FinishTheJob__gfx.webp",
@@ -4941,7 +4941,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "DodgeChance increased .",
+      "description": "Dodge Chance increased by 3%/6%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_Footwork__gfx.webp",
@@ -4962,7 +4962,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Lethal Poison now stacks up to 6 times.",
+      "description": "Lethal Poison now stacks up to 6/7 times.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_ImprovedMixture__gfx.webp",
@@ -4983,7 +4983,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Gain 1 ComboPoint when an enemy affected by your Lethal Poison dies.",
+      "description": "Gain 5 Combo Points when an enemy affected by your Lethal Poison dies.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_IntentToKill__gfx.webp",
@@ -5004,7 +5004,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Lethal Poison heals you for 20% of the damage dealt.",
+      "description": "Lethal Poison heals you for 5%/10% of the damage dealt.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_LeechingPoison__gfx.webp",
@@ -5025,7 +5025,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Damage dealt by your poisons increased by 10%.",
+      "description": "Damage dealt by your poisons increased by 10%/20%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_LethalDose__gfx.webp",
@@ -5046,7 +5046,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your Attacks have a 0.15 chance to apply a stack of Lethal Poison, poisoning them for 18% Dexterity Magic damage over 8s, stacking up to.",
+      "description": "Your Attacks have a 20% chance to apply a stack of Lethal Poison, poisoning them for 35% Dexterity Magic damage over 8s, stacking up to 5.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_LethalPoison__gfx.webp",
@@ -5067,7 +5067,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Lethal Poison damage has a 0.07 chance to reduce the cooldown of your WeaponSkills by 0.5s.",
+      "description": "Lethal Poison damage has a 7%/15% chance to reduce the cooldown of your Weapon Skills by 0.5s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_NoxiousStrategem__gfx.webp",
@@ -5088,7 +5088,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your BasicAttacks applying Lethal Poison have a 0.5 chance to strike again.",
+      "description": "Your Basic Attacks applying Lethal Poison have a 50% chance to strike again.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_OpportunityStrike__gfx.webp",
@@ -5109,7 +5109,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Heals you for 1% of your MaxHealth when an enemy affected by your Lethal Poison dies.",
+      "description": "Heals you for 5%/10% of your Maximum Health when you kill an enemy affected by Lethal Poison.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_RegeneratingMiasmas__gfx.webp",
@@ -5130,7 +5130,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "CooldownReduction increased .",
+      "description": "Cooldown Reduction increased by 3%/6%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_UpTheAnte__gfx.webp",
@@ -5151,7 +5151,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your WeaponSkills have a 0.2 chance to apply Lethal Poison.",
+      "description": "Your Weapon Skills have a 25%/50% chance to apply Lethal Poison.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_VenomInfusion__gfx.webp",
@@ -5193,7 +5193,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Excess applications of Lethal Poison will deal 20% Intellect Magic damage.",
+      "description": "Excess applications of Lethal Poison will deal 40% Intellect Magic damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Rogue_Talent_VirulentMagic__gfx.webp",
@@ -5215,7 +5215,7 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Increases the CritChance of all allies within 40 by 3%.",
+      "description": "Increases the Crit Chance of all allies within 40m by 3%.",
       "cooldown": 3,
       "duration": null,
       "iconFilename": "Axe_Boomerang_Skill_Passive__gfx.webp",
@@ -5246,11 +5246,11 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Your Attacks and Weapon skills have a 0.2 to cause the enemies to bleed for 25% Dexterity Physical damage over 9s, stacking up to times.",
+      "description": "Your Attacks and Weapon skills have a 20% to cause the enemies to bleed for 25% Dexterity Physical damage over 9s, stacking up to 5 times.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "Daggers_DuplicatePoison_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_DuplicatePoison_Passive__gfx.webp",
+      "iconFilename": "daggers-duplicate-poison-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-duplicate-poison-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5266,7 +5266,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/sharpen-fangs",
-      "iconPath": "/images/skills/Daggers_DuplicatePoison_Passive__gfx.webp"
+      "iconPath": "/images/skills/daggers-duplicate-poison-passive-gfx.webp"
     },
     {
       "id": "DA_Water_Passive",
@@ -5278,7 +5278,7 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Your PhysicalMastery is increased by while fighting under 50% Health.",
+      "description": "Your Physical Mastery is increased by 15% while fighting under 50% Health.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "DA_Water_Passive__gfx.webp",
@@ -5310,11 +5310,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Your Attacks and WeaponSkills generate a stack of Zeal, stacking up to times.\n\nAt stacks, your next ComboAttack consums all stacks to reset the cooldown of Zealous Spins and increase its damage by 50%.",
+      "description": "Your Attacks and Weapon Skills generate a stack of Zeal, stacking up to 10 times.\n\nAt 10 stacks, your next Final Combo Attack consums all stacks to reset the cooldown of Zealous Spins and increase its damage by 50%.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "DM_Multispin_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DM_Multispin_Passive__gfx.webp",
+      "iconFilename": "dm-multispin-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/dm-multispin-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5330,7 +5330,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/zeal",
-      "iconPath": "/images/skills/DM_Multispin_Passive__gfx.webp"
+      "iconPath": "/images/skills/dm-multispin-passive-gfx.webp"
     },
     {
       "id": "DA_Water_Skill1",
@@ -5342,7 +5342,7 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Imbues your weapons with tide power for 8s, giving all your Attacks a 0.3 chance to blast 15% Strength Physical damage.\nBlasted damage is considered as an Attack.",
+      "description": "Imbues your weapons with tide power for 8s, giving all your Attacks a 30% chance to blast 15% Strength Physical damage.\nBlasted damage is considered as an Attack.",
       "cooldown": 20,
       "duration": 0.4,
       "iconFilename": "DA_Water_Skill1__gfx.webp",
@@ -5408,8 +5408,8 @@
       "description": "Mutilates an enemy, dealing 100% Dexterity Physical damage and opening a gaping wound, causing them to bleed for 400% Dexterity Raw damage over 8s.",
       "cooldown": 24,
       "duration": 0.68,
-      "iconFilename": "Daggers_DuplicatePoison_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_DuplicatePoison_Skill1__gfx.webp",
+      "iconFilename": "daggers-duplicate-poison-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-duplicate-poison-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5425,7 +5425,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/gaping-wound",
-      "iconPath": "/images/skills/Daggers_DuplicatePoison_Skill1__gfx.webp"
+      "iconPath": "/images/skills/daggers-duplicate-poison-skill1-gfx.webp"
     },
     {
       "id": "DA_Water_Skill2",
@@ -5437,7 +5437,7 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Deals 48% Strength Physical damage to nearby enemies.\nAll your Attacks reduce the cooldown by 1.5s.",
+      "description": "Deals 47.5% Strength Physical damage to nearby enemies.\nAll your Attacks reduce the cooldown by 1.5s.",
       "cooldown": 10,
       "duration": 0.4,
       "iconFilename": "DA_Water_Skill2__gfx.webp",
@@ -5472,8 +5472,8 @@
       "description": "Charges straight ahead, dealing four times 35% Strength Physical damage to enemies and stunning them for 1s.",
       "cooldown": 10,
       "duration": 0.55,
-      "iconFilename": "DM_Multispin_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DM_Multispin_Skill2__gfx.webp",
+      "iconFilename": "dm-multispin-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/dm-multispin-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5489,7 +5489,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/iron-cyclone",
-      "iconPath": "/images/skills/DM_Multispin_Skill2__gfx.webp"
+      "iconPath": "/images/skills/dm-multispin-skill2-gfx.webp"
     },
     {
       "id": "Daggers_Start_Skill2",
@@ -5531,7 +5531,7 @@
       "classes": [
         "Rogue"
       ],
-      "description": "Deals 30% Dexterity Physical damage 2 times to nearby enemies.\n\nYour ComboAttack resets the cooldown.",
+      "description": "Deals 30% Dexterity Physical damage 2 times to nearby enemies.\n\nYour Final Combo Attack resets the cooldown.",
       "cooldown": 15,
       "duration": null,
       "iconFilename": "Daggers_Start_Skill1__gfx.webp",
@@ -5565,8 +5565,8 @@
       "description": "Stabs and deals 60% Dexterity Physical damage to an enemy, triggering the effects of Sharpen Fangs.",
       "cooldown": 4,
       "duration": 0.4,
-      "iconFilename": "Daggers_DuplicatePoison_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/Daggers_DuplicatePoison_Skill2__gfx.webp",
+      "iconFilename": "daggers-duplicate-poison-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/daggers-duplicate-poison-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5582,7 +5582,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/shiv-daggers-duplicatepoison-skill2",
-      "iconPath": "/images/skills/Daggers_DuplicatePoison_Skill2__gfx.webp"
+      "iconPath": "/images/skills/daggers-duplicate-poison-skill2-gfx.webp"
     },
     {
       "id": "DM_Multispin_Skill1",
@@ -5594,11 +5594,11 @@
         "Rogue",
         "Warrior"
       ],
-      "description": "Spins foward, dealing 8% Strength Physical damage to enemies thrice on your path. If an enemy is hit, you can recast it within 3s.",
+      "description": "Spins foward, dealing 7.5% Strength Physical damage to enemies thrice on your path. If an enemy is hit, you can recast it within 3s.",
       "cooldown": 10,
       "duration": 0.55,
-      "iconFilename": "DM_Multispin_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/DM_Multispin_Skill1__gfx.webp",
+      "iconFilename": "dm-multispin-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/dm-multispin-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -5614,7 +5614,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/zealous-spins",
-      "iconPath": "/images/skills/DM_Multispin_Skill1__gfx.webp"
+      "iconPath": "/images/skills/dm-multispin-skill1-gfx.webp"
     },
     {
       "id": "Warrior_BattleShout",
@@ -5625,7 +5625,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Grants CritChance to allies within 100 for 15s.",
+      "description": "Grants 20% Crit Chance to allies within 100m for 15s.",
       "cooldown": 120,
       "duration": 0.4,
       "iconFilename": "Warrior_BattleShout__gfx.webp",
@@ -5686,7 +5686,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Increase all damage done by 100% and Rage generated from Skills and Attacks by 1 for 15s.",
+      "description": "Increase all damage done by 20% and Rage generated from Skills and Attacks by 1 for 15s.",
       "cooldown": 120,
       "duration": 0.3,
       "iconFilename": "Warrior_Berserk__gfx.webp",
@@ -5747,7 +5747,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Your 3 next WeaponSkills have no cooldown. Lasts 20s.",
+      "description": "Your 3 next Weapon Skills have no cooldown. Lasts 20s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_BurstOfAnger__gfx.webp",
@@ -5869,7 +5869,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Reduces all damage taken for 12s.",
+      "description": "Reduces all damage taken by 60% for 12s.",
       "cooldown": 60,
       "duration": 0.5,
       "iconFilename": "Warrior_IgnorePain__gfx.webp",
@@ -6012,7 +6012,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Generates 1 Rage from Attacks and WeaponSkills.\nYou can spend Rage to use Raging Smash.",
+      "description": "Generates 1 Rage from Attacks and Weapon Skills.\nYou can spend Rage to use Raging Smash.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Rage__gfx.webp",
@@ -6094,7 +6094,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Hemorrhage heals you for 30% of the damage dealt.",
+      "description": "Hemorrhage heals you for 15%/30% of the damage dealt.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_Bloodfeast__gfx.webp",
@@ -6115,7 +6115,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage dealt by your bleeding effects increased by 10%.",
+      "description": "Damage dealt by your bleeding effects increased by 10%/20%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_Bloodletting__gfx.webp",
@@ -6157,7 +6157,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage from Hemorrhage has a 0.35 chance to deal an additional 15% Faith Magic damage.",
+      "description": "Damage from Hemorrhage has a 35% chance to deal an additional 15% Faith Magic damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_CrackingBlood__gfx.webp",
@@ -6178,7 +6178,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Hemorrhage reduces all damage dealt by affected enemies by 5%.",
+      "description": "Hemorrhage reduces all damage dealt by affected enemies by 5%/10%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_CrippingBloodloss__gfx.webp",
@@ -6199,7 +6199,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "You ignore 5% of bleeding enemies' MagicArmor and Armor.",
+      "description": "You ignore 5%/10% of bleeding enemies' Magic Armor and Armor.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_ExposedEssence__gfx.webp",
@@ -6220,7 +6220,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Hemorrhage has a 0.1 chance to critically strike.",
+      "description": "Hemorrhage has a 10%/20% chance to critically strike.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_Exsanguination__gfx.webp",
@@ -6241,7 +6241,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "CritChance increased .",
+      "description": "Crit Chance increased by 2%/4%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_FightingSpirit__gfx.webp",
@@ -6262,7 +6262,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Your Physical CriticalStrikes make the enemies bleed for 40% of the damage dealt over 9s.",
+      "description": "Your Physical Critical Strikes make the enemies bleed for 35% of the damage dealt over 8s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Hemorrhage__gfx.webp",
@@ -6283,7 +6283,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage dealt increased by 3% and damage suffered reduced by 3% while Rage Shield is active.",
+      "description": "Damage dealt increased by 3%/6% and damage suffered reduced by 3%/6% while Rage Shield is active.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_HoldTheLine__gfx.webp",
@@ -6325,7 +6325,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage dealt to enemies affected by Hemorrhage increased by 7%.",
+      "description": "Magic damage dealt to enemies affected by Hemorrhage increased by 7%/15%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_MagicConduction__gfx.webp",
@@ -6346,7 +6346,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Your Attacks deal 15% increased critical damage.",
+      "description": "Your Attacks deal 15%/30% increased critical damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_MasterAtArms__gfx.webp",
@@ -6367,7 +6367,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "When you apply Hemorrhage, you gain a Shield absorbing an amount equal to 5% of your MaxHealth for 8s.",
+      "description": "When you apply Hemorrhage, you gain a Shield absorbing an amount equal to 5% of your Maximum Health for 8s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_RageShield__gfx.webp",
@@ -6388,7 +6388,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage from bleeding effects have a 0.12 chance to reduce the cooldown of all your WeaponSkills by 1s.",
+      "description": "Damage from bleeding effects have a 12%/25% chance to reduce the cooldown of all your Weapon Skills by 1s.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_RedTempo__gfx.webp",
@@ -6430,7 +6430,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Damage that should kill you leaves you at 1 Health and grants you the effects of Rage Shield (120s cooldown).",
+      "description": "Damage that should kill you leaves you at 1 Health and grants you the effects of Rage Shield (120 cooldown).",
       "cooldown": 120,
       "duration": null,
       "iconFilename": "Warrior_SecondWind__gfx.webp",
@@ -6451,7 +6451,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Your WeaponSkills deal 20% increased critical damage.",
+      "description": "Your Weapon Skills deal 20% increased critical damage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_Sever__gfx.webp",
@@ -6493,7 +6493,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Your ComboAttack has a 0.25 chance to allow your next Raging Smash to critically strike and cost no Rage.",
+      "description": "Your Final Combo Attack has a 25% chance to allow your next Raging Smash to critically strike and cost no Rage.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_SurgeOfViolence__gfx.webp",
@@ -6514,7 +6514,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Fervor increased .",
+      "description": "Fervor increased by 2%/4%.",
       "cooldown": null,
       "duration": null,
       "iconFilename": "Warrior_Talent_ZealousWarrior__gfx.webp",
@@ -6538,8 +6538,8 @@
       "description": "You deal 15% increased damage to enemies affected by crowd control effects.",
       "cooldown": null,
       "duration": null,
-      "iconFilename": "GA_Craft_Passive__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Craft_Passive__gfx.webp",
+      "iconFilename": "ga-craft-passive-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-craft-passive-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -6555,7 +6555,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/domination",
-      "iconPath": "/images/skills/GA_Craft_Passive__gfx.webp"
+      "iconPath": "/images/skills/ga-craft-passive-gfx.webp"
     },
     {
       "id": "GS_Nova_Passive",
@@ -6587,7 +6587,7 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Grants MoveSpeedFactor and PhysicalMastery to allies within 40 for 6s.",
+      "description": "Grants 40% Move Speed Factor and 6% Physical Mastery to allies within 40m for 6s.",
       "cooldown": 30,
       "duration": null,
       "iconFilename": "GS_Nova_Skill2__gfx.webp",
@@ -6608,11 +6608,11 @@
       "classes": [
         "Warrior"
       ],
-      "description": "Charges your strike up to 3s, then violently smashes the ground, dealing between 250% Strength Physical damage and to nearby enemies and knocking them back depending on charge time.",
+      "description": "Charges your strike up to 3s, then violently smashes the ground, dealing between 250% Strength Physical damage and 600% Strength Physical damage to nearby enemies and knocking them back depending on charge time.",
       "cooldown": 16,
       "duration": 1,
-      "iconFilename": "GA_Craft_Skill1__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Craft_Skill1__gfx.webp",
+      "iconFilename": "ga-craft-skill1-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-craft-skill1-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -6628,7 +6628,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/rampage",
-      "iconPath": "/images/skills/GA_Craft_Skill1__gfx.webp"
+      "iconPath": "/images/skills/ga-craft-skill1-gfx.webp"
     },
     {
       "id": "GA_Craft_Skill2",
@@ -6642,8 +6642,8 @@
       "description": "Heavily slams in a frontal cone, dealing 180% Strength Physical damage and stunning enemies for 3s.",
       "cooldown": 25,
       "duration": 1,
-      "iconFilename": "GA_Craft_Skill2__gfx.webp",
-      "iconUrl": "https://static.metaforge.app/farever/icons/GA_Craft_Skill2__gfx.webp",
+      "iconFilename": "ga-craft-skill2-gfx.webp",
+      "iconUrl": "https://static.metaforge.app/farever/icons/ga-craft-skill2-gfx.webp",
       "maxRank": 1,
       "runes": [],
       "weaponSubcategories": [
@@ -6659,7 +6659,7 @@
         }
       ],
       "pageUrl": "https://metaforge.app/farever/database/skills/shockwave",
-      "iconPath": "/images/skills/GA_Craft_Skill2__gfx.webp"
+      "iconPath": "/images/skills/ga-craft-skill2-gfx.webp"
     },
     {
       "id": "GS_Nova_Skill1",

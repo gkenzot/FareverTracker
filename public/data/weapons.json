@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/weapons",
-  "importedAt": "2026-07-23T00:01:27.687Z",
+  "importedAt": "2026-08-21T15:11:27.895Z",
   "total": 37,
   "propertyFields": [
     {
@@ -321,7 +321,7 @@
           "Mage"
         ],
         "type": "Book",
-        "ilevel": 20,
+        "ilevel": 10,
         "weapon_damage": 1.3
       },
       "sources": [
@@ -362,17 +362,19 @@
       ],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "stats": [
-        {
-          "label": "Vitality",
-          "value": 1
-        },
-        {
-          "label": "Intellect",
-          "value": 3
-        }
-      ],
-      "statsByClass": null,
+      "stats": [],
+      "statsByClass": {
+        "Mage": [
+          {
+            "label": "Vitality",
+            "value": 1
+          },
+          {
+            "label": "Intellect",
+            "value": 3
+          }
+        ]
+      },
       "statsSource": "metaforge",
       "statsScale": {
         "rarity": "Rare",
@@ -4850,16 +4852,16 @@
       "metaforgeId": 40,
       "name": "Large Butterfly Net",
       "slug": "large-butterfly-net",
-      "family": "CaptureNet",
+      "family": "Net",
       "rarity": "Rare",
       "itemLevel": 20,
-      "description": "This net can be used to try catching world companions.",
+      "description": "Tries to capture a companion.",
       "iconFilename": "Net_Basic__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/Net_Basic__gfx.webp",
       "iconPath": "/images/weapons/Net_Basic__gfx.webp",
       "pageUrl": "https://metaforge.app/farever/database/weapons/large-butterfly-net",
       "properties": {
-        "subcategory": "CaptureNet",
+        "subcategory": "Net",
         "rarity": "Rare",
         "level": 20,
         "type": "CaptureNet"
@@ -4882,19 +4884,22 @@
           "npc_id": "WanderingMerchant_Npc_Azuram",
           "npc_name": "Wandering Merchant",
           "zone": "Tyrna",
-          "cost": "Gold"
+          "cost": 150,
+          "currency": "Gold"
         },
         {
           "npc_id": "WanderingMerchant_NPC_Primevalley_1",
           "npc_name": "Wandering Merchant",
           "zone": "Navelin",
-          "cost": "Gold"
+          "cost": 150,
+          "currency": "Gold"
         },
         {
           "npc_id": "WanderingMerchant_Npc_Crimson",
           "npc_name": "Wandering Merchant",
           "zone": "Lower Ramburg",
-          "cost": "Gold"
+          "cost": 150,
+          "currency": "Gold"
         }
       ],
       "achievements": [],
@@ -4926,7 +4931,7 @@
           "Warrior"
         ],
         "type": "Sword",
-        "ilevel": 20,
+        "ilevel": 10,
         "weapon_damage": 1.3
       },
       "sources": [
@@ -4967,17 +4972,19 @@
       ],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "stats": [
-        {
-          "label": "Vitality",
-          "value": 2
-        },
-        {
-          "label": "Strength",
-          "value": 2
-        }
-      ],
-      "statsByClass": null,
+      "stats": [],
+      "statsByClass": {
+        "Warrior": [
+          {
+            "label": "Vitality",
+            "value": 2
+          },
+          {
+            "label": "Strength",
+            "value": 2
+          }
+        ]
+      },
       "statsSource": "metaforge",
       "statsScale": {
         "rarity": "Rare",
@@ -5351,7 +5358,7 @@
       "family": "GreatSword",
       "rarity": "Rare",
       "itemLevel": 25,
-      "description": "Enripit, once known as the Nightlord who almost stopped the Guardians War, is no longer even able to stop the Kobolds from stealing his sword.",
+      "description": "",
       "iconFilename": "GS_Nova__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/GS_Nova__gfx.webp",
       "iconPath": "/images/weapons/GS_Nova__gfx.webp",
@@ -5365,13 +5372,13 @@
         ],
         "type": "GreatSword",
         "ilevel": 210,
-        "weapon_damage": 121.5
+        "weapon_damage": 199.5
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Dungeon Ratsar's Lair (King Ratsar)",
-          "link": "creatures/ratsar"
+          "text": "Dungeon Crimson Barracks / Chakram's Chapel",
+          "link": null
         }
       ],
       "droppedBy": [],
@@ -5381,24 +5388,19 @@
       "stats": [
         {
           "label": "Strength",
-          "value": 29
+          "value": 17
         },
         {
           "label": "Vitality",
-          "value": 37
+          "value": 22
         },
         {
           "label": "Critical",
-          "value": 75
+          "value": 57
         }
       ],
       "statsByClass": null,
-      "statsSource": "in-game",
-      "statsTip": {
-        "level": 25,
-        "rarity": "Epic",
-        "upgradeLevel": 0
-      },
+      "statsSource": "siagarta",
       "statsScale": {
         "rarity": "Rare",
         "baseApts": [
@@ -5508,14 +5510,14 @@
         "upgradeLevel": 0
       },
       "weaponDamage": {
-        "min": 109,
-        "max": 134,
-        "avg": 121.5,
+        "min": 179,
+        "max": 219,
+        "avg": 199.5,
         "affinity": "Physical",
         "skillId": "GS_Base_Attack",
         "scalingAttr": "Strength",
         "scalingRatio": 0.95,
-        "note": "In-game player tooltip: L25 Epic ★0."
+        "note": "2H weapon_damage derived from base-attack ratio (live 2H weapons had null damage / no anchor) — verify in-game."
       }
     },
     {
@@ -5551,7 +5553,7 @@
         },
         {
           "kind": "unknown",
-          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content, verify in-game.",
           "link": null
         }
       ],
@@ -5827,7 +5829,7 @@
         },
         {
           "kind": "unknown",
-          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content, verify in-game.",
           "link": null
         }
       ],
@@ -6816,7 +6818,7 @@
           "Priest"
         ],
         "type": "Scepter",
-        "ilevel": 20,
+        "ilevel": 10,
         "weapon_damage": 1.3
       },
       "sources": [
@@ -6847,17 +6849,19 @@
       ],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "stats": [
-        {
-          "label": "Vitality",
-          "value": 2
-        },
-        {
-          "label": "Faith",
-          "value": 2
-        }
-      ],
-      "statsByClass": null,
+      "stats": [],
+      "statsByClass": {
+        "Priest": [
+          {
+            "label": "Vitality",
+            "value": 2
+          },
+          {
+            "label": "Faith",
+            "value": 2
+          }
+        ]
+      },
       "statsSource": "metaforge",
       "statsScale": {
         "rarity": "Rare",
@@ -6999,7 +7003,7 @@
           "Warrior"
         ],
         "type": "Shield",
-        "ilevel": 20
+        "ilevel": 10
       },
       "sources": [
         {
@@ -7168,7 +7172,7 @@
           "Rogue"
         ],
         "type": "Daggers",
-        "ilevel": 20,
+        "ilevel": 10,
         "weapon_damage": 1.07
       },
       "sources": [
@@ -7199,17 +7203,19 @@
       ],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "stats": [
-        {
-          "label": "Vitality",
-          "value": 1
-        },
-        {
-          "label": "Dexterity",
-          "value": 3
-        }
-      ],
-      "statsByClass": null,
+      "stats": [],
+      "statsByClass": {
+        "Rogue": [
+          {
+            "label": "Vitality",
+            "value": 1
+          },
+          {
+            "label": "Dexterity",
+            "value": 3
+          }
+        ]
+      },
       "statsSource": "metaforge",
       "statsScale": {
         "rarity": "Rare",
@@ -8496,7 +8502,7 @@
         },
         {
           "kind": "unknown",
-          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content — verify in-game.",
+          "text": "Demon faction item; specific drop source not in extracted cdb. Community datamine suggests possible drop from Crimson Citadel (Z2 Valley of Eternal Autumn) or Kobold Mines content, verify in-game.",
           "link": null
         }
       ],
@@ -8740,5 +8746,5 @@
       }
     }
   ],
-  "statsEnrichedAt": "2026-07-23T00:01:27.687Z"
+  "statsEnrichedAt": "2026-08-21T15:11:27.895Z"
 }

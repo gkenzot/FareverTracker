@@ -1,0 +1,501 @@
+{
+  "id": 879,
+  "name": "Irritable Nightdog",
+  "name_raw": "Mount_Demon_02",
+  "slug": "irritable-nightdog",
+  "tab": "mounts",
+  "subcategory": "Nightdogs",
+  "classes": [],
+  "stats_display": [],
+  "stats_scaled": [],
+  "weapon_damage": null,
+  "moveset": null,
+  "mount_info": {
+    "move_speed_multiplier": 2,
+    "stamina": null,
+    "collision": null,
+    "special_ability": null
+  },
+  "flavor_desc": null,
+  "sell_price_base": 0,
+  "sell_price_display": 0,
+  "upgrade_table": [],
+  "type": "Mount",
+  "type_chain": [
+    "Mount",
+    "Usable"
+  ],
+  "slot": null,
+  "level": null,
+  "ilevel": null,
+  "rarity": "Epic",
+  "rarity_color": "#c058f3",
+  "affinity": null,
+  "affinity_color": null,
+  "faction": null,
+  "sell_price": 0,
+  "aptitudes": [],
+  "affixes": [],
+  "props": {
+    "mount": {
+      "moveSpeedMultiplier": 2
+    }
+  },
+  "flags": 0,
+  "description": null,
+  "icon_filename": "Mount_Demon_02__gfx.png",
+  "model_path": null,
+  "granted_skills": [],
+  "stack_size": null,
+  "gain_item": null,
+  "completable": null,
+  "effects": null,
+  "augment_targets": [],
+  "tool_job": null,
+  "material_subtype": null,
+  "produced_by": [],
+  "used_in": [],
+  "dropped_by": [
+    {
+      "unit_id": "nightling-terror",
+      "unit_name": "Nightling Terror",
+      "faction": null,
+      "icon": "Summon_Imp__gfx.png",
+      "level": null,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-slayer",
+      "unit_name": "Nightling Slayer",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Claws__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "invoked-nightling-slayer",
+      "unit_name": "Invoked Nightling Slayer",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Claws_FS__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-ruinbringer",
+      "unit_name": "Nightling Ruinbringer",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Claws_Big__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightlord-asmoderator",
+      "unit_name": "Nightlord Asmoderator",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Claws_E__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightlord-naamahstea",
+      "unit_name": "Nightlord Naamahs'tea",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Claws_E_1__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-blade",
+      "unit_name": "Nightling Blade",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Spear__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-warbringer",
+      "unit_name": "Nightling Warbringer",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Spear_Big__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightlord-diabloot",
+      "unit_name": "Nightlord Diabloot",
+      "faction": "Demon",
+      "icon": "Demon_Z3W_Spear_E__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "luciferrari",
+      "unit_name": "Luciferrari",
+      "faction": "Demon",
+      "icon": "Demon_Z1_Spear_Soulstone__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "kristian-belial",
+      "unit_name": "Kristian Belial",
+      "faction": "Demon",
+      "icon": "Demon_Z2_Spear_Soulstone_Leg__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "baphometal",
+      "unit_name": "Baphometal",
+      "faction": "Demon",
+      "icon": "Demon_Z1_Claws_Soulstone__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "mortalkombaal",
+      "unit_name": "Mortalkombaal",
+      "faction": "Demon",
+      "icon": "Demon_Z2_Claws_Soulstone__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightqueen-shaarlize-teror",
+      "unit_name": "Nightqueen Shaarlize Te'ror",
+      "faction": "Demon",
+      "icon": "DemonSuperElite_Fairy_TrueClone__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "shaarlizes-guardian",
+      "unit_name": "Shaarlize's Guardian",
+      "faction": "Demon",
+      "icon": "DemonSuperElite_Fairy_Guardian__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightspawn",
+      "unit_name": "Nightspawn",
+      "faction": "Demon",
+      "icon": "ImpDemon_Z3W__gfx.png",
+      "level": 10,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "invoked-nightspawn",
+      "unit_name": "Invoked Nightspawn",
+      "faction": "Demon",
+      "icon": "ImpDemon_Z3W_FS__gfx.png",
+      "level": 22,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "summoned-nightspawn",
+      "unit_name": "Summoned Nightspawn",
+      "faction": "Demon",
+      "icon": "ImpDemon_Summoned__gfx.png",
+      "level": null,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "draculag-aspiring-nightgod",
+      "unit_name": "Draculag, aspiring Nightgod",
+      "faction": "Demon",
+      "icon": "ImpDemon_Elite_Red__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "belzebeat",
+      "unit_name": "Belzebeat",
+      "faction": "Demon",
+      "icon": "ImpDemon_Z1_Soulstone__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "asmodeaf",
+      "unit_name": "Asmodeaf",
+      "faction": "Demon",
+      "icon": "ImpDemon_Z2_Soulstone__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-subjugator",
+      "unit_name": "Nightling Subjugator",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z3W_Caster__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "lady-zaster",
+      "unit_name": "Lady Zaster",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z3W_Caster_E__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "lady-borgild",
+      "unit_name": "Lady Borgild",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z3W_Caster_E1__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "nightling-deathbringer",
+      "unit_name": "Nightling Deathbringer",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z3W_Caster_Big__gfx.png",
+      "level": 24,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "ariana-grandemon",
+      "unit_name": "Ariana Grandemon",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z1_Soulstone_Leg__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    },
+    {
+      "unit_id": "lilithium",
+      "unit_name": "Lilithium",
+      "faction": "Demon",
+      "icon": "FaerieDemon_Z2_Soulstone__gfx.png",
+      "level": 25,
+      "is_hardcore": false,
+      "drop_probability": 0.001,
+      "drop_percent": "0.1%",
+      "source_kind": "unit"
+    }
+  ],
+  "reward_for_achievements": [],
+  "obtained_from": [
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Terror",
+      "link": "creatures/nightling-terror"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Slayer",
+      "link": "creatures/nightling-slayer"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Invoked Nightling Slayer",
+      "link": "creatures/invoked-nightling-slayer"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Ruinbringer",
+      "link": "creatures/nightling-ruinbringer"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightlord Asmoderator",
+      "link": "creatures/nightlord-asmoderator"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightlord Naamahs'tea",
+      "link": "creatures/nightlord-naamahstea"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Blade",
+      "link": "creatures/nightling-blade"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Warbringer",
+      "link": "creatures/nightling-warbringer"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightlord Diabloot",
+      "link": "creatures/nightlord-diabloot"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Luciferrari",
+      "link": "creatures/luciferrari"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Kristian Belial",
+      "link": "creatures/kristian-belial"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Baphometal",
+      "link": "creatures/baphometal"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Mortalkombaal",
+      "link": "creatures/mortalkombaal"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightqueen Shaarlize Te'ror",
+      "link": "creatures/nightqueen-shaarlize-teror"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Shaarlize's Guardian",
+      "link": "creatures/shaarlizes-guardian"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightspawn",
+      "link": "creatures/nightspawn"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Invoked Nightspawn",
+      "link": "creatures/invoked-nightspawn"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Summoned Nightspawn",
+      "link": "creatures/summoned-nightspawn"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Draculag, aspiring Nightgod",
+      "link": "creatures/draculag-aspiring-nightgod"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Belzebeat",
+      "link": "creatures/belzebeat"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Asmodeaf",
+      "link": "creatures/asmodeaf"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Subjugator",
+      "link": "creatures/nightling-subjugator"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Lady Zaster",
+      "link": "creatures/lady-zaster"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Lady Borgild",
+      "link": "creatures/lady-borgild"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Nightling Deathbringer",
+      "link": "creatures/nightling-deathbringer"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Ariana Grandemon",
+      "link": "creatures/ariana-grandemon"
+    },
+    {
+      "kind": "drop",
+      "text": "0.1% chance to drop from Lilithium",
+      "link": "creatures/lilithium"
+    }
+  ],
+  "shop_sources": [],
+  "chest_sources": [],
+  "quest_rewards": [],
+  "gather_zones": [],
+  "gather_points": [],
+  "sell_back_price": 0
+}

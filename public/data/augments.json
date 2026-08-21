@@ -1,6 +1,6 @@
 {
   "source": "https://metaforge.app/farever/database/augments",
-  "importedAt": "2026-07-22T14:51:12.952Z",
+  "importedAt": "2026-08-21T15:12:51.558Z",
   "total": 93,
   "propertyFields": [
     {
@@ -56,6 +56,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -97,6 +98,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -138,6 +140,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -176,6 +179,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -214,6 +218,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -252,6 +257,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -290,6 +296,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -328,6 +335,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -366,6 +374,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -404,6 +413,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -442,6 +452,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -480,6 +491,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -518,6 +530,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -556,6 +569,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -594,6 +608,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -632,6 +647,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -670,6 +686,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -708,6 +725,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -746,6 +764,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -784,6 +803,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -822,6 +842,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -860,6 +881,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -898,6 +920,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -936,6 +959,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -974,6 +998,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -1012,6 +1037,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "corrupted"
     },
@@ -1058,6 +1084,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "stone"
     },
@@ -1104,6 +1131,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "stone"
     },
@@ -1150,6 +1178,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "stone"
     },
@@ -1196,6 +1225,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [],
       "adornmentKind": "stone"
     },
@@ -1234,6 +1264,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -1274,6 +1305,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -1314,6 +1346,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -1355,6 +1388,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -1396,6 +1430,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -1436,6 +1471,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -1476,6 +1512,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -1516,6 +1553,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -1552,6 +1590,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1588,6 +1627,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1624,6 +1664,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1637,7 +1678,7 @@
       "family": "Enchantment (weapon)",
       "rarity": "Rare",
       "itemLevel": null,
-      "description": "",
+      "description": "Your Attacks grant you 6 Fervor Rating, stacking up to 5 times.",
       "iconFilename": "FormulaWeaponDevote__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponDevote__gfx.webp",
       "iconPath": "/images/augments/FormulaWeaponDevote__gfx.webp",
@@ -1655,6 +1696,7 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
+      "classes": [],
       "augmentTargets": [
         "MainhandWeapon"
       ],
@@ -1691,6 +1733,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -1727,6 +1770,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -1763,6 +1807,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1776,7 +1821,7 @@
       "family": "Enchantment (weapon)",
       "rarity": "Rare",
       "itemLevel": null,
-      "description": "",
+      "description": "Your Attacks have a 30% chance to deal 10 Magic damage to your target.",
       "iconFilename": "FormulaWeaponFlamingWeapon__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponFlamingWeapon__gfx.webp",
       "iconPath": "/images/augments/FormulaWeaponFlamingWeapon__gfx.webp",
@@ -1794,6 +1839,7 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
+      "classes": [],
       "augmentTargets": [
         "MainhandWeapon"
       ],
@@ -1830,6 +1876,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -1843,7 +1890,7 @@
       "family": "Enchantment (weapon)",
       "rarity": "Rare",
       "itemLevel": null,
-      "description": "Your ComboAttack have a 0.5 chance to deal 30 Magic damage to your target and heal you for 10 Health.",
+      "description": "Your Final Combo Attack have a 50% chance to deal 30 Magic damage to your target and heal you for 10 Health.",
       "iconFilename": "FormulaWeaponLifestealing__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponLifestealing__gfx.webp",
       "iconPath": "/images/augments/FormulaWeaponLifestealing__gfx.webp",
@@ -1861,6 +1908,7 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
+      "classes": [],
       "augmentTargets": [
         "MainhandWeapon"
       ],
@@ -1897,6 +1945,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1933,6 +1982,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -1969,6 +2019,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -2005,6 +2056,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -2041,6 +2093,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2077,6 +2130,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2113,6 +2167,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -2149,6 +2204,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2185,6 +2241,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Feet"
       ],
@@ -2221,6 +2278,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2257,6 +2315,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2270,7 +2329,7 @@
       "family": "Enchantment (weapon)",
       "rarity": "Rare",
       "itemLevel": null,
-      "description": "",
+      "description": "Participating in killing an enemy heals you for 5 Health.",
       "iconFilename": "FormulaWeaponSparkHarvesting__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponSparkHarvesting__gfx.webp",
       "iconPath": "/images/augments/FormulaWeaponSparkHarvesting__gfx.webp",
@@ -2288,6 +2347,7 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
+      "classes": [],
       "augmentTargets": [
         "MainhandWeapon"
       ],
@@ -2324,6 +2384,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2360,6 +2421,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Hands"
       ],
@@ -2373,7 +2435,7 @@
       "family": "Enchantment (weapon)",
       "rarity": "Rare",
       "itemLevel": null,
-      "description": "",
+      "description": "Your Attacks grant you 6 Crit Chance Rating, stacking up to 5 times.",
       "iconFilename": "FormulaWeaponZealot__gfx.webp",
       "iconUrl": "https://static.metaforge.app/farever/icons/FormulaWeaponZealot__gfx.webp",
       "iconPath": "/images/augments/FormulaWeaponZealot__gfx.webp",
@@ -2391,6 +2453,7 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
+      "classes": [],
       "augmentTargets": [
         "MainhandWeapon"
       ],
@@ -2431,6 +2494,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -2471,6 +2535,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -2511,6 +2576,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -2551,6 +2617,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -2591,6 +2658,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -2632,6 +2700,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -2673,6 +2742,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -2713,6 +2783,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -2753,6 +2824,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Chest"
       ],
@@ -2793,6 +2865,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "Back"
       ],
@@ -2815,10 +2888,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Warrior"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -2833,13 +2903,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Warrior"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_War_InfusedWounds",
@@ -2858,10 +2926,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Warrior"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -2876,13 +2941,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Warrior"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_War_SecondWind",
@@ -2901,10 +2964,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Warrior"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -2919,13 +2979,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Warrior"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Priest_LuminousBastion",
@@ -2944,10 +3002,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Priest"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -2962,13 +3017,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Priest"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Priest_SolarDevotion",
@@ -2987,10 +3040,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Priest"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3005,13 +3055,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Priest"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Priest_SunHalo",
@@ -3030,10 +3078,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Priest"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3048,13 +3093,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Priest"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Mage_SparkExplosion",
@@ -3073,10 +3116,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Mage"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3091,13 +3131,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Mage"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Mage_HighVoltage",
@@ -3116,10 +3154,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Mage"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3134,13 +3169,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Mage"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Mage_Lifebolt",
@@ -3159,10 +3192,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Mage"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3177,13 +3207,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Mage"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Rogue_VenomousFinisher",
@@ -3202,10 +3230,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Rogue"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3220,13 +3245,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Rogue"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Rogue_VirulentMagic",
@@ -3245,10 +3268,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Rogue"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3263,13 +3283,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Rogue"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "DemonSigil_Rogue_CheatDeath",
@@ -3288,10 +3306,7 @@
         "type": "AugmentDemonSigil",
         "subcategory": "Demon Sigil",
         "rarity": "Epic",
-        "level": null,
-        "classes": [
-          "Rogue"
-        ]
+        "level": null
       },
       "sources": [],
       "droppedBy": [],
@@ -3306,13 +3321,11 @@
       "stats": [],
       "statsByClass": null,
       "statsSource": null,
-      "augmentTargets": [
-        "GearHead"
-      ],
-      "adornmentKind": "sigil",
       "classes": [
         "Rogue"
-      ]
+      ],
+      "augmentTargets": [],
+      "adornmentKind": "sigil"
     },
     {
       "id": "StrongCutAgate",
@@ -3345,6 +3358,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3382,6 +3396,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3423,6 +3438,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3464,6 +3480,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3505,6 +3522,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3546,6 +3564,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3587,6 +3606,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"
@@ -3628,6 +3648,7 @@
       ],
       "statsByClass": null,
       "statsSource": "metaforge",
+      "classes": [],
       "augmentTargets": [
         "GearFinger",
         "GearNeck"

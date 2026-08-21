@@ -1,15 +1,11 @@
 {
   "source": "https://metaforge.app/farever/database/gliders",
-  "importedAt": "2026-07-19T19:03:31.465Z",
+  "importedAt": "2026-08-21T15:03:54.260Z",
   "total": 68,
   "propertyFields": [
     {
       "key": "subcategory",
       "label": "Subcategory"
-    },
-    {
-      "key": "family",
-      "label": "Family"
     },
     {
       "key": "type",
@@ -18,10 +14,6 @@
     {
       "key": "rarity",
       "label": "Rarity"
-    },
-    {
-      "key": "colour",
-      "label": "Colour"
     }
   ],
   "gliders": [
@@ -40,15 +32,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/acidic-wingfish",
       "properties": {
         "subcategory": "Wingfish",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "Acid"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Sponge Blob · 1%",
+          "text": "Dungeon Lost City of Mayda · 1%",
           "link": null
         }
       ],
@@ -57,7 +47,7 @@
           "unit_id": "sponge-blob",
           "unit_name": "Sponge Blob",
           "faction": "Golem",
-          "icon": null,
+          "icon": "SpongeBlob__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -85,10 +75,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/almazean-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "Brown02"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -132,10 +120,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Orange"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -165,10 +151,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Orange"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -198,10 +182,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "Orange"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -231,10 +213,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "Orange"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -264,15 +244,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/antelimbian-wingfish",
       "properties": {
         "subcategory": "Wingfish",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "Orange"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Nepsilon · 1%",
+          "text": "Dungeon Abyss of New Atlaan · 1%",
           "link": null
         }
       ],
@@ -281,7 +259,7 @@
           "unit_id": "nepsilon",
           "unit_name": "Nepsilon",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Nepsilon__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -309,10 +287,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/azuramean-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -342,9 +318,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/city-forces-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson02"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -374,9 +349,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/cloud-forces-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson03"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -412,9 +386,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/crimson-forces-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson06"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -444,9 +417,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/crusaders-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson05"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -476,15 +448,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/ebral-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Lava"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Golcano · 1%",
+          "text": "Dungeon Ruins of Gorgon's Hollow · 1%",
           "link": null
         }
       ],
@@ -493,7 +463,7 @@
           "unit_id": "golcano",
           "unit_name": "Golcano",
           "faction": "Golem",
-          "icon": null,
+          "icon": "Golcano__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -521,10 +491,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Red"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -554,10 +522,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "Red"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -599,10 +565,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/egheretrian-wingfish",
       "properties": {
         "subcategory": "Wingfish",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "Red"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -644,10 +608,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "BlueGreen"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -683,10 +645,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Green"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -716,10 +676,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Green"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -755,10 +713,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/eksodean-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "Green"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -857,7 +813,7 @@
           "unit_id": "rice-seedling",
           "unit_name": "Rice Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W__gfx.png",
           "level": 13,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -868,7 +824,7 @@
           "unit_id": "black-rice-seedling",
           "unit_name": "Black Rice Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_DarkRice_Z2W__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -879,7 +835,7 @@
           "unit_id": "sparkling-rice-seedling",
           "unit_name": "Sparkling Rice Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_U__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -890,7 +846,7 @@
           "unit_id": "invoked-rice-seedling",
           "unit_name": "Invoked Rice Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2_FS__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -901,7 +857,7 @@
           "unit_id": "onion-seedling",
           "unit_name": "Onion Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Onion_Z2W__gfx.png",
           "level": 13,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -912,7 +868,7 @@
           "unit_id": "invoked-onion-seedling",
           "unit_name": "Invoked Onion Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Onion_Z2_FS__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -945,7 +901,7 @@
           "unit_id": "garlic-seedling",
           "unit_name": "Garlic Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Garlic_Z2W__gfx.png",
           "level": 13,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -956,7 +912,7 @@
           "unit_id": "fragrant-garlic-seedling",
           "unit_name": "Fragrant Garlic Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Garlic_Z2W_2__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -967,7 +923,7 @@
           "unit_id": "fragrant-garlic-seedling",
           "unit_name": "Fragrant Garlic Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Garlic_Z2W_2__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -978,7 +934,7 @@
           "unit_id": "turnip-seedling",
           "unit_name": "Turnip Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Turnip_Z2W__gfx.png",
           "level": 13,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -989,7 +945,7 @@
           "unit_id": "lucrative-turnip-seedling",
           "unit_name": "Lucrative Turnip Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Turnip_Z2W_2__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1000,7 +956,7 @@
           "unit_id": "lucrative-turnip-seedling",
           "unit_name": "Lucrative Turnip Seedling",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Turnip_Z2W_2__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1011,7 +967,7 @@
           "unit_id": "beet-the-maul",
           "unit_name": "Beet the Maul",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_E__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1022,7 +978,7 @@
           "unit_id": "seed-barrett",
           "unit_name": "Seed Barrett",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_Plantivore__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1033,7 +989,7 @@
           "unit_id": "seed-vicious",
           "unit_name": "Seed Vicious",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_Plantivore_2__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1055,7 +1011,7 @@
           "unit_id": "garlic-hooper",
           "unit_name": "Garlic Hooper",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_Plantivore_4__gfx.png",
           "level": 18,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1066,7 +1022,7 @@
           "unit_id": "charles-cabbage",
           "unit_name": "Charles Cabbage",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_Plantivore_5__gfx.png",
           "level": 18,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1077,7 +1033,7 @@
           "unit_id": "jared-lettuce",
           "unit_name": "Jared Lettuce",
           "faction": "Sprouts",
-          "icon": null,
+          "icon": "Sprout_Rice_Z2W_Plantivore_6__gfx.png",
           "level": 18,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1105,10 +1061,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/enraged-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Red01"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1144,10 +1098,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "Brown"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1287,17 +1239,17 @@
         },
         {
           "kind": "drop",
-          "text": "Boss Reblochonk · 0.1%",
+          "text": "Dungeon Cheese Station · 0.1%",
           "link": "creatures/reblochonk"
         },
         {
           "kind": "drop",
-          "text": "Boss Munster Chuck · 0.1%",
+          "text": "Dungeon Cheese Station · 0.1%",
           "link": "creatures/munster-chuck"
         },
         {
           "kind": "drop",
-          "text": "Boss King Ratsar · 0.1%",
+          "text": "Dungeon Ratsar's Lair · 0.1%",
           "link": "creatures/king-ratsar"
         }
       ],
@@ -1306,7 +1258,7 @@
           "unit_id": "kobold-miner",
           "unit_name": "Kobold Miner",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Mace__gfx.png",
           "level": 6,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1317,7 +1269,7 @@
           "unit_id": "freelance-kobold-miner",
           "unit_name": "Freelance Kobold Miner",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Mace_2__gfx.png",
           "level": 9,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1328,7 +1280,7 @@
           "unit_id": "kobold-miner-of-estrone",
           "unit_name": "Kobold Miner of Estrone",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1D_Mace__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1339,7 +1291,7 @@
           "unit_id": "gorgon-s-hollow-miner",
           "unit_name": "Gorgon's Hollow Miner",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z2D_Mace_2__gfx.png",
           "level": 14,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1350,7 +1302,7 @@
           "unit_id": "sparkling-miner",
           "unit_name": "Sparkling Miner",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Mace_U__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1361,7 +1313,7 @@
           "unit_id": "senior-kobold-miner",
           "unit_name": "Senior Kobold Miner",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z2W_Mace__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1372,7 +1324,7 @@
           "unit_id": "kobold-thief",
           "unit_name": "Kobold Thief",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Daggers__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1383,7 +1335,7 @@
           "unit_id": "trustworthy-kobold-thief",
           "unit_name": "Trustworthy Kobold Thief",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Daggers_2__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1394,7 +1346,7 @@
           "unit_id": "kobold-thief-of-estrone",
           "unit_name": "Kobold Thief of Estrone",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1D_Daggers__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1405,7 +1357,7 @@
           "unit_id": "cleanhanded-kobold-thief",
           "unit_name": "Cleanhanded Kobold Thief",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z2W_Daggers__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1416,7 +1368,7 @@
           "unit_id": "kobold-overseer",
           "unit_name": "Kobold Overseer",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Caster__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1427,7 +1379,7 @@
           "unit_id": "unpredictable-kobold-overseer",
           "unit_name": "Unpredictable Kobold Overseer",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1W_Caster_2__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1438,7 +1390,7 @@
           "unit_id": "lunatic-kobold-overseer",
           "unit_name": "Lunatic Kobold Overseer",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z2W_Caster__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1449,7 +1401,7 @@
           "unit_id": "ratsar-lighter",
           "unit_name": "Ratsar Lighter",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Ratsar_Caster__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1460,7 +1412,7 @@
           "unit_id": "gorgon-s-hollow-overseer",
           "unit_name": "Gorgon's Hollow Overseer",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z2D_Caster__gfx.png",
           "level": 14,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1471,7 +1423,7 @@
           "unit_id": "invoked-overseer",
           "unit_name": "Invoked Overseer",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Kobold_Z1D_FS_Caster__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1504,7 +1456,7 @@
           "unit_id": "kobold-docker",
           "unit_name": "Kobold Docker",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1W_Claws__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1515,7 +1467,7 @@
           "unit_id": "steady-kobold-docker",
           "unit_name": "Steady Kobold Docker",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1W_Claws_3__gfx.png",
           "level": 9,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1526,7 +1478,7 @@
           "unit_id": "sparkling-docker",
           "unit_name": "Sparkling Docker",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1W_Claws_U__gfx.png",
           "level": 11,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1537,7 +1489,7 @@
           "unit_id": "kobold-docker-of-estrone",
           "unit_name": "Kobold Docker of Estrone",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1D_Claws__gfx.png",
           "level": 7,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1548,7 +1500,7 @@
           "unit_id": "stationmaster",
           "unit_name": "Stationmaster",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z2D_Docker__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1559,7 +1511,7 @@
           "unit_id": "invoked-docker",
           "unit_name": "Invoked Docker",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1D_FS_Claws__gfx.png",
           "level": 11,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1570,7 +1522,7 @@
           "unit_id": "reliable-kobold-docker",
           "unit_name": "Reliable Kobold Docker",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z2W_Claws__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1581,7 +1533,7 @@
           "unit_id": "heraclette",
           "unit_name": "Heraclette",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z1W_E_Claws__gfx.png",
           "level": 9,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1592,7 +1544,7 @@
           "unit_id": "kobold-crusher",
           "unit_name": "Kobold Crusher",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "OgreKobold_Z2W_GM__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1603,7 +1555,7 @@
           "unit_id": "reblochonk",
           "unit_name": "Reblochonk",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Reblochonk__gfx.png",
           "level": 8,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1614,7 +1566,7 @@
           "unit_id": "munster-chuck",
           "unit_name": "Munster Chuck",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "MunsterChuck__gfx.png",
           "level": 19,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1625,7 +1577,7 @@
           "unit_id": "king-ratsar",
           "unit_name": "King Ratsar",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Ratsar__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -1653,10 +1605,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Brown"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1686,10 +1636,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "Brown"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1719,10 +1667,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/enripian-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "Brown02"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1766,15 +1712,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/furious-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Blue"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 7500 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
         }
       ],
@@ -1805,10 +1749,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/gourmet",
       "properties": {
         "subcategory": "Pigeons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Pigeon",
-        "colour": "Purple"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1838,10 +1780,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/hateful-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Purple"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1883,10 +1823,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/incandescent-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "Burning"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1922,10 +1860,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/irascible-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -1955,15 +1891,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/irritable-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Blue02"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "world_event",
-          "text": "Reward from the Nightling Rifts",
+          "text": "0.75% chance from the Nightling Rift bonus chest",
           "link": "map/siagarta"
         }
       ],
@@ -1988,15 +1922,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "WhiteBlack"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss King Ratsar · 1%",
+          "text": "Dungeon Ratsar's Lair · 1%",
           "link": null
         }
       ],
@@ -2005,7 +1937,7 @@
           "unit_id": "king-ratsar",
           "unit_name": "King Ratsar",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Ratsar__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -2033,10 +1965,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "BlackWarm"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2072,10 +2002,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/krisomalese-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "BlackBrown"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2111,10 +2039,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/loyal",
       "properties": {
         "subcategory": "Pigeons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Pigeon",
-        "colour": "Grey02"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2144,15 +2070,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/mad-oculurk",
       "properties": {
         "subcategory": "Oculurks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Oculurk",
-        "colour": "Red02"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "shop",
-          "text": "Purchased from Zoey, Demon Huntress for 7500 Demonic Souls",
+          "text": "Shop Zoey",
           "link": "npcs/zoey-demon-huntress"
         }
       ],
@@ -2183,10 +2107,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Blue"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2216,10 +2138,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Blue"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2249,10 +2169,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Blue"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2294,10 +2212,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/meropsian-wingfish",
       "properties": {
         "subcategory": "Wingfish",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "BlueGreen"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2452,7 +2368,7 @@
         },
         {
           "kind": "drop",
-          "text": "Boss Nepsilon · 0.1%",
+          "text": "Dungeon Abyss of New Atlaan · 0.1%",
           "link": "creatures/nepsilon"
         }
       ],
@@ -2461,7 +2377,7 @@
           "unit_id": "nepsid-fighter",
           "unit_name": "Nepsid Fighter",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Claws__gfx.png",
           "level": 4,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2472,7 +2388,7 @@
           "unit_id": "adept-nepsid-fighter",
           "unit_name": "Adept Nepsid Fighter",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Claws_2__gfx.png",
           "level": 9,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2483,7 +2399,7 @@
           "unit_id": "fighter-of-the-lost-city",
           "unit_name": "Fighter of the Lost City",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1D_Claws__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2494,7 +2410,7 @@
           "unit_id": "expert-nepsid-fighter",
           "unit_name": "Expert Nepsid Fighter",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_Claws__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2505,7 +2421,7 @@
           "unit_id": "nepsid-runner",
           "unit_name": "Nepsid Runner",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Spear__gfx.png",
           "level": 4,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2516,7 +2432,7 @@
           "unit_id": "agile-nepsid-runner",
           "unit_name": "Agile Nepsid Runner",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Spear_3__gfx.png",
           "level": 14,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2527,7 +2443,7 @@
           "unit_id": "runner-of-the-lost-city",
           "unit_name": "Runner of the Lost City",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1D_Spear__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2538,7 +2454,7 @@
           "unit_id": "skuttle-goldengill",
           "unit_name": "Skuttle Goldengill",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_E_Spear__gfx.png",
           "level": 4,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2549,7 +2465,7 @@
           "unit_id": "scummy-blackgill",
           "unit_name": "Scummy BlackGill",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_E_Spear_2__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2560,7 +2476,7 @@
           "unit_id": "runner-of-new-atlaan",
           "unit_name": "Runner of New Atlaan",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2D_Spear__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2571,7 +2487,7 @@
           "unit_id": "acrobatic-nepsid-runner",
           "unit_name": "Acrobatic Nepsid Runner",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_Spear__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2582,7 +2498,7 @@
           "unit_id": "nepsid-breakwater",
           "unit_name": "Nepsid Breakwater",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_Sword__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2593,7 +2509,7 @@
           "unit_id": "breakwater-of-new-atlaan",
           "unit_name": "Breakwater of New Atlaan",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2D_Tank__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2604,7 +2520,7 @@
           "unit_id": "confident-invoked-breakwater",
           "unit_name": "Confident Invoked Breakwater",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_FS_Tank__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2615,7 +2531,7 @@
           "unit_id": "nepsid-wavemonger",
           "unit_name": "Nepsid Wavemonger",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Caster__gfx.png",
           "level": 4,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2626,7 +2542,7 @@
           "unit_id": "educated-nepsid-wavemonger",
           "unit_name": "Educated Nepsid Wavemonger",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_Caster_3__gfx.png",
           "level": 13,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2637,7 +2553,7 @@
           "unit_id": "wavemonger-of-the-lost-city",
           "unit_name": "Wavemonger of the Lost City",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1D_Caster__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2648,7 +2564,7 @@
           "unit_id": "sparkling-wavemonger",
           "unit_name": "Sparkling Wavemonger",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_U_Caster__gfx.png",
           "level": 4,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2659,7 +2575,7 @@
           "unit_id": "invoked-wavemonger",
           "unit_name": "Invoked Wavemonger",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1W_FS__gfx.png",
           "level": 8,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2670,7 +2586,7 @@
           "unit_id": "wavemonger-of-new-atlaan",
           "unit_name": "Wavemonger of New Atlaan",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2D_Caster__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2681,7 +2597,7 @@
           "unit_id": "erudite-nepsid-wavemonger",
           "unit_name": "Erudite Nepsid Wavemonger",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_Caster__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2692,7 +2608,7 @@
           "unit_id": "invoked-oracle",
           "unit_name": "Invoked Oracle",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z1D_FS_Healer__gfx.png",
           "level": 8,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2703,7 +2619,7 @@
           "unit_id": "oracle-of-new-atlaan",
           "unit_name": "Oracle of New Atlaan",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2D_Healer__gfx.png",
           "level": 15,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2714,7 +2630,7 @@
           "unit_id": "nepsid-oracle",
           "unit_name": "Nepsid Oracle",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Manfish_Z2W_Healer__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2725,7 +2641,7 @@
           "unit_id": "nepsid-whale",
           "unit_name": "Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z1W_Claws__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2736,7 +2652,7 @@
           "unit_id": "sparkling-whale",
           "unit_name": "Sparkling Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z1W_Claws_U__gfx.png",
           "level": 8,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2747,7 +2663,7 @@
           "unit_id": "nepsid-whale-of-the-lost-city",
           "unit_name": "Nepsid Whale of the Lost City",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z1D_Claws__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2758,7 +2674,7 @@
           "unit_id": "slippery-invoked-whale",
           "unit_name": "Slippery Invoked Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z1W_FS_Claws__gfx.png",
           "level": 10,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2769,7 +2685,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 16,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2780,7 +2696,7 @@
           "unit_id": "gilliver",
           "unit_name": "Gilliver",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_Claws_E__gfx.png",
           "level": 23,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2791,7 +2707,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2802,7 +2718,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 18,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2813,7 +2729,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2824,7 +2740,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2835,7 +2751,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2846,7 +2762,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2857,7 +2773,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2868,7 +2784,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2879,7 +2795,7 @@
           "unit_id": "slick-nepsid-whale",
           "unit_name": "Slick Nepsid Whale",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "OgreManfish_Z2W_FS_Claws__gfx.png",
           "level": 17,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2890,7 +2806,7 @@
           "unit_id": "nepsilon",
           "unit_name": "Nepsilon",
           "faction": "Manfish",
-          "icon": null,
+          "icon": "Nepsilon__gfx.png",
           "level": 5,
           "is_hardcore": false,
           "drop_probability": 0.001,
@@ -2918,15 +2834,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "BlackWhite"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Reblochonk · 1%",
+          "text": "Dungeon Cheese Station · 1%",
           "link": null
         }
       ],
@@ -2935,7 +2849,7 @@
           "unit_id": "reblochonk",
           "unit_name": "Reblochonk",
           "faction": "Kobold",
-          "icon": null,
+          "icon": "Reblochonk__gfx.png",
           "level": 8,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -2963,10 +2877,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Black"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -2996,10 +2908,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/navelian-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "WhitePink"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3035,10 +2945,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "Demon"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3068,23 +2976,21 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-dragoon",
       "properties": {
         "subcategory": "Demons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Demon"
+        "type": "GearGlider"
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
-          "link": null
+          "kind": "world_event",
+          "text": "Always found in the Nightling Rift reward chest",
+          "link": "map/siagarta"
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Glider_Butterfly_Demon",
@@ -3101,10 +3007,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-moth",
       "properties": {
         "subcategory": "Demons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Demon"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3134,23 +3038,21 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/niflelian-wingfish",
       "properties": {
         "subcategory": "Demons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "Demon"
+        "type": "GearGlider"
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
-          "link": null
+          "kind": "drop",
+          "text": "Summoned demons · Ariana Grandemon",
+          "link": "creatures/ariana-grandemon"
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Glider_Crimson04",
@@ -3167,9 +3069,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/night-forces-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson04"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3199,10 +3100,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/obralian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "White"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3232,14 +3131,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/original-paramglider",
       "properties": {
         "subcategory": "Paramgliders",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Crimson01"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Robin Hoof · 1%",
+          "text": "Dungeon Crimson Barracks · 1%",
           "link": null
         }
       ],
@@ -3276,10 +3174,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/pink-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Pink"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3315,10 +3211,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/pink-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Pink"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3348,10 +3242,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/ponogian-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "PurpleGrey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3395,10 +3287,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/rigtheous",
       "properties": {
         "subcategory": "Pigeons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Pigeon",
-        "colour": "Blue"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3428,10 +3318,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-dragoon",
       "properties": {
         "subcategory": "Dragoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Dragon",
-        "colour": "Yellow"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3473,15 +3361,13 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "Yellow"
+        "type": "GearGlider"
       },
       "sources": [
         {
           "kind": "drop",
-          "text": "Boss Gatsbee · 1%",
+          "text": "Dungeon Lady Bee's Palace · 1%",
           "link": null
         }
       ],
@@ -3490,7 +3376,7 @@
           "unit_id": "gatsbee",
           "unit_name": "Gatsbee",
           "faction": "Bee",
-          "icon": null,
+          "icon": "Gatsbee__gfx.png",
           "level": 12,
           "is_hardcore": false,
           "drop_probability": 0.01,
@@ -3518,10 +3404,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "Brown01"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3565,10 +3449,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/semeruian-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "Yellow"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3598,10 +3480,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/skoverial-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3631,10 +3511,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-bat",
       "properties": {
         "subcategory": "Bats",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Bat",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3664,10 +3542,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-featherbeak",
       "properties": {
         "subcategory": "Featherbeaks",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Falcon",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3697,10 +3573,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-seedbird",
       "properties": {
         "subcategory": "Sprouts",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Sprout",
-        "colour": "Brown"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3730,10 +3604,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/skoverian-wingfish",
       "properties": {
         "subcategory": "Wingfish",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "FlyingFish",
-        "colour": "Green"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3763,10 +3635,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/sparkling-proto-moth",
       "properties": {
         "subcategory": "Moths",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Butterfly",
-        "colour": "EA_Spark"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3796,10 +3666,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/swift",
       "properties": {
         "subcategory": "Pigeons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Pigeon",
-        "colour": "Beige"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3829,10 +3697,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/valiant",
       "properties": {
         "subcategory": "Pigeons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Pigeon",
-        "colour": "Grey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3862,10 +3728,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/zerzurian-owl",
       "properties": {
         "subcategory": "Owls",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Owl",
-        "colour": "BlueGrey"
+        "type": "GearGlider"
       },
       "sources": [
         {
@@ -3909,10 +3773,8 @@
       "pageUrl": "https://metaforge.app/farever/database/gliders/zerzurian-raccoon",
       "properties": {
         "subcategory": "Raccoons",
-        "type": "GearGlider",
         "rarity": "Epic",
-        "family": "Raccoon",
-        "colour": "BlueGrey"
+        "type": "GearGlider"
       },
       "sources": [
         {
