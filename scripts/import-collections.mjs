@@ -485,7 +485,11 @@ async function fetchItemDetail(collection, slug) {
   return findEntryData(payload);
 }
 
-function listItemNeedsDetail(item) {
+function listItemNeedsDetail(item, collection) {
+  if (collection?.key === "recipes") {
+    return !(item.obtained_from?.length);
+  }
+
   return !(
     item.obtained_from?.length ||
     item.dropped_by?.length ||
@@ -541,7 +545,7 @@ const DETAIL_MERGE_KEYS = [
 ];
 
 async function enrichRawItemsWithDetails(items, collection) {
-  const missingItems = items.filter(listItemNeedsDetail);
+  const missingItems = items.filter((item) => listItemNeedsDetail(item, collection));
 
   if (missingItems.length === 0) {
     return items;
