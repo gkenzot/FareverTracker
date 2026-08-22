@@ -2950,16 +2950,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
-          "link": null
+          "kind": "world_event",
+          "text": "Nightling Rifts",
+          "link": "map/siagarta"
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Glider_Dragon_Demon",
@@ -3043,16 +3043,16 @@
       },
       "sources": [
         {
-          "kind": "drop",
-          "text": "Summoned demons · Ariana Grandemon",
-          "link": "creatures/ariana-grandemon"
+          "kind": "upcoming",
+          "text": "Not available in the current version.",
+          "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": null,
-      "inGame": true
+      "inGame": false
     },
     {
       "id": "Glider_Crimson04",

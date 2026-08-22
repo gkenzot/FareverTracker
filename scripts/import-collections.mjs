@@ -208,8 +208,6 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Meropsian Dragoon",
   "Meropsian Featherbeak",
   "Navelian Featherbeak",
-  "Niflelian Bat",
-  "Niflelian Crab",
   "Niflelian Crocoboar",
   "Niflelian Dragoon",
   "Niflelian Leggybug",
@@ -217,6 +215,7 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Niflelian Skunk",
   "Obralian Featherbeak",
   "Pink Moth",
+  "Ponogian Crab",
   "Ruleanese Crocoboar",
   "Semeruian Seedbird",
   "Sforian Leggybug",
@@ -226,7 +225,8 @@ const MOUNT_GLIDER_UNAVAILABLE = new Set([
   "Skoverian Seedbird",
   "Skoverian Wingfish",
   "Zerzurean Goat",
-  "Zerzurian Crab"
+  "Zerzurian Crab",
+  "Niflelian Wingfish"
 ]);
 const MOUNT_TAMER_NAVELIN_SHOP = {
   npc_name: "Mount Tamer",
@@ -280,15 +280,15 @@ const MOUNT_GLIDER_SOURCE_OVERRIDES = {
     text: "Mage starter glider (granted at character creation).",
     link: null
   },
-  "Ponogian Crab": {
-    kind: "drop",
-    text: "Summoned demons · Kristian Belial",
-    link: "creatures/kristian-belial"
+  "Niflelian Crab": {
+    kind: "world_event",
+    text: "Nightling Rifts",
+    link: "map/siagarta"
   },
-  "Niflelian Wingfish": {
-    kind: "drop",
-    text: "Summoned demons · Ariana Grandemon",
-    link: "creatures/ariana-grandemon"
+  "Niflelian Bat": {
+    kind: "world_event",
+    text: "Nightling Rifts",
+    link: "map/siagarta"
   }
 };
 

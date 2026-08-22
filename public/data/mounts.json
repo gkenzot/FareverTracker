@@ -2840,16 +2840,16 @@
       },
       "sources": [
         {
-          "kind": "upcoming",
-          "text": "Not available in the current version.",
-          "link": null
+          "kind": "world_event",
+          "text": "Nightling Rifts",
+          "link": "map/siagarta"
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": 2,
-      "inGame": false
+      "inGame": true
     },
     {
       "id": "Mount_Croco_06",
@@ -3136,16 +3136,16 @@
       },
       "sources": [
         {
-          "kind": "drop",
-          "text": "Summoned demons · Kristian Belial",
-          "link": "creatures/kristian-belial"
+          "kind": "upcoming",
+          "text": "Not available in the current version.",
+          "link": null
         }
       ],
       "droppedBy": [],
       "shops": [],
       "achievements": [],
       "moveSpeedMultiplier": 2,
-      "inGame": true
+      "inGame": false
     },
     {
       "id": "Mount_Ladybug_Purple",
