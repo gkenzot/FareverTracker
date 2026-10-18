@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "file": "farever-check-mounts-progress.json",
+      "collection": "mounts",
+      "count": 20
+    },
+    {
+      "file": "farever-check-gliders-progress.json",
+      "collection": "gliders",
+      "count": 20
+    },
+    {
+      "file": "farever-check-companions-progress.json",
+      "collection": "companions",
+      "count": 52
+    },
+    {
+      "file": "farever-check-priest-recipes-progress.json",
+      "collection": "recipes",
+      "count": 54
+    },
+    {
+      "file": "farever-check-warrior-recipes-progress.json",
+      "collection": "recipes",
+      "count": 47
+    },
+    {
+      "file": "farever-check-mage-recipes-progress.json",
+      "collection": "recipes",
+      "count": 26
+    },
+    {
+      "file": "farever-check-rogue-recipes-progress.json",
+      "collection": "recipes",
+      "count": 17
+    },
+    {
+      "file": "farever-check-priest-weapons-progress.json",
+      "collection": "weapons",
+      "count": 6
+    },
+    {
+      "file": "farever-check-warrior-weapons-progress.json",
+      "collection": "weapons",
+      "count": 0
+    },
+    {
+      "file": "farever-check-mage-weapons-progress.json",
+      "collection": "weapons",
+      "count": 0
+    },
+    {
+      "file": "farever-check-rogue-weapons-progress.json",
+      "collection": "weapons",
+      "count": 0
+    },
+    {
+      "file": "farever-check-priest-armor-progress.json",
+      "collection": "armor",
+      "count": 0
+    },
+    {
+      "file": "farever-check-warrior-armor-progress.json",
+      "collection": "armor",
+      "count": 0
+    },
+    {
+      "file": "farever-check-mage-armor-progress.json",
+      "collection": "armor",
+      "count": 0
+    },
+    {
+      "file": "farever-check-rogue-armor-progress.json",
+      "collection": "armor",
+      "count": 0
+    },
+    {
+      "file": "farever-check-appearance-progress.json",
+      "collection": "appearance",
+      "count": 0
+    }
+  ],
+  "unmatched": {},
+  "notes": [
+    "A aba Set nao tem nenhum TRUE; o save de Appearance ficou vazio."
+  ]
+}

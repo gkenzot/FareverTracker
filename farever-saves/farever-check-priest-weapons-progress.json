@@ -1,0 +1,15 @@
+{
+  "type": "farever-check-progress",
+  "version": 1,
+  "collection": "weapons",
+  "character": null,
+  "exportedAt": "2026-06-11T16:35:05.381477Z",
+  "collected": [
+    "Book_WaterOrbs",
+    "Crescent_FlowerSpiral",
+    "GM_MassGrab",
+    "Halos_Totem",
+    "Mace_Benediction",
+    "Scepter_Flamie"
+  ]
+}

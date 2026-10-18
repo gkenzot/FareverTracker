@@ -1,0 +1,29 @@
+{
+  "type": "farever-check-progress",
+  "version": 1,
+  "collection": "mounts",
+  "character": null,
+  "exportedAt": "2026-06-11T16:35:05.289376Z",
+  "collected": [
+    "Mount_Boar_01",
+    "Mount_Boar_03",
+    "Mount_Boar_05",
+    "Mount_Crab_Red",
+    "Mount_Crab_Yellow",
+    "Mount_Goat_01",
+    "Mount_Goat_02",
+    "Mount_Goat_03",
+    "Mount_Goat_04",
+    "Mount_Hound_01",
+    "Mount_Ladybug_Blue",
+    "Mount_Ladybug_Green",
+    "Mount_Skunk_02",
+    "Mount_Skunk_05",
+    "Mount_Wolf_01",
+    "Mount_Wolf_02",
+    "Mount_Wolf_04",
+    "Mount_Wolf_05",
+    "Mount_Wolf_06",
+    "SparkHorse_01"
+  ]
+}

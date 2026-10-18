@@ -1,0 +1,29 @@
+{
+  "type": "farever-check-progress",
+  "version": 1,
+  "collection": "gliders",
+  "character": null,
+  "exportedAt": "2026-06-11T16:35:05.291425Z",
+  "collected": [
+    "Glider_Bat_Brown",
+    "Glider_Butterfly_Blue",
+    "Glider_Butterfly_EA_Spark",
+    "Glider_Butterfly_Green",
+    "Glider_Dragon_BlueGreen",
+    "Glider_Dragon_Yellow",
+    "Glider_FlyingFish_BlueGreen",
+    "Glider_FlyingFish_Red",
+    "Glider_Owl_BlueGrey",
+    "Glider_Owl_Brown02",
+    "Glider_Owl_PurpleGrey",
+    "Glider_Raccoon_BlackBrown",
+    "Glider_Raccoon_BlueGrey",
+    "Glider_Raccoon_Brown01",
+    "Glider_Raccoon_Brown02",
+    "Glider_Raccoon_Orange",
+    "Glider_Sprout_Green",
+    "Glider_Sprout_Orange",
+    "Glider_Sprout_Red",
+    "Glider_Sprout_WhitePink"
+  ]
+}
